@@ -1,0 +1,9 @@
+name: mitogenome-tools
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastp
+  - bbmap
+  - novoplasty

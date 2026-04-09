@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__
+
+# testing files; local
+*driver*
+data
+test
+resources/bbsplit_ref/ # bbsplit reference; regenerated any time you use a new reference
