@@ -1,0 +1,425 @@
+Species,Catalog,mtDNA Accession,Coverage,Taxon pair
+Anser albifrons,UWBM43977,CSW4521,83.9,Anser
+Anser albifrons,UWBM43978,CSW4522,56.9,Anser
+Anser albifrons,UWBM71170,SVD1426,94.6,Anser
+Anser albifrons,UAM27372,JJW884,22.2,Anser
+Anser albifrons,UAM30571,JJW1495,32.6,Anser
+Anser albifrons,UAM35427,JJW2405,70.5,Anser
+Anser albifrons,UAM35428,JJW2413,7.6,Anser
+Anser albifrons,UAM34089,KSW4176,11.5,Anser
+Spatula clypeata,UWBM59827,CSW5794,3.6,Spatula
+Spatula clypeata,UAM15459,DDG1988,3.6,Spatula
+Spatula clypeata,UAM20167,DDG2053,17.2,Spatula
+Spatula clypeata,UAM20152,DDG2054,13.2,Spatula
+Spatula clypeata,UAM26717,SVD475,3.0,Spatula
+Spatula clypeata,UAM36938,REW030,13.2,Spatula
+Spatula clypeata,UAM36727,REW031,6.7,Spatula
+Spatula clypeata,UAM15023,UAMX2539,7.1,Spatula
+Spatula clypeata,UAM28973,UAMX5081,7.8,Spatula
+Mareca penelope,UAM8758,DDG1663,156.3,Mareca
+Mareca penelope,UAM9759,DDG1703,129.5,Mareca
+Mareca penelope,UAM10008,DDG1716,167.2,Mareca
+Mareca penelope,UAM31321,DDG1768,243.0,Mareca
+Mareca penelope,UAM24301,UAMX4959,384.2,Mareca
+Mareca penelope,UAM24455,MJL037,343.0,Mareca
+Mareca penelope,UAM24550,UAMX5044,26.5,Mareca
+Mareca penelope,UAM27749,JJW968,633.9,Mareca
+Mareca americana,UAM11919,JSW3039,411.0,Mareca
+Mareca americana,UAM11908,KSW3028,595.9,Mareca
+Mareca americana,UAM11909,KSW3029,214.1,Mareca
+Mareca americana,UAM11916,KSW3036,404.6,Mareca
+Mareca americana,UAM13141,UAMX1468,92.5,Mareca
+Mareca americana,UAM26061,JJW383,177.4,Mareca
+Mareca americana,UAM28087,JJW976,278.6,Mareca
+Mareca americana,UAM28088,JJW948,72.4,Mareca
+Anas platyrhynchos,UWBM47068,CSW4828,16.4,Anas p
+Anas platyrhynchos,UWBM44374,JMB1220,36.7,Anas p
+Anas platyrhynchos,UAM30399,KSW5390,5.0,Anas p
+Anas platyrhynchos,UAM11328,DDG1776,23.9,Anas p
+Anas platyrhynchos,UWBM47160,SAR6383,31.6,Anas p
+Anas platyrhynchos,UAM28089,JJW943,89.9,Anas p
+Anas platyrhynchos,UAM28074,JJW944,81.1,Anas p
+Anas platyrhynchos,UAM29647,JJW1397,48.3,Anas p
+Anas platyrhynchos,UAM30290,JJW1592,20.4,Anas p
+Anas platyrhynchos,UAM30286,JJW1602,22.8,Anas p
+Anas platyrhynchos,UAM11193,KGM007,127.2,Anas p
+Anas platyrhynchos,UAM31321,UAMX5540,25.4,Anas p
+Anas acuta,UWBM44114,DAB055,66.6,Anas acuta
+Anas acuta,UAM22595,DDG2122,12.1,Anas acuta
+Anas acuta,UAM28156,KSW5107,31.3,Anas acuta
+Anas acuta,UAM28167,KSW5120,23.2,Anas acuta
+Anas acuta,UAM30400,KSW5391,4.3,Anas acuta
+Anas acuta,UAM31205,JJW1897,17.4,Anas acuta
+Anas acuta,UAM23468,KGM895,48.3,Anas acuta
+Anas acuta,UAM29039,REW548,22.8,Anas acuta
+Anas acuta,UAM22113,REW601,9.8,Anas acuta
+Anas acuta,UAM31335,UAMX5487,37.6,Anas acuta
+Anas crecca,UAM22853,KSW4951,304.6,Anas crecca
+Anas crecca,UAM11334,KGM021,142.1,Anas crecca
+Anas crecca,UAM11335,KGM020,481.6,Anas crecca
+Anas crecca,UAM14100,DDG1885,312.5,Anas crecca
+Anas crecca,UAM14666,DDG1884,104.3,Anas crecca
+Anas crecca,UAM9191,DDG1732,1282.9,Anas crecca
+Anas crecca,UAM9255,DDG1704,459.4,Anas crecca
+Anas carolinensis,UAM28444,UAMX5069,177.9,Anas crecca
+Anas carolinensis,UAM11251,UAMX203,50.2,Anas crecca
+Anas carolinensis,UAM20635,KSW4530,119.2,Anas crecca
+Anas carolinensis,UAM11920,KSW3040,176.5,Anas crecca
+Anas carolinensis,UAM14961,KGM335,320.8,Anas crecca
+Anas carolinensis,UAM24497,JMM448,34.1,Anas crecca
+Anas carolinensis,UAM28085,JJW978,76.0,Anas crecca
+Aythya marila,UAM30395,KSW5385,24.8,Aythya
+Aythya marila,UAM30394,KSW5393,8.7,Aythya
+Aythya marila,UAM30392,KSW5394,2.6,Aythya
+Aythya marila,UAM30396,KSW5395,2.3,Aythya
+Aythya marila,UAM30393,KSW5396,7.2,Aythya
+Aythya marila,UAM28067,JJW324,163.1,Aythya
+Aythya marila,UAM18068,JJW325,111.9,Aythya
+Aythya marila,UAM35653,REW611,127.3,Aythya
+Aythya marila,UAM30915,UAMX5076,151.9,Aythya
+Aythya marila,UAM29987,UAMX5077,183.8,Aythya
+Somateria spectabilis,UWBM43965,CSW4509,211.9,Somateria s
+Somateria spectabilis,UWBM71169,SVD1425,33.9,Somateria s
+Somateria spectabilis,UAM13153,ABJ107,30.0,Somateria s
+Somateria spectabilis,UAM9396,UAMX892,27.1,Somateria s
+Somateria spectabilis,UAM9422,UAMX901,16.4,Somateria s
+Somateria spectabilis,UAM9423,UAMX903,3.0,Somateria s
+Somateria spectabilis,UAM9439,UAMX907,13.9,Somateria s
+Somateria mollissima,UAM13721,UAMX1708,6.1,Somateria m
+Somateria mollissima,UAM20085,DDG1939,22.7,Somateria m
+Somateria mollissima,UAM13336,DAR157,29.5,Somateria m
+Somateria mollissima,UAM26746,KGM912,37.2,Somateria m
+Somateria mollissima,UAM36436,KGM845,61.0,Somateria m
+Somateria mollissima,UAM9440,UAMX378,31.1,Somateria m
+Somateria mollissima,UAM35441,JJW2452,20.9,Somateria m
+Somateria mollissima,UAM37604,JJW2952,22.4,Somateria m
+Somateria mollissima,UAM34628,JJW2274,43.6,Somateria m
+Somateria mollissima,UAM34700,JJW2273,83.3,Somateria m
+Histrionicus histrionicus,UAM11800,DDG1753,19.0,Histrionicus
+Histrionicus histrionicus,UAM11799,DDG1754,22.0,Histrionicus
+Histrionicus histrionicus,UAM11801,DDG1755,1.9,Histrionicus
+Histrionicus histrionicus,UAM9600,KSW2979,2.3,Histrionicus
+Histrionicus histrionicus,UWBM82975,RYA1002,79.3,Histrionicus
+Histrionicus histrionicus,UWBM44446,SAR6074,40.8,Histrionicus
+Histrionicus histrionicus,UAM36431,JJW2664,2.2,Histrionicus
+Histrionicus histrionicus,UAM40488,JJW3694,2.0,Histrionicus
+Histrionicus histrionicus,UAM40489,JJW3695,1.3,Histrionicus
+Histrionicus histrionicus,UAM36745,KGM641,13.5,Histrionicus
+Melanitta americana,UWBM43946,CSW4486,196.1,Melanitta
+Melanitta americana,UAM25996,JJW179,74.2,Melanitta
+Melanitta americana,UAM27720,JJW951,14.5,Melanitta
+Melanitta americana,UAM28065,JJW950,201.2,Melanitta
+Melanitta americana,UAM29920,JJW1388,65.4,Melanitta
+Melanitta americana,UAM35578,JJW2276,119.4,Melanitta
+Clangula hyemalis,UWBM43970,CSW4514,124.1,Clangula
+Clangula hyemalis,UWBM43919,CSW4454,264.4,Clangula
+Clangula hyemalis,UWBM43918,CSW4453,351.8,Clangula
+Clangula hyemalis,UWBM43917,CSW4452,407.5,Clangula
+Clangula hyemalis,UWBM43895,CSW4428,208.9,Clangula
+Clangula hyemalis,UWBM43894,CSW4427,209.9,Clangula
+Clangula hyemalis,UWBM43893,CSW4426,132.9,Clangula
+Clangula hyemalis,UAM29029,REW620,3382.7,Clangula
+Clangula hyemalis,UAM28184,REW619,295.8,Clangula
+Clangula hyemalis,UAM29027,REW618,251.0,Clangula
+Clangula hyemalis,UAM21883,REW583,250.2,Clangula
+Clangula hyemalis,UAM40387,REW564,141.8,Clangula
+Clangula hyemalis,UAM21931,REW532,437.8,Clangula
+Mergus merganser merganser,UWBM43819,CSW4346,8.7,Mergus
+Mergus merganser merganser,UAM25375,JJW063,3.9,Mergus
+Mergus merganser merganser,UAM25991,JJW334,26.0,Mergus
+Mergus merganser merganser,UAM25990,JJW335,4.9,Mergus
+Mergus merganser merganser,UAM28042,JJW344,15.8,Mergus
+Mergus merganser merganser,UAM27012,JJW762,16.3,Mergus
+Mergus merganser americanus,UWBM9348,AEI105,2.8,Mergus
+Mergus merganser americanus,UAM34366,JJW2298,30.4,Mergus
+Mergus merganser americanus,UAM11037,UAMX1058,12.0,Mergus
+Mergus merganser americanus,UAM24305,UAMX4957,6.4,Mergus
+Lagopus lagopus koreni,UAM25139,KSW5046,63.2,Lagopus
+Lagopus lagopus koreni,UAM28169,KSW5052,32.3,Lagopus
+Lagopus lagopus koreni,UAM29685,KSW5082,2.3,Lagopus
+Lagopus lagopus koreni,UAM28171,KSW5133,28.2,Lagopus
+Lagopus lagopus koreni,UAM14834,KSW5045,20.7,Lagopus
+Lagopus lagopus alascensis,UAM27018,JJW711,15.1,Lagopus
+Lagopus lagopus alascensis,UAM31562,JJW1970,21.5,Lagopus
+Lagopus lagopus alascensis,UAM36927,JJW2909,15.2,Lagopus
+Lagopus lagopus alascensis,UAM39209,JJW3352,9.0,Lagopus
+Lagopus lagopus alascensis,UAM28238,TB349,32.0,Lagopus
+Pluvialis fulva,UAM13545,DDG1860,188.6,Pluvialis
+Pluvialis fulva,UAM26906,JJW145,228.6,Pluvialis
+Pluvialis fulva,UAM8798,KSW2383,68.3,Pluvialis
+Pluvialis fulva,UAM11307,TB408,188.3,Pluvialis
+Pluvialis dominica,UAM26935,JJW362,137.0,Pluvialis
+Pluvialis dominica,UAM13181,KSW2402,233.9,Pluvialis
+Pluvialis dominica,UAM8938,KSW2468,169.0,Pluvialis
+Pluvialis dominica,UAM9511,TB235,395.1,Pluvialis
+Numenius phaeopus variegatus,UWBM14228,TB1364,,Numenius
+Numenius phaeopus variegatus,UAM14229,TB1116,193.5,Numenius
+Numenius phaeopus variegatus,UAM14230,TB1091,41.8,Numenius
+Numenius phaeopus variegatus,UAM14225,TB1023,222.9,Numenius
+Numenius phaeopus variegatus,UAM8212,DDF1666,266.7,Numenius
+Numenius phaeopus variegatus,UAM21379,CLP727,93.7,Numenius
+Numenius phaeopus variegatus,UAM14625,CLP450,371.5,Numenius
+Numenius phaeopus hudsonicus,UAM11507,TB378,343.4,Numenius
+Numenius phaeopus hudsonicus,UAM13349,ABJ142,114.4,Numenius
+Numenius phaeopus hudsonicus,UAM9260,KSW2484,343.4,Numenius
+Numenius phaeopus hudsonicus,UAM13925,KGM036,120.9,Numenius
+Numenius phaeopus hudsonicus,UAM17980,JMM011,36.4,Numenius
+Numenius phaeopus hudsonicus,UAM28602,JJW1154,24.9,Numenius
+Numenius phaeopus hudsonicus,UAM28214,JJW1021,452.8,Numenius
+Numenius phaeopus hudsonicus,UAM28213,JJW1013,361.5,Numenius
+Arenaria interpres,UAM14954,DAR268,20.0,Arenaria
+Arenaria interpres,UAM26977,JJW676,112.8,Arenaria
+Arenaria interpres,UAM30797,JJW1637,178.8,Arenaria
+Arenaria interpres,UAM20220,JMM422,8.2,Arenaria
+Arenaria interpres,UAM13527,UAMX1744,76.7,Arenaria
+Arenaria melanocephala,UAM28748,JJW1153,5.0,Arenaria
+Arenaria melanocephala,UAM40266,JJW3588,449.8,Arenaria
+Arenaria melanocephala,UAM20142,JMM326,141.0,Arenaria
+Arenaria melanocephala,UAM20098,JMM327,18.0,Arenaria
+Calidris alpina arcticola,UAM25341,JJW4409,18.9,Calidris
+Calidris alpina arcticola,UAM19815,JJW4411,3.3,Calidris
+Calidris alpina arcticola,UAM20132,UAMX3267,26.7,Calidris
+Calidris alpina pacifica,UAM26914,JJW015,14.8,Calidris
+Calidris alpina pacifica,UAM26913,JJW016,249.0,Calidris
+Calidris alpina pacifica,UAM27576,JJW704,22.2,Calidris
+Calidris alpina pacifica,UAM30313,JJW1490,21.7,Calidris
+Calidris alpina pacifica,UAM30879,JJW1821,54.7,Calidris
+Gallinago gallinago,UAM21848,CLP713,9.8,Gallinago
+Gallinago gallinago,UAM8228,DDG1650,1.8,Gallinago
+Gallinago gallinago,UAM26800,JJW158,1.5,Gallinago
+Gallinago gallinago,UAM24695,KSW5126,33.9,Gallinago
+Gallinago gallinago,UAM28175,KSW5134,1.9,Gallinago
+Gallinago delicata,UAM19231,DDG2021,2.2,Gallinago
+Gallinago delicata,UAM15063,DDG1945,2.1,Gallinago
+Gallinago delicata,UAM20505,DDG2035,55.0,Gallinago
+Gallinago delicata,UAM22570,DDG2118,31.9,Gallinago
+Gallinago delicata,UAM30488,JJW1536,1.6,Gallinago
+Tringa brevipes,UAM8805,KSW1782,897.6,Tringa bi
+Tringa brevipes,UAM8521,KSW1781,399.3,Tringa bi
+Tringa brevipes,UAM7534,KSW1780,167.3,Tringa bi
+Tringa brevipes,UAM28428,JJW1030,163.0,Tringa bi
+Tringa brevipes,UAM28427,JJW906,227.9,Tringa bi
+Tringa brevipes,UAM10112,DDG1736,231.6,Tringa bi
+Tringa brevipes,UAM28430,JJW1061,146.5,Tringa bi
+Tringa brevipes,UAM28429,JJW1062,20.6,Tringa bi
+Tringa incana,UAM13434,DAR228,12.8,Tringa bi
+Tringa incana,UAM28422,JJW720,160.4,Tringa bi
+Tringa incana,UAM28425,JJW724,76.2,Tringa bi
+Tringa incana,UAM28426,JJW1022,218.7,Tringa bi
+Tringa incana,UAM8240,KSW1778,413.4,Tringa bi
+Tringa incana,UAM21813,KSW3378,119.6,Tringa bi
+Tringa incana,UAM24859,UAMX1645,126.2,Tringa bi
+Tringa incana,UAM13569,UAMX1735,184.7,Tringa bi
+Tringa nebularia,UAM8282,DDG1686,2.1,Tringa nm
+Tringa nebularia,UAM14119,DDG1916,27.1,Tringa nm
+Tringa nebularia,UAM17482,DDG1990,2.0,Tringa nm
+Tringa nebularia,UAM22850,KSW4958,2.8,Tringa nm
+Tringa nebularia,UAM24570,UAMX4620,28.8,Tringa nm
+Tringa melanoleuca,UAM30489,JJW1663,2.0,Tringa nm
+Tringa melanoleuca,UAM18023,JMM014,15.3,Tringa nm
+Tringa melanoleuca,UAM20143,JMM340,75.3,Tringa nm
+Tringa melanoleuca,UAM13578,UAMX1941,6.8,Tringa nm
+Tringa melanoleuca,UAM27573,UAMX5119,12.3,Tringa nm
+Uria aalge inornata,UWBM44407,JMB994,6.8,Uria a
+Uria aalge inornata,UWBM4408,JMB995,9.6,Uria a
+Uria aalge inornata,UWBM44409,JMB996,10.7,Uria a
+Uria aalge inornata,UWBM44410,JMB997,15.0,Uria a
+Uria aalge inornata,UWBM44411,JMB998,16.1,Uria a
+Uria aalge inornata,UAM7729,KSW1629,19.2,Uria a
+Uria aalge inornata,UAM10687,KSW1631,9.9,Uria a
+Uria aalge inornata,UAM10688,KSW1632,18.3,Uria a
+Uria aalge inornata,UAM10689,KSW1633,5.5,Uria a
+Uria aalge inornata,UAM10690,KSW1634,11.3,Uria a
+Uria lomvia arra,UWBM55300,BKS351,11.0,Uria l
+Uria lomvia arra,UWBM55725,JMB857,11.4,Uria l
+Uria lomvia arra,UWBM44177,JMB1001,16.9,Uria l
+Uria lomvia arra,UWBM44178,JMB1002,17.8,Uria l
+Uria lomvia arra,UWBM72702,NCSM17754,7.2,Uria l
+Uria lomvia arra,UAM30510,JJW1509,2.6,Uria l
+Uria lomvia arra,UAM30511,JJW1510,6.2,Uria l
+Uria lomvia arra,UAM9608,UAMX387,5.8,Uria l
+Uria lomvia arra,UAM13445,UAMX1553,8.1,Uria l
+Uria lomvia arra,UAM20236,UAMX3290,7.0,Uria l
+Larus canus kamtschatschensis,UAM22926,KSW4989,15.5,Larus c
+Larus canus kamtschatschensis,UAM22863,KSW4959,269.6,Larus c
+Larus canus kamtschatschensis,UAM37770,JJW3012,2.7,Larus c
+Larus canus kamtschatschensis,UAM13377,DDG1876,20.6,Larus c
+Larus canus kamtschatschensis,UAM11014,DDG1771,2.7,Larus c
+Larus brachyrhynchus,UAM24812,UAMX4789,3.0,Larus c
+Larus brachyrhynchus,UAM36875,JJW2921,90.0,Larus c
+Larus brachyrhynchus,UAM26901,JJW010,5.0,Larus c
+Larus brachyrhynchus,UAM14803,DDG1922,9.8,Larus c
+Larus brachyrhynchus,UAM14682,DDG1921,1.2,Larus c
+Larus argentatus vegae,UAM28162,KSW5090,67.2,Larus a
+Larus argentatus vegae,UAM26660,KSW5044,84.5,Larus a
+Larus argentatus vegae,UAM25987,JJW224,1.4,Larus a
+Larus argentatus vegae,UAM25984,JJW257,13.1,Larus a
+Larus argentatus vegae,UAM25983,JJW343,1.9,Larus a
+Larus argentatus smithsonianus,UAM35755,JJW2547,19.8,Larus a
+Larus argentatus smithsonianus,UAM35754,JJW2548,28.1,Larus a
+Larus argentatus smithsonianus,UAM35753,JJW2549,2.5,Larus a
+Larus argentatus smithsonianus,UAM35751,JJW2551,2.6,Larus a
+Larus argentatus smithsonianus,UAM30575,JJW1533,6.8,Larus a
+Leucosticte hyperboreus,UWBM43852,CSW4379,5.0,Leucosticte
+Leucosticte hyperboreus,UWBM43851,CSW4378,5.4,Leucosticte
+Leucosticte hyperboreus,UWBM43982,CSW4526,10.7,Leucosticte
+Leucosticte hyperboreus,UAM28158,KSW5035,9.5,Leucosticte
+Leucosticte hyperboreus,UAM28160,KSW5108,24.3,Leucosticte
+Leucosticte hyperboreus,UAM40190,JJW3585,1.3,Leucosticte
+Leucosticte hyperboreus,UAM40191,JJW3586,13.4,Leucosticte
+Leucosticte hyperboreus,UAM9257,KSW2490,8.3,Leucosticte
+Leucosticte hyperboreus,UAM8929,UAMX683,28.6,Leucosticte
+Leucosticte hyperboreus,UAM24327,UAMX4940,2.1,Leucosticte
+Gavia stellata,UWBM43925,CSW4461,14.1,Gavia
+Gavia stellata,UWBM44122,DAB063,,Gavia
+Gavia stellata,UWBM44259,JMB1098,9.3,Gavia
+Gavia stellata,UWBM44260,JMB1099,2.9,Gavia
+Gavia stellata,UWBM44653,SAR6293,3.2,Gavia
+Gavia stellata,UAM13601,DAR275,4.5,Gavia
+Gavia stellata,UAM40094,JJW3574,41.0,Gavia
+Gavia stellata,UAM20711,KGM628,30.2,Gavia
+Gavia stellata,UAM38314,UAMX3952,67.4,Gavia
+Gavia stellata,UAM40093,UAMX6608,44.7,Gavia
+Picoides tridactylus,UWBM44422,SAR6046,10.4,Picoides
+Picoides tridactylus,UWBM52660,SVD144,5.7,Picoides
+Picoides tridactylus,UAM17739,TB1448,8.7,Picoides
+Picoides dorsalis fasciatus,UAM31832,JJW2059,26.5,Picoides
+Picoides dorsalis fasciatus,UAM36600,JJW2842,19.8,Picoides
+Picoides dorsalis fasciatus,UAM38328,JJW3139,55.3,Picoides
+Picoides dorsalis fasciatus,UAM8580,UAMX503,21.4,Picoides
+Picoides dorsalis fasciatus,UAM20114,UAMX3273,38.7,Picoides
+Pica pica,UWBM74697,UWBM74697,161.3,Pica
+Pica pica,UWBM74569,UWBM74569,87.8,Pica
+Pica pica,UWBM72091,UWBM72091,1.7,Pica
+Pica pica,UWBM72084,UWBM72084,69.4,Pica
+Pica pica,UWBM47197,UWBM47197,79.4,Pica
+Pica pica,UWBM44585,UWBM44585,158.1,Pica
+Pica pica,UWBM44584,UWBM44584,42.3,Pica
+Pica pica,UWBM44581,UWBM44581,19.3,Pica
+Pica hudsonia,UAM10105,UAMX953,6.8,Pica
+Pica hudsonia,UAM8511,KSW2704,219.3,Pica
+Pica hudsonia,UAM27024,JJW683,139.3,Pica
+Pica hudsonia,UAM17742,CLP245,31.0,Pica
+Pica hudsonia,UAM13052,CLP219,71.8,Pica
+Pica hudsonia,UAM13053,CLP218,160.0,Pica
+Pica hudsonia,UAM12453,CLP208,96.3,Pica
+Corvus corax,UWBM46861,BKS908,3.3,Corvus
+Corvus corax,UWBM56544,BKS3241,1.5,Corvus
+Corvus corax,UWBM57899,BKS4041,2.6,Corvus
+Corvus corax,UWBM57909,BKS4052,5.3,Corvus
+Corvus corax,UWBM71244,SVD231a,2.2,Corvus
+Corvus corax,UWBM59566,SVD1398,9.0,Corvus
+Corvus corax,UAM17737,TB1445,2.6,Corvus
+Corvus corax,UAM10021,DDG1749,5.5,Corvus
+Corvus corax,UAM38000,JJW2991,48.3,Corvus
+Corvus corax,UAM39709,JJW3401,58.2,Corvus
+Corvus corax,UAM41600,JJW4373,3.2,Corvus
+Corvus corax,UAM17761,JMM133,4.2,Corvus
+Corvus corax,UAM8803,KSW2715,8.1,Corvus
+Corvus corax,UAM22252,KSW4763,9.8,Corvus
+Corvus corax,UAM15040,RWD26009,4.4,Corvus
+Corvus corax,UAM9313,UAMX844,9.8,Corvus
+Corvus corax,UAM11113,UAMX1061,5.5,Corvus
+Phylloscopus examinandus,UAM17665,DDG1991,6.2,Phylloscopus
+Phylloscopus examinandus,UAM29472,KSW5250,1.6,Phylloscopus
+Phylloscopus examinandus,UAM30464,KSW5336,11.3,Phylloscopus
+Phylloscopus examinandus,UAM30462,KSW5354,13.1,Phylloscopus
+Phylloscopus examinandus,UAM30461,KSW5373,5.5,Phylloscopus
+Phylloscopus borealis borealis,UWBM43818,CSW4345,19.7,Phylloscopus
+Phylloscopus borealis borealis,UWBM44417,SAR6041,14.6,Phylloscopus
+Phylloscopus borealis borealis,UWBM44418,SAR6042,11.6,Phylloscopus
+Phylloscopus borealis borealis,UWBM82284,SVD2977,3.9,Phylloscopus
+Phylloscopus borealis borealis,UWBM82285,SVD2978,21.1,Phylloscopus
+Phylloscopus borealis kennicotti,UAM34615,JJW2241,47.2,Phylloscopus
+Phylloscopus borealis kennicotti,UAM36347,JJW2649,17.3,Phylloscopus
+Phylloscopus borealis kennicotti,UAM20149,JMM337,47.3,Phylloscopus
+Phylloscopus borealis kennicotti,UAM20150,JMM338,15.8,Phylloscopus
+Phylloscopus borealis kennicotti,UAM7372,KSW1456,3.8,Phylloscopus
+Luscinia svecica,UWBM44489,SAR6270,,Luscinia
+Luscinia svecica,UWBM44629,SAR6269,1138.0,Luscinia
+Luscinia svecica,UWBM44363,JMB1208,,Luscinia
+Luscinia svecica,UWBM44362,JMB1207,1.9,Luscinia
+Luscinia svecica,UWBM44361,JMB1206,121.8,Luscinia
+Luscinia svecica,UWBM44246,JMB1082,113.9,Luscinia
+Luscinia svecica,UWBM44242,JMB1278,225.2,Luscinia
+Luscinia svecica,UWBM44233,JMB1064,128.3,Luscinia
+Luscinia svecica,UAM13718,ABJ200,235.8,Luscinia
+Luscinia svecica,UAM15419,MJM048,58.7,Luscinia
+Luscinia svecica,UAM17727,MJM047,123.4,Luscinia
+Luscinia svecica,UAM8944,KSW2481,50.6,Luscinia
+Luscinia svecica,UAM8584,KSW2409,279.8,Luscinia
+Luscinia svecica,UAM8945,KSW2408,49.6,Luscinia
+Luscinia svecica,UAM8946,KSW2407,,Luscinia
+Luscinia svecica,UAM8585,KSW2406,133.3,Luscinia
+Motacilla tschutschensis tschutschensis,UAM13402,ABJ133,10.6,Motacilla
+Motacilla tschutschensis tschutschensis,UAM15178,DDG1935,36.3,Motacilla
+Motacilla tschutschensis tschutschensis,UAM27366,JJW216,21.9,Motacilla
+Motacilla tschutschensis tschutschensis,UAM27364,JJW520,7.7,Motacilla
+Motacilla tschutschensis tschutschensis,UAM28177,JJW629,26.3,Motacilla
+Motacilla tschutschensis simillima,UAM14353,ABJ179,11.8,Motacilla
+Motacilla tschutschensis simillima,UAM28715,JJW1179,2.2,Motacilla
+Motacilla tschutschensis simillima,UAM28717,JJW1185,5.4,Motacilla
+Motacilla tschutschensis simillima,UAM29362,JJW1317,13.3,Motacilla
+Motacilla tschutschensis simillima,UAM19448,MJM122,5.1,Motacilla
+Anthus rubescens japonicus,UAM13353,DDG1877,3.2,Anthus
+Anthus rubescens japonicus,UAM27351,JJW864,25.3,Anthus
+Anthus rubescens japonicus,UAM28057,JJW905,246.9,Anthus
+Anthus rubescens japonicus,UAM39615,JJW3455,258.3,Anthus
+Anthus rubescens japonicus,UAM15068,KSW3980,15.4,Anthus
+Anthus rubescens pacificus,UAM11452,CLP200,33.3,Anthus
+Anthus rubescens pacificus,UAM31927,JJW2045,1.7,Anthus
+Anthus rubescens pacificus,UAM31928,JJW2046,15.5,Anthus
+Anthus rubescens pacificus,UAM19419,MJM037,13.2,Anthus
+Anthus rubescens pacificus,UAM13540,RWD25949,4.3,Anthus
+Pinicola enucleator kamtschatschensis,UWBM51643,SVD423,172.5,Pinicola
+Pinicola enucleator kamtschatschensis,UWBM51627,SVD407,139.4,Pinicola
+Pinicola enucleator kamtschatschensis,UWBM47315,SAR6539,53.1,Pinicola
+Pinicola enucleator kamtschatschensis,UWBM47314,SAR6538,1535.1,Pinicola
+Pinicola enucleator kamtschatschensis,UAM24602,DDG2190,396.8,Pinicola
+Pinicola enucleator kamtschatschensis,UAM24601,DDG2189,225.2,Pinicola
+Pinicola enucleator flammula,UAM10158,UAMX1014,1146.7,Pinicola
+Pinicola enucleator flammula,UAM8794,KSW1695,116.5,Pinicola
+Pinicola enucleator flammula,UAM8797,KSW1694,432.4,Pinicola
+Pinicola enucleator flammula,UAM28530,JJW1097,297.8,Pinicola
+Pinicola enucleator flammula,UAM26361,JJW030,245.3,Pinicola
+Pinicola enucleator flammula,UAM11286,ABJ012,105.1,Pinicola
+Pinicola enucleator flammula,UAM11285,ABJ011,56.2,Pinicola
+Leucosticte arctoa,UWBM44077,CSW4675,3.3,Leucosticte
+Leucosticte arctoa,UWBM44366,JMB1211,3.7,Leucosticte
+Leucosticte arctoa,UWBM44622,SAR6262,3.5,Leucosticte
+Leucosticte arctoa,UWBM44623,SAR6263,5.1,Leucosticte
+Leucosticte arctoa,UWBM44624,SAR6264,6.2,Leucosticte
+Leucosticte tephrocotis griseonucha,UAM10981,DDG1750,12.6,Leucosticte
+Leucosticte tephrocotis griseonucha,UAM31438,RWD24852,17.2,Leucosticte
+Leucosticte tephrocotis griseonucha,UAM31439,RWD24857,367.0,Leucosticte
+Leucosticte tephrocotis griseonucha,UAM24603,UAMX5158,6.7,Leucosticte
+Leucosticte tephrocotis griseonucha,UAM24607,UAMX5168,13.7,Leucosticte
+Leucosticte tephrocotis littoralis,UAM28707,JJW1163,14.5,Leucosticte
+Leucosticte tephrocotis littoralis,UAM40954,JJW3809,39.2,Leucosticte
+Leucosticte tephrocotis littoralis,UAM40957,JJW3812,83.6,Leucosticte
+Leucosticte tephrocotis littoralis,UAM40959,JJW3814,13.7,Leucosticte
+Leucosticte tephrocotis littoralis,UAM40961,JJW3816,66.5,Leucosticte
+Leucosticte tephrocotis tephrocotis,UAM27288,JJW873,32.6,Leucosticte
+Leucosticte tephrocotis tephrocotis,UAM35600,JJW2460,33.5,Leucosticte
+Leucosticte tephrocotis tephrocotis,UAM35598,JJW2465,31.7,Leucosticte
+Leucosticte tephrocotis tephrocotis,UAM38654,JJW3204,87.5,Leucosticte
+Leucosticte tephrocotis umbrina,UAM28620,AF14344,12.6,Leucosticte
+Leucosticte tephrocotis umbrina,UAM28619,AF14346,2.3,Leucosticte
+Leucosticte tephrocotis umbrina,FMNH34305,AF14351,10.1,Leucosticte
+Leucosticte tephrocotis umbrina,UAM7351,KSW1646,2.1,Leucosticte
+Leucosticte tephrocotis umbrina,UAM17748,UAMX2921,37.6,Leucosticte
+Calcarius lapponicus coloratus,UAM29827,UAM29827,8.5,Calcarius
+Calcarius lapponicus coloratus,UAM29825,UAM29825,25.6,Calcarius
+Calcarius lapponicus alascensis,UAM13337,RWD25944,9.4,Calcarius
+Calcarius lapponicus alascensis,UAM7653,KSW1821,4.1,Calcarius
+Calcarius lapponicus alascensis,UAM19614,CLP051,12.3,Calcarius
+Calcarius lapponicus alascensis,UAM9525,CLP048,40.0,Calcarius
+Calcarius lapponicus alascensis,UAM9407,CLP038,74.8,Calcarius
+Plectrophenax nivalis,UAM11856,CLP163,240.1,Plectrophenax
+Plectrophenax nivalis,UAM27725,JJW292,261.6,Plectrophenax
+Plectrophenax nivalis,UAM8476,KSW2690,169.6,Plectrophenax
+Plectrophenax nivalis,UAM8474,KSW2691,392.6,Plectrophenax
+Plectropomus hyperboreus,UAM7407,KSW1588,8.0,Plectrophenax
+Plectropomus hyperboreus,UAM7066,KSW1610,98.3,Plectrophenax
+Plectropomus hyperboreus,UAM7524,KSW1611,19.7,Plectrophenax
+Plectropomus hyperboreus,UAM8200,KSW1617,113.8,Plectrophenax
