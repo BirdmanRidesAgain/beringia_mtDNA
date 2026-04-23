@@ -1,0 +1,423 @@
+Species 	Institution catalog #	Year 	Field #	Locality 	Assignment	NCBI-SRA 
+Anser albifrons	UWBM 43977	1992	CSW4521	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242814
+Anser albifrons	UWBM 43978	1992	CSW4522	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242813
+Anser albifrons	UWBM 71170	1997	SVD1426	Russia: Yamalo-Nenetskiy Avtonomnyy Okrug; Labytnangi	OW	OR242815
+Anser albifrons	UAM 27372	2010	JJW884	USA: Alaska; Kodiak Archipelago, Barry Lagoon	NW	OR242812
+Anser albifrons	UAM 30571	2012	JJW1495	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242811
+Anser albifrons	UAM 35427	2014	JJW2405	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242810
+Anser albifrons	UAM 35428	2014	JJW2413	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242809
+Anser albifrons	UAM 34089	2003	KSW4176	USA: Alaska; North Slope, Dalton Highway	NW	OR242808
+Spatula clypeata	UWBM 59827	1998	CSW5794	Mongolia: Dornod Aymag; Choibalsan, Kherlen Gol	OW	OR243148
+Spatula clypeata	UAM 15459	2002	DDG1988	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243147
+Spatula clypeata	UAM 20167	2004	DDG2053	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243146
+Spatula clypeata	UAM 20152	2004	DDG2054	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243145
+Spatula clypeata	UAM 26717	2003	SVD475	Russia: Magadanskaya Oblast	OW	OR243142
+Spatula clypeata	UAM 36938	2002	REW030	USA: South Dakota; Kingsbury	NW	OR243144
+Spatula clypeata	UAM 36727	2002	REW031	USA: South Dakota; Kingsbury	NW	OR243143
+Spatula clypeata	UAM 15023	2002	UAMX2539	USA: Alaska; Fairbanks, South Cushman Street	NW	OR243141
+Spatula clypeata	UAM 28973	2008	UAMX5081	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR243149
+Mareca penelope	UAM 8758	1998	DDG1663	USA: Alaska; Aleutian Islands, Buldir  Island	OW	OR243015
+Mareca penelope	UAM 9759	1999	DDG1703	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243014
+Mareca penelope	UAM 10008	1999	DDG1716	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243013
+Mareca penelope	UAM 31321	2010	DDG1768	USA: Alaska; Interior, Eielson Air Force Base	OW	OR243012
+Mareca penelope	UAM 24301	2007	UAMX4959	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243009
+Mareca penelope	UAM 24455	2007	MJL037	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243010
+Mareca penelope	UAM 24550	2006	UAMX5044	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243008
+Mareca penelope	UAM 27749	2008	JJW968	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243011
+Mareca americana	UAM 11919	1999	KSW3039	USA: Alaska; Interior, Fairbanks	NW	OR243001
+Mareca americana	UAM 11908	1999	KSW3028	USA: Alaska; Interior, Fairbanks	NW	OR243004
+Mareca americana	UAM 11909	1999	KSW3029	USA: Alaska; Interior, Fairbanks	NW	OR243003
+Mareca americana	UAM 11916	1999	KSW3036	USA: Alaska; Interior, Fairbanks	NW	OR243002
+Mareca americana	UAM 13141	1998	UAMX1468	USA: Alaska; Interior, Fairbanks	NW	OR243000
+Mareca americana	UAM 26061	2012	JJW383	USA: Alaska; Interior, Eielson Air Force Base	NW	OR243007
+Mareca americana	UAM 28087	2008	JJW976	USA: Alaska; Kodiak Archipelago, Monashka Bay	NW	OR243005
+Mareca americana	UAM 28088	2010	JJW948	USA: Alaska; Kodiak Archipelago, Deadman Bay	NW	OR243006
+Anas platyrhynchos	UWBM 47068	1993	CSW4828	Russia: Khabarovskiy Kray; Nizhnetambovskoye, Goryun River	OW	OR242806
+Anas platyrhynchos	UWBM 44374	1992	JMB1220	Russia: Magadanskaya Oblast; Balagannoye, Tauy River	OW	OR242800
+Anas platyrhynchos	UAM 30399	2010	KSW5390	Russia: Kamchatka; Sea of Okhotsk	OW	OR242798
+Anas platyrhynchos	UAM 11328	2000	DDG1776	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242797
+Anas platyrhynchos	UWBM 47160	1993	SAR6383	Russia: Khabarovskiy Kray; Nizhnetambovskoye, Goryun River	OW	OR242796
+Anas platyrhynchos	UAM 28089	2010	JJW943	USA: Alaska; Kodiak Archipelago, Deadman Bay	NW	OR242805
+Anas platyrhynchos	UAM 28074	2010	JJW944	USA: Alaska; Kodiak Archipelago, Deadman Bay	NW	OR242804
+Anas platyrhynchos	UAM 29647	2011	JJW1397	USA: Alaska; Kodiak Archipelago, Women’s Bay	NW	OR242803
+Anas platyrhynchos	UAM 30290	2012	JJW1592	USA: Alaska; Eielson Air Force Base	NW	OR242802
+Anas platyrhynchos	UAM 30286	2012	JJW1602	USA: Alaska; Eielson Air Force Base	NW	OR242801
+Anas platyrhynchos	UAM 11193	2000	KGM007	USA: Alaska; Interior, Chena River Flood Control Project	NW	OR242799
+Anas platyrhynchos	UAM 31321	2010	UAMX5540	USA: Alaska; Eielson Air Force Base	NW	OR242807
+Anas acuta	UWBM 44114	1992	DAB055	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242769
+Anas acuta	UAM 22595	2006	DDG22595	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242770
+Anas acuta	UAM 28156	2007	KSW5107	Russia: Yakutia; Indigirka River	OW	OR242773
+Anas acuta	UAM 28167	2007	KSW5120	Russia: Yakutia; Indigirka River	OW	OR242774
+Anas acuta	UAM 30400	2010	KSW5391	Russia: Kamchatka; Sea of Okhotsk	OW	OR242775
+Anas acuta	UAM 31205	2012	JJW1897	USA: Alaska; Interior, Eielson Air Force Base	NW	OR242771
+Anas acuta	UAM 23468	2004	KGM895	USA: Alaska; North Slope, Dalton Highway, S Deadhorse	NW	OR242772
+Anas acuta	UAM 29039	2005	REW548	USA: Alaska; North Slope, Dalton Highway	NW	OR242776
+Anas acuta	UAM 22113	2005	REW601	USA: Alaska; North Slope, Dalton Highway	NW	OR242777
+Anas acuta	UAM 31335	2010	UAMX5487	USA: Alaska; Interior, Eielson Air Force Base	NW	OR242768
+Anas crecca crecca	UAM 22853	2006	KSW4951	Russia: Yakutia; Aldan River, Tumul	OW	OR242789
+Anas crecca crecca	UAM 11334	2000	KGM021	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242790
+Anas crecca crecca	UAM 11335	2000	KGM020	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242791
+Anas crecca crecca	UAM 14100	2001	DDG1885	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242792
+Anas crecca crecca	UAM 14666	2001	DDG1884	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242793
+Anas crecca crecca	UAM 9191	1999	DDG1732	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242794
+Anas crecca crecca	UAM 9255	1999	DDG1704	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242795
+Anas crecca carolinensis	UAM 28444	2008	UAMX5069	USA: Alaska; Chirikof Island	NW	OR242778
+Anas crecca carolinensis	UAM 11251	1996	UAMX203	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242779
+Anas crecca carolinensis	UAM 20635	2004	KSW4530	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242780
+Anas crecca carolinensis	UAM 11920	1999	KSW3040	USA: Alaska; Interior, Fairbanks	NW	OR242781
+Anas crecca carolinensis	UAM 14961	2001	KGM335	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242782
+Anas crecca carolinensis	UAM 24497	2004	JMM448	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242783
+Anas crecca carolinensis	UAM 28085	2008	JJW978	USA: Alaska; Kodiak Archipelago, Monashka Bay	NW	OR242784
+Aythya marila	UAM 30395	2010	KSW5385	Russia: Kamchatka; Sea of Okhotsk	OW	OR242837
+Aythya marila	UAM 30394	2010	KSW5393	Russia: Kamchatka; Sea of Okhotsk	OW	OR242838
+Aythya marila	UAM 30392	2010	KSW5394	Russia: Kamchatka; Sea of Okhotsk	OW	OR242839
+Aythya marila	UAM 30396	2010	KSW5395	Russia: Kamchatka; Sea of Okhotsk	OW	OR242840
+Aythya marila	UAM 30393	2010	KSW5396	Russia: Kamchatka; Sea of Okhotsk	OW	OR242841
+Aythya marila	UAM 28067	2009	JJW324	USA: Alaska; Aleutian Islands, Kiska Island	NW	OR242835
+Aythya marila	UAM 18068	2009	JJW325	USA: Alaska; Aleutian Islands, Kiska Island	NW	OR242836
+Aythya marila	UAM 35653	2005	REW611	USA: Alaska; North Slope, Dalton Highway	NW	OR242842
+Aythya marila	UAM 30915	2008	UAMX5076	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242843
+Aythya marila	UAM 29987	2008	UAMX5077	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242844
+Somateria spectabilis	UWBM 43965	1992	CSW4509	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR243135
+Somateria spectabilis	UWBM 71169	1997	SVD1425	Russia: Yamalo-Nenetskiy Avtonomnyy Okrug; Labytnangi	OW	OR243136
+Somateria spectabilis	UAM 13153	2000	ABJ107	USA: Alaska; Point Barrow	NW	OR243134
+Somateria spectabilis	UAM 9396	1999	UAMX892	USA: Alaska; Point Barrow	NW	OR243137
+Somateria spectabilis	UAM 9422	1999	UAMX901	USA: Alaska; Chukchi Sea, Point Lay	NW	OR243138
+Somateria spectabilis	UAM 9423	1996	UAMX903	USA: Alaska; Point Barrow	NW	OR243139
+Somateria spectabilis	UAM 9439	1999	UAMX907	USA: Alaska; Point Barrow	NW	OR243140
+Somateria mollissima	UAM 13721	2001	UAMX1708	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243130
+Somateria mollissima	UAM 20085	2002	DDG1939	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243126
+Somateria mollissima	UAM 13336	2001	DAR157	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243125
+Somateria mollissima	UAM 26746	2004	KGM912	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243132
+Somateria mollissima	UAM 36436	2004	KGM845	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243131
+Somateria mollissima	UAM 9440	1996	UAMX378	USA: Alaska; North Slope, Barrow	NW	OR243133
+Somateria mollissima	UAM 35441	2014	JJW2452	USA: Alaska; Kodiak Archipelago, Shuyak Island	NW	OR243124
+Somateria mollissima	UAM 37604	2015	JJW2952	USA: Alaska; Beaufort Sea, North Star Island	NW	OR243129
+Somateria mollissima	UAM 34628	2013	JJW2274	USA: Alaska; Kodiak Archipelago, Women's Bay	NW	OR243128
+Somateria mollissima	UAM 34700	2013	JJW2273	USA: Alaska; Kodiak Archipelago, Women's Bay	NW	OR243127
+Histrionicus histrionicus	UAM 11800	2000	DDG1753	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242926
+Histrionicus histrionicus	UAM 11799	2000	DDG1754	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242927
+Histrionicus histrionicus	UAM 11801	2000	DDG1755	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242928
+Histrionicus histrionicus	UAM 9600	1999	KSW2979	USA: Alaska; Aleutian Islands, Adak Island	OW	OR242933
+Histrionicus histrionicus	UWBM 82975	2003	RYA1002	Russia: Sakhalinskaya Oblast'; Korsakovskiy Rayon, Ostrov Sakhalin	OW	OR242934
+Histrionicus histrionicus	UWBM 44446	1992	SAR6074	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR242935
+Histrionicus histrionicus	UAM 40488	2017	JJW3694	USA: Alaska; Kodiak Archipelago, Long Island	NW	OR242930
+Histrionicus histrionicus	UAM 36745	2003	KGM641	USA: Alaska; Brooks Range, Chandalar Shelf	NW	OR242932
+Melanitta americana	UAM 25996	2009	JJW179	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243018
+Melanitta americana	UWBM 43946	1992	CSW4486	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR243016
+Melanitta americana	UAM 28065	2011	JJW950	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR243020
+Melanitta americana	UAM 35578	2013	JJW951	USA: Alaska; Kodiak Archipelago, Zaimka Island	NW	OR243021
+Melanitta americana	UAM 35578	2013	JJW2276	USA: Alaska; Kodiak Archipelago, Zaimka Island	NW	OR243019
+Melanitta americana	UAM 29920	2011	JJW1388	USA: Alaska; Kodiak Archipelago, Middle Bay	NW	OR243017
+Clangula hyemalis	UWBM 43893	1992	UWBM43893	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242866
+Clangula hyemalis	UWBM 43894	1992	CSW4427	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242867
+Clangula hyemalis	UWBM 43895	1992	UWBM43895	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242868
+Clangula hyemalis	UWBM 43917	1992	CSW4452	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242869
+Clangula hyemalis	UWBM 43918	1992	UWBM43918	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242870
+Clangula hyemalis	UWBM 43919	1992	CSW4454	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242871
+Clangula hyemalis	UWBM 43970	1992	UWBM43970	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242872
+Clangula hyemalis	UAM 21931	2005	REW532	USA: Alaska; North Slope, Dalton Highway	NW	OR242860
+Clangula hyemalis	UAM 21883	2005	REW583	USA: Alaska; North Slope, Dalton Highway, Ice Cut	NW	OR242862
+Clangula hyemalis	UAM 40387	2005	REW564	USA: Alaska; North Slope, Toolik	NW	OR242861
+Clangula hyemalis	UAM 29027	2005	REW618	USA: Alaska; North Slope, Dalton Highway	NW	OR242863
+Clangula hyemalis	UAM 28184	2005	REW619	USA: Alaska; North Slope, Dalton Highway	NW	OR242864
+Clangula hyemalis	UAM 29029	2005	REW620	USA: Alaska; North Slope, Dalton Highway	NW	OR242865
+Mergus merganser merganser	UWBM 43819	1992	CSW4346	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR243031
+Mergus merganser merganser	UAM 25375	2007	JJW063	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243026
+Mergus merganser merganser	UAM 25991	2009	JJW334	USA: Alaska; Aleutian Islands, Kiska Island	OW	OR243027
+Mergus merganser merganser	UAM 25990	2009	JJW335	USA: Alaska; Aleutian Islands, Kiska Island	OW	OR243028
+Mergus merganser merganser	UAM 28042	2009	JJW344	USA: Alaska; Aleutian Islands, Kiska Island	OW	OR243029
+Mergus merganser merganser	UAM 27012	2010	JJW762	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243030
+Mergus merganser americanus	UWBM 9348	2003	AEI105	USA: Washington; Douglas, Rock Island Dam	NW	OR243022
+Mergus merganser americanus	UAM 34366	2013	JJW2298	USA: Alaska; Kodiak Archipelago, Afognak Island	NW	OR243023
+Mergus merganser americanus	UAM 11037	1999	UAMX1058	USA: Alaska; Interior, Delta	NW	OR243024
+Mergus merganser americanus	UAM 24305	2007	UAMX4957	USA: Alaska; Kodiak Island, Road System	NW	OR243025
+Lagopus lagopus koreni	UAM 25139	2007	KSW5046	Russia: Yakutia; Indigirka River, Chokurdakh	OW	OR242942
+Lagopus lagopus koreni	UAM 28169	2007	KSW5052	Russia: Yakutia; Indigirka River	OW	OR242943
+Lagopus lagopus koreni	UAM 29685	2007	KSW5082	Russia: Yakutia; Indigirka River	OW	OR242944
+Lagopus lagopus koreni	UAM 28171	2007	KSW5133	Russia: Yakutia; Indigirka River	OW	OR242945
+Lagopus lagopus koreni	UAM 14834	2007	KSW5045	Russia: Yakutia; Indigirka River, Chokurdakh	OW	OR242941
+Lagopus lagopus alascensis	UAM 27018	2010	JJW711	USA: Alaska; Kodiak Archipelago, Summit Lake	NW	OR242940
+Lagopus lagopus alascensis	UAM 31562	2013	JJW1970	USA: Alaska; Kodiak Archipelago, Tugidak Island	NW	OR242937
+Lagopus lagopus alascensis	UAM 36927	2015	JJW2909	USA: Alaska; Interior, McKay Creek Trail	NW	OR242938
+Lagopus lagopus alascensis	UAM 39209	2016	JJW3352	USA: Alaska; Southeast, Zarembo Island	NW	OR242939
+Lagopus lagopus alascensis	UAM 28238	2000	TB349	USA: Alaska; Seward Peninsula, Taylor Highway	NW	OR242936
+Pluvialis dominica	UAM 26935	2009	JJW362	USA: Alaska; Alaska Range, Rusty Hill	NW	OR243116
+Pluvialis dominica	UAM 13181	1998	KSW2402	USA: Alaska; Seward Peninsula, Kougarok Road	NW	OR243117
+Pluvialis dominica	UAM 8938	1998	KSW2468	USA: Alaska; Seward Peninsula, Council Road	NW	OR243118
+Pluvialis dominica	UAM 9511	1998	TB235	USA: Alaska; Seward Peninsula, Council Road	NW	OR243119
+Pluvialis fulva	UAM 13545	1999	DDG1860	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243120
+Pluvialis fulva	UAM 26906	2009	JJW145	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243121
+Pluvialis fulva	UAM 8798	1998	KSW2383	USA: Alaska; Seward Peninsula, Teller Road	OW	OR243122
+Pluvialis fulva	UAM 11307	2000	TB408	USA: Alaska; Seward Peninsula, Teller Road	OW	OR243123
+Numenius phaeopus variegatus	UWBM 14228	2001	TB1364	Philippines: Cordova; Mactan Island	NW	OR243053
+Numenius phaeopus variegatus	UAM 14229	2001	TB1116	Philippines: Cordova; Olango Island Wildlife Sanctuary	OW	OR243052
+Numenius phaeopus variegatus	UAM 14230	2001	TB1091	Philippines: Cordova; Olango Island Wildlife Sanctuary	OW	OR243051
+Numenius phaeopus variegatus	UAM 14225	2001	TB1023	Philippines: Cordova; Olango Island Wildlife Sanctuary	OW	OR243050
+Numenius phaeopus variegatus	UAM 8212	1998	DDF1666	USA: Alaska; Aleutian Islands, Buldir Island	NW	OR243049
+Numenius phaeopus variegatus	UAM 21379	2005	CLP727	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243048
+Numenius phaeopus variegatus	UAM 14625	2000	CLP450	USA: Alaska; Aleutian Islands, Adak Island	NW	OR243047
+Numenius phaeopus hudsonicus	UAM 11507	2000	TB378	USA: Alaska; Seward Peninsula, Teller Highway	OW	OR243046
+Numenius phaeopus hudsonicus	UAM 13349	2001	ABJ142	USA: Alaska; Interior, Dalton Highway	NW	OR243042
+Numenius phaeopus hudsonicus	UAM 9260	1998	KSW2484	USA: Alaska; Seward Peninsula, Taylor Highway	NW	OR243045
+Numenius phaeopus hudsonicus	UAM 13925	2000	KGM036	USA: Alaska; Seward Peninsula, Taylor Highway	OW	OR243044
+Numenius phaeopus hudsonicus	UAM 17980	2002	JMM011	USA: Alaska; Alaska Peninsula, Ugashik Bay	NW	OR243043
+Numenius phaeopus hudsonicus	UAM 28602	2011	JJW1154	USA: Alaska; Kodiak Archipelago, Ugak Island	NW	OR243056
+Numenius phaeopus hudsonicus	UAM 28214	2007	JJW1021	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243055
+Numenius phaeopus hudsonicus	UAM 28213	2007	JJW1013	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243054
+Arenaria interpres	UAM 14954	2001	DAR268	USA: Alaska; Seward Peninsula, Wooley Lagoon Road	OW	OR242830
+Arenaria interpres	UAM 26977	2008	JJW676	USA: Alaska; Kodiak Archipelago, Chirikof Island	OW	OR242831
+Arenaria interpres	UAM 30797	2012	JJW1637	USA: Alaska; Kodiak Archipelago, Ugak Island	OW	OR242832
+Arenaria interpres	UAM 20220	2004	JMM422	USA: Alaska; Alaska Peninsula, Cold Bay	OW	OR242833
+Arenaria interpres	UAM 13527	2001	UAMX1744	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242834
+Arenaria melanocephala	UAM 28748	2011	JJW1153	USA: Alaska; Kodiak Archipelago, Ugak Island	NW	OR242826
+Arenaria melanocephala	UAM 40266	2016	JJW3588	USA: Alaska; Seward Peninsula, Safety Sound	NW	OR242827
+Arenaria melanocephala	UAM 20142	2004	JMM326	USA: Alaska; Bering Coast, Jacksmith Bay	NW	OR242828
+Arenaria melanocephala	UAM 20098	2004	JMM327	USA: Alaska; Bering Coast, Jacksmith Bay	NW	OR242829
+Calidris alpina arcticola	UAM 25341	2002	JJW4409	Russia: Commander Islands	OW	OR242852
+Calidris alpina arcticola	UAM 19815	2002	JJW4411	Russia: Commander Islands	OW	OR242853
+Calidris alpina arcticola	UAM 20132	2002	UAMX3267	USA: Alaska; North Slope, Utquiagvik	OW	OR242854
+Calidria alpina pacifica	UAM 26914	2009	JJW015	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242855
+Calidria alpina pacifica	UAM 26913	2009	JJW016	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242856
+Calidria alpina pacifica	UAM 27576	2010	JJW704	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242859
+Calidria alpina pacifica	UAM 30313	2012	JJW1490	USA: Alaska; Kodiak Archipelago, Tugidak Island	NW	OR242857
+Calidria alpina pacifica	UAM 30879	2012	JJW1821	USA: Alaska; Kodiak Archipelago, Deadman Bay	NW	OR242858
+Gallinago gallinago gallinago	UAM 21848	2005	CLP713	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242913
+Gallinago gallinago gallinago	UAM 8228	1998	DDG1650	USA: Alaska; Aleutian Islands, Adak Island	OW	OR242914
+Gallinago gallinago gallinago	UAM 26800	2009	JJW158	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242911
+Gallinago gallinago gallinago	UAM 24695	2007	KSW5126	Russia: Yakutia; Indigirka River	OW	OR242915
+Gallinago gallinago gallinago	UAM 28175	2006	KSW5134	Russia: Yakutia; Yatusk	OW	OR242912
+Gallinago delicata	UAM 19231	2003	DDG2021	USA: Alaska; Aleutian Islands, Unalaska Island	NW	OR242907
+Gallinago delicata	UAM 15063	2002	DDG1945	USA: Alaska; Aleutian Islands, Unimak Island	NW	OR242906
+Gallinago delicata	UAM 20505	2004	DDG2035	USA: Alaska; Bering Coast, Goodnews Bay	NW	OR242908
+Gallinago delicata	UAM 22570	2006	DDG2118	USA: Alaska; Aleutian Islands, Adak Island	NW	OR242909
+Gallinago delicata	UAM 30488	2012	JJW1536	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242910
+Tringa brevipes	UAM 8805	1997	KSW1782	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243157
+Tringa brevipes	UAM 8521	1887	KSW1781	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243156
+Tringa brevipes	UAM 7534	1997	KSW1780	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243155
+Tringa brevipes	UAM 28428	2007	JJW1030	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243151
+Tringa brevipes	UAM 28427	2010	JJW906	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243154
+Tringa brevipes	UAM 10112	1999	DDG1736	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243150
+Tringa brevipes	UAM 28430	2006	JJW1061	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243152
+Tringa brevipes	UAM 28429	2007	JJW1062	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243153
+Tringa incana	UAM 13434	2001	DAR228	USA: Alaska; Aleutian Islands, Attu Island	NW	OR243158
+Tringa incana	UAM 28422	2010	JJW720	USA: Alaska; Aleutian Islands, Attu Island	NW	OR243160
+Tringa incana	UAM 28425	2010	JJW724	USA: Alaska; Aleutian Islands, Attu Island	NW	OR243161
+Tringa incana	UAM 28426	2008	JJW1022	USA: Alaska; Kodiak Archipelago, Ban Island	NW	OR243159
+Tringa incana	UAM 8240	1997	KSW1778	USA: Alaska; Aleutian Islands, Attu Island	NW	OR243162
+Tringa incana	UAM 21813	2000	KSW3378	USA: Alaska; Aleutian Islands, Amila Island	NW	OR243163
+Tringa incana	UAM 24859	2001	UAMX1645	USA: Alaska; Kodiak Archipelago, Kodiak	NW	OR243164
+Tringa incana	UAM 13569	2001	UAMX1735	USA: Alaska; Aleutian Islands, Attu Island	NW	OR243165
+Tringa nebularia	UAM 8282	1998	DDG1686	USA: Alaska; Aleutian Islands, Adak Island	OW	OR243171
+Tringa nebularia	UAM 14119	2001	DDG1916	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243172
+Tringa nebularia	UAM 17482	2002	DDG1990	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243173
+Tringa nebularia	UAM 22850	2006	KSW4958	Russia: Yakutia; Aldan River, Tumul	OW	OR243174
+Tringa nebularia	UAM 24570	2006	UAMX4620	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243175
+Tringa melanoleuca	UAM 30489	2012	JJW1663	USA: Alaska; Quinhagak	NW	OR243166
+Tringa melanoleuca	UAM 18023	2002	JMM014	USA: Alaska Peninsula; Ugashik Bay	NW	OR243167
+Tringa melanoleuca	UAM 20143	2004	JMM340	USA: Alaska; Kilbuck Mountains, Goodnews River	NW	OR243168
+Tringa melanoleuca	UAM 13578	2001	UAMX1941	USA: Alaska; Southeast, Revillagigedo Island	NW	OR243169
+Tringa melanoleuca	UAM 27573	2010	UAMX5119	USA: Alaska; Kodiak Archipelago, Lake Rose Tead	NW	OR243170
+Uria aalge inornata	UWBM 44407	1992	JMB994	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243176
+Uria aalge inornata	UWBM 4408	1992	JMB995	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243177
+Uria aalge inornata	UWBM 44409	1992	JMB996	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243178
+Uria aalge inornata	UWBM 44410	1992	JMB997	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243179
+Uria aalge inornata	UWBM 44411	1992	JMB998	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243180
+Uria aalge inornata	UAM 7729	1997	KSW1629	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243181
+Uria aalge inornata	UAM 10687	1997	KSW1631	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243182
+Uria aalge inornata	UAM 10688	1997	KSW1632	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243183
+Uria aalge inornata	UAM 10689	1997	KSW1633	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243184
+Uria aalge inornata	UAM 10690	1997	KSW1634	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243185
+Uria lomvia arra	UWBM 55300	1990	BKS351	North Pacific Ocean	OW	OR243186
+Uria lomvia arra	UWBM 55725	1991	JMB857	North Pacific Ocean; off NE coast of Honshu, Japan	OW	OR243191
+Uria lomvia arra	UWBM 44177	1992	JMB1001	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243189
+Uria lomvia arra	UWBM 44178	1992	JMB1002	Russia: Magadanskaya Oblast'; Magadan, Aidan Bay	OW	OR243190
+Uria lomvia arra	UWBM 72702	1993	NCSM17754	North Pacific Ocean; Bering Sea, Chirikov Basin	OW	OR243192
+Uria lomvia arra	UAM 30510	2012	JJW1509	USA: Alaska; Kodiak Archipelago, Triplet Island	NW	OR243187
+Uria lomvia arra	UAM 30511	2012	JJW1510	USA: Alaska; Kodiak Archipelago, Triplet Island	NW	OR243188
+Uria lomvia arra	UAM 9608	1989	UAMX387	USA: Alaska; Barrow	NW	OR243195
+Uria lomvia arra	UAM 13445	2000	UAMX1553	USA: Alaska; Aleutian Islands, Aiktak Island	NW	OR243193
+Uria lomvia arra	UAM 20236	2002	UAMX3290	USA: Alaska; Aleutian Islands, Bogoslof Island	NW	OR243194
+Larus canus kamtschatschensis	UAM 22926	2006	KSW4989	Russia: Novosibirsk Regl; Chany Lakes	OW	OR242965
+Larus canus kamtschatschensis	UAM 22863	2006	KSW4959	Russia: Yakutia; Aldan River, Tumul	OW	OR242964
+Larus canus kamtschatschensis	UAM 37770	2015	JJW3012	USA: Alaska; Pribilof Islands, St. Paul Island	OW	OR242963
+Larus canus kamtschatschensis	UAM 13377	2001	DDG1876	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242962
+Larus canus kamtschatschensis	UAM 11014	2000	DDG1771	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242961
+Larus canus kamtschatschensis	UAM 24812	2007	UAMX4789	USA: Alaska; Fairbanks	NW	OR242958
+Larus brachyrhynchus	UAM 36875	2015	JJW2921	USA: Alaska; Eielson Air Force Base	NW	OR242957
+Larus brachyrhynchus	UAM 26901	2009	JJW010	USA: Alaska; Kodiak Archipelago, Monashka Bay	NW	OR242956
+Larus brachyrhynchus	UAM 14803	2002	DDG2122	USA: Alaska; Aleutian Islands, Unalaska Island	NW	OR242960
+Larus brachyrhynchus	UAM 14682	2002	DDG1921	USA: Alaska; Aleutian Islands, Unalaska Island	NW	OR242959
+Larus argentatus vegae	UAM 28162	2007	KSW5090	Russia: Yakutia; Indigirka River, Yurlov	OW	OR242951
+Larus argentatus vegae	UAM 26660	2007	KSW5044	Russia: Yakutia; Indigirka River, Chokurdach	OW	OR242950
+Larus argentatus vegae	UAM 25987	2009	JJW224	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242953
+Larus argentatus vegae	UAM 25984	2009	JJW257	USA: Alaska; Aleutian Islands, Adak Island	OW	OR242954
+Larus argentatus vegae	UAM 25983	2009	JJW343	USA: Alaska; Aleutian Islands, Kiska Island	OW	OR242955
+Larus argentatus smithsonianus	UAM 35755	2014	JJW2547	USA: Alaska; Eielson Air Force Base	NW	OR242946
+Larus argentatus smithsonianus	UAM 35754	2014	JJW2548	USA: Alaska; Eielson Air Force Base	NW	OR242947
+Larus argentatus smithsonianus	UAM 35753	2014	JJW2549	USA: Alaska; Eielson Air Force Base	NW	OR242948
+Larus argentatus smithsonianus	UAM 35751	2014	JJW2551	USA: Alaska; Eielson Air Force Base	NW	OR242949
+Larus argentatus smithsonianus	UAM 30575	2012	JJW1533	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242952
+Larus hyperboreus	UWBM 43852	1992	CSW4379	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR242967
+Larus hyperboreus	UWBM 43851	1992	CSW4378	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR242966
+Larus hyperboreus	UWBM 43982	1992	CSW4526	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242968
+Larus hyperboreus	UAM 28158	2007	KSW5035	Russia: Yakutia; Indigirka River, Chokurdakh	OW	OR242972
+Larus hyperboreus	UAM 28160	2007	KSW5108	Russia: Yakutia; Indigirka River	OW	OR242973
+Larus hyperboreus	UAM 40190	2016	JJW3585	USA: Alaska; Fairbanks International Airport	NW	OR242969
+Larus hyperboreus	UAM 40191	2016	JJW3586	USA: Alaska; Seward Peninsula, Safety Sound	NW	OR242970
+Larus hyperboreus	UAM 9257	1998	KSW2490	USA: Alaska; Seward Peninsula, Taylor Highway	NW	OR242971
+Larus hyperboreus	UAM 8929	1998	UAMX683	USA: Alaska; Beaufort Sea, Colville River Delta	NW	OR242975
+Larus hyperboreus	UAM 24327	2004	UAMX4940	USA: Alaska; Barrow	NW	OR242974
+Gavia stellata	UWBM 43925	1992	CSW4461	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242916
+Gavia stellata	UWBM 44122	1992	DAB063	Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River	OW	OR242917
+Gavia stellata	UWBM 44259	1992	JMB1098	Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Stanovaya	OW	OR242920
+Gavia stellata	UWBM 44260	1992	JMB1099	Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Stanovaya	OW	OR242921
+Gavia stellata	UWBM 44653	1992	SAR6293	Russia: Magadanskaya Oblast'; Talon, Tauy River	OW	OR242923
+Gavia stellata	UAM 13601	2001	DAR275	USA: Alaska; Seward Peninsula, Taylor Highway	NW	OR242918
+Gavia stellata	UAM 40094	2015	JJW3574	USA: Alaska; North Slope, Barrow	NW	OR242919
+Gavia stellata	UAM 20711	2002	KGM628	USA: Alaska; Alaska Range, Denali Highway	NW	OR242922
+Gavia stellata	UAM 38314	2012	UAMX3952	USA: Alaska; North Slope, Barrow	NW	OR242924
+Gavia stellata	UAM 40093	2015	UAMX6608	USA: Alaska; North Slope, Barrow	NW	OR242925
+Picoides tridactylus	UWBM 44422	1992	SAR6046	Russia: Krasnoyarskiy Kray; Bogurchanskiy Rayon, Chunoyar railroad station	OW	OR243092
+Picoides tridactylus	UWBM 52660	1992	SVD144	Russia: Magadanskaya Oblast'; Khasynskiy Rayon, Stekol'nyy	OW	OR243093
+Picoides tridactylus	UAM 17739	2002	TB1448	Mongolia: Selenge	OW	OR243094
+Picoides dorsalis fasciatus	UAM 31832	2013	JJW2059	USA: Alaska; Kodiak Archipelago, Monashka Bay	NW	OR243087
+Picoides dorsalis fasciatus	UAM 36600	2015	JJW2842	USA: Alaska; Southeast, Hyder	NW	OR243088
+Picoides dorsalis fasciatus	UAM 38328	2016	JJW3139	USA: Alaska; Interior, Chatanika River	NW	OR243089
+Picoides dorsalis fasciatus	UAM 8580	1998	UAMX503	USA: Alaska; Southwest, Dillingham	NW	OR243091
+Picoides dorsalis fasciatus	UAM 20114	1998	UAMX3273	USA: Alaska; Kenai Peninsula, Sterling	NW	OR243090
+Pica pica	UWBM 74697	2002	UWBM74697	Russia: Primorskiy Kray; Spasskiy Rayon, Gayvoron	OW	OR243086
+Pica pica	UWBM 74569	2002	UWBM74569	Russia: Primorskiy Kray; Spasskiy Rayon, Gayvoron	OW	OR243085
+Pica pica	UWBM 72091	2001	UWBM72091	Russia: Primorskiy Kray; Ussuriyskiy Rayon, Ussuriysk	OW	OR243084
+Pica pica	UWBM 72084	1993	UWBM72084	Russia: Primorskiy Kray; Ussuriyskiy Rayon, Ussuriysk	OW	OR243083
+Pica pica	UWBM 47197	1992	UWBM47197	Russia: Khabarovskiy Kray	OW	OR243082
+Pica pica	UWBM 44585	1992	UWBM44585	Russia: Kamchatka; 5 km NW Sokhoch	OW	OR243081
+Pica pica	UWBM 44584	1992	UWBM44584	Russia: Kamchatka; 5 km NW Sokhoch	OW	OR243080
+Pica pica	UWBM 44581	1992	UWBM44581	Russia: Kamchatka; Sokhoch	OW	OR243079
+Pica hudsonia	UAM 10105	1999	UAMX953	USA: Alaska; Kodiak Island	NW	OR243078
+Pica hudsonia	UAM 8511	1998	KSW2704	USA: Alaska; Alaska Peninsula, Cold Bay	NW	OR243077
+Pica hudsonia	UAM 27024	2010	JJW683	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR243076
+Pica hudsonia	UAM 17742	1999	CLP245	USA: Alaska; Shumagin Islands, Popof Island	NW	OR243075
+Pica hudsonia	UAM 13052	1999	CLP219	USA: Alaska; Alaska Peninsula, Izembek NWR	NW	OR243074
+Pica hudsonia	UAM 13053	1999	CLP218	USA: Alaska; Alaska Peninsula, Izembek NWR	NW	OR243073
+Pica hudsonia	UAM 12453	1999	CLP208	USA: Alaska; Alaska Peninsula, Izembek NWR	NW	OR243072
+Corvus corax	UWBM 46861	2000	BKS908	Russia: Magadanskaya Oblast'; Yana River	OW	OR242876
+Corvus corax	UWBM 56544	1996	BKS3241	Russia: Tyumenskaya Oblast'; Yamalo-Nenetskiy, Vengoyakha River	OW	OR242873
+Corvus corax	UWBM 57899	1997	BKS4041	Mongolia: Arhangay Aymag; Hangayn Nuruu	OW	OR242874
+Corvus corax	UWBM 57909	1997	BKS4052	Mongolia: Arhangay Aymag; Hangayn Nuruu	OW	OR242875
+Corvus corax	UWBM 71244	1993	SVD231a	Russia: Magadanskaya Oblast'; Tauy River	OW	OR242886
+Corvus corax	UWBM 59566	1997	SVD1398	Russia: Yamalo-Nenetskiy Avtonomnyy Okrug; Labytnangi	OW	OR242885
+Corvus corax	UAM 17737	2002	TB1445	Mongolia: Selenge	OW	OR242887
+Corvus corax	UAM 10021	1999	DDG1749	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242877
+Corvus corax	UAM 38000	2005	JJW2991	USA: Alaska; Kodiak Archipelago, Sitkinak Island	NW	OR242878
+Corvus corax	UAM 39709	2016	JJW3401	USA: Alaska; Southeast, Fivemile Island	NW	OR242879
+Corvus corax	UAM 41600	2018	JJW4373	USA: Alaska; Bering Sea, St. Matthew Islands, Hall Island	NW	OR242880
+Corvus corax	UAM 17761	2002	JMM133	USA: Alaska; Aleutian Islands, Shemya Island	NW	OR242881
+Corvus corax	UAM 8803	1998	KSW2715	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242882
+Corvus corax	UAM 22252	2005	KSW4763	USA: Alaska; Unalakeet, Golsovia River	NW	OR242883
+Corvus corax	UAM 15040	2002	RWD26009	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242884
+Corvus corax	UAM 9313	1998	UAMX844	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242889
+Corvus corax	UAM 11113	1999	UAMX1061	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242888
+Phylloscopus examinandus	UAM 17665	2002	DDG1991	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243067
+Phylloscopus examinandus	UAM 29472	2008	KSW5250	Russia: Kamchatka; Petropavlovsk	OW	OR243068
+Phylloscopus examinandus	UAM 30464	2010	KSW5336	Russia: Kamchatka; Esso	OW	OR243069
+Phylloscopus examinandus	UAM 30462	2010	KSW5354	Russia: Kamchatka; Klyuchivskaya Lake	OW	OR243070
+Phylloscopus examinandus	UAM 30461	2010	KSW5373	Russia: Kamchatka; Izba	OW	OR243071
+Phylloscopus borealis borealis	UWBM 43818	1992	CSW4345	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR243057
+Phylloscopus borealis borealis	UWBM 44417	1992	SAR6041	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR243058
+Phylloscopus borealis borealis	UWBM 44418	1992	SAR6042	Russia: Magadanskaya Oblast'; Magadan, Oroholyndja River	OW	OR243059
+Phylloscopus borealis borealis	UWBM 82284	2003	SVD2977	Russia: Chukotskiy Avtonomnyy Okrug; Anadyrskiy Rayon, Markovo	OW	OR243060
+Phylloscopus borealis borealis	UWBM 82285	2003	SVD2978	Russia: Chukotskiy Avtonomnyy Okrug; Anadyrskiy Rayon, Markovo	OW	OR243061
+Phylloscopus borealis kennicotti	UAM 34615	2013	JJW2241	USA: Alaska; Seward Peninsula, Snake River	NW	OR243062
+Phylloscopus borealis kennicotti	UAM 36347	2013	JJW2649	USA: Alaska; Seward Peninsula, Snake River	NW	OR243063
+Phylloscopus borealis kennicotti	UAM 20149	2004	JMM337	USA: Alaska; Kilbuck Mountains, Goodnews River	NW	OR243064
+Phylloscopus borealis kennicotti	UAM 20150	2004	JMM338	USA: Alaska; Kilbuck Mountains, Goodnews River	NW	OR243065
+Phylloscopus borealis kennicotti	UAM 7372	1997	KSW1456	USA: Alaska; Alaska Range, Denali Highway	NW	OR243066
+Luscinia svecica	UWBM 44489	1992	SAR6270	Russia: Kamchatka; Milkovo	OW	OR242905
+Luscinia svecica	UWBM 44629	1992	SAR6269	Russia: Kamchatka; Milkovo	OW	OR242904
+Luscinia svecica	UWBM 44363	1992	JMB1208	Russia: Kamchatka; Milkovo	OW	OR242896
+Luscinia svecica	UWBM 44362	1992	JMB1207	Russia: Kamchatka; Milkovo	OW	OR242898
+Luscinia svecica	UWBM 44361	1992	JMB1206	Russia: Kamchatka; Milkovo	OW	OR242894
+Luscinia svecica	UWBM 44246	1992	JMB1082	Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River	OW	OR242893
+Luscinia svecica	UWBM 44242	1992	JMB1078	Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River	OW	OR242892
+Luscinia svecica	UWBM 44233	1992	JMB1064	Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River	OW	OR242891
+Luscinia svecica	UAM 13718	2001	ABJ200	USA: Alaska; North Slope, Dalton Highway, Ice Cut	NW	OR242890
+Luscinia svecica	UAM 15419	2002	MJM048	USA: Alaska; North Slope, Dalton Highway, Ice Cut	NW	OR242903
+Luscinia svecica	UAM 17727	2002	MJM047	USA: Alaska; North Slope, Dalton Highway, Ice Cut	NW	OR242902
+Luscinia svecica	UAM 8944	1998	KSW2481	USA: Alaska; Seward Peninsula, Mile 47 Taylor Highway	NW	OR242901
+Luscinia svecica	UAM 8584	1998	KSW2409	USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway	NW	OR242900
+Luscinia svecica	UAM 8945	1998	KSW2408	USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway	NW	OR242899
+Luscinia svecica	UAM 8946	1998	KSW2407	USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway	NW	OR242898
+Luscinia svecica	UAM 8585	1998	KSW2406	USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway	NW	OR242897
+Motacilla tschutschensis tschutschensis	UAM 13402	2001	ABJ133	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243032
+Motacilla tschutschensis tschutschensis	UAM 15178	2002	DDG1935	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243033
+Motacilla tschutschensis tschutschensis	UAM 27366	2009	JJW216	USA: Alaska; Aleutian Islands, Attu Island	OW	OR243034
+Motacilla tschutschensis tschutschensis	UAM 27364	2006	JJW520	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243035
+Motacilla tschutschensis tschutschensis	UAM 28177	2002	JJW629	USA: Alaska; Aleutian Islands, Little Kiska Island	OW	OR243036
+Motacilla tschutschensis simillima	UAM 14353	2001	ABJ179	USA: Alaska; North Slope, Dalton Highway	NW	OR243037
+Motacilla tschutschensis simillima	UAM 28715	2011	JJW1179	USA: Alaska; Seward Peninsula, Teller Road	NW	OR243038
+Motacilla tschutschensis simillima	UAM 28717	2011	JJW1185	USA: Alaska; Seward Peninsula, Teller Road	NW	OR243039
+Motacilla tschutschensis simillima	UAM 29362	2011	JJW1317	USA: Alaska; Seward Peninsula, Teller Road	NW	OR243040
+Motacilla tschutschensis simillima	UAM 19448	2002	MJM122	USA: Alaska; North Slope, Dalton Highway	NW	OR243041
+Anthus rubescens japonicus	UAM 13353	2001	DDG1877	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242824
+Anthus rubescens japonicus	UAM 27351	2010	JJW864	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242823
+Anthus rubescens japonicus	UAM 28057	2010	JJW905	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242822
+Anthus rubescens japonicus	UAM 39615	2016	JJW3455	USA: Alaska; Gulf of Alaska, Middleton Island	OW	OR242821
+Anthus rubescens japonicus	UAM 15068	2002	KSW3980	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242820
+Anthus rubescens pacificus	UAM 11452	1999	CLP200	USA: Alaska; Alaska Peninsula, Frosty Peak	NW	OR242819
+Anthus rubescens pacificus	UAM 31927	2013	JJW2045	USA: Alaska; Kodiak Archipelago, Kodiak Island	NW	OR242818
+Anthus rubescens pacificus	UAM 31928	2013	JJW2046	USA: Alaska; Kodiak Archipelago, Kodiak Island	NW	OR242817
+Anthus rubescens pacificus	UAM 19419	2002	MJM037	USA: Alaska; North Slope, Dalton Highway	NW	OR242816
+Anthus rubescens pacificus	UAM 13540	2001	RWD25949	USA: Alaska; Interior, Eagle Summit	NW	OR242825
+Pinicola enucleator kamtschatschensis	UWBM 51643	1993	SVD423	Russia: Magadanskaya Oblast'; Ol'skiy Rayon, Snezhnaya Dolina	OW	OR243107
+Pinicola enucleator kamtschatschensis	UWBM 51627	1993	SVD407	Russia: Magadanskaya Oblast'; Ol'skiy Rayon, Snezhnaya Dolina	OW	OR243106
+Pinicola enucleator kamtschatschensis	UWBM 47315	1993	SAR6539	Russia: Sakhalinskaya Oblast'	OW	OR243105
+Pinicola enucleator kamtschatschensis	UWBM 47314	1993	SAR6538	Russia: Sakhalinskaya Oblast'	OW	OR243104
+Pinicola enucleator kamtschatschensis	UAM 24602	2008	DDG2190	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243103
+Pinicola enucleator kamtschatschensis	UAM 24601	2008	DDG2189	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR243102
+Pinicola enucleator flammula	UAM 10158	1999	UAMX1014	USA: Alaska; Kodiak Island, American River	NW	OR243101
+Pinicola enucleator flammula	UAM 8794	1997	KSW1695	USA: Alaska; Kodiak Island	NW	OR243100
+Pinicola enucleator flammula	UAM 8797	1997	KSW1694	USA: Alaska; Kodiak Island	NW	OR243099
+Pinicola enucleator flammula	UAM 28530	2011	JJW1097	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR243098
+Pinicola enucleator flammula	UAM 26361	2009	JJW030	USA: Alaska; Kodiak Archipelago, Narrow Cape	NW	OR243097
+Pinicola enucleator flammula	UAM 11286	2000	ABJ012	USA: Alaska; Alexander Archipelago, Revillagigedo Island	NW	OR243096
+Pinicola enucleator flammula	UAM 11285	2000	ABJ011	USA: Alaska; Alexander Archipelago, Revillagigedo Island	NW	OR243095
+Leucosticte arctoa	UWBM 44077	1992	CSW4675	Russia: Kamchatka; Milkovo	OW	OR242976
+Leucosticte arctoa	UWBM 44366	1992	JMB1211	Russia: Kamchatka; Milkovo	OW	OR242977
+Leucosticte arctoa	UWBM 44622	1992	SAR6262	Russia: Kamchatka; Milkovo	OW	OR242978
+Leucosticte arctoa	UWBM 44623	1992	SAR6263	Russia: Kamchatka; Milkovo	OW	OR242979
+Leucosticte arctoa	UWBM 44624	1992	SAR6264	Russia: Kamchatka; Milkovo	OW	OR242980
+Leucosticte tephrocotis griseonucha	UAM 10981	2000	DDG1750	USA: Alaska; Aleutian Islands, Shemya Island	NW	OR242981
+Leucosticte tephrocotis griseonucha	UAM 31438	1998	RWD24852	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242982
+Leucosticte tephrocotis griseonucha	UAM 31439	1998	RWD24857	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242983
+Leucosticte tephrocotis griseonucha	UAM 24603	2008	UAMX5158	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242984
+Leucosticte tephrocotis griseonucha	UAM 24607	2008	UAMX5168	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242985
+Leucosticte tephrocotis littoralis	UAM 28707	2011	JJW1163	USA: Alaska; Alaska Range, Sugarloaf Mountain	NW	OR242986
+Leucosticte tephrocotis littoralis	UAM 40954	2017	JJW3809	USA: Alaska; Alaska Range, Sevenmile Lake	NW	OR242987
+Leucosticte tephrocotis littoralis	UAM 40957	2017	JJW3812	USA: Alaska; Alaska Range, Sevenmile Lake	NW	OR242988
+Leucosticte tephrocotis littoralis	UAM 40959	2017	JJW3814	USA: Alaska; Alaska Range, Sevenmile Lake	NW	OR242989
+Leucosticte tephrocotis littoralis	UAM 40961	2017	JJW3816	USA: Alaska; Alaska Range, Sevenmile Lake	NW	OR242990
+Leucosticte tephrocotis tephrocotis	UAM 27288	2010	JJW873	USA: Alaska; Interior, Murphy Dome	NW	OR242994
+Leucosticte tephrocotis tephrocotis	UAM 35600	2014	JJW2460	USA: Alaska; Interior, Mt. Prindle	NW	OR242991
+Leucosticte tephrocotis tephrocotis	UAM 35598	2014	JJW2465	USA: Alaska; Interior, Mt. Prindle	NW	OR242992
+Leucosticte tephrocotis tephrocotis	UAM 38654	2016	JJW3204	USA: Alaska; Interior, Mt. Prindle	NW	OR242993
+Leucosticte tephrocotis umbrina	UAM 28620		AF14344		NW	OR242995
+Leucosticte tephrocotis umbrina	UAM 28619		AF14346		NW	OR242996
+Leucosticte tephrocotis umbrina	FMNH34305		AF14351		NW	OR242997
+Leucosticte tephrocotis umbrina	UAM 7351	1997	KSW1646	USA: Alaska; Pribilof Islands, St. Paul Island	NW	OR242998
+Leucosticte tephrocotis umbrina	UAM 17748	2001	UAMX2921	USA: Alaska; Pribilof Islands, St. George Island	NW	OR242999
+Calcarius lapponicus coloratus	UAM 29827	2006	UAM29827	Russia: Commander Islands, Bering Island	OW	OR242851
+Calcarius lapponicus coloratus	UAM 29825	2006	UAM29825	Russia: Commander Islands, Bering Island	OW	OR242850
+Calcarius lapponicus alascensis	UAM 13337	2001	RWD25944	USA: Alaska; Aleutian Islands, Shemya Island	NW	OR242849
+Calcarius lapponicus alascensis	UAM 7653	1997	KSW1821	USA: Alaska; Aleutian Islands, Attu Island	NW	OR242848
+Calcarius lapponicus alascensis	UAM 19614	1999	CLP051	USA: Alaska; Aleutian Islands, Shemya Island	NW	OR242847
+Calcarius lapponicus alascensis	UAM 9525	1999	CLP048	USA: Alaska; Aleutian Islands, Shemya Island	NW	OR242846
+Calcarius lapponicus alascensis	UAM 9407	1999	CLP038	USA: Alaska; Aleutian Islands, Shemya Island	NW	OR242845
+Plectrophenax nivalis	UAM 11856	1999	CLP163	USA: Alaska; Alaska Peninsula, Izembek NWR	OW	OR243112
+Plectrophenax nivalis	UAM 27725	2009	JJW292	USA: Alaska; Aleutian Islands, Kiska Island	OW	OR243113
+Plectrophenax nivalis	UAM 8476	1998	KSW2690	USA: Alaska; Alaska Peninsula, Cold Bay	OW	OR243114
+Plectrophenax nivalis	UAM 8474	1998	KSW2691	USA: Alaska; Alaska Peninsula, Cold Bay	OW	OR243115
+Plectrophenax hyperboreus	UAM 7407	1997	KSW1588	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243108
+Plectrophenax hyperboreus	UAM 7066	1997	KSW1610	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243109
+Plectrophenax hyperboreus	UAM 7524	1997	KSW1611	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243110
+Plectrophenax hyperboreus	UAM 8200	1997	KSW1617	USA: Alaska; Bering Sea, St. Matthew Island	NW	OR243111

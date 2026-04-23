@@ -1,24 +1,456 @@
 # Mitogenome checklist
 
-Data sheet to keep track of:
+Data sheet to keep track of assembled mitogenomes cross-referenced against `table_S1.csv`.
 
-- Species
-- Catalog number
-- Field number
-- Original file name
-- Result
+## Table 1. Assembled mitogenomes
 
-## Table
+All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.fa"
 
-| Species | Catalog num | Field num | File name | Result |
+| Species | Catalog num | Field num | Old directory name | New directory name |
 | - | - | - | - | - |
-| Anser albifrons | UWBM 43977 | CSW4521 | `TransB_CSW_4521_GCATGTCT-AACGGTCA__R*_001.fastq.gz` | |
-| Anser albifrons | UWBM 43978 | CSW4522 | `TransB_CSW_4522_ACTCCATC-TCAGACGA__R*_001.fastq.gz` | |
-| Anser albifrons | UWBM 71170 | SVD1426 | `TransB_SVD_1426_ACTCCATC-CACACATG__R*_001.fastq.gz` | |
-| Anser albifrons | UAM 27372 | JJW884 | `TransB_JJW884_CGAGACTA-AGAGCCTT__R*_001.fastq.gz` | |
-| Anser albifrons | UAM 30571 | JJW1495 | `TransB_JJW1495_GACATGGT-AGAGCCTT__R*_001.fastq.gz` | |
-| Anser albifrons | UAM 35427 | JJW2405 | `TransB_JJW2405_ACTCCATC-AACGGTCA__R*_001.fastq.gz` | |
-| Anser albifrons | UAM 35428 | JJW2413 | `TransB_JJW2413_TGTGACTG-TCAGACGA__R*_001.fastq.gz` | |
-| Anser albifrons | UAM 34089 | KSW4176 | `TransB_KSW4176_CAGCGATT-GCGATAGT__R*_001.fastq.gz` | |
+| Anser albifrons | UWBM 43977 | CSW4521 | `TransB_CSW_4521_GCATGTCT-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UWBM_43977_CSW4521/` |
+| Anser albifrons | UWBM 43978 | CSW4522 | `TransB_CSW_4522_ACTCCATC-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UWBM_43978_CSW4522/` |
+| Anser albifrons | UWBM 71170 | SVD1426 | `TransB_SVD_1426_ACTCCATC-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UWBM_71170_SVD1426/` |
+| Anser albifrons | UAM 27372 | JJW884 | `TransB_JJW884_CGAGACTA-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UAM_27372_JJW884/` |
+| Anser albifrons | UAM 30571 | JJW1495 | `TransB_JJW1495_GACATGGT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UAM_30571_JJW1495/` |
+| Anser albifrons | UAM 35427 | JJW2405 | `TransB_JJW2405_ACTCCATC-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UAM_35427_JJW2405/` |
+| Anser albifrons | UAM 35428 | JJW2413 | `TransB_JJW2413_TGTGACTG-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UAM_35428_JJW2413/` |
+| Anser albifrons | UAM 34089 | KSW4176 | `TransB_KSW4176_CAGCGATT-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anser_albifrons_UAM_34089_KSW4176/` |
+| Spatula clypeata | UWBM 59827 | CSW5794 | `CSW5794_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UWBM_59827_CSW5794/` |
+| Spatula clypeata | UAM 15459 | DDG1988 | `DDG1988_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_15459_DDG1988/` |
+| Spatula clypeata | UAM 20167 | DDG2053 | `DDG2053_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_20167_DDG2053/` |
+| Spatula clypeata | UAM 20152 | DDG2054 | `DDG2054_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_20152_DDG2054/` |
+| Spatula clypeata | UAM 26717 | SVD475 | `SVD475_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_26717_SVD475/` |
+| Spatula clypeata | UAM 36938 | REW030 | `REW030_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_36938_REW030/` |
+| Spatula clypeata | UAM 36727 | REW031 | `REW031_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_36727_REW031/` |
+| Spatula clypeata | UAM 15023 | UAMX2539 | `UAMX2539_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_15023_UAMX2539/` |
+| Spatula clypeata | UAM 28973 | UAMX5081 | `UAMX5081_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Spatula_clypeata_UAM_28973_UAMX5081/` |
+| Anas platyrhynchos | UWBM 47068 | CSW4828 | `TransB_CSW_4828_GCATGTCT-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UWBM_47068_CSW4828/` |
+| Anas platyrhynchos | UWBM 44374 | JMB1220 | `TransB_JMB_1220_GCATGTCT-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UWBM_44374_JMB1220/` |
+| Anas platyrhynchos | UAM 30399 | KSW5390 | `TransB_KSW5390_TGTGACTG-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_30399_KSW5390/` |
+| Anas platyrhynchos | UAM 11328 | DDG1776 | `TransB_DDG1776_CGAGACTA-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11328_DDG1776/` |
+| Anas platyrhynchos | UWBM 47160 | SAR6383 | `TransB_SAR_6383_GCATGTCT-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UWBM_47160_SAR6383/` |
+| Anas platyrhynchos | UAM 29647 | JJW1397 | `TransB_JJW1397_CAGCGATT-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_29647_JJW1397/` |
+| Anas platyrhynchos | UAM 30290 | JJW1592 | `TransB_JJW1592_CAGCGATT-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_30290_JJW1592/` |
+| Anas platyrhynchos | UAM 30286 | JJW1602 | `TransB_JJW1602_CAGCGATT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_30286_JJW1602/` |
+| Anas platyrhynchos | UAM 11193 | KGM007 | `TransB_KGM007_CGAGACTA-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11193_KGM007/` |
+| Anas platyrhynchos | UAM 31321 | UAMX5540 | `TransB_UAMX5540_CAGCGATT-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_31321_UAMX5540/` |
+| Anas acuta | UWBM 44114 | DAB055 | `TransB_DAB_055_GCATGTCT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UWBM_44114_DAB055/` |
+| Anas acuta | UAM 28156 | KSW5107 | `TransB_KSW5107_CGAAGAAC-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_28156_KSW5107/` |
+| Anas acuta | UAM 28167 | KSW5120 | `TransB_KSW5120_CGAAGAAC-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_28167_KSW5120/` |
+| Anas acuta | UAM 30400 | KSW5391 | `TransB_KSW5391_TGTGACTG-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_30400_KSW5391/` |
+| Anas acuta | UAM 31205 | JJW1897 | `TransB_JJW1897_CAGCGATT-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_31205_JJW1897/` |
+| Anas acuta | UAM 23468 | KGM895 | `TransB_KGM895_TAGTGACC-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_23468_KGM895/` |
+| Anas acuta | UAM 29039 | REW548 | `TransB_REW548_TAGTGACC-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_29039_REW548/` |
+| Anas acuta | UAM 22113 | REW601 | `TransB_REW601_CAGCGATT-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_22113_REW601/` |
+| Anas crecca crecca | UAM 22853 | KSW4951 | `Sample_KSW4951_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_22853_KSW4951/` |
+| Anas crecca crecca | UAM 11335 | KGM020 | `Sample_KGM020_Sterna_paradisea_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_11335_KGM020/` |
+| Anas crecca crecca | UAM 14666 | DDG1884 | `Sample_DDG1884_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_14666_DDG1884/` |
+| Anas crecca crecca | UAM 9191 | DDG1732 | `Sample_DDG1732_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_9191_DDG1732/` |
+| Anas crecca crecca | UAM 9255 | DDG1704 | `Sample_DDG1704_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_9255_DDG1704/` |
+| Anas crecca carolinensis | UAM 11251 | UAMX203 | `Sample_UAMX203_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_11251_UAMX203/` |
+| Anas crecca carolinensis | UAM 11920 | KSW3040 | `Sample_KSW3040_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_11920_KSW3040/` |
+| Anas crecca carolinensis | UAM 14961 | KGM335 | `Sample_KGM335_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_14961_KGM335/` |
+| Anas crecca carolinensis | UAM 28085 | JJW978 | `Sample_JJW978_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_28085_JJW978/` |
+| Aythya marila | UAM 30395 | KSW5385 | `TransB_KSW5385_TGTGACTG-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_30395_KSW5385/` |
+| Aythya marila | UAM 30394 | KSW5393 | `TransB_KSW5393_TGTGACTG-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_30394_KSW5393/` |
+| Aythya marila | UAM 30392 | KSW5394 | `TransB_KSW5394_TGTGACTG-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_30392_KSW5394/` |
+| Aythya marila | UAM 30396 | KSW5395 | `TransB_KSW5395_TGTGACTG-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_30396_KSW5395/` |
+| Aythya marila | UAM 30393 | KSW5396 | `TransB_KSW5396_TGTGACTG-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_30393_KSW5396/` |
+| Aythya marila | UAM 28067 | JJW324 | `TransB_JJW324_GACATGGT-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_28067_JJW324/` |
+| Aythya marila | UAM 18068 | JJW325 | `TransB_JJW325_CGAGACTA-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_18068_JJW325/` |
+| Aythya marila | UAM 35653 | REW611 | `TransB_REW611_GCATGTCT-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_35653_REW611/` |
+| Aythya marila | UAM 30915 | UAMX5076 | `TransB_UAMX5076_GACATGGT-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_30915_UAMX5076/` |
+| Aythya marila | UAM 29987 | UAMX5077 | `TransB_UAMX5077_GACATGGT-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Aythya_marila_UAM_29987_UAMX5077/` |
+| Somateria spectabilis | UWBM 43965 | CSW4509 | `TransB_CSW_4509_ACTCCATC-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UWBM_43965_CSW4509/` |
+| Somateria spectabilis | UWBM 71169 | SVD1425 | `TransB_SVD_1425_ACTCCATC-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UWBM_71169_SVD1425/` |
+| Somateria spectabilis | UAM 13153 | ABJ107 | `TransB_ABJ107_CGAGACTA-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UAM_13153_ABJ107/` |
+| Somateria spectabilis | UAM 9396 | UAMX892 | `TransB_UAMX892_TAGTGACC-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UAM_9396_UAMX892/` |
+| Somateria spectabilis | UAM 9422 | UAMX901 | `TransB_UAMX901_TAGTGACC-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UAM_9422_UAMX901/` |
+| Somateria spectabilis | UAM 9423 | UAMX903 | `TransB_UAMX903_TAGTGACC-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UAM_9423_UAMX903/` |
+| Somateria spectabilis | UAM 9439 | UAMX907 | `TransB_UAMX907_TAGTGACC-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_spectabilis_UAM_9439_UAMX907/` |
+| Somateria mollissima | UAM 13721 | UAMX1708 | `TransB_UAMX1708_CGAAGAAC-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_13721_UAMX1708/` |
+| Somateria mollissima | UAM 20085 | DDG1939 | `TransB_DDG1939_CGAAGAAC-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_20085_DDG1939/` |
+| Somateria mollissima | UAM 13336 | DAR157 | `TransB_DAR157_CGAAGAAC-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_13336_DAR157/` |
+| Somateria mollissima | UAM 26746 | KGM912 | `TransB_KGM912_CGAAGAAC-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_26746_KGM912/` |
+| Somateria mollissima | UAM 36436 | KGM845 | `TransB_KGM845_CGAAGAAC-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_36436_KGM845/` |
+| Somateria mollissima | UAM 9440 | UAMX378 | `TransB_UAMX378_GCATGTCT-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_9440_UAMX378/` |
+| Somateria mollissima | UAM 35441 | JJW2452 | `TransB_JJW2452_CAGCGATT-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_35441_JJW2452/` |
+| Somateria mollissima | UAM 37604 | JJW2952 | `TransB_JJW2952_TAGTGACC-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_37604_JJW2952/` |
+| Somateria mollissima | UAM 34628 | JJW2274 | `TransB_JJW2274_GACATGGT-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_34628_JJW2274/` |
+| Somateria mollissima | UAM 34700 | JJW2273 | `TransB_JJW2273_GCATGTCT-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Somateria_mollissima_UAM_34700_JJW2273/` |
+| Histrionicus histrionicus | UAM 11800 | DDG1753 | `DDG1753_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UAM_11800_DDG1753/` |
+| Histrionicus histrionicus | UAM 11799 | DDG1754 | `DDG1754_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UAM_11799_DDG1754/` |
+| Histrionicus histrionicus | UAM 11801 | DDG1755 | `DDG1755_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UAM_11801_DDG1755/` |
+| Histrionicus histrionicus | UAM 9600 | KSW2979 | `KSW2979_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UAM_9600_KSW2979/` |
+| Histrionicus histrionicus | UWBM 82975 | RYA1002 | `RYA1002_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UWBM_82975_RYA1002/` |
+| Histrionicus histrionicus | UWBM 44446 | SAR6074 | `SAR6074_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UWBM_44446_SAR6074/` |
+| Histrionicus histrionicus | UAM 40488 | JJW3694 | `JJW3694_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UAM_40488_JJW3694/` |
+| Histrionicus histrionicus | UAM 36745 | KGM641 | `KGM641_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Histrionicus_histrionicus_UAM_36745_KGM641/` |
+| Melanitta americana | UAM 25996 | JJW179 | `TransB_JJW179_GACATGGT-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_25996_JJW179/` |
+| Melanitta americana | UWBM 43946 | CSW4486 | `TransB_CSW_4486_ACTCCATC-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UWBM_43946_CSW4486/` |
+| Melanitta americana | UAM 28065 | JJW950 | `TransB_JJW950_CGAGACTA-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_28065_JJW950/` |
+| Melanitta americana | UAM 35578 | JJW951 | `TransB_JJW951_CGAGACTA-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_35578_JJW951/` |
+| Melanitta americana | UAM 35578 | JJW2276 | `TransB_JJW2276_GACATGGT-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_35578_JJW2276/` |
+| Melanitta americana | UAM 29920 | JJW1388 | `TransB_JJW1388_GACATGGT-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_29920_JJW1388/` |
+| Mergus merganser merganser | UWBM 43819 | CSW4346 | `CSW4346_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_merganser_UWBM_43819_CSW4346/` |
+| Mergus merganser merganser | UAM 25375 | JJW063 | `JJW063_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_merganser_UAM_25375_JJW063/` |
+| Mergus merganser merganser | UAM 25991 | JJW334 | `JJW334_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_merganser_UAM_25991_JJW334/` |
+| Mergus merganser merganser | UAM 25990 | JJW335 | `JJW335_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_merganser_UAM_25990_JJW335/` |
+| Mergus merganser merganser | UAM 28042 | JJW344 | `JJW344_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_merganser_UAM_28042_JJW344/` |
+| Mergus merganser merganser | UAM 27012 | JJW762 | `JJW762_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_merganser_UAM_27012_JJW762/` |
+| Mergus merganser americanus | UWBM 9348 | AEI105 | `AEI105_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_americanus_UWBM_9348_AEI105/` |
+| Mergus merganser americanus | UAM 34366 | JJW2298 | `JJW2298_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_americanus_UAM_34366_JJW2298/` |
+| Mergus merganser americanus | UAM 24305 | UAMX4957 | `UAMX4957_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_americanus_UAM_24305_UAMX4957/` |
+| Lagopus lagopus koreni | UAM 25139 | KSW5046 | `KSW5046_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_25139_KSW5046/` |
+| Lagopus lagopus koreni | UAM 28169 | KSW5052 | `KSW5052_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_28169_KSW5052/` |
+| Lagopus lagopus koreni | UAM 29685 | KSW5082 | `KSW5082_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_29685_KSW5082/` |
+| Lagopus lagopus koreni | UAM 14834 | KSW5045 | `KSW5045_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_14834_KSW5045/` |
+| Lagopus lagopus alascensis | UAM 27018 | JJW711 | `JJW711_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_alascensis_UAM_27018_JJW711/` |
+| Lagopus lagopus alascensis | UAM 31562 | JJW1970 | `JJW1970_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_alascensis_UAM_31562_JJW1970/` |
+| Lagopus lagopus alascensis | UAM 36927 | JJW2909 | `JJW2909_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_alascensis_UAM_36927_JJW2909/` |
+| Lagopus lagopus alascensis | UAM 39209 | JJW3352 | `JJW3352_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_alascensis_UAM_39209_JJW3352/` |
+| Lagopus lagopus alascensis | UAM 28238 | TB349 | `TB349_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_alascensis_UAM_28238_TB349/` |
+| Arenaria interpres | UAM 14954 | DAR268 | `DAR268_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_interpres_UAM_14954_DAR268/` |
+| Arenaria interpres | UAM 20220 | JMM422 | `JMM422_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_interpres_UAM_20220_JMM422/` |
+| Arenaria interpres | UAM 13527 | UAMX1744 | `UAMX1744_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_interpres_UAM_13527_UAMX1744/` |
+| Arenaria melanocephala | UAM 28748 | JJW1153 | `JJW1153_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_28748_JJW1153/` |
+| Arenaria melanocephala | UAM 40266 | JJW3588 | `JJW3588_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_40266_JJW3588/` |
+| Arenaria melanocephala | UAM 20142 | JMM326 | `JMM326_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_20142_JMM326/` |
+| Arenaria melanocephala | UAM 20098 | JMM327 | `JMM327_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_20098_JMM327/` |
+| Calidris alpina arcticola | UAM 19815 | JJW4411 | `JJW4411_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calidris_alpina_arcticola_UAM_19815_JJW4411/` |
+| Calidris alpina arcticola | UAM 20132 | UAMX3267 | `UAMX3267_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calidris_alpina_arcticola_UAM_20132_UAMX3267/` |
+| Calidria alpina pacifica | UAM 26914 | JJW015 | `JJW015_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calidria_alpina_pacifica_UAM_26914_JJW015/` |
+| Calidria alpina pacifica | UAM 27576 | JJW704 | `JJW704_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calidria_alpina_pacifica_UAM_27576_JJW704/` |
+| Calidria alpina pacifica | UAM 30313 | JJW1490 | `JJW1490_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calidria_alpina_pacifica_UAM_30313_JJW1490/` |
+| Gallinago gallinago gallinago | UAM 21848 | CLP713 | `CLP713_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_gallinago_gallinago_UAM_21848_CLP713/` |
+| Gallinago gallinago gallinago | UAM 8228 | DDG1650 | `DDG1650_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_gallinago_gallinago_UAM_8228_DDG1650/` |
+| Gallinago gallinago gallinago | UAM 26800 | JJW158 | `JJW158_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_gallinago_gallinago_UAM_26800_JJW158/` |
+| Gallinago gallinago gallinago | UAM 24695 | KSW5126 | `KSW5126_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_gallinago_gallinago_UAM_24695_KSW5126/` |
+| Gallinago gallinago gallinago | UAM 28175 | KSW5134 | `KSW5134_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_gallinago_gallinago_UAM_28175_KSW5134/` |
+| Gallinago delicata | UAM 19231 | DDG2021 | `DDG2021_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_delicata_UAM_19231_DDG2021/` |
+| Gallinago delicata | UAM 15063 | DDG1945 | `DDG1945_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_delicata_UAM_15063_DDG1945/` |
+| Gallinago delicata | UAM 20505 | DDG2035 | `DDG2035_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_delicata_UAM_20505_DDG2035/` |
+| Gallinago delicata | UAM 22570 | DDG2118 | `DDG2118_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_delicata_UAM_22570_DDG2118/` |
+| Gallinago delicata | UAM 30488 | JJW1536 | `JJW1536_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gallinago_delicata_UAM_30488_JJW1536/` |
+| Tringa nebularia | UAM 8282 | DDG1686 | `DDG1686_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_nebularia_UAM_8282_DDG1686/` |
+| Tringa nebularia | UAM 14119 | DDG1916 | `DDG1916_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_nebularia_UAM_14119_DDG1916/` |
+| Tringa nebularia | UAM 17482 | DDG1990 | `DDG1990_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_nebularia_UAM_17482_DDG1990/` |
+| Tringa nebularia | UAM 22850 | KSW4958 | `KSW4958_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_nebularia_UAM_22850_KSW4958/` |
+| Tringa nebularia | UAM 24570 | UAMX4620 | `UAMX4620_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_nebularia_UAM_24570_UAMX4620/` |
+| Tringa melanoleuca | UAM 30489 | JJW1663 | `JJW1663_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_melanoleuca_UAM_30489_JJW1663/` |
+| Tringa melanoleuca | UAM 18023 | JMM014 | `JMM014_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_melanoleuca_UAM_18023_JMM014/` |
+| Tringa melanoleuca | UAM 20143 | JMM340 | `JMM340_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_melanoleuca_UAM_20143_JMM340/` |
+| Tringa melanoleuca | UAM 13578 | UAMX1941 | `UAMX1941_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_melanoleuca_UAM_13578_UAMX1941/` |
+| Tringa melanoleuca | UAM 27573 | UAMX5119 | `UAMX5119_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Tringa_melanoleuca_UAM_27573_UAMX5119/` |
+| Uria aalge inornata | UWBM 44407 | JMB994 | `JMB994_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UWBM_44407_JMB994/` |
+| Uria aalge inornata | UWBM 4408 | JMB995 | `JMB995_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UWBM_4408_JMB995/` |
+| Uria aalge inornata | UWBM 44409 | JMB996 | `JMB996_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UWBM_44409_JMB996/` |
+| Uria aalge inornata | UWBM 44410 | JMB997 | `JMB997_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UWBM_44410_JMB997/` |
+| Uria aalge inornata | UWBM 44411 | JMB998 | `JMB998_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UWBM_44411_JMB998/` |
+| Uria aalge inornata | UAM 7729 | KSW1629 | `KSW1629_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UAM_7729_KSW1629/` |
+| Uria aalge inornata | UAM 10688 | KSW1632 | `KSW1632_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_aalge_inornata_UAM_10688_KSW1632/` |
+| Uria lomvia arra | UWBM 55300 | BKS351 | `BKS351_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_55300_BKS351/` |
+| Uria lomvia arra | UWBM 55725 | JMB857 | `JMB857_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_55725_JMB857/` |
+| Uria lomvia arra | UWBM 44177 | JMB1001 | `JMB1001_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_44177_JMB1001/` |
+| Uria lomvia arra | UWBM 44178 | JMB1002 | `JMB1002_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_44178_JMB1002/` |
+| Uria lomvia arra | UWBM 72702 | NCSM17754 | `NCSM17754_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_72702_NCSM17754/` |
+| Uria lomvia arra | UAM 30510 | JJW1509 | `JJW1509_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UAM_30510_JJW1509/` |
+| Uria lomvia arra | UAM 30511 | JJW1510 | `JJW1510_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UAM_30511_JJW1510/` |
+| Uria lomvia arra | UAM 9608 | UAMX387 | `UAMX387_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UAM_9608_UAMX387/` |
+| Uria lomvia arra | UAM 13445 | UAMX1553 | `UAMX1553_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UAM_13445_UAMX1553/` |
+| Uria lomvia arra | UAM 20236 | UAMX3290 | `UAMX3290_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UAM_20236_UAMX3290/` |
+| Larus canus kamtschatschensis | UAM 22926 | KSW4989 | `KSW4989_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_canus_kamtschatschensis_UAM_22926_KSW4989/` |
+| Larus canus kamtschatschensis | UAM 22863 | KSW4959 | `KSW4959_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_canus_kamtschatschensis_UAM_22863_KSW4959/` |
+| Larus canus kamtschatschensis | UAM 37770 | JJW3012 | `JJW3012_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_canus_kamtschatschensis_UAM_37770_JJW3012/` |
+| Larus canus kamtschatschensis | UAM 13377 | DDG1876 | `DDG1876_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_canus_kamtschatschensis_UAM_13377_DDG1876/` |
+| Larus canus kamtschatschensis | UAM 11014 | DDG1771 | `DDG1771_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_canus_kamtschatschensis_UAM_11014_DDG1771/` |
+| Larus canus kamtschatschensis | UAM 24812 | UAMX4789 | `UAMX4789_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_canus_kamtschatschensis_UAM_24812_UAMX4789/` |
+| Larus brachyrhynchus | UAM 36875 | JJW2921 | `JJW2921_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_brachyrhynchus_UAM_36875_JJW2921/` |
+| Larus brachyrhynchus | UAM 26901 | JJW010 | `JJW010_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_brachyrhynchus_UAM_26901_JJW010/` |
+| Larus brachyrhynchus | UAM 14803 | DDG2122 | `TransB_DDG2122_TAGTGACC-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_brachyrhynchus_UAM_14803_DDG2122/` |
+| Larus brachyrhynchus | UAM 14682 | DDG1921 | `DDG1921_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_brachyrhynchus_UAM_14682_DDG1921/` |
+| Larus argentatus vegae | UAM 28162 | KSW5090 | `KSW5090_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_28162_KSW5090/` |
+| Larus argentatus vegae | UAM 26660 | KSW5044 | `KSW5044_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_26660_KSW5044/` |
+| Larus argentatus vegae | UAM 25987 | JJW224 | `JJW224_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_25987_JJW224/` |
+| Larus argentatus vegae | UAM 25984 | JJW257 | `JJW257_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_25984_JJW257/` |
+| Larus argentatus smithsonianus | UAM 35755 | JJW2547 | `JJW2547_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35755_JJW2547/` |
+| Larus argentatus smithsonianus | UAM 35754 | JJW2548 | `JJW2548_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35754_JJW2548/` |
+| Larus argentatus smithsonianus | UAM 35753 | JJW2549 | `JJW2549_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35753_JJW2549/` |
+| Larus argentatus smithsonianus | UAM 35751 | JJW2551 | `JJW2551_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35751_JJW2551/` |
+| Larus argentatus smithsonianus | UAM 30575 | JJW1533 | `JJW1533_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_30575_JJW1533/` |
+| Larus hyperboreus | UWBM 43852 | CSW4379 | `CSW4379_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UWBM_43852_CSW4379/` |
+| Larus hyperboreus | UWBM 43851 | CSW4378 | `CSW4378_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UWBM_43851_CSW4378/` |
+| Larus hyperboreus | UWBM 43982 | CSW4526 | `CSW4526_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UWBM_43982_CSW4526/` |
+| Larus hyperboreus | UAM 28158 | KSW5035 | `KSW5035_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_28158_KSW5035/` |
+| Larus hyperboreus | UAM 28160 | KSW5108 | `KSW5108_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_28160_KSW5108/` |
+| Larus hyperboreus | UAM 40190 | JJW3585 | `JJW3585_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_40190_JJW3585/` |
+| Larus hyperboreus | UAM 40191 | JJW3586 | `JJW3586_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_40191_JJW3586/` |
+| Larus hyperboreus | UAM 9257 | KSW2490 | `KSW2490_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_9257_KSW2490/` |
+| Larus hyperboreus | UAM 8929 | UAMX683 | `UAMX683_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_8929_UAMX683/` |
+| Larus hyperboreus | UAM 24327 | UAMX4940 | `UAMX4940_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_hyperboreus_UAM_24327_UAMX4940/` |
+| Gavia stellata | UWBM 43925 | CSW4461 | `CSW4461_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UWBM_43925_CSW4461/` |
+| Gavia stellata | UWBM 44122 | DAB063 | `DAB063_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UWBM_44122_DAB063/` |
+| Gavia stellata | UWBM 44259 | JMB1098 | `JMB1098_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UWBM_44259_JMB1098/` |
+| Gavia stellata | UWBM 44260 | JMB1099 | `JMB1099_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UWBM_44260_JMB1099/` |
+| Gavia stellata | UWBM 44653 | SAR6293 | `SAR6293_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UWBM_44653_SAR6293/` |
+| Gavia stellata | UAM 13601 | DAR275 | `DAR275_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UAM_13601_DAR275/` |
+| Gavia stellata | UAM 40094 | JJW3574 | `JJW3574_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UAM_40094_JJW3574/` |
+| Gavia stellata | UAM 20711 | KGM628 | `KGM628_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UAM_20711_KGM628/` |
+| Gavia stellata | UAM 40093 | UAMX6608 | `UAMX6608_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Gavia_stellata_UAM_40093_UAMX6608/` |
+| Picoides tridactylus | UWBM 44422 | SAR6046 | `SAR6046_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_tridactylus_UWBM_44422_SAR6046/` |
+| Picoides tridactylus | UWBM 52660 | SVD144 | `SVD144_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_tridactylus_UWBM_52660_SVD144/` |
+| Picoides tridactylus | UAM 17739 | TB1448 | `TB1448_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_tridactylus_UAM_17739_TB1448/` |
+| Picoides dorsalis fasciatus | UAM 31832 | JJW2059 | `JJW2059_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_31832_JJW2059/` |
+| Picoides dorsalis fasciatus | UAM 36600 | JJW2842 | `JJW2842_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_36600_JJW2842/` |
+| Picoides dorsalis fasciatus | UAM 8580 | UAMX503 | `UAMX503_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_8580_UAMX503/` |
+| Picoides dorsalis fasciatus | UAM 20114 | UAMX3273 | `UAMX3273_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_20114_UAMX3273/` |
+| Corvus corax | UWBM 46861 | BKS908 | `BKS908_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UWBM_46861_BKS908/` |
+| Corvus corax | UWBM 56544 | BKS3241 | `BKS3241_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UWBM_56544_BKS3241/` |
+| Corvus corax | UWBM 57899 | BKS4041 | `BKS4041_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UWBM_57899_BKS4041/` |
+| Corvus corax | UWBM 57909 | BKS4052 | `BKS4052_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UWBM_57909_BKS4052/` |
+| Corvus corax | UWBM 71244 | SVD231a | `SVD231a_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UWBM_71244_SVD231a/` |
+| Corvus corax | UWBM 59566 | SVD1398 | `SVD1398_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UWBM_59566_SVD1398/` |
+| Corvus corax | UAM 17737 | TB1445 | `TB1445_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_17737_TB1445/` |
+| Corvus corax | UAM 39709 | JJW3401 | `JJW3401_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_39709_JJW3401/` |
+| Corvus corax | UAM 41600 | JJW4373 | `JJW4373_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_41600_JJW4373/` |
+| Corvus corax | UAM 17761 | JMM133 | `JMM133_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_17761_JMM133/` |
+| Corvus corax | UAM 8803 | KSW2715 | `KSW2715_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_8803_KSW2715/` |
+| Corvus corax | UAM 22252 | KSW4763 | `KSW4763_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_22252_KSW4763/` |
+| Corvus corax | UAM 15040 | RWD26009 | `RWD26009_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_15040_RWD26009/` |
+| Corvus corax | UAM 9313 | UAMX844 | `UAMX844_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_9313_UAMX844/` |
+| Corvus corax | UAM 11113 | UAMX1061 | `UAMX1061_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Corvus_corax_UAM_11113_UAMX1061/` |
+| Phylloscopus examinandus | UAM 17665 | DDG1991 | `DDG1991_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_examinandus_UAM_17665_DDG1991/` |
+| Phylloscopus examinandus | UAM 29472 | KSW5250 | `KSW5250_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_examinandus_UAM_29472_KSW5250/` |
+| Phylloscopus examinandus | UAM 30464 | KSW5336 | `KSW5336_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_examinandus_UAM_30464_KSW5336/` |
+| Phylloscopus examinandus | UAM 30462 | KSW5354 | `KSW5354_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_examinandus_UAM_30462_KSW5354/` |
+| Phylloscopus examinandus | UAM 30461 | KSW5373 | `KSW5373_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_examinandus_UAM_30461_KSW5373/` |
+| Phylloscopus borealis borealis | UWBM 43818 | CSW4345 | `CSW4345_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_borealis_UWBM_43818_CSW4345/` |
+| Phylloscopus borealis borealis | UWBM 44417 | SAR6041 | `SAR6041_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_borealis_UWBM_44417_SAR6041/` |
+| Phylloscopus borealis borealis | UWBM 44418 | SAR6042 | `SAR6042_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_borealis_UWBM_44418_SAR6042/` |
+| Phylloscopus borealis borealis | UWBM 82284 | SVD2977 | `SVD2977_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_borealis_UWBM_82284_SVD2977/` |
+| Phylloscopus borealis borealis | UWBM 82285 | SVD2978 | `SVD2978_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_borealis_UWBM_82285_SVD2978/` |
+| Phylloscopus borealis kennicotti | UAM 34615 | JJW2241 | `JJW2241_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_kennicotti_UAM_34615_JJW2241/` |
+| Phylloscopus borealis kennicotti | UAM 36347 | JJW2649 | `JJW2649_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_kennicotti_UAM_36347_JJW2649/` |
+| Phylloscopus borealis kennicotti | UAM 20149 | JMM337 | `JMM337_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_kennicotti_UAM_20149_JMM337/` |
+| Phylloscopus borealis kennicotti | UAM 20150 | JMM338 | `JMM338_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_kennicotti_UAM_20150_JMM338/` |
+| Phylloscopus borealis kennicotti | UAM 7372 | KSW1456 | `KSW1456_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Phylloscopus_borealis_kennicotti_UAM_7372_KSW1456/` |
+| Luscinia svecica | UWBM 44363 | JMB1208 | `TransB_JMB_1208_ACTCCATC-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Luscinia_svecica_UWBM_44363_JMB1208/` |
+| Motacilla tschutschensis tschutschensis | UAM 13402 | ABJ133 | `ABJ133_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_tschutschensis_UAM_13402_ABJ133/` |
+| Motacilla tschutschensis tschutschensis | UAM 15178 | DDG1935 | `DDG1935_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_tschutschensis_UAM_15178_DDG1935/` |
+| Motacilla tschutschensis tschutschensis | UAM 27366 | JJW216 | `JJW216_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_tschutschensis_UAM_27366_JJW216/` |
+| Motacilla tschutschensis tschutschensis | UAM 27364 | JJW520 | `JJW520_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_tschutschensis_UAM_27364_JJW520/` |
+| Motacilla tschutschensis tschutschensis | UAM 28177 | JJW629 | `JJW629_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_tschutschensis_UAM_28177_JJW629/` |
+| Motacilla tschutschensis simillima | UAM 14353 | ABJ179 | `ABJ179_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_simillima_UAM_14353_ABJ179/` |
+| Motacilla tschutschensis simillima | UAM 28715 | JJW1179 | `JJW1179_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_simillima_UAM_28715_JJW1179/` |
+| Motacilla tschutschensis simillima | UAM 28717 | JJW1185 | `JJW1185_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_simillima_UAM_28717_JJW1185/` |
+| Motacilla tschutschensis simillima | UAM 29362 | JJW1317 | `JJW1317_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_simillima_UAM_29362_JJW1317/` |
+| Motacilla tschutschensis simillima | UAM 19448 | MJM122 | `MJM122_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Motacilla_tschutschensis_simillima_UAM_19448_MJM122/` |
+| Anthus rubescens japonicus | UAM 13353 | DDG1877 | `DDG1877_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_japonicus_UAM_13353_DDG1877/` |
+| Anthus rubescens japonicus | UAM 27351 | JJW864 | `JJW864_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_japonicus_UAM_27351_JJW864/` |
+| Anthus rubescens japonicus | UAM 39615 | JJW3455 | `JJW3455_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_japonicus_UAM_39615_JJW3455/` |
+| Anthus rubescens japonicus | UAM 15068 | KSW3980 | `KSW3980_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_japonicus_UAM_15068_KSW3980/` |
+| Anthus rubescens pacificus | UAM 11452 | CLP200 | `CLP200_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_pacificus_UAM_11452_CLP200/` |
+| Anthus rubescens pacificus | UAM 31927 | JJW2045 | `JJW2045_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_pacificus_UAM_31927_JJW2045/` |
+| Anthus rubescens pacificus | UAM 31928 | JJW2046 | `JJW2046_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_pacificus_UAM_31928_JJW2046/` |
+| Anthus rubescens pacificus | UAM 19419 | MJM037 | `MJM037_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_pacificus_UAM_19419_MJM037/` |
+| Anthus rubescens pacificus | UAM 13540 | RWD25949 | `RWD25949_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anthus_rubescens_pacificus_UAM_13540_RWD25949/` |
+| Leucosticte arctoa | UWBM 44077 | CSW4675 | `CSW4675_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_arctoa_UWBM_44077_CSW4675/` |
+| Leucosticte arctoa | UWBM 44366 | JMB1211 | `JMB1211_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_arctoa_UWBM_44366_JMB1211/` |
+| Leucosticte arctoa | UWBM 44622 | SAR6262 | `SAR6262_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_arctoa_UWBM_44622_SAR6262/` |
+| Leucosticte arctoa | UWBM 44623 | SAR6263 | `SAR6263_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_arctoa_UWBM_44623_SAR6263/` |
+| Leucosticte arctoa | UWBM 44624 | SAR6264 | `SAR6264_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_arctoa_UWBM_44624_SAR6264/` |
+| Leucosticte tephrocotis griseonucha | UAM 10981 | DDG1750 | `DDG1750_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_griseonucha_UAM_10981_DDG1750/` |
+| Leucosticte tephrocotis griseonucha | UAM 31438 | RWD24852 | `RWD24852_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_griseonucha_UAM_31438_RWD24852/` |
+| Leucosticte tephrocotis griseonucha | UAM 24603 | UAMX5158 | `UAMX5158_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_griseonucha_UAM_24603_UAMX5158/` |
+| Leucosticte tephrocotis griseonucha | UAM 24607 | UAMX5168 | `UAMX5168_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_griseonucha_UAM_24607_UAMX5168/` |
+| Leucosticte tephrocotis littoralis | UAM 28707 | JJW1163 | `JJW1163_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_littoralis_UAM_28707_JJW1163/` |
+| Leucosticte tephrocotis littoralis | UAM 40957 | JJW3812 | `JJW3812_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_littoralis_UAM_40957_JJW3812/` |
+| Leucosticte tephrocotis littoralis | UAM 40961 | JJW3816 | `JJW3816_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_littoralis_UAM_40961_JJW3816/` |
+| Leucosticte tephrocotis tephrocotis | UAM 27288 | JJW873 | `JJW873_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_27288_JJW873/` |
+| Leucosticte tephrocotis tephrocotis | UAM 35600 | JJW2460 | `JJW2460_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460/` |
+| Leucosticte tephrocotis tephrocotis | UAM 35598 | JJW2465 | `JJW2465_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465/` |
+| Leucosticte tephrocotis umbrina | UAM 28620 | AF14344 | `AF14344_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344/` |
+| Leucosticte tephrocotis umbrina | UAM 28619 | AF14346 | `AF14346_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346/` |
+| Leucosticte tephrocotis umbrina | FMNH34305 | AF14351 | `AF14351_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351/` |
+| Leucosticte tephrocotis umbrina | UAM 7351 | KSW1646 | `KSW1646_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646/` |
+| Leucosticte tephrocotis umbrina | UAM 17748 | UAMX2921 | `UAMX2921_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921/` |
+| Calcarius lapponicus alascensis | UAM 13337 | RWD25944 | `RWD25944_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calcarius_lapponicus_alascensis_UAM_13337_RWD25944/` |
+| Calcarius lapponicus alascensis | UAM 7653 | KSW1821 | `KSW1821_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calcarius_lapponicus_alascensis_UAM_7653_KSW1821/` |
+| Calcarius lapponicus alascensis | UAM 19614 | CLP051 | `CLP051_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calcarius_lapponicus_alascensis_UAM_19614_CLP051/` |
+| Calcarius lapponicus alascensis | UAM 9525 | CLP048 | `CLP048_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calcarius_lapponicus_alascensis_UAM_9525_CLP048/` |
+| Calcarius lapponicus alascensis | UAM 9407 | CLP038 | `CLP038_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Calcarius_lapponicus_alascensis_UAM_9407_CLP038/` |
+| Plectrophenax nivalis | UAM 11856 | CLP163 | `Sample_CLP163_Plect_nival_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_nivalis_UAM_11856_CLP163/` |
+| Plectrophenax nivalis | UAM 8476 | KSW2690 | `Sample_KSW2690_Plect_nivalis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_nivalis_UAM_8476_KSW2690/` |
+| Plectrophenax nivalis | UAM 8474 | KSW2691 | `Sample_KSW2691_Plect_nivalis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_nivalis_UAM_8474_KSW2691/` |
+| Plectrophenax hyperboreus | UAM 7066 | KSW1610 | `Sample_KSW1610_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_7066_KSW1610/` |
+| Plectrophenax hyperboreus | UAM 7524 | KSW1611 | `Sample_KSW1611_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_7524_KSW1611/` |
+| Plectrophenax hyperboreus | UAM 8200 | KSW1617 | `Sample_KSW1617_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_8200_KSW1617/` |
 
+## Table 2. Individuals in `table_S1.csv` without an assembled mitogenome
 
+These **144** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
+
+| Species | Catalog num | Field num | Year | Locality | NCBI-SRA |
+| - | - | - | - | - | - |
+| Anas acuta | UAM 22595 | DDG22595 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR242770 |
+| Anas acuta | UAM 31335 | UAMX5487 | 2010 | USA: Alaska; Interior, Eielson Air Force Base | OR242768 |
+| Anas crecca carolinensis | UAM 20635 | KSW4530 | 2004 | USA: Alaska; Cold Bay, Izembek Lagoon | OR242780 |
+| Anas crecca carolinensis | UAM 24497 | JMM448 | 2004 | USA: Alaska; Cold Bay, Izembek Lagoon | OR242783 |
+| Anas crecca carolinensis | UAM 28444 | UAMX5069 | 2008 | USA: Alaska; Chirikof Island | OR242778 |
+| Anas crecca crecca | UAM 11334 | KGM021 | 2000 | USA: Alaska; Aleutian Islands, Shemya Island | OR242790 |
+| Anas crecca crecca | UAM 14100 | DDG1885 | 2001 | USA: Alaska; Aleutian Islands, Shemya Island | OR242792 |
+| Anas platyrhynchos | UAM 28074 | JJW944 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242804 |
+| Anas platyrhynchos | UAM 28089 | JJW943 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242805 |
+| Anthus rubescens japonicus | UAM 28057 | JJW905 | 2010 | USA: Alaska; Aleutian Islands, Shemya Island | OR242822 |
+| Arenaria interpres | UAM 26977 | JJW676 | 2008 | USA: Alaska; Kodiak Archipelago, Chirikof Island | OR242831 |
+| Arenaria interpres | UAM 30797 | JJW1637 | 2012 | USA: Alaska; Kodiak Archipelago, Ugak Island | OR242832 |
+| Calcarius lapponicus coloratus | UAM 29825 | UAM29825 | 2006 | Russia: Commander Islands, Bering Island | OR242850 |
+| Calcarius lapponicus coloratus | UAM 29827 | UAM29827 | 2006 | Russia: Commander Islands, Bering Island | OR242851 |
+| Calidris alpina arcticola | UAM 25341 | JJW4409 | 2002 | Russia: Commander Islands | OR242852 |
+| Calidris alpina pacifica | UAM 26913 | JJW016 | 2009 | USA: Alaska; Kodiak Archipelago, Kalsin Bay | OR242856 |
+| Calidris alpina pacifica | UAM 30879 | JJW1821 | 2012 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242858 |
+| Clangula hyemalis | UAM 21883 | REW583 | 2005 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242862 |
+| Clangula hyemalis | UAM 21931 | REW532 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242860 |
+| Clangula hyemalis | UAM 28184 | REW619 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242864 |
+| Clangula hyemalis | UAM 29027 | REW618 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242863 |
+| Clangula hyemalis | UAM 29029 | REW620 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242865 |
+| Clangula hyemalis | UAM 40387 | REW564 | 2005 | USA: Alaska; North Slope, Toolik | OR242861 |
+| Clangula hyemalis | UWBM 43893 | UWBM43893 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242866 |
+| Clangula hyemalis | UWBM 43894 | CSW4427 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242867 |
+| Clangula hyemalis | UWBM 43895 | UWBM43895 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242868 |
+| Clangula hyemalis | UWBM 43917 | CSW4452 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242869 |
+| Clangula hyemalis | UWBM 43918 | UWBM43918 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242870 |
+| Clangula hyemalis | UWBM 43919 | CSW4454 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242871 |
+| Clangula hyemalis | UWBM 43970 | UWBM43970 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242872 |
+| Corvus corax | UAM 10021 | DDG1749 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR242877 |
+| Corvus corax | UAM 38000 | JJW2991 | 2005 | USA: Alaska; Kodiak Archipelago, Sitkinak Island | OR242878 |
+| Gavia stellata | UAM 38314 | UAMX3952 | 2012 | USA: Alaska; North Slope, Barrow | OR242924 |
+| Lagopus lagopus koreni | UAM 28171 | KSW5133 | 2007 | Russia: Yakutia; Indigirka River | OR242945 |
+| Larus argentatus vegae | UAM 25983 | JJW343 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR242955 |
+| Leucosticte tephrocotis griseonucha | UAM 31439 | RWD24857 | 1998 | USA: Alaska; Aleutian Islands, Attu Island | OR242983 |
+| Leucosticte tephrocotis littoralis | UAM 40954 | JJW3809 | 2017 | USA: Alaska; Alaska Range, Sevenmile Lake | OR242987 |
+| Leucosticte tephrocotis littoralis | UAM 40959 | JJW3814 | 2017 | USA: Alaska; Alaska Range, Sevenmile Lake | OR242989 |
+| Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | 2016 | USA: Alaska; Interior, Mt. Prindle | OR242993 |
+| Luscinia svecica | UAM 13718 | ABJ200 | 2001 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242890 |
+| Luscinia svecica | UAM 15419 | MJM048 | 2002 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242903 |
+| Luscinia svecica | UAM 17727 | MJM047 | 2002 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242902 |
+| Luscinia svecica | UAM 8584 | KSW2409 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242900 |
+| Luscinia svecica | UAM 8585 | KSW2406 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242897 |
+| Luscinia svecica | UAM 8944 | KSW2481 | 1998 | USA: Alaska; Seward Peninsula, Mile 47 Taylor Highway | OR242901 |
+| Luscinia svecica | UAM 8945 | KSW2408 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242899 |
+| Luscinia svecica | UAM 8946 | KSW2407 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242898 |
+| Luscinia svecica | UWBM 44233 | JMB1064 | 1992 | Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River | OR242891 |
+| Luscinia svecica | UWBM 44242 | JMB1078 | 1992 | Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River | OR242892 |
+| Luscinia svecica | UWBM 44246 | JMB1082 | 1992 | Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River | OR242893 |
+| Luscinia svecica | UWBM 44361 | JMB1206 | 1992 | Russia: Kamchatka; Milkovo | OR242894 |
+| Luscinia svecica | UWBM 44362 | JMB1207 | 1992 | Russia: Kamchatka; Milkovo | OR242898 |
+| Luscinia svecica | UWBM 44489 | SAR6270 | 1992 | Russia: Kamchatka; Milkovo | OR242905 |
+| Luscinia svecica | UWBM 44629 | SAR6269 | 1992 | Russia: Kamchatka; Milkovo | OR242904 |
+| Mareca americana | UAM 11908 | KSW3028 | 1999 | USA: Alaska; Interior, Fairbanks | OR243004 |
+| Mareca americana | UAM 11909 | KSW3029 | 1999 | USA: Alaska; Interior, Fairbanks | OR243003 |
+| Mareca americana | UAM 11916 | KSW3036 | 1999 | USA: Alaska; Interior, Fairbanks | OR243002 |
+| Mareca americana | UAM 11919 | KSW3039 | 1999 | USA: Alaska; Interior, Fairbanks | OR243001 |
+| Mareca americana | UAM 13141 | UAMX1468 | 1998 | USA: Alaska; Interior, Fairbanks | OR243000 |
+| Mareca americana | UAM 26061 | JJW383 | 2012 | USA: Alaska; Interior, Eielson Air Force Base | OR243007 |
+| Mareca americana | UAM 28087 | JJW976 | 2008 | USA: Alaska; Kodiak Archipelago, Monashka Bay | OR243005 |
+| Mareca americana | UAM 28088 | JJW948 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR243006 |
+| Mareca penelope | UAM 10008 | DDG1716 | 1999 | USA: Alaska; Aleutian Islands, Shemya Island | OR243013 |
+| Mareca penelope | UAM 24301 | UAMX4959 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243009 |
+| Mareca penelope | UAM 24455 | MJL037 | 2007 | USA: Alaska; Aleutian Islands, Attu Island | OR243010 |
+| Mareca penelope | UAM 24550 | UAMX5044 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR243008 |
+| Mareca penelope | UAM 27749 | JJW968 | 2008 | USA: Alaska; Aleutian Islands, Shemya Island | OR243011 |
+| Mareca penelope | UAM 31321 | DDG1768 | 2010 | USA: Alaska; Interior, Eielson Air Force Base | OR243012 |
+| Mareca penelope | UAM 8758 | DDG1663 | 1998 | USA: Alaska; Aleutian Islands, Buldir  Island | OR243015 |
+| Mareca penelope | UAM 9759 | DDG1703 | 1999 | USA: Alaska; Aleutian Islands, Shemya Island | OR243014 |
+| Mergus merganser americanus | UAM 11037 | UAMX1058 | 1999 | USA: Alaska; Interior, Delta | OR243024 |
+| Numenius phaeopus hudsonicus | UAM 11507 | TB378 | 2000 | USA: Alaska; Seward Peninsula, Teller Highway | OR243046 |
+| Numenius phaeopus hudsonicus | UAM 13349 | ABJ142 | 2001 | USA: Alaska; Interior, Dalton Highway | OR243042 |
+| Numenius phaeopus hudsonicus | UAM 13925 | KGM036 | 2000 | USA: Alaska; Seward Peninsula, Taylor Highway | OR243044 |
+| Numenius phaeopus hudsonicus | UAM 17980 | JMM011 | 2002 | USA: Alaska; Alaska Peninsula, Ugashik Bay | OR243043 |
+| Numenius phaeopus hudsonicus | UAM 28213 | JJW1013 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243054 |
+| Numenius phaeopus hudsonicus | UAM 28214 | JJW1021 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243055 |
+| Numenius phaeopus hudsonicus | UAM 28602 | JJW1154 | 2011 | USA: Alaska; Kodiak Archipelago, Ugak Island | OR243056 |
+| Numenius phaeopus hudsonicus | UAM 9260 | KSW2484 | 1998 | USA: Alaska; Seward Peninsula, Taylor Highway | OR243045 |
+| Numenius phaeopus variegatus | UAM 14225 | TB1023 | 2001 | Philippines: Cordova; Olango Island Wildlife Sanctuary | OR243050 |
+| Numenius phaeopus variegatus | UAM 14229 | TB1116 | 2001 | Philippines: Cordova; Olango Island Wildlife Sanctuary | OR243052 |
+| Numenius phaeopus variegatus | UAM 14230 | TB1091 | 2001 | Philippines: Cordova; Olango Island Wildlife Sanctuary | OR243051 |
+| Numenius phaeopus variegatus | UAM 14625 | CLP450 | 2000 | USA: Alaska; Aleutian Islands, Adak Island | OR243047 |
+| Numenius phaeopus variegatus | UAM 21379 | CLP727 | 2005 | USA: Alaska; Aleutian Islands, Attu Island | OR243048 |
+| Numenius phaeopus variegatus | UAM 8212 | DDF1666 | 1998 | USA: Alaska; Aleutian Islands, Buldir Island | OR243049 |
+| Numenius phaeopus variegatus | UWBM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
+| Pica pica | UWBM 44581 | UWBM44581 | 1992 | Russia: Kamchatka; Sokhoch | OR243079 |
+| Pica pica | UWBM 44584 | UWBM44584 | 1992 | Russia: Kamchatka; 5 km NW Sokhoch | OR243080 |
+| Pica pica | UWBM 44585 | UWBM44585 | 1992 | Russia: Kamchatka; 5 km NW Sokhoch | OR243081 |
+| Pica pica | UWBM 47197 | UWBM47197 | 1992 | Russia: Khabarovskiy Kray | OR243082 |
+| Pica pica | UWBM 72084 | UWBM72084 | 1993 | Russia: Primorskiy Kray; Ussuriyskiy Rayon, Ussuriysk | OR243083 |
+| Pica pica | UWBM 72091 | UWBM72091 | 2001 | Russia: Primorskiy Kray; Ussuriyskiy Rayon, Ussuriysk | OR243084 |
+| Pica pica | UWBM 74569 | UWBM74569 | 2002 | Russia: Primorskiy Kray; Spasskiy Rayon, Gayvoron | OR243085 |
+| Pica pica | UWBM 74697 | UWBM74697 | 2002 | Russia: Primorskiy Kray; Spasskiy Rayon, Gayvoron | OR243086 |
+| Pica hudsonia | UAM 10105 | UAMX953 | 1999 | USA: Alaska; Kodiak Island | OR243078 |
+| Pica hudsonia | UAM 12453 | CLP208 | 1999 | USA: Alaska; Alaska Peninsula, Izembek NWR | OR243072 |
+| Pica hudsonia | UAM 13052 | CLP219 | 1999 | USA: Alaska; Alaska Peninsula, Izembek NWR | OR243074 |
+| Pica hudsonia | UAM 13053 | CLP218 | 1999 | USA: Alaska; Alaska Peninsula, Izembek NWR | OR243073 |
+| Pica hudsonia | UAM 17742 | CLP245 | 1999 | USA: Alaska; Shumagin Islands, Popof Island | OR243075 |
+| Pica hudsonia | UAM 27024 | JJW683 | 2010 | USA: Alaska; Kodiak Archipelago, Chirikof Island | OR243076 |
+| Pica hudsonia | UAM 8511 | KSW2704 | 1998 | USA: Alaska; Alaska Peninsula, Cold Bay | OR243077 |
+| Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | 2016 | USA: Alaska; Interior, Chatanika River | OR243089 |
+| Pinicola enucleator flammula | UAM 10158 | UAMX1014 | 1999 | USA: Alaska; Kodiak Island, American River | OR243101 |
+| Pinicola enucleator flammula | UAM 11285 | ABJ011 | 2000 | USA: Alaska; Alexander Archipelago, Revillagigedo Island | OR243095 |
+| Pinicola enucleator flammula | UAM 11286 | ABJ012 | 2000 | USA: Alaska; Alexander Archipelago, Revillagigedo Island | OR243096 |
+| Pinicola enucleator flammula | UAM 26361 | JJW030 | 2009 | USA: Alaska; Kodiak Archipelago, Narrow Cape | OR243097 |
+| Pinicola enucleator flammula | UAM 28530 | JJW1097 | 2011 | USA: Alaska; Kodiak Archipelago, Kalsin Bay | OR243098 |
+| Pinicola enucleator flammula | UAM 8794 | KSW1695 | 1997 | USA: Alaska; Kodiak Island | OR243100 |
+| Pinicola enucleator flammula | UAM 8797 | KSW1694 | 1997 | USA: Alaska; Kodiak Island | OR243099 |
+| Pinicola enucleator kamtschatschensis | UAM 24601 | DDG2189 | 2008 | USA: Alaska; Aleutian Islands, Shemya Island | OR243102 |
+| Pinicola enucleator kamtschatschensis | UAM 24602 | DDG2190 | 2008 | USA: Alaska; Aleutian Islands, Shemya Island | OR243103 |
+| Pinicola enucleator kamtschatschensis | UWBM 47314 | SAR6538 | 1993 | Russia: Sakhalinskaya Oblast' | OR243104 |
+| Pinicola enucleator kamtschatschensis | UWBM 47315 | SAR6539 | 1993 | Russia: Sakhalinskaya Oblast' | OR243105 |
+| Pinicola enucleator kamtschatschensis | UWBM 51627 | SVD407 | 1993 | Russia: Magadanskaya Oblast'; Ol'skiy Rayon, Snezhnaya Dolina | OR243106 |
+| Pinicola enucleator kamtschatschensis | UWBM 51643 | SVD423 | 1993 | Russia: Magadanskaya Oblast'; Ol'skiy Rayon, Snezhnaya Dolina | OR243107 |
+| Plectrophenax hyperboreus | UAM 7407 | KSW1588 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243108 |
+| Plectrophenax nivalis | UAM 27725 | JJW292 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR243113 |
+| Pluvialis dominica | UAM 13181 | KSW2402 | 1998 | USA: Alaska; Seward Peninsula, Kougarok Road | OR243117 |
+| Pluvialis dominica | UAM 26935 | JJW362 | 2009 | USA: Alaska; Alaska Range, Rusty Hill | OR243116 |
+| Pluvialis dominica | UAM 8938 | KSW2468 | 1998 | USA: Alaska; Seward Peninsula, Council Road | OR243118 |
+| Pluvialis dominica | UAM 9511 | TB235 | 1998 | USA: Alaska; Seward Peninsula, Council Road | OR243119 |
+| Pluvialis fulva | UAM 11307 | TB408 | 2000 | USA: Alaska; Seward Peninsula, Teller Road | OR243123 |
+| Pluvialis fulva | UAM 13545 | DDG1860 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR243120 |
+| Pluvialis fulva | UAM 26906 | JJW145 | 2009 | USA: Alaska; Aleutian Islands, Attu Island | OR243121 |
+| Pluvialis fulva | UAM 8798 | KSW2383 | 1998 | USA: Alaska; Seward Peninsula, Teller Road | OR243122 |
+| Tringa brevipes | UAM 10112 | DDG1736 | 1999 | USA: Alaska; Aleutian Islands, Shemya Island | OR243150 |
+| Tringa brevipes | UAM 28427 | JJW906 | 2010 | USA: Alaska; Aleutian Islands, Shemya Island | OR243154 |
+| Tringa brevipes | UAM 28428 | JJW1030 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243151 |
+| Tringa brevipes | UAM 28429 | JJW1062 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243153 |
+| Tringa brevipes | UAM 28430 | JJW1061 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR243152 |
+| Tringa brevipes | UAM 7534 | KSW1780 | 1997 | USA: Alaska; Aleutian Islands, Attu Island | OR243155 |
+| Tringa brevipes | UAM 8521 | KSW1781 | 1887 | USA: Alaska; Aleutian Islands, Attu Island | OR243156 |
+| Tringa brevipes | UAM 8805 | KSW1782 | 1997 | USA: Alaska; Aleutian Islands, Attu Island | OR243157 |
+| Tringa incana | UAM 13434 | DAR228 | 2001 | USA: Alaska; Aleutian Islands, Attu Island | OR243158 |
+| Tringa incana | UAM 13569 | UAMX1735 | 2001 | USA: Alaska; Aleutian Islands, Attu Island | OR243165 |
+| Tringa incana | UAM 21813 | KSW3378 | 2000 | USA: Alaska; Aleutian Islands, Amila Island | OR243163 |
+| Tringa incana | UAM 24859 | UAMX1645 | 2001 | USA: Alaska; Kodiak Archipelago, Kodiak | OR243164 |
+| Tringa incana | UAM 28422 | JJW720 | 2010 | USA: Alaska; Aleutian Islands, Attu Island | OR243160 |
+| Tringa incana | UAM 28425 | JJW724 | 2010 | USA: Alaska; Aleutian Islands, Attu Island | OR243161 |
+| Tringa incana | UAM 28426 | JJW1022 | 2008 | USA: Alaska; Kodiak Archipelago, Ban Island | OR243159 |
+| Tringa incana | UAM 8240 | KSW1778 | 1997 | USA: Alaska; Aleutian Islands, Attu Island | OR243162 |
+| Uria aalge inornata | UAM 10687 | KSW1631 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243182 |
+| Uria aalge inornata | UAM 10689 | KSW1633 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243184 |
+| Uria aalge inornata | UAM 10690 | KSW1634 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243185 |
+
+## Table 3. Mitogenomes without an entry in Table_S1. ("Unmatched assembled directories")
+
+These directories did not have an exact `Field #` match in `table_S1.csv`:
+
+| Ambiguous assembly | Best-guess species | Proposed directory name | Notes |
+| - | - | - | - |
+| `DDG1922_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Pluvialis fulva* | `Sample_DDG1922_Pluvialis_fulva_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in table_S1, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `JJW2478_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Spatula clypeata* | `Sample_JJW2478_Spatula_clypeata_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in table_S1, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `JJW2664_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Histrionicus histrionicus* | `Sample_JJW2664_Histrionicus_histrionicus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in table_S1, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `JJW3200_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Histrionicus histrionicus* | `Sample_JJW3200_Histrionicus_histrionicus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in table_S1, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `JJW3695_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Histrionicus histrionicus* | `Sample_JJW3695_Histrionicus_histrionicus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `KSW5113_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Histrionicus histrionicus* | `Sample_KSW5113_Lagopus_lagopus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `SVD3025_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | Unknown | `Sample_SVD3025_UNKNOWN_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, or `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. Probably UWBM bird. |
+| `SVD422_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | Unknown | `Sample_SVD3025_UNKNOWN_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, or `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. Probably UWBM bird. |
+| `UAM_10581_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Picoides tridactylus* | `Sample_UAM10581_Picoides_tridactylus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+| `UAM29835_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Calcarius lapponicus* | `Sample_UAM_29835_Lagopus_lagopus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
