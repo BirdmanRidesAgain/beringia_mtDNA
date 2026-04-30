@@ -18,10 +18,12 @@ This resulted in genuine variants being lost in favor of calling the reference s
 
 | Title | Link |
 | - | - |
-| Bad mitogenome coverage visualization | [Bad mdDNA analysis](bad_mtDNA_analysis.ipynb) |
-| Reassembly protocol testing | [Protocol details](mitogenome_assembly_protocol_testing.md) |
+| Bad mitogenome coverage visualization prior to running new assemblies. | [Bad mdDNA analysis](notebooks/bad_mtDNA_analysis.ipynb) |
+| Reassembly protocol testing | [Protocol details](notebooks/mtDNA_assembly_protocol_testing.ipynb) |
 | Checklist of reassembled mitogenomes | [Completed mitogenome checklist](./mitogenomes_assembled_checklist.md) |
-| Reassembled mitogenome summary statistics | [Assembly stats](./assembly_stats.md) |
+| Reassembled mitogenome summary statistics and ML analysis | [Assembly stats notebook](notebooks/assembly_stats.ipynb) |
+| Reassembled mitogenome summary statistics (CSV) | [Assembly results CSV](./mitogenome_assembly_results.csv) |
+| Executable scripts | [Scripts directory](./scripts/) |
 
 -----
 
@@ -29,6 +31,8 @@ This resulted in genuine variants being lost in favor of calling the reference s
 
 We assembled mitogenomes directly from trimmed WGS reads using NOVOplasty as an assembler.
 In an *Anser albifrons* test case, this was found to be more effective and less taxon-sensitive than splitting out mtDNA with bbsplit.
+
+We found the taxon of the reference sequence to be irrelevant in determining assembly quality.
 
 ## Assembly matching
 
@@ -39,3 +43,9 @@ We used `table_S1.csv` (and a 2019 UAM flat file I have retained) to reunite tax
 These raw reads will need to be referenced from GenBank.
 
 ## Assembly stats
+
+### Data wrangling
+
+After running NOVOplasty, we classified every output as `failed`, `partial_success` or `success`, depending on the size of the final assembly.
+
+I then added a taxonomic order column and united the dataframe with the depth/coverage values from Collier et al. 2025.

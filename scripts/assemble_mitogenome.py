@@ -19,8 +19,28 @@ import sys
 from pathlib import Path
 
 PACKAGE_ROOT = Path(__file__).resolve().parent
-# Bundled defaults and bbsplit index cache (similar to `src/main/resources` / app “resources” dirs).
-RESOURCES_DIR = PACKAGE_ROOT / "resources"
+
+def _resolve_resources_dir() -> Path:
+    """
+    Resolve resources directory across old and reorganized layouts.
+
+    Supports:
+    - <repo>/resources  (current layout)
+    - <repo>/scripts/resources (legacy layout)
+    """
+    candidates = [
+        PACKAGE_ROOT.parent / "resources",
+        PACKAGE_ROOT / "resources",
+    ]
+    for candidate in candidates:
+        if candidate.is_dir():
+            return candidate
+    # Fall back to preferred current layout for clearer downstream errors.
+    return PACKAGE_ROOT.parent / "resources"
+
+
+# Bundled defaults and bbsplit index cache (similar to `src/main/resources` / app "resources" dirs).
+RESOURCES_DIR = _resolve_resources_dir()
 NOVOPLASTY_TEMPLATE = RESOURCES_DIR / "NOVOPlasty_config.txt"
 
 
