@@ -44,6 +44,12 @@ These raw reads will need to be referenced from GenBank.
 
 ## Assembly stats
 
+We assembled using all the same values.
+
+## Annotation stats
+
+We annotated with mitoZ.
+
 ### Data wrangling
 
 After running NOVOplasty, we classified every output as `failed`, `partial_success` or `success`, depending on the size of the final assembly.

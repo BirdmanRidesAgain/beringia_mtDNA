@@ -286,20 +286,127 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Plectrophenax hyperboreus | UAM 7066 | KSW1610 | `Sample_KSW1610_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_7066_KSW1610/` |
 | Plectrophenax hyperboreus | UAM 7524 | KSW1611 | `Sample_KSW1611_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_7524_KSW1611/` |
 | Plectrophenax hyperboreus | UAM 8200 | KSW1617 | `Sample_KSW1617_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_8200_KSW1617/` |
+| Tringa brevipes | UAM 7534 | KSW1780 | `SRR5821033/` | `Tringa_brevipes_UAM_7534_KSW1780/` |
+| Tringa brevipes | UAM 8521 | KSW1781 | `SRR5821034/` | `Tringa_brevipes_UAM_8521_KSW1781/` |
+| Tringa brevipes | UAM 8805 | KSW1782 | `SRR5821035/` | `Tringa_brevipes_UAM_8805_KSW1782/` |
+| Tringa brevipes | UAM 10112 | DDG1736 | `SRR5821036/` | `Tringa_brevipes_UAM_10112_DDG1736/` |
+| Tringa brevipes | UAM 28427 | JJW906 | `SRR5821037/` | `Tringa_brevipes_UAM_28427_JJW906/` |
+| Tringa brevipes | UAM 28428 | JJW1030 | `SRR5821038/` | `Tringa_brevipes_UAM_28428_JJW1030/` |
+| Anas crecca crecca | UAM 9191 | DDG1732 | `SRR5821039/` | `Anas_crecca_UAM_9191_DDG1732/` |
+| Luscinia svecica | UWBM 44246 | JMB1082 | `SRR5821041/` | `Luscinia_svecica_UWBM_44246_JMB1082/` |
+| Luscinia svecica | UWBM 44362 | JMB1207 | `SRR5821048/` | `Luscinia_svecica_UWBM_44362_JMB1207/` |
+| Luscinia svecica | UWBM 44361 | JMB1206 | `SRR5821049/` | `Luscinia_svecica_UWBM_44361_JMB1206/` |
+| Luscinia svecica | UWBM 44629 | SAR6269 | `SRR5821051/` | `Luscinia_svecica_UWBM_44629_SAR6269/` |
+| Numenius phaeopus variegatus | UAM 21379 | CLP727 | `SRR5821052/` | `Numenius_phaeopus_variegatus_UAM_21379_CLP727/` |
+| Numenius phaeopus hudsonicus | UAM 17980 | JMM011 | `SRR5821053/` | `Numenius_phaeopus_hudsonicus_UAM_17980_JMM011/` |
+| Numenius phaeopus hudsonicus | UAM 28214 | JJW1021 | `SRR5821054/` | `Numenius_phaeopus_hudsonicus_UAM_28214_JJW1021/` |
+| Numenius phaeopus hudsonicus | UAM 28213 | JJW1013 | `SRR5821055/` | `Numenius_phaeopus_hudsonicus_UAM_28213_JJW1013/` |
+| Numenius phaeopus variegatus | UAM 14230 | TB1091 | `SRR5821056/` | `Numenius_phaeopus_variegatus_UAM_14230_TB1091/` |
+| Numenius phaeopus variegatus | UAM 14229 | TB1116 | `SRR5821057/` | `Numenius_phaeopus_variegatus_UAM_14229_TB1116/` |
+| Numenius phaeopus variegatus | UAM 14625 | CLP450 | `SRR5821059/` | `Numenius_phaeopus_variegatus_UAM_14625_CLP450/` |
+| Numenius phaeopus hudsonicus | UAM 28602 | JJW1154 | `SRR5821061/` | `Numenius_phaeopus_hudsonicus_UAM_28602_JJW1154/` |
+| Numenius phaeopus hudsonicus | UAM 11507 | TB378 | `SRR5821062/` | `Numenius_phaeopus_hudsonicus_UAM_11507_TB378/` |
+| Numenius phaeopus hudsonicus | UAM 13349 | ABJ142 | `SRR5821063/` | `Numenius_phaeopus_hudsonicus_UAM_13349_ABJ142/` |
+| Numenius phaeopus variegatus | UAM 8212 | DDF1666 | `SRR5821064/` | `Numenius_phaeopus_variegatus_UAM_8212_DDF1666/` |
+| Numenius phaeopus hudsonicus | UAM 9260 | KSW2484 | `SRR5821065/` | `Numenius_phaeopus_hudsonicus_UAM_9260_KSW2484/` |
+| Pinicola enucleator kamtschatschensis | UWBM 51627 | SVD407 | `SRR5821066/` | `Pinicola_enucleator_kamtschatschensis_UWBM_51627_SVD407/` |
+| Pinicola enucleator kamtschatschensis | UWBM 51643 | SVD423 | `SRR5821067/` | `Pinicola_enucleator_kamtschatschensis_UWBM_51643_SVD423/` |
+| Pinicola enucleator kamtschatschensis | UWBM 47314 | SAR6538 | `SRR5821068/` | `Pinicola_enucleator_kamtschatschensis_UWBM_47314_SAR6538/` |
+| Pinicola enucleator kamtschatschensis | UWBM 47315 | SAR6539 | `SRR5821069/` | `Pinicola_enucleator_kamtschatschensis_UWBM_47315_SAR6539/` |
+| Numenius phaeopus hudsonicus | UAM 13925 | KGM036 | `SRR5821070/` | `Numenius_phaeopus_hudsonicus_UAM_13925_KGM036/` |
+| Numenius phaeopus variegatus | UAM 14225 | TB1023 | `SRR5821071/` | `Numenius_phaeopus_variegatus_UAM_14225_TB1023/` |
+| Pinicola enucleator flammula | UAM 28530 | JJW1097 | `SRR5821073/` | `Pinicola_enucleator_flammula_UAM_28530_JJW1097/` |
+| Pinicola enucleator flammula | UAM 11286 | ABJ012 | `SRR5821074/` | `Pinicola_enucleator_flammula_UAM_11286_ABJ012/` |
+| Pinicola enucleator flammula | UAM 10158 | UAMX1014 | `SRR5821075/` | `Pinicola_enucleator_flammula_UAM_10158_UAMX1014/` |
+| Pinicola enucleator flammula | UAM 8797 | KSW1694 | `SRR5821076/` | `Pinicola_enucleator_flammula_UAM_8797_KSW1694/` |
+| Pinicola enucleator flammula | UAM 8794 | KSW1695 | `SRR5821077/` | `Pinicola_enucleator_flammula_UAM_8794_KSW1695/` |
+| Pinicola enucleator flammula | UAM 26361 | JJW030 | `SRR5821078/` | `Pinicola_enucleator_flammula_UAM_26361_JJW030/` |
+| Pinicola enucleator kamtschatschensis | UAM 24602 | DDG2190 | `SRR5821079/` | `Pinicola_enucleator_kamtschatschensis_UAM_24602_DDG2190/` |
+| Pinicola enucleator kamtschatschensis | UAM 24601 | DDG2189 | `SRR5821080/` | `Pinicola_enucleator_kamtschatschensis_UAM_24601_DDG2189/` |
+| Anas crecca crecca | UAM 9255 | DDG1704 | `SRR5821082/` | `Anas_crecca_UAM_9255_DDG1704/` |
+| Anas crecca crecca | UAM 11334 | KGM021 | `SRR5821083/` | `Anas_crecca_UAM_11334_KGM021/` |
+| Anas crecca crecca | UAM 11335 | KGM020 | `SRR5821084/` | `Anas_crecca_UAM_11335_KGM020/` |
+| Anas crecca crecca | UAM 14100 | DDG1885 | `SRR5821085/` | `Anas_crecca_UAM_14100_DDG1885/` |
+| Anas crecca carolinensis | UAM 24497 | JMM448 | `SRR5821086/` | `Anas_carolinensis_UAM_24497_JMM448/` |
+| Anas crecca carolinensis | UAM 28085 | JJW978 | `SRR5821087/` | `Anas_carolinensis_UAM_28085_JJW978/` |
+| Anas crecca carolinensis | UAM 28444 | UAMX5069 | `SRR5821088/` | `Anas_carolinensis_UAM_28444_UAMX5069/` |
+| Luscinia svecica | UAM 8944 | KSW2481 | `SRR5821089/` | `Luscinia_svecica_UAM_8944_KSW2481/` |
+| Anas crecca crecca | UAM 14666 | DDG1884 | `SRR5821090/` | `Anas_crecca_UAM_14666_DDG1884/` |
+| Anas crecca crecca | UAM 22853 | KSW4951 | `SRR5821091/` | `Anas_crecca_UAM_22853_KSW4951/` |
+| Luscinia svecica | UWBM 44233 | JMB1064 | `SRR5821092/` | `Luscinia_svecica_UWBM_44233_JMB1064/` |
+| Luscinia svecica | UWBM 44242 | JMB1078 | `SRR5821040/` | `Luscinia_svecica_UWBM_44242_JMB1278/` |
+| Luscinia svecica | UAM 17727 | MJM047 | `SRR5821093/` | `Luscinia_svecica_UAM_17727_MJM047/` |
+| Luscinia svecica | UAM 15419 | MJM048 | `SRR5821094/` | `Luscinia_svecica_UAM_15419_MJM048/` |
+| Luscinia svecica | UAM 13718 | ABJ200 | `SRR5821095/` | `Luscinia_svecica_UAM_13718_ABJ200/` |
+| Luscinia svecica | UAM 8946 | KSW2407 | `SRR5821096/` | `Luscinia_svecica_UAM_8946_KSW2407/` |
+| Luscinia svecica | UAM 8585 | KSW2406 | `SRR5821098/` | `Luscinia_svecica_UAM_8585_KSW2406/` |
+| Luscinia svecica | UAM 8584 | KSW2409 | `SRR5821099/` | `Luscinia_svecica_UAM_8584_KSW2409/` |
+| Clangula hyemalis | UWBM 43917 | CSW4452 | `SRR5821097/` | `Clangula_hyemalis_UWBM_43917_CSW4452/` |
+| Clangula hyemalis | UAM 29029 | REW620 | `SRR5821100/` | `Clangula_hyemalis_UAM_29029_REW620/` |
+| Clangula hyemalis | UAM 40387 | REW564 | `SRR5821101/` | `Clangula_hyemalis_UAM_40387_REW564/` |
+| Clangula hyemalis | UWBM 43894 | CSW4427 | `SRR5821103/` | `Clangula_hyemalis_UWBM_43894_CSW4427/` |
+| Clangula hyemalis | UAM 21883 | REW583 | `SRR5821104/` | `Clangula_hyemalis_UAM_21883_REW583/` |
+| Clangula hyemalis | UAM 21931 | REW532 | `SRR5821105/` | `Clangula_hyemalis_UAM_21931_REW532/` |
+| Clangula hyemalis | UAM 28184 | REW619 | `SRR5821106/` | `Clangula_hyemalis_UAM_28184_REW619/` |
+| Clangula hyemalis | UAM 29027 | REW618 | `SRR5821107/` | `Clangula_hyemalis_UAM_29027_REW618/` |
+| Clangula hyemalis | UWBM 43893 | CSW4426 | `SRR5821102/` | `Clangula_hyemalis_UWBM_43893_CSW4426/` |
+| Clangula hyemalis | UWBM 43918 | CSW4453 | `SRR5821123/` | `Clangula_hyemalis_UWBM_43918_CSW4453/` |
+| Clangula hyemalis | UWBM 43970 | CSW4514 | `SRR5821121/` | `Clangula_hyemalis_UWBM_43970_CSW4514/` |
+| Clangula hyemalis | UWBM 43895 | CSW4428 | `SRR5821146/` | `Clangula_hyemalis_UWBM_43895_CSW4428/` |
+| Mareca penelope | UAM 10008 | DDG1716 | `SRR5821109/` | `Mareca_penelope_UAM_10008_DDG1716/` |
+| Mareca penelope | UAM 24455 | MJL037 | `SRR5821110/` | `Mareca_penelope_UAM_24455_MJL037/` |
+| Mareca penelope | UAM 24301 | UAMX4959 | `SRR5821111/` | `Mareca_penelope_UAM_24301_UAMX4959/` |
+| Mareca penelope | UAM 27749 | JJW968 | `SRR5821112/` | `Mareca_penelope_UAM_27749_JJW968/` |
+| Mareca penelope | UAM 24550 | UAMX5044 | `SRR5821113/` | `Mareca_penelope_UAM_24550_UAMX5044/` |
+| Mareca penelope | UAM 9359 | DDG1703 | `SRR5821137/` | `Mareca_penelope_UAM_9359_DDG1703` |
+| Mareca americana | UAM 11916 | KSW3036 | `SRR5821128/` | `Mareca_americana_UAM_11916_KSW3036/` |
+| Mareca americana | UAM 11908 | KSW3028 | `SRR5821130/` | `Mareca_americana_UAM_11908_KSW3028/` |
+| Mareca americana | UAM 11909 | KSW3029 | `SRR5821131/` | `Mareca_americana_UAM_11909_KSW3029/` |
+| Mareca americana | UAM 28087 | JJW976 | `SRR5821132/` | `Mareca_americana_UAM_28087_JJW976/` |
+| Mareca americana | UAM 28088 | JJW948 | `SRR5821133/` | `Mareca_americana_UAM_28088_JJW948/` |
+| Mareca americana | UAM 13141 | UAMX1468 | `SRR5821134/` | `Mareca_americana_UAM_13141_UAMX1468/` |
+| Mareca americana | UAM 26061 | JJW383 | `SRR5821135/` | `Mareca_americana_UAM_26061_JJW383/` |
+| Mareca penelope | UAM 8758 | DDG1663 | `SRR5821136/` | `Mareca_penelope_UAM_8758_DDG1663/` |
+| Mareca penelope | UAM 11803 | DDG1768 | `SRR5821108/` | `Mareca_penelope_UAM_11803_DDG1768/` |
+| Anas crecca carolinensis | UAM 11920 | KSW3040 | `SRR5821114/` | `Anas_carolinensis_UAM_11920_KSW3040/` |
+| Anas crecca carolinensis | UAM 11251 | UAMX203 | `SRR5821115/` | `Anas_carolinensis_UAM_11251_UAMX203/` |
+| Anas crecca carolinensis | UAM 20635 | KSW4530 | `SRR5821116/` | `Anas_carolinensis_UAM_20635_KSW4530/` |
+| Anas crecca carolinensis | UAM 14961 | KGM335 | `SRR5821117/` | `Anas_carolinensis_UAM_14961_KGM335/` |
+| Pica pica | UWBM 74569 | UWBM74569 | `SRR5821118/` | `Pica_pica_UWBM_74569_UWBM74569/` |
+| Pica pica | UWBM 72091 | UWBM72091 | `SRR5821119/` | `Pica_pica_UWBM_72091_UWBM72091/` |
+| Pica pica | UWBM 44581 | UWBM44581 | `SRR5821120/` | `Pica_pica_UWBM_44581_UWBM44581/` |
+| Clangula hyemalis | UWBM 43919 | CSW4454 | `SRR5821122/` | `Clangula_hyemalis_UWBM_43919_CSW4454/` |
+| Pica pica | UWBM 72084 | UWBM72084 | `SRR5821124/` | `Pica_pica_UWBM_72084_UWBM72084/` |
+| Pica pica | UWBM 47197 | UWBM47197 | `SRR5821125/` | `Pica_pica_UWBM_47197_UWBM47197/` |
+| Pica pica | UWBM 44585 | UWBM44585 | `SRR5821126/` | `Pica_pica_UWBM_44585_UWBM44585/` |
+| Pica pica | UWBM 44584 | UWBM44584 | `SRR5821127/` | `Pica_pica_UWBM_44584_UWBM44584/` |
+| Pica hudsonia | UAM 17742 | CLP245 | `SRR5821138/` | `Pica_hudsonia_UAM_17742_CLP245/` |
+| Pica hudsonia | UAM 27024 | JJW683 | `SRR5821139/` | `Pica_hudsonia_UAM_27024_JJW683/` |
+| Pica hudsonia | UAM 13052 | CLP219 | `SRR5821140/` | `Pica_hudsonia_UAM_13052_CLP219/` |
+| Pica hudsonia | UAM 13053 | CLP218 | `SRR5821141/` | `Pica_hudsonia_UAM_13053_CLP218/` |
+| Pica hudsonia | UAM 10105 | UAMX953 | `SRR5821142/` | `Pica_hudsonia_UAM_10105_UAMX953/` |
+| Pica hudsonia | UAM 12453 | CLP208 | `SRR5821143/` | `Pica_hudsonia_UAM_12453_CLP208/` |
+| Pica pica | UWBM 74697 | UWBM74697 | `SRR5821144/` | `Pica_pica_UWBM_74697_UWBM74697/` |
+| Pica hudsonia | UAM 8511 | KSW2704 | `SRR5821145/` | `Pica_hudsonia_UAM_8511_KSW2704/` |
+| Tringa incana | UAM 28422 | JJW720 | `SRR5821147/` | `Tringa_incana_UAM_28422_JJW720/` |
+| Tringa incana | UAM 24859 | UAMX1645 | `SRR5821148/` | `Tringa_incana_UAM_24859_UAMX1645/` |
+| Tringa incana | UAM 21813 | KSW3378 | `SRR5821149/` | `Tringa_incana_UAM_21813_KSW3378/` |
+| Tringa incana | UAM 13569 | UAMX1735 | `SRR5821150/` | `Tringa_incana_UAM_13569_UAMX1735/` |
+| Tringa incana | UAM 13434 | DAR228 | `SRR5821151/` | `Tringa_incana_UAM_13434_DAR228/` |
+| Tringa incana | UAM 8240 | KSW1778 | `SRR5821152/` | `Tringa_incana_UAM_8240_KSW1778/` |
+| Tringa brevipes | UAM 28430 | JJW1061 | `SRR5821153/` | `Tringa_brevipes_UAM_28430_JJW1061/` |
+| Tringa brevipes | UAM 28429 | JJW1062 | `SRR5821154/` | `Tringa_brevipes_UAM_28429_JJW1062/` |
+| Tringa incana | UAM 28426 | JJW1022 | `SRR5821155/` | `Tringa_incana_UAM_28426_JJW1022/` |
+| Tringa incana | UAM 28425 | JJW724 | `SRR5821156/` | `Tringa_incana_UAM_28425_JJW724/` |
 
 ## Table 2. Individuals in `table_S1.csv` without an assembled mitogenome
 
-These **144** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
+These **48** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
 
 | Species | Catalog num | Field num | Year | Locality | NCBI-SRA |
 | - | - | - | - | - | - |
 | Anas acuta | UAM 22595 | DDG22595 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR242770 |
 | Anas acuta | UAM 31335 | UAMX5487 | 2010 | USA: Alaska; Interior, Eielson Air Force Base | OR242768 |
-| Anas crecca carolinensis | UAM 20635 | KSW4530 | 2004 | USA: Alaska; Cold Bay, Izembek Lagoon | OR242780 |
-| Anas crecca carolinensis | UAM 24497 | JMM448 | 2004 | USA: Alaska; Cold Bay, Izembek Lagoon | OR242783 |
-| Anas crecca carolinensis | UAM 28444 | UAMX5069 | 2008 | USA: Alaska; Chirikof Island | OR242778 |
-| Anas crecca crecca | UAM 11334 | KGM021 | 2000 | USA: Alaska; Aleutian Islands, Shemya Island | OR242790 |
-| Anas crecca crecca | UAM 14100 | DDG1885 | 2001 | USA: Alaska; Aleutian Islands, Shemya Island | OR242792 |
 | Anas platyrhynchos | UAM 28074 | JJW944 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242804 |
 | Anas platyrhynchos | UAM 28089 | JJW943 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242805 |
 | Anthus rubescens japonicus | UAM 28057 | JJW905 | 2010 | USA: Alaska; Aleutian Islands, Shemya Island | OR242822 |
@@ -310,19 +417,6 @@ These **144** individuals appear in `table_S1.csv` but do not have a matching ro
 | Calidris alpina arcticola | UAM 25341 | JJW4409 | 2002 | Russia: Commander Islands | OR242852 |
 | Calidris alpina pacifica | UAM 26913 | JJW016 | 2009 | USA: Alaska; Kodiak Archipelago, Kalsin Bay | OR242856 |
 | Calidris alpina pacifica | UAM 30879 | JJW1821 | 2012 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242858 |
-| Clangula hyemalis | UAM 21883 | REW583 | 2005 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242862 |
-| Clangula hyemalis | UAM 21931 | REW532 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242860 |
-| Clangula hyemalis | UAM 28184 | REW619 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242864 |
-| Clangula hyemalis | UAM 29027 | REW618 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242863 |
-| Clangula hyemalis | UAM 29029 | REW620 | 2005 | USA: Alaska; North Slope, Dalton Highway | OR242865 |
-| Clangula hyemalis | UAM 40387 | REW564 | 2005 | USA: Alaska; North Slope, Toolik | OR242861 |
-| Clangula hyemalis | UWBM 43893 | UWBM43893 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242866 |
-| Clangula hyemalis | UWBM 43894 | CSW4427 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242867 |
-| Clangula hyemalis | UWBM 43895 | UWBM43895 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242868 |
-| Clangula hyemalis | UWBM 43917 | CSW4452 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242869 |
-| Clangula hyemalis | UWBM 43918 | UWBM43918 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242870 |
-| Clangula hyemalis | UWBM 43919 | CSW4454 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242871 |
-| Clangula hyemalis | UWBM 43970 | UWBM43970 | 1992 | Russia: Chukotskiy Avtonomnyy Okrug; Anadyr', Avtatkuul River | OR242872 |
 | Corvus corax | UAM 10021 | DDG1749 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR242877 |
 | Corvus corax | UAM 38000 | JJW2991 | 2005 | USA: Alaska; Kodiak Archipelago, Sitkinak Island | OR242878 |
 | Gavia stellata | UAM 38314 | UAMX3952 | 2012 | USA: Alaska; North Slope, Barrow | OR242924 |
@@ -332,82 +426,13 @@ These **144** individuals appear in `table_S1.csv` but do not have a matching ro
 | Leucosticte tephrocotis littoralis | UAM 40954 | JJW3809 | 2017 | USA: Alaska; Alaska Range, Sevenmile Lake | OR242987 |
 | Leucosticte tephrocotis littoralis | UAM 40959 | JJW3814 | 2017 | USA: Alaska; Alaska Range, Sevenmile Lake | OR242989 |
 | Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | 2016 | USA: Alaska; Interior, Mt. Prindle | OR242993 |
-| Luscinia svecica | UAM 13718 | ABJ200 | 2001 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242890 |
-| Luscinia svecica | UAM 15419 | MJM048 | 2002 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242903 |
-| Luscinia svecica | UAM 17727 | MJM047 | 2002 | USA: Alaska; North Slope, Dalton Highway, Ice Cut | OR242902 |
-| Luscinia svecica | UAM 8584 | KSW2409 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242900 |
-| Luscinia svecica | UAM 8585 | KSW2406 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242897 |
-| Luscinia svecica | UAM 8944 | KSW2481 | 1998 | USA: Alaska; Seward Peninsula, Mile 47 Taylor Highway | OR242901 |
 | Luscinia svecica | UAM 8945 | KSW2408 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242899 |
-| Luscinia svecica | UAM 8946 | KSW2407 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242898 |
-| Luscinia svecica | UWBM 44233 | JMB1064 | 1992 | Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River | OR242891 |
-| Luscinia svecica | UWBM 44242 | JMB1078 | 1992 | Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River | OR242892 |
-| Luscinia svecica | UWBM 44246 | JMB1082 | 1992 | Russia: Avtonomnaya Respublika Yakutia; Cherskiy, Little Kon'kovaya River | OR242893 |
-| Luscinia svecica | UWBM 44361 | JMB1206 | 1992 | Russia: Kamchatka; Milkovo | OR242894 |
-| Luscinia svecica | UWBM 44362 | JMB1207 | 1992 | Russia: Kamchatka; Milkovo | OR242898 |
 | Luscinia svecica | UWBM 44489 | SAR6270 | 1992 | Russia: Kamchatka; Milkovo | OR242905 |
-| Luscinia svecica | UWBM 44629 | SAR6269 | 1992 | Russia: Kamchatka; Milkovo | OR242904 |
-| Mareca americana | UAM 11908 | KSW3028 | 1999 | USA: Alaska; Interior, Fairbanks | OR243004 |
-| Mareca americana | UAM 11909 | KSW3029 | 1999 | USA: Alaska; Interior, Fairbanks | OR243003 |
-| Mareca americana | UAM 11916 | KSW3036 | 1999 | USA: Alaska; Interior, Fairbanks | OR243002 |
-| Mareca americana | UAM 11919 | KSW3039 | 1999 | USA: Alaska; Interior, Fairbanks | OR243001 |
-| Mareca americana | UAM 13141 | UAMX1468 | 1998 | USA: Alaska; Interior, Fairbanks | OR243000 |
-| Mareca americana | UAM 26061 | JJW383 | 2012 | USA: Alaska; Interior, Eielson Air Force Base | OR243007 |
-| Mareca americana | UAM 28087 | JJW976 | 2008 | USA: Alaska; Kodiak Archipelago, Monashka Bay | OR243005 |
-| Mareca americana | UAM 28088 | JJW948 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR243006 |
-| Mareca penelope | UAM 10008 | DDG1716 | 1999 | USA: Alaska; Aleutian Islands, Shemya Island | OR243013 |
-| Mareca penelope | UAM 24301 | UAMX4959 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243009 |
-| Mareca penelope | UAM 24455 | MJL037 | 2007 | USA: Alaska; Aleutian Islands, Attu Island | OR243010 |
-| Mareca penelope | UAM 24550 | UAMX5044 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR243008 |
-| Mareca penelope | UAM 27749 | JJW968 | 2008 | USA: Alaska; Aleutian Islands, Shemya Island | OR243011 |
-| Mareca penelope | UAM 31321 | DDG1768 | 2010 | USA: Alaska; Interior, Eielson Air Force Base | OR243012 |
-| Mareca penelope | UAM 8758 | DDG1663 | 1998 | USA: Alaska; Aleutian Islands, Buldir  Island | OR243015 |
-| Mareca penelope | UAM 9759 | DDG1703 | 1999 | USA: Alaska; Aleutian Islands, Shemya Island | OR243014 |
+| Mareca americana | UAM 11919 | KSW3039 | `SRR5821129/` | `Mareca_americana_UAM_11919_JSW3039/` |
 | Mergus merganser americanus | UAM 11037 | UAMX1058 | 1999 | USA: Alaska; Interior, Delta | OR243024 |
-| Numenius phaeopus hudsonicus | UAM 11507 | TB378 | 2000 | USA: Alaska; Seward Peninsula, Teller Highway | OR243046 |
-| Numenius phaeopus hudsonicus | UAM 13349 | ABJ142 | 2001 | USA: Alaska; Interior, Dalton Highway | OR243042 |
-| Numenius phaeopus hudsonicus | UAM 13925 | KGM036 | 2000 | USA: Alaska; Seward Peninsula, Taylor Highway | OR243044 |
-| Numenius phaeopus hudsonicus | UAM 17980 | JMM011 | 2002 | USA: Alaska; Alaska Peninsula, Ugashik Bay | OR243043 |
-| Numenius phaeopus hudsonicus | UAM 28213 | JJW1013 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243054 |
-| Numenius phaeopus hudsonicus | UAM 28214 | JJW1021 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243055 |
-| Numenius phaeopus hudsonicus | UAM 28602 | JJW1154 | 2011 | USA: Alaska; Kodiak Archipelago, Ugak Island | OR243056 |
-| Numenius phaeopus hudsonicus | UAM 9260 | KSW2484 | 1998 | USA: Alaska; Seward Peninsula, Taylor Highway | OR243045 |
-| Numenius phaeopus variegatus | UAM 14225 | TB1023 | 2001 | Philippines: Cordova; Olango Island Wildlife Sanctuary | OR243050 |
-| Numenius phaeopus variegatus | UAM 14229 | TB1116 | 2001 | Philippines: Cordova; Olango Island Wildlife Sanctuary | OR243052 |
-| Numenius phaeopus variegatus | UAM 14230 | TB1091 | 2001 | Philippines: Cordova; Olango Island Wildlife Sanctuary | OR243051 |
-| Numenius phaeopus variegatus | UAM 14625 | CLP450 | 2000 | USA: Alaska; Aleutian Islands, Adak Island | OR243047 |
-| Numenius phaeopus variegatus | UAM 21379 | CLP727 | 2005 | USA: Alaska; Aleutian Islands, Attu Island | OR243048 |
-| Numenius phaeopus variegatus | UAM 8212 | DDF1666 | 1998 | USA: Alaska; Aleutian Islands, Buldir Island | OR243049 |
 | Numenius phaeopus variegatus | UWBM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
-| Pica pica | UWBM 44581 | UWBM44581 | 1992 | Russia: Kamchatka; Sokhoch | OR243079 |
-| Pica pica | UWBM 44584 | UWBM44584 | 1992 | Russia: Kamchatka; 5 km NW Sokhoch | OR243080 |
-| Pica pica | UWBM 44585 | UWBM44585 | 1992 | Russia: Kamchatka; 5 km NW Sokhoch | OR243081 |
-| Pica pica | UWBM 47197 | UWBM47197 | 1992 | Russia: Khabarovskiy Kray | OR243082 |
-| Pica pica | UWBM 72084 | UWBM72084 | 1993 | Russia: Primorskiy Kray; Ussuriyskiy Rayon, Ussuriysk | OR243083 |
-| Pica pica | UWBM 72091 | UWBM72091 | 2001 | Russia: Primorskiy Kray; Ussuriyskiy Rayon, Ussuriysk | OR243084 |
-| Pica pica | UWBM 74569 | UWBM74569 | 2002 | Russia: Primorskiy Kray; Spasskiy Rayon, Gayvoron | OR243085 |
-| Pica pica | UWBM 74697 | UWBM74697 | 2002 | Russia: Primorskiy Kray; Spasskiy Rayon, Gayvoron | OR243086 |
-| Pica hudsonia | UAM 10105 | UAMX953 | 1999 | USA: Alaska; Kodiak Island | OR243078 |
-| Pica hudsonia | UAM 12453 | CLP208 | 1999 | USA: Alaska; Alaska Peninsula, Izembek NWR | OR243072 |
-| Pica hudsonia | UAM 13052 | CLP219 | 1999 | USA: Alaska; Alaska Peninsula, Izembek NWR | OR243074 |
-| Pica hudsonia | UAM 13053 | CLP218 | 1999 | USA: Alaska; Alaska Peninsula, Izembek NWR | OR243073 |
-| Pica hudsonia | UAM 17742 | CLP245 | 1999 | USA: Alaska; Shumagin Islands, Popof Island | OR243075 |
-| Pica hudsonia | UAM 27024 | JJW683 | 2010 | USA: Alaska; Kodiak Archipelago, Chirikof Island | OR243076 |
-| Pica hudsonia | UAM 8511 | KSW2704 | 1998 | USA: Alaska; Alaska Peninsula, Cold Bay | OR243077 |
 | Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | 2016 | USA: Alaska; Interior, Chatanika River | OR243089 |
-| Pinicola enucleator flammula | UAM 10158 | UAMX1014 | 1999 | USA: Alaska; Kodiak Island, American River | OR243101 |
 | Pinicola enucleator flammula | UAM 11285 | ABJ011 | 2000 | USA: Alaska; Alexander Archipelago, Revillagigedo Island | OR243095 |
-| Pinicola enucleator flammula | UAM 11286 | ABJ012 | 2000 | USA: Alaska; Alexander Archipelago, Revillagigedo Island | OR243096 |
-| Pinicola enucleator flammula | UAM 26361 | JJW030 | 2009 | USA: Alaska; Kodiak Archipelago, Narrow Cape | OR243097 |
-| Pinicola enucleator flammula | UAM 28530 | JJW1097 | 2011 | USA: Alaska; Kodiak Archipelago, Kalsin Bay | OR243098 |
-| Pinicola enucleator flammula | UAM 8794 | KSW1695 | 1997 | USA: Alaska; Kodiak Island | OR243100 |
-| Pinicola enucleator flammula | UAM 8797 | KSW1694 | 1997 | USA: Alaska; Kodiak Island | OR243099 |
-| Pinicola enucleator kamtschatschensis | UAM 24601 | DDG2189 | 2008 | USA: Alaska; Aleutian Islands, Shemya Island | OR243102 |
-| Pinicola enucleator kamtschatschensis | UAM 24602 | DDG2190 | 2008 | USA: Alaska; Aleutian Islands, Shemya Island | OR243103 |
-| Pinicola enucleator kamtschatschensis | UWBM 47314 | SAR6538 | 1993 | Russia: Sakhalinskaya Oblast' | OR243104 |
-| Pinicola enucleator kamtschatschensis | UWBM 47315 | SAR6539 | 1993 | Russia: Sakhalinskaya Oblast' | OR243105 |
-| Pinicola enucleator kamtschatschensis | UWBM 51627 | SVD407 | 1993 | Russia: Magadanskaya Oblast'; Ol'skiy Rayon, Snezhnaya Dolina | OR243106 |
-| Pinicola enucleator kamtschatschensis | UWBM 51643 | SVD423 | 1993 | Russia: Magadanskaya Oblast'; Ol'skiy Rayon, Snezhnaya Dolina | OR243107 |
 | Plectrophenax hyperboreus | UAM 7407 | KSW1588 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243108 |
 | Plectrophenax nivalis | UAM 27725 | JJW292 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR243113 |
 | Pluvialis dominica | UAM 13181 | KSW2402 | 1998 | USA: Alaska; Seward Peninsula, Kougarok Road | OR243117 |
@@ -418,22 +443,6 @@ These **144** individuals appear in `table_S1.csv` but do not have a matching ro
 | Pluvialis fulva | UAM 13545 | DDG1860 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR243120 |
 | Pluvialis fulva | UAM 26906 | JJW145 | 2009 | USA: Alaska; Aleutian Islands, Attu Island | OR243121 |
 | Pluvialis fulva | UAM 8798 | KSW2383 | 1998 | USA: Alaska; Seward Peninsula, Teller Road | OR243122 |
-| Tringa brevipes | UAM 10112 | DDG1736 | 1999 | USA: Alaska; Aleutian Islands, Shemya Island | OR243150 |
-| Tringa brevipes | UAM 28427 | JJW906 | 2010 | USA: Alaska; Aleutian Islands, Shemya Island | OR243154 |
-| Tringa brevipes | UAM 28428 | JJW1030 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243151 |
-| Tringa brevipes | UAM 28429 | JJW1062 | 2007 | USA: Alaska; Aleutian Islands, Shemya Island | OR243153 |
-| Tringa brevipes | UAM 28430 | JJW1061 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR243152 |
-| Tringa brevipes | UAM 7534 | KSW1780 | 1997 | USA: Alaska; Aleutian Islands, Attu Island | OR243155 |
-| Tringa brevipes | UAM 8521 | KSW1781 | 1887 | USA: Alaska; Aleutian Islands, Attu Island | OR243156 |
-| Tringa brevipes | UAM 8805 | KSW1782 | 1997 | USA: Alaska; Aleutian Islands, Attu Island | OR243157 |
-| Tringa incana | UAM 13434 | DAR228 | 2001 | USA: Alaska; Aleutian Islands, Attu Island | OR243158 |
-| Tringa incana | UAM 13569 | UAMX1735 | 2001 | USA: Alaska; Aleutian Islands, Attu Island | OR243165 |
-| Tringa incana | UAM 21813 | KSW3378 | 2000 | USA: Alaska; Aleutian Islands, Amila Island | OR243163 |
-| Tringa incana | UAM 24859 | UAMX1645 | 2001 | USA: Alaska; Kodiak Archipelago, Kodiak | OR243164 |
-| Tringa incana | UAM 28422 | JJW720 | 2010 | USA: Alaska; Aleutian Islands, Attu Island | OR243160 |
-| Tringa incana | UAM 28425 | JJW724 | 2010 | USA: Alaska; Aleutian Islands, Attu Island | OR243161 |
-| Tringa incana | UAM 28426 | JJW1022 | 2008 | USA: Alaska; Kodiak Archipelago, Ban Island | OR243159 |
-| Tringa incana | UAM 8240 | KSW1778 | 1997 | USA: Alaska; Aleutian Islands, Attu Island | OR243162 |
 | Uria aalge inornata | UAM 10687 | KSW1631 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243182 |
 | Uria aalge inornata | UAM 10689 | KSW1633 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243184 |
 | Uria aalge inornata | UAM 10690 | KSW1634 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243185 |
@@ -454,3 +463,25 @@ These directories did not have an exact `Field #` match in `table_S1.csv`:
 | `SVD422_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | Unknown | `Sample_SVD3025_UNKNOWN_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, or `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. Probably UWBM bird. |
 | `UAM_10581_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Picoides tridactylus* | `Sample_UAM10581_Picoides_tridactylus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
 | `UAM29835_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | *Calcarius lapponicus* | `Sample_UAM_29835_Lagopus_lagopus_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | Individual not present in `table_S1.csv`, but can be found in `ORNIS flat file Apr 2019 GENSPEC sorted.xlsx`. |
+
+## Table 4. Newly assembled individuals not in original `table_S1.csv`
+
+These **23** individuals were assembled from PRJNA393740 SRA accessions and do not appear in `table_S1.csv` (or only appear with no field number).
+
+| Species | Catalog num | Field num | Old directory name | New directory name |
+| - | - | - | - | - |
+| Pluvialis squatarola | UWBM 43963 | | `SRR5821029/` | `Pluvialis_squatarola_UWBM_43963/` |
+| Pluvialis squatarola | UWBM 43964 | | `SRR5821030/` | `Pluvialis_squatarola_UWBM_43964/` |
+| Pluvialis squatarola | UWBM 44500 | | `SRR5821031/` | `Pluvialis_squatarola_UWBM_44500/` |
+| Pluvialis squatarola | UWBM 51608 | | `SRR5821032/` | `Pluvialis_squatarola_UWBM_51608/` |
+| Pluvialis squatarola | UWBM 43931 | | `SRR5821042/` | `Pluvialis_squatarola_UWBM_43931/` |
+| Pluvialis squatarola | UAM 14241 | TB1363 | `SRR5821043/` | `Pluvialis_squatarola_UAM_14241_TB1363/` |
+| Pluvialis squatarola | UAM 14238 | TB1383 | `SRR5821044/` | `Pluvialis_squatarola_UAM_14238_TB1383/` |
+| Pluvialis squatarola | UAM 14237 | TB1089 | `SRR5821045/` | `Pluvialis_squatarola_UAM_14237_TB1089/` |
+| Pluvialis squatarola | UAM 14240 | TB1365 | `SRR5821046/` | `Pluvialis_squatarola_UAM_14240_TB1365/` |
+| Pluvialis squatarola | UAM 14239 | TB1377 | `SRR5821047/` | `Pluvialis_squatarola_UAM_14239_TB1377/` |
+| Luscinia svecica | UWBM 44630 | | `SRR5821050/` | `Luscinia_svecica_UWBM_44630/` |
+| Numenius phaeopus | UAM 14928 | DAR271 | `SRR5821058/` | `Numenius_phaeopus_UAM_14928_DAR271/` |
+| Clangula hyemalis | UAM 13154 | DAR149 | `SRR5821060/` | `Clangula_hyemalis_UAM_13154_DAR149/` |
+| Pinicola enucleator | UWBM 44628 | | `SRR5821072/` | `Pinicola_enucleator_UWBM_44628/` |
+| Pinicola enucleator | UAM 11287 | ABJ013 | `SRR5821081/` | `Pinicola_enucleator_UAM_11287_ABJ013/` |
