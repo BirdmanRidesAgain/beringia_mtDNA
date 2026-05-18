@@ -360,6 +360,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Mareca penelope | UAM 24550 | UAMX5044 | `SRR5821113/` | `Mareca_penelope_UAM_24550_UAMX5044/` |
 | Mareca penelope | UAM 9359 | DDG1703 | `SRR5821137/` | `Mareca_penelope_UAM_9359_DDG1703` |
 | Mareca americana | UAM 11916 | KSW3036 | `SRR5821128/` | `Mareca_americana_UAM_11916_KSW3036/` |
+| Mareca americana | UAM 11919 | KSW3039 | `SRR5821129/` | `Mareca_americana_UAM_11919_KSW3039/` |
 | Mareca americana | UAM 11908 | KSW3028 | `SRR5821130/` | `Mareca_americana_UAM_11908_KSW3028/` |
 | Mareca americana | UAM 11909 | KSW3029 | `SRR5821131/` | `Mareca_americana_UAM_11909_KSW3029/` |
 | Mareca americana | UAM 28087 | JJW976 | `SRR5821132/` | `Mareca_americana_UAM_28087_JJW976/` |
@@ -399,9 +400,30 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Tringa incana | UAM 28426 | JJW1022 | `SRR5821155/` | `Tringa_incana_UAM_28426_JJW1022/` |
 | Tringa incana | UAM 28425 | JJW724 | `SRR5821156/` | `Tringa_incana_UAM_28425_JJW724/` |
 
+
+<!-- Pending assembly: raw reads in ~/Downloads/new_beringia_birds (field # prefix, *_1/_2.fq.gz) -->
+| Anthus rubescens japonicus | UAM 28057 | JJW905 | `JJW905/` | `Anthus_rubescens_japonicus_UAM_28057_JJW905/` |
+| Arenaria interpres | UAM 26977 | JJW676 | `JJW676/` | `Arenaria_interpres_UAM_26977_JJW676/` |
+| Arenaria interpres | UAM 30797 | JJW1637 | `JJW1637/` | `Arenaria_interpres_UAM_30797_JJW1637/` |
+| Calcarius lapponicus coloratus | UAM 29825 | UAM29825 | `UAM29825/` | `Calcarius_lapponicus_coloratus_UAM_29825_UAM29825/` |
+| Calcarius lapponicus coloratus | UAM 29827 | UAM29827 | `UAM29827/` | `Calcarius_lapponicus_coloratus_UAM_29827_UAM29827/` |
+| Calidris alpina arcticola | UAM 25341 | JJW4409 | `JJW4409/` | `Calidris_alpina_arcticola_UAM_25341_JJW4409/` |
+| Calidris alpina pacifica | UAM 26913 | JJW016 | `JJW016/` | `Calidria_alpina_pacifica_UAM_26913_JJW016/` |
+| Calidris alpina pacifica | UAM 30879 | JJW1821 | `JJW1821/` | `Calidria_alpina_pacifica_UAM_30879_JJW1821/` |
+| Corvus corax | UAM 10021 | DDG1749 | `DDG1749/` | `Corvus_corax_UAM_10021_DDG1749/` |
+| Corvus corax | UAM 38000 | JJW2991 | `JJW2991/` | `Corvus_corax_UAM_38000_JJW2991/` |
+| Gavia stellata | UAM 38314 | UAMX3952 | `UAMX3952/` | `Gavia_stellata_UAM_38314_UAMX3952/` |
+| Leucosticte tephrocotis griseonucha | UAM 31439 | RWD24857 | `RWD24857/` | `Leucosticte_tephrocotis_griseonucha_UAM_31439_RWD24857/` |
+| Leucosticte tephrocotis littoralis | UAM 40954 | JJW3809 | `JJW3809/` | `Leucosticte_tephrocotis_littoralis_UAM_40954_JJW3809/` |
+| Leucosticte tephrocotis littoralis | UAM 40959 | JJW3814 | `JJW3814/` | `Leucosticte_tephrocotis_littoralis_UAM_40959_JJW3814/` |
+| Mergus merganser americanus | UAM 11037 | UAMX1058 | `UAMX1058/` | `Mergus_merganser_americanus_UAM_11037_UAMX1058/` |
+| Uria aalge inornata | UAM 10687 | KSW1631 | `KSW1631/` | `Uria_aalge_inornata_UAM_10687_KSW1631/` |
+| Uria aalge inornata | UAM 10689 | KSW1633 | `KSW1633/` | `Uria_aalge_inornata_UAM_10689_KSW1633/` |
+| Uria aalge inornata | UAM 10690 | KSW1634 | `KSW1634/` | `Uria_aalge_inornata_UAM_10690_KSW1634/` |
+
 ## Table 2. Individuals in `table_S1.csv` without an assembled mitogenome
 
-These **48** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
+These **22** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
 
 | Species | Catalog num | Field num | Year | Locality | NCBI-SRA |
 | - | - | - | - | - | - |
@@ -409,27 +431,11 @@ These **48** individuals appear in `table_S1.csv` but do not have a matching row
 | Anas acuta | UAM 31335 | UAMX5487 | 2010 | USA: Alaska; Interior, Eielson Air Force Base | OR242768 |
 | Anas platyrhynchos | UAM 28074 | JJW944 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242804 |
 | Anas platyrhynchos | UAM 28089 | JJW943 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242805 |
-| Anthus rubescens japonicus | UAM 28057 | JJW905 | 2010 | USA: Alaska; Aleutian Islands, Shemya Island | OR242822 |
-| Arenaria interpres | UAM 26977 | JJW676 | 2008 | USA: Alaska; Kodiak Archipelago, Chirikof Island | OR242831 |
-| Arenaria interpres | UAM 30797 | JJW1637 | 2012 | USA: Alaska; Kodiak Archipelago, Ugak Island | OR242832 |
-| Calcarius lapponicus coloratus | UAM 29825 | UAM29825 | 2006 | Russia: Commander Islands, Bering Island | OR242850 |
-| Calcarius lapponicus coloratus | UAM 29827 | UAM29827 | 2006 | Russia: Commander Islands, Bering Island | OR242851 |
-| Calidris alpina arcticola | UAM 25341 | JJW4409 | 2002 | Russia: Commander Islands | OR242852 |
-| Calidris alpina pacifica | UAM 26913 | JJW016 | 2009 | USA: Alaska; Kodiak Archipelago, Kalsin Bay | OR242856 |
-| Calidris alpina pacifica | UAM 30879 | JJW1821 | 2012 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242858 |
-| Corvus corax | UAM 10021 | DDG1749 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR242877 |
-| Corvus corax | UAM 38000 | JJW2991 | 2005 | USA: Alaska; Kodiak Archipelago, Sitkinak Island | OR242878 |
-| Gavia stellata | UAM 38314 | UAMX3952 | 2012 | USA: Alaska; North Slope, Barrow | OR242924 |
 | Lagopus lagopus koreni | UAM 28171 | KSW5133 | 2007 | Russia: Yakutia; Indigirka River | OR242945 |
 | Larus argentatus vegae | UAM 25983 | JJW343 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR242955 |
-| Leucosticte tephrocotis griseonucha | UAM 31439 | RWD24857 | 1998 | USA: Alaska; Aleutian Islands, Attu Island | OR242983 |
-| Leucosticte tephrocotis littoralis | UAM 40954 | JJW3809 | 2017 | USA: Alaska; Alaska Range, Sevenmile Lake | OR242987 |
-| Leucosticte tephrocotis littoralis | UAM 40959 | JJW3814 | 2017 | USA: Alaska; Alaska Range, Sevenmile Lake | OR242989 |
 | Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | 2016 | USA: Alaska; Interior, Mt. Prindle | OR242993 |
 | Luscinia svecica | UAM 8945 | KSW2408 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242899 |
 | Luscinia svecica | UWBM 44489 | SAR6270 | 1992 | Russia: Kamchatka; Milkovo | OR242905 |
-| Mareca americana | UAM 11919 | KSW3039 | `SRR5821129/` | `Mareca_americana_UAM_11919_JSW3039/` |
-| Mergus merganser americanus | UAM 11037 | UAMX1058 | 1999 | USA: Alaska; Interior, Delta | OR243024 |
 | Numenius phaeopus variegatus | UWBM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
 | Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | 2016 | USA: Alaska; Interior, Chatanika River | OR243089 |
 | Pinicola enucleator flammula | UAM 11285 | ABJ011 | 2000 | USA: Alaska; Alexander Archipelago, Revillagigedo Island | OR243095 |
@@ -443,9 +449,6 @@ These **48** individuals appear in `table_S1.csv` but do not have a matching row
 | Pluvialis fulva | UAM 13545 | DDG1860 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR243120 |
 | Pluvialis fulva | UAM 26906 | JJW145 | 2009 | USA: Alaska; Aleutian Islands, Attu Island | OR243121 |
 | Pluvialis fulva | UAM 8798 | KSW2383 | 1998 | USA: Alaska; Seward Peninsula, Teller Road | OR243122 |
-| Uria aalge inornata | UAM 10687 | KSW1631 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243182 |
-| Uria aalge inornata | UAM 10689 | KSW1633 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243184 |
-| Uria aalge inornata | UAM 10690 | KSW1634 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243185 |
 
 ## Table 3. Mitogenomes without an entry in Table_S1. ("Unmatched assembled directories")
 
@@ -466,7 +469,7 @@ These directories did not have an exact `Field #` match in `table_S1.csv`:
 
 ## Table 4. Newly assembled individuals not in original `table_S1.csv`
 
-These **23** individuals were assembled from PRJNA393740 SRA accessions and do not appear in `table_S1.csv` (or only appear with no field number).
+These **15** individuals were assembled from PRJNA393740 SRA accessions and do not appear in `table_S1.csv` (or only appear with no field number).
 
 | Species | Catalog num | Field num | Old directory name | New directory name |
 | - | - | - | - | - |
@@ -485,3 +488,123 @@ These **23** individuals were assembled from PRJNA393740 SRA accessions and do n
 | Clangula hyemalis | UAM 13154 | DAR149 | `SRR5821060/` | `Clangula_hyemalis_UAM_13154_DAR149/` |
 | Pinicola enucleator | UWBM 44628 | | `SRR5821072/` | `Pinicola_enucleator_UWBM_44628/` |
 | Pinicola enucleator | UAM 11287 | ABJ013 | `SRR5821081/` | `Pinicola_enucleator_UAM_11287_ABJ013/` |
+
+## Table 5. Resequenced birds in 2018 Kevin sent me from Travis
+
+Cross-referenced by **collection name** (= field # in Tables 1–2 and 4; embedded in directory names in Table 3). **Yes** = that identifier appears in at least one row of that table.
+
+Summary: **110** in Table 1 (**92** assembled with directories; **18** pending assembly, moved from Table 2); **1** in Table 3 only (**SVD3025**, unmatched assembly); **0** in Table 4. Every individual appears in at least one of Tables 1–3.
+
+| Collection name | Table 1 | Table 2 | Table 3 | Table 4 |
+| - | - | - | - | - |
+| ABJ133 | Yes | No | No | No |
+| ABJ179 | Yes | No | No | No |
+| AEI105 | Yes | No | No | No |
+| BKS3241 | Yes | No | No | No |
+| BKS351 | Yes | No | No | No |
+| BKS4041 | Yes | No | No | No |
+| BKS4052 | Yes | No | No | No |
+| BKS908 | Yes | No | No | No |
+| CLP038 | Yes | No | No | No |
+| CLP048 | Yes | No | No | No |
+| CLP051 | Yes | No | No | No |
+| CLP200 | Yes | No | No | No |
+| CSW4345 | Yes | No | No | No |
+| CSW4346 | Yes | No | No | No |
+| CSW4378 | Yes | No | No | No |
+| CSW4379 | Yes | No | No | No |
+| CSW4461 | Yes | No | No | No |
+| CSW4526 | Yes | No | No | No |
+| CSW4675 | Yes | No | No | No |
+| CSW5794 | Yes | No | No | No |
+| DAB063 | Yes | No | No | No |
+| DAR268 | Yes | No | No | No |
+| DAR275 | Yes | No | No | No |
+| DDG1749 | Yes | No | No | No |
+| DDG1750 | Yes | No | No | No |
+| DDG1877 | Yes | No | No | No |
+| DDG1935 | Yes | No | No | No |
+| DDG1991 | Yes | No | No | No |
+| JJW015 | Yes | No | No | No |
+| JJW016 | Yes | No | No | No |
+| JJW063 | Yes | No | No | No |
+| JJW1637 | Yes | No | No | No |
+| JJW1821 | Yes | No | No | No |
+| JJW216 | Yes | No | No | No |
+| JJW2991 | Yes | No | No | No |
+| JJW3809 | Yes | No | No | No |
+| JJW3814 | Yes | No | No | No |
+| JJW4409 | Yes | No | No | No |
+| JJW520 | Yes | No | No | No |
+| JJW629 | Yes | No | No | No |
+| JJW676 | Yes | No | No | No |
+| JJW704 | Yes | No | No | No |
+| JJW762 | Yes | No | No | No |
+| JJW905 | Yes | No | No | No |
+| JMB1001 | Yes | No | No | No |
+| JMB1002 | Yes | No | No | No |
+| JMB1098 | Yes | No | No | No |
+| JMB1099 | Yes | No | No | No |
+| JMB1211 | Yes | No | No | No |
+| JMB857 | Yes | No | No | No |
+| JMB994 | Yes | No | No | No |
+| JMB995 | Yes | No | No | No |
+| JMB996 | Yes | No | No | No |
+| JMB997 | Yes | No | No | No |
+| JMB998 | Yes | No | No | No |
+| JMM133 | Yes | No | No | No |
+| JMM326 | Yes | No | No | No |
+| JMM337 | Yes | No | No | No |
+| JMM338 | Yes | No | No | No |
+| JMM422 | Yes | No | No | No |
+| KGM628 | Yes | No | No | No |
+| KSW1456 | Yes | No | No | No |
+| KSW1631 | Yes | No | No | No |
+| KSW1633 | Yes | No | No | No |
+| KSW1634 | Yes | No | No | No |
+| KSW1646 | Yes | No | No | No |
+| KSW1821 | Yes | No | No | No |
+| KSW2715 | Yes | No | No | No |
+| KSW3980 | Yes | No | No | No |
+| KSW4763 | Yes | No | No | No |
+| MJM037 | Yes | No | No | No |
+| MJM122 | Yes | No | No | No |
+| NCSM17754 | Yes | No | No | No |
+| RWD24857 | Yes | No | No | No |
+| RWD25944 | Yes | No | No | No |
+| RWD25949 | Yes | No | No | No |
+| RWD26009 | Yes | No | No | No |
+| RYA1002 | Yes | No | No | No |
+| SAR6041 | Yes | No | No | No |
+| SAR6042 | Yes | No | No | No |
+| SAR6046 | Yes | No | No | No |
+| SAR6074 | Yes | No | No | No |
+| SAR6262 | Yes | No | No | No |
+| SAR6263 | Yes | No | No | No |
+| SAR6264 | Yes | No | No | No |
+| SAR6293 | Yes | No | No | No |
+| SVD1398 | Yes | No | No | No |
+| SVD144 | Yes | No | No | No |
+| SVD231a | Yes | No | No | No |
+| SVD2977 | Yes | No | No | No |
+| SVD2978 | Yes | No | No | No |
+| SVD3025 | No | No | Yes | No |
+| SVD475 | Yes | No | No | No |
+| TB1445 | Yes | No | No | No |
+| TB1448 | Yes | No | No | No |
+| UAM29825 | Yes | No | No | No |
+| UAM29827 | Yes | No | No | No |
+| UAMX1058 | Yes | No | No | No |
+| UAMX1061 | Yes | No | No | No |
+| UAMX1553 | Yes | No | No | No |
+| UAMX1744 | Yes | No | No | No |
+| UAMX2921 | Yes | No | No | No |
+| UAMX3267 | Yes | No | No | No |
+| UAMX3273 | Yes | No | No | No |
+| UAMX3290 | Yes | No | No | No |
+| UAMX387 | Yes | No | No | No |
+| UAMX3952 | Yes | No | No | No |
+| UAMX4957 | Yes | No | No | No |
+| UAMX503 | Yes | No | No | No |
+| UAMX5158 | Yes | No | No | No |
+| UAMX844 | Yes | No | No | No |
