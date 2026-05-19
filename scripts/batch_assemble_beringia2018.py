@@ -172,7 +172,28 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Print commands without running assembly.",
     )
+    p.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip samples whose output dir already has a non-empty NOVOPlasty FASTA.",
+    )
     return p.parse_args()
+
+
+def novoplasty_done(out_dir: Path, field: str) -> bool:
+    nov_dir = out_dir / f"novoplasty_{field}"
+    if not nov_dir.is_dir():
+        return False
+    for pat in (
+        "Circularized_assembly_*.fasta",
+        "C_*.fasta",
+        "Option_1_*.fasta",
+        "Contigs_*.fasta",
+    ):
+        for f in nov_dir.glob(pat):
+            if f.is_file() and f.stat().st_size > 0:
+                return True
+    return False
 
 
 def main() -> None:
@@ -210,6 +231,10 @@ def main() -> None:
             log.write(f"  CMD: {' '.join(cmd)}\n")
             log.flush()
             if args.dry_run:
+                continue
+            if args.skip_existing and novoplasty_done(out_dir, field):
+                log.write("  Skipped: existing NOVOPlasty FASTA found.\n")
+                log.flush()
                 continue
             r = subprocess.run(cmd, env=assemble_child_environ())
             log.write(f"Exit code: {r.returncode}\n")
