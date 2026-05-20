@@ -9,6 +9,65 @@ ASM_ROOT = REPO / "mitogenomes_output"
 ANNOTATION_FOLDER = "annotation"
 BATCH_LOGS_DIR = ASM_ROOT / "_batch_logs"
 
+# NOVOPlasty output tiers (lower = better). Matches batch_annotate_assemblies.py.
+TIER_CIRC = 1
+TIER_OPTION = 2
+TIER_CONTIGS = 3
+TIER_TMP = 4
+TIER_NONE = 99
+TIER_NAMES = {1: "circularized", 2: "option", 3: "contigs", 4: "contigs_tmp", 99: "none"}
+
+
+def _list_novoplasty_files(novop: Path) -> list[Path]:
+    return [p for p in novop.iterdir() if p.is_file() and not p.name.startswith("._")]
+
+
+def classify_novoplasty_dir(novop: Path) -> int:
+    """Best NOVOPlasty tier in one ``novoplasty_*`` directory."""
+    files = _list_novoplasty_files(novop)
+    if any(p.name.startswith("Circularized_assembly_") and p.suffix == ".fasta" for p in files):
+        return TIER_CIRC
+    if any(p.name.startswith("Option_") and p.suffix == ".fasta" for p in files):
+        return TIER_OPTION
+    if any(p.name.startswith("Contigs_") and p.suffix == ".fasta" for p in files):
+        return TIER_CONTIGS
+    if any(
+        p.name.startswith("contigs_tmp_") and p.suffix == ".txt" and p.stat().st_size > 0
+        for p in files
+    ):
+        return TIER_TMP
+    return TIER_NONE
+
+
+def tier_to_assembly_level(tier: int) -> str:
+    """
+    Map best tier to CSV ``assembly_level``.
+
+    - ``success``: circularized FASTA (tier 1)
+    - ``partial_success``: Option or Contigs FASTA (tiers 2–3)
+    - ``failed``: only contigs_tmp, empty output, or no novoplasty dir (tiers 4, 99)
+    """
+    if tier == TIER_CIRC:
+        return "success"
+    if tier in (TIER_OPTION, TIER_CONTIGS):
+        return "partial_success"
+    return "failed"
+
+
+def assembly_level_for_sample_dir(sample_dir: Path) -> str:
+    """Best tier across all ``novoplasty_*`` subdirectories under a sample folder."""
+    if not sample_dir.is_dir():
+        return "failed"
+    novops = sorted(
+        p for p in sample_dir.iterdir() if p.is_dir() and p.name.startswith("novoplasty_")
+    )
+    if not novops:
+        return "failed"
+    best = TIER_NONE
+    for novop in novops:
+        best = min(best, classify_novoplasty_dir(novop))
+    return tier_to_assembly_level(best)
+
 
 def parse_sample_label(sample_label: str) -> tuple[str, str]:
     """

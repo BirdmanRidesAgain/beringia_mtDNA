@@ -20,9 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from mitogenome_paths import ASM_ROOT, LEGACY_ANNOT_ROOT  # noqa: E402
 
 # When mitogenome_annotations name differs from assembly dir on disk.
-ASSEMBLY_DIR_ALIASES: dict[str, str] = {
-    "Mareca_americana_UAM_11919_KSW3039": "Mareca_americana_UAM_11919_JSW3039",
-}
+ASSEMBLY_DIR_ALIASES: dict[str, str] = {}
 
 
 def infer_suffix(asm_dir: Path) -> str:

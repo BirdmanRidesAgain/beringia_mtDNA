@@ -54,20 +54,20 @@ Anas acuta	UAM 23468	2004	KGM895	USA: Alaska; North Slope, Dalton Highway, S Dea
 Anas acuta	UAM 29039	2005	REW548	USA: Alaska; North Slope, Dalton Highway	NW	OR242776
 Anas acuta	UAM 22113	2005	REW601	USA: Alaska; North Slope, Dalton Highway	NW	OR242777
 Anas acuta	UAM 31335	2010	UAMX5487	USA: Alaska; Interior, Eielson Air Force Base	NW	OR242768
-Anas crecca crecca	UAM 22853	2006	KSW4951	Russia: Yakutia; Aldan River, Tumul	OW	OR242789
-Anas crecca crecca	UAM 11334	2000	KGM021	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242790
-Anas crecca crecca	UAM 11335	2000	KGM020	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242791
-Anas crecca crecca	UAM 14100	2001	DDG1885	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242792
-Anas crecca crecca	UAM 14666	2001	DDG1884	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242793
-Anas crecca crecca	UAM 9191	1999	DDG1732	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242794
-Anas crecca crecca	UAM 9255	1999	DDG1704	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242795
-Anas crecca carolinensis	UAM 28444	2008	UAMX5069	USA: Alaska; Chirikof Island	NW	OR242778
-Anas crecca carolinensis	UAM 11251	1996	UAMX203	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242779
-Anas crecca carolinensis	UAM 20635	2004	KSW4530	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242780
-Anas crecca carolinensis	UAM 11920	1999	KSW3040	USA: Alaska; Interior, Fairbanks	NW	OR242781
-Anas crecca carolinensis	UAM 14961	2001	KGM335	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242782
-Anas crecca carolinensis	UAM 24497	2004	JMM448	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242783
-Anas crecca carolinensis	UAM 28085	2008	JJW978	USA: Alaska; Kodiak Archipelago, Monashka Bay	NW	OR242784
+Anas crecca	UAM 22853	2006	KSW4951	Russia: Yakutia; Aldan River, Tumul	OW	OR242789
+Anas crecca	UAM 11334	2000	KGM021	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242790
+Anas crecca	UAM 11335	2000	KGM020	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242791
+Anas crecca	UAM 14100	2001	DDG1885	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242792
+Anas crecca	UAM 14666	2001	DDG1884	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242793
+Anas crecca	UAM 9191	1999	DDG1732	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242794
+Anas crecca	UAM 9255	1999	DDG1704	USA: Alaska; Aleutian Islands, Shemya Island	OW	OR242795
+Anas carolinensis	UAM 28444	2008	UAMX5069	USA: Alaska; Chirikof Island	NW	OR242778
+Anas carolinensis	UAM 11251	1996	UAMX203	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242779
+Anas carolinensis	UAM 20635	2004	KSW4530	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242780
+Anas carolinensis	UAM 11920	1999	KSW3040	USA: Alaska; Interior, Fairbanks	NW	OR242781
+Anas carolinensis	UAM 14961	2001	KGM335	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242782
+Anas carolinensis	UAM 24497	2004	JMM448	USA: Alaska; Cold Bay, Izembek Lagoon	NW	OR242783
+Anas carolinensis	UAM 28085	2008	JJW978	USA: Alaska; Kodiak Archipelago, Monashka Bay	NW	OR242784
 Aythya marila	UAM 30395	2010	KSW5385	Russia: Kamchatka; Sea of Okhotsk	OW	OR242837
 Aythya marila	UAM 30394	2010	KSW5393	Russia: Kamchatka; Sea of Okhotsk	OW	OR242838
 Aythya marila	UAM 30392	2010	KSW5394	Russia: Kamchatka; Sea of Okhotsk	OW	OR242839
@@ -177,11 +177,11 @@ Arenaria melanocephala	UAM 20098	2004	JMM327	USA: Alaska; Bering Coast, Jacksmit
 Calidris alpina arcticola	UAM 25341	2002	JJW4409	Russia: Commander Islands	OW	OR242852
 Calidris alpina arcticola	UAM 19815	2002	JJW4411	Russia: Commander Islands	OW	OR242853
 Calidris alpina arcticola	UAM 20132	2002	UAMX3267	USA: Alaska; North Slope, Utquiagvik	OW	OR242854
-Calidria alpina pacifica	UAM 26914	2009	JJW015	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242855
-Calidria alpina pacifica	UAM 26913	2009	JJW016	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242856
-Calidria alpina pacifica	UAM 27576	2010	JJW704	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242859
-Calidria alpina pacifica	UAM 30313	2012	JJW1490	USA: Alaska; Kodiak Archipelago, Tugidak Island	NW	OR242857
-Calidria alpina pacifica	UAM 30879	2012	JJW1821	USA: Alaska; Kodiak Archipelago, Deadman Bay	NW	OR242858
+Calidris alpina pacifica	UAM 26914	2009	JJW015	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242855
+Calidris alpina pacifica	UAM 26913	2009	JJW016	USA: Alaska; Kodiak Archipelago, Kalsin Bay	NW	OR242856
+Calidris alpina pacifica	UAM 27576	2010	JJW704	USA: Alaska; Kodiak Archipelago, Chirikof Island	NW	OR242859
+Calidris alpina pacifica	UAM 30313	2012	JJW1490	USA: Alaska; Kodiak Archipelago, Tugidak Island	NW	OR242857
+Calidris alpina pacifica	UAM 30879	2012	JJW1821	USA: Alaska; Kodiak Archipelago, Deadman Bay	NW	OR242858
 Gallinago gallinago gallinago	UAM 21848	2005	CLP713	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242913
 Gallinago gallinago gallinago	UAM 8228	1998	DDG1650	USA: Alaska; Aleutian Islands, Adak Island	OW	OR242914
 Gallinago gallinago gallinago	UAM 26800	2009	JJW158	USA: Alaska; Aleutian Islands, Attu Island	OW	OR242911

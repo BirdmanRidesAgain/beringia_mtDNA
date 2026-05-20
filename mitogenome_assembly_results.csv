@@ -1,437 +1,435 @@
-directory_name,species,assembly_level,catalog_guess,accession_guess,coverage,order,taxon_pair,species_old,match_status,match_confidence,match_notes,_merge
-Anas_acuta_UAM_22113_REW601,Anas acuta,partial_success,UAM22113,REW601,9.8,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UAM_23468_KGM895,Anas acuta,partial_success,UAM23468,KGM895,48.3,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UAM_28156_KSW5107,Anas acuta,partial_success,UAM28156,KSW5107,31.3,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UAM_28167_KSW5120,Anas acuta,partial_success,UAM28167,KSW5120,23.2,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UAM_29039_REW548,Anas acuta,partial_success,UAM29039,REW548,22.8,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UAM_30400_KSW5391,Anas acuta,partial_success,UAM30400,KSW5391,4.3,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UAM_31205_JJW1897,Anas acuta,partial_success,UAM31205,JJW1897,17.4,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_acuta_UWBM_44114_DAB055,Anas acuta,partial_success,UWBM44114,DAB055,66.6,Anseriformes,Anas acuta,Anas acuta,matched,high,,both
-Anas_crecca_carolinensis_UAM_11251_UAMX203,Anas crecca carolinensis,success,UAM11251,UAMX203,50.2,Anseriformes,Anas crecca,Anas carolinensis,matched,high,,both
-Anas_crecca_carolinensis_UAM_11920_KSW3040,Anas crecca carolinensis,success,UAM11920,KSW3040,176.5,Anseriformes,Anas crecca,Anas carolinensis,matched,high,,both
-Anas_crecca_carolinensis_UAM_14961_KGM335,Anas crecca carolinensis,success,UAM14961,KGM335,320.8,Anseriformes,Anas crecca,Anas carolinensis,matched,high,,both
-Anas_crecca_carolinensis_UAM_28085_JJW978,Anas crecca carolinensis,failed,UAM28085,JJW978,76.0,Anseriformes,Anas crecca,Anas carolinensis,matched,high,,both
-Anas_crecca_crecca_UAM_11335_KGM020,Anas crecca crecca,success,UAM11335,KGM020,481.6,Anseriformes,Anas crecca,Anas crecca,matched,high,,both
-Anas_crecca_crecca_UAM_14666_DDG1884,Anas crecca crecca,success,UAM14666,DDG1884,104.3,Anseriformes,Anas crecca,Anas crecca,matched,high,,both
-Anas_crecca_crecca_UAM_22853_KSW4951,Anas crecca crecca,success,UAM22853,KSW4951,304.6,Anseriformes,Anas crecca,Anas crecca,matched,high,,both
-Anas_crecca_crecca_UAM_9191_DDG1732,Anas crecca crecca,success,UAM9191,DDG1732,1282.9,Anseriformes,Anas crecca,Anas crecca,matched,high,,both
-Anas_crecca_crecca_UAM_9255_DDG1704,Anas crecca crecca,success,UAM9255,DDG1704,459.4,Anseriformes,Anas crecca,Anas crecca,matched,high,,both
-Anas_platyrhynchos_UAM_11193_KGM007,Anas platyrhynchos,success,UAM11193,KGM007,127.2,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UAM_11328_DDG1776,Anas platyrhynchos,partial_success,UAM11328,DDG1776,23.9,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UAM_29647_JJW1397,Anas platyrhynchos,partial_success,UAM29647,JJW1397,48.3,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UAM_30286_JJW1602,Anas platyrhynchos,partial_success,UAM30286,JJW1602,22.8,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UAM_30290_JJW1592,Anas platyrhynchos,partial_success,UAM30290,JJW1592,20.4,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UAM_30399_KSW5390,Anas platyrhynchos,failed,UAM30399,KSW5390,5.0,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UAM_31321_UAMX5540,Anas platyrhynchos,partial_success,UAM31321,UAMX5540,25.4,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UWBM_44374_JMB1220,Anas platyrhynchos,partial_success,UWBM44374,JMB1220,36.7,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UWBM_47068_CSW4828,Anas platyrhynchos,partial_success,UWBM47068,CSW4828,16.4,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anas_platyrhynchos_UWBM_47160_SAR6383,Anas platyrhynchos,success,UWBM47160,SAR6383,31.6,Anseriformes,Anas p,Anas platyrhynchos,matched,high,,both
-Anser_albifrons_UAM_27372_JJW884,Anser albifrons,partial_success,UAM27372,JJW884,22.2,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UAM_30571_JJW1495,Anser albifrons,partial_success,UAM30571,JJW1495,32.6,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UAM_34089_KSW4176,Anser albifrons,partial_success,UAM34089,KSW4176,11.5,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UAM_35427_JJW2405,Anser albifrons,success,UAM35427,JJW2405,70.5,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UAM_35428_JJW2413,Anser albifrons,partial_success,UAM35428,JJW2413,7.6,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UWBM_43977_CSW4521,Anser albifrons,partial_success,UWBM43977,CSW4521,83.9,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UWBM_43978_CSW4522,Anser albifrons,failed,UWBM43978,CSW4522,56.9,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anser_albifrons_UWBM_71170_SVD1426,Anser albifrons,success,UWBM71170,SVD1426,94.6,Anseriformes,Anser,Anser albifrons,matched,high,,both
-Anthus_rubescens_japonicus_UAM_13353_DDG1877,Anthus rubescens japonicus,failed,UAM13353,DDG1877,3.2,Passeriformes,Anthus,Anthus rubescens japonicus,matched,high,,both
-Anthus_rubescens_japonicus_UAM_15068_KSW3980,Anthus rubescens japonicus,partial_success,UAM15068,KSW3980,15.4,Passeriformes,Anthus,Anthus rubescens japonicus,matched,high,,both
-Anthus_rubescens_japonicus_UAM_27351_JJW864,Anthus rubescens japonicus,success,UAM27351,JJW864,25.3,Passeriformes,Anthus,Anthus rubescens japonicus,matched,high,,both
-Anthus_rubescens_japonicus_UAM_39615_JJW3455,Anthus rubescens japonicus,partial_success,UAM39615,JJW3455,258.3,Passeriformes,Anthus,Anthus rubescens japonicus,matched,high,,both
-Anthus_rubescens_pacificus_UAM_11452_CLP200,Anthus rubescens pacificus,partial_success,UAM11452,CLP200,33.3,Passeriformes,Anthus,Anthus rubescens pacificus,matched,high,,both
-Anthus_rubescens_pacificus_UAM_13540_RWD25949,Anthus rubescens pacificus,failed,UAM13540,RWD25949,4.3,Passeriformes,Anthus,Anthus rubescens pacificus,matched,high,,both
-Anthus_rubescens_pacificus_UAM_19419_MJM037,Anthus rubescens pacificus,failed,UAM19419,MJM037,13.2,Passeriformes,Anthus,Anthus rubescens pacificus,matched,high,,both
-Anthus_rubescens_pacificus_UAM_31927_JJW2045,Anthus rubescens pacificus,failed,UAM31927,JJW2045,1.7,Passeriformes,Anthus,Anthus rubescens pacificus,matched,high,,both
-Anthus_rubescens_pacificus_UAM_31928_JJW2046,Anthus rubescens pacificus,success,UAM31928,JJW2046,15.5,Passeriformes,Anthus,Anthus rubescens pacificus,matched,high,,both
-Arenaria_interpres_UAM_13527_UAMX1744,Arenaria interpres,partial_success,UAM13527,UAMX1744,76.7,Charadriiformes,Arenaria,Arenaria interpres,matched,high,,both
-Arenaria_interpres_UAM_14954_DAR268,Arenaria interpres,partial_success,UAM14954,DAR268,20.0,Charadriiformes,Arenaria,Arenaria interpres,matched,high,,both
-Arenaria_interpres_UAM_20220_JMM422,Arenaria interpres,partial_success,UAM20220,JMM422,8.2,Charadriiformes,Arenaria,Arenaria interpres,matched,high,,both
-Arenaria_melanocephala_UAM_20098_JMM327,Arenaria melanocephala,success,UAM20098,JMM327,18.0,Charadriiformes,Arenaria,Arenaria melanocephala,matched,high,,both
-Arenaria_melanocephala_UAM_20142_JMM326,Arenaria melanocephala,partial_success,UAM20142,JMM326,141.0,Charadriiformes,Arenaria,Arenaria melanocephala,matched,high,,both
-Arenaria_melanocephala_UAM_28748_JJW1153,Arenaria melanocephala,failed,UAM28748,JJW1153,5.0,Charadriiformes,Arenaria,Arenaria melanocephala,matched,high,,both
-Arenaria_melanocephala_UAM_40266_JJW3588,Arenaria melanocephala,success,UAM40266,JJW3588,449.8,Charadriiformes,Arenaria,Arenaria melanocephala,matched,high,,both
-Aythya_marila_UAM_18068_JJW325,Aythya marila,success,UAM18068,JJW325,111.9,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_28067_JJW324,Aythya marila,success,UAM28067,JJW324,163.1,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_29987_UAMX5077,Aythya marila,success,UAM29987,UAMX5077,183.8,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_30392_KSW5394,Aythya marila,failed,UAM30392,KSW5394,2.6,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_30393_KSW5396,Aythya marila,partial_success,UAM30393,KSW5396,7.2,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_30394_KSW5393,Aythya marila,partial_success,UAM30394,KSW5393,8.7,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_30395_KSW5385,Aythya marila,success,UAM30395,KSW5385,24.8,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_30396_KSW5395,Aythya marila,failed,UAM30396,KSW5395,2.3,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_30915_UAMX5076,Aythya marila,partial_success,UAM30915,UAMX5076,151.9,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Aythya_marila_UAM_35653_REW611,Aythya marila,success,UAM35653,REW611,127.3,Anseriformes,Aythya,Aythya marila,matched,high,,both
-Calcarius_lapponicus_alascensis_UAM_13337_RWD25944,Calcarius lapponicus alascensis,partial_success,UAM13337,RWD25944,9.4,Passeriformes,Calcarius,Calcarius lapponicus alascensis,matched,high,,both
-Calcarius_lapponicus_alascensis_UAM_19614_CLP051,Calcarius lapponicus alascensis,partial_success,UAM19614,CLP051,12.3,Passeriformes,Calcarius,Calcarius lapponicus alascensis,matched,high,,both
-Calcarius_lapponicus_alascensis_UAM_7653_KSW1821,Calcarius lapponicus alascensis,failed,UAM7653,KSW1821,4.1,Passeriformes,Calcarius,Calcarius lapponicus alascensis,matched,high,,both
-Calcarius_lapponicus_alascensis_UAM_9407_CLP038,Calcarius lapponicus alascensis,success,UAM9407,CLP038,74.8,Passeriformes,Calcarius,Calcarius lapponicus alascensis,matched,high,,both
-Calcarius_lapponicus_alascensis_UAM_9525_CLP048,Calcarius lapponicus alascensis,partial_success,UAM9525,CLP048,40.0,Passeriformes,Calcarius,Calcarius lapponicus alascensis,matched,high,,both
-Calidria_alpina_pacifica_UAM_26914_JJW015,Calidria alpina pacifica,failed,UAM26914,JJW015,14.8,Charadriiformes,Calidris,Calidris alpina pacifica,matched,high,,both
-Calidria_alpina_pacifica_UAM_27576_JJW704,Calidria alpina pacifica,failed,UAM27576,JJW704,22.2,Charadriiformes,Calidris,Calidris alpina pacifica,matched,high,,both
-Calidria_alpina_pacifica_UAM_30313_JJW1490,Calidria alpina pacifica,partial_success,UAM30313,JJW1490,21.7,Charadriiformes,Calidris,Calidris alpina pacifica,matched,high,,both
-Calidris_alpina_arcticola_UAM_19815_JJW4411,Calidris alpina arcticola,failed,UAM19815,JJW4411,3.3,Charadriiformes,Calidris,Calidris alpina arcticola,matched,high,,both
-Calidris_alpina_arcticola_UAM_20132_UAMX3267,Calidris alpina arcticola,partial_success,UAM20132,UAMX3267,26.7,Charadriiformes,Calidris,Calidris alpina arcticola,matched,high,,both
-Corvus_corax_UAM_11113_UAMX1061,Corvus corax,failed,UAM11113,UAMX1061,5.5,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_15040_RWD26009,Corvus corax,failed,UAM15040,RWD26009,4.4,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_17737_TB1445,Corvus corax,failed,UAM17737,TB1445,2.6,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_17761_JMM133,Corvus corax,failed,UAM17761,JMM133,4.2,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_22252_KSW4763,Corvus corax,success,UAM22252,KSW4763,9.8,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_39709_JJW3401,Corvus corax,partial_success,UAM39709,JJW3401,58.2,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_41600_JJW4373,Corvus corax,partial_success,UAM41600,JJW4373,3.2,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_8803_KSW2715,Corvus corax,partial_success,UAM8803,KSW2715,8.1,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UAM_9313_UAMX844,Corvus corax,partial_success,UAM9313,UAMX844,9.8,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UWBM_46861_BKS908,Corvus corax,failed,UWBM46861,BKS908,3.3,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UWBM_56544_BKS3241,Corvus corax,failed,UWBM56544,BKS3241,1.5,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UWBM_57899_BKS4041,Corvus corax,failed,UWBM57899,BKS4041,2.6,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UWBM_57909_BKS4052,Corvus corax,partial_success,UWBM57909,BKS4052,5.3,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UWBM_59566_SVD1398,Corvus corax,partial_success,UWBM59566,SVD1398,9.0,Passeriformes,Corvus,Corvus corax,matched,high,,both
-Corvus_corax_UWBM_71244_SVD231a,Corvus corax,failed,UWBM71244,SVD231a,2.2,Passeriformes,Corvus,Corvus corax,matched,high,,both
-DDG1922_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,partial_success,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-JJW2478_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,success,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-JJW2664_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,failed,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-JJW3200_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,failed,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-JJW3695_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,failed,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-KSW5113_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,failed,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-SVD3025_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,failed,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-TransB_SVD_422_ACTCCATC-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,success,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-UAM10581_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,partial_success,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-UAM29835_Taeniopygia_guttata_NC_007897.1_mitogenome.fa,Unknown,success,,,,,,,unmatched,low,control_or_unparsed_directory_name,left_only
-Gallinago_delicata_UAM_15063_DDG1945,Gallinago delicata,failed,UAM15063,DDG1945,2.1,Charadriiformes,Gallinago,Gallinago delicata,matched,high,,both
-Gallinago_delicata_UAM_19231_DDG2021,Gallinago delicata,failed,UAM19231,DDG2021,2.2,Charadriiformes,Gallinago,Gallinago delicata,matched,high,,both
-Gallinago_delicata_UAM_20505_DDG2035,Gallinago delicata,partial_success,UAM20505,DDG2035,55.0,Charadriiformes,Gallinago,Gallinago delicata,matched,high,,both
-Gallinago_delicata_UAM_22570_DDG2118,Gallinago delicata,partial_success,UAM22570,DDG2118,31.9,Charadriiformes,Gallinago,Gallinago delicata,matched,high,,both
-Gallinago_delicata_UAM_30488_JJW1536,Gallinago delicata,failed,UAM30488,JJW1536,1.6,Charadriiformes,Gallinago,Gallinago delicata,matched,high,,both
-Gallinago_gallinago_gallinago_UAM_21848_CLP713,Gallinago gallinago gallinago,partial_success,UAM21848,CLP713,9.8,Charadriiformes,Gallinago,Gallinago gallinago,matched,high,,both
-Gallinago_gallinago_gallinago_UAM_24695_KSW5126,Gallinago gallinago gallinago,partial_success,UAM24695,KSW5126,33.9,Charadriiformes,Gallinago,Gallinago gallinago,matched,high,,both
-Gallinago_gallinago_gallinago_UAM_26800_JJW158,Gallinago gallinago gallinago,failed,UAM26800,JJW158,1.5,Charadriiformes,Gallinago,Gallinago gallinago,matched,high,,both
-Gallinago_gallinago_gallinago_UAM_28175_KSW5134,Gallinago gallinago gallinago,failed,UAM28175,KSW5134,1.9,Charadriiformes,Gallinago,Gallinago gallinago,matched,high,,both
-Gallinago_gallinago_gallinago_UAM_8228_DDG1650,Gallinago gallinago gallinago,failed,UAM8228,DDG1650,1.8,Charadriiformes,Gallinago,Gallinago gallinago,matched,high,,both
-Gavia_stellata_UAM_13601_DAR275,Gavia stellata,failed,UAM13601,DAR275,4.5,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UAM_20711_KGM628,Gavia stellata,partial_success,UAM20711,KGM628,30.2,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UAM_40093_UAMX6608,Gavia stellata,partial_success,UAM40093,UAMX6608,44.7,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UAM_40094_JJW3574,Gavia stellata,partial_success,UAM40094,JJW3574,41.0,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UWBM_43925_CSW4461,Gavia stellata,partial_success,UWBM43925,CSW4461,14.1,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UWBM_44122_DAB063,Gavia stellata,failed,UWBM44122,DAB063,,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UWBM_44259_JMB1098,Gavia stellata,partial_success,UWBM44259,JMB1098,9.3,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UWBM_44260_JMB1099,Gavia stellata,failed,UWBM44260,JMB1099,2.9,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Gavia_stellata_UWBM_44653_SAR6293,Gavia stellata,failed,UWBM44653,SAR6293,3.2,Gaviiformes,Gavia,Gavia stellata,matched,high,,both
-Histrionicus_histrionicus_UAM_11799_DDG1754,Histrionicus histrionicus,partial_success,UAM11799,DDG1754,22.0,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UAM_11800_DDG1753,Histrionicus histrionicus,partial_success,UAM11800,DDG1753,19.0,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UAM_11801_DDG1755,Histrionicus histrionicus,failed,UAM11801,DDG1755,1.9,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UAM_36745_KGM641,Histrionicus histrionicus,partial_success,UAM36745,KGM641,13.5,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UAM_40488_JJW3694,Histrionicus histrionicus,failed,UAM40488,JJW3694,2.0,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UAM_9600_KSW2979,Histrionicus histrionicus,failed,UAM9600,KSW2979,2.3,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UWBM_44446_SAR6074,Histrionicus histrionicus,success,UWBM44446,SAR6074,40.8,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Histrionicus_histrionicus_UWBM_82975_RYA1002,Histrionicus histrionicus,success,UWBM82975,RYA1002,79.3,Anseriformes,Histrionicus,Histrionicus histrionicus,matched,high,,both
-Lagopus_lagopus_alascensis_UAM_27018_JJW711,Lagopus lagopus alascensis,partial_success,UAM27018,JJW711,15.1,Galliformes,Lagopus,Lagopus lagopus alascensis,matched,high,,both
-Lagopus_lagopus_alascensis_UAM_28238_TB349,Lagopus lagopus alascensis,partial_success,UAM28238,TB349,32.0,Galliformes,Lagopus,Lagopus lagopus alascensis,matched,high,,both
-Lagopus_lagopus_alascensis_UAM_31562_JJW1970,Lagopus lagopus alascensis,partial_success,UAM31562,JJW1970,21.5,Galliformes,Lagopus,Lagopus lagopus alascensis,matched,high,,both
-Lagopus_lagopus_alascensis_UAM_36927_JJW2909,Lagopus lagopus alascensis,failed,UAM36927,JJW2909,15.2,Galliformes,Lagopus,Lagopus lagopus alascensis,matched,high,,both
-Lagopus_lagopus_alascensis_UAM_39209_JJW3352,Lagopus lagopus alascensis,failed,UAM39209,JJW3352,9.0,Galliformes,Lagopus,Lagopus lagopus alascensis,matched,high,,both
-Lagopus_lagopus_koreni_UAM_14834_KSW5045,Lagopus lagopus koreni,partial_success,UAM14834,KSW5045,20.7,Galliformes,Lagopus,Lagopus lagopus koreni,matched,high,,both
-Lagopus_lagopus_koreni_UAM_25139_KSW5046,Lagopus lagopus koreni,partial_success,UAM25139,KSW5046,63.2,Galliformes,Lagopus,Lagopus lagopus koreni,matched,high,,both
-Lagopus_lagopus_koreni_UAM_28169_KSW5052,Lagopus lagopus koreni,partial_success,UAM28169,KSW5052,32.3,Galliformes,Lagopus,Lagopus lagopus koreni,matched,high,,both
-Lagopus_lagopus_koreni_UAM_29685_KSW5082,Lagopus lagopus koreni,failed,UAM29685,KSW5082,2.3,Galliformes,Lagopus,Lagopus lagopus koreni,matched,high,,both
-Larus_argentatus_smithsonianus_UAM_30575_JJW1533,Larus argentatus smithsonianus,failed,UAM30575,JJW1533,6.8,Charadriiformes,Larus a,Larus argentatus smithsonianus,matched,high,,both
-Larus_argentatus_smithsonianus_UAM_35751_JJW2551,Larus argentatus smithsonianus,failed,UAM35751,JJW2551,2.6,Charadriiformes,Larus a,Larus argentatus smithsonianus,matched,high,,both
-Larus_argentatus_smithsonianus_UAM_35753_JJW2549,Larus argentatus smithsonianus,failed,UAM35753,JJW2549,2.5,Charadriiformes,Larus a,Larus argentatus smithsonianus,matched,high,,both
-Larus_argentatus_smithsonianus_UAM_35754_JJW2548,Larus argentatus smithsonianus,partial_success,UAM35754,JJW2548,28.1,Charadriiformes,Larus a,Larus argentatus smithsonianus,matched,high,,both
-Larus_argentatus_smithsonianus_UAM_35755_JJW2547,Larus argentatus smithsonianus,success,UAM35755,JJW2547,19.8,Charadriiformes,Larus a,Larus argentatus smithsonianus,matched,high,,both
-Larus_argentatus_vegae_UAM_25984_JJW257,Larus argentatus vegae,partial_success,UAM25984,JJW257,13.1,Charadriiformes,Larus a,Larus argentatus vegae,matched,high,,both
-Larus_argentatus_vegae_UAM_25987_JJW224,Larus argentatus vegae,failed,UAM25987,JJW224,1.4,Charadriiformes,Larus a,Larus argentatus vegae,matched,high,,both
-Larus_argentatus_vegae_UAM_26660_KSW5044,Larus argentatus vegae,partial_success,UAM26660,KSW5044,84.5,Charadriiformes,Larus a,Larus argentatus vegae,matched,high,,both
-Larus_argentatus_vegae_UAM_28162_KSW5090,Larus argentatus vegae,partial_success,UAM28162,KSW5090,67.2,Charadriiformes,Larus a,Larus argentatus vegae,matched,high,,both
-Larus_brachyrhynchus_UAM_14682_DDG1921,Larus brachyrhynchus,failed,UAM14682,DDG1921,1.2,Charadriiformes,Larus c,Larus brachyrhynchus,matched,high,,both
-Larus_brachyrhynchus_UAM_14803_DDG2122,Larus brachyrhynchus,partial_success,UAM14803,DDG2122,,Charadriiformes,,,unmatched,low,no_matching_catalog_accession_in_old_depths,left_only
-Larus_brachyrhynchus_UAM_26901_JJW010,Larus brachyrhynchus,failed,UAM26901,JJW010,5.0,Charadriiformes,Larus c,Larus brachyrhynchus,matched,high,,both
-Larus_brachyrhynchus_UAM_36875_JJW2921,Larus brachyrhynchus,partial_success,UAM36875,JJW2921,90.0,Charadriiformes,Larus c,Larus brachyrhynchus,matched,high,,both
-Larus_canus_kamtschatschensis_UAM_11014_DDG1771,Larus canus kamtschatschensis,failed,UAM11014,DDG1771,2.7,Charadriiformes,Larus c,Larus canus kamtschatschensis,matched,high,,both
-Larus_canus_kamtschatschensis_UAM_13377_DDG1876,Larus canus kamtschatschensis,partial_success,UAM13377,DDG1876,20.6,Charadriiformes,Larus c,Larus canus kamtschatschensis,matched,high,,both
-Larus_canus_kamtschatschensis_UAM_22863_KSW4959,Larus canus kamtschatschensis,partial_success,UAM22863,KSW4959,269.6,Charadriiformes,Larus c,Larus canus kamtschatschensis,matched,high,,both
-Larus_canus_kamtschatschensis_UAM_22926_KSW4989,Larus canus kamtschatschensis,partial_success,UAM22926,KSW4989,15.5,Charadriiformes,Larus c,Larus canus kamtschatschensis,matched,high,,both
-Larus_canus_kamtschatschensis_UAM_24812_UAMX4789,Larus canus kamtschatschensis,failed,UAM24812,UAMX4789,3.0,Charadriiformes,Larus c,Larus brachyrhynchus,matched,high,,both
-Larus_canus_kamtschatschensis_UAM_37770_JJW3012,Larus canus kamtschatschensis,failed,UAM37770,JJW3012,2.7,Charadriiformes,Larus c,Larus canus kamtschatschensis,matched,high,,both
-Larus_hyperboreus_UAM_24327_UAMX4940,Larus hyperboreus,failed,UAM24327,UAMX4940,2.1,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UAM_28158_KSW5035,Larus hyperboreus,partial_success,UAM28158,KSW5035,9.5,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UAM_28160_KSW5108,Larus hyperboreus,partial_success,UAM28160,KSW5108,24.3,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UAM_40190_JJW3585,Larus hyperboreus,failed,UAM40190,JJW3585,1.3,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UAM_40191_JJW3586,Larus hyperboreus,failed,UAM40191,JJW3586,13.4,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UAM_8929_UAMX683,Larus hyperboreus,partial_success,UAM8929,UAMX683,28.6,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UAM_9257_KSW2490,Larus hyperboreus,failed,UAM9257,KSW2490,8.3,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UWBM_43851_CSW4378,Larus hyperboreus,partial_success,UWBM43851,CSW4378,5.4,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UWBM_43852_CSW4379,Larus hyperboreus,partial_success,UWBM43852,CSW4379,5.0,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Larus_hyperboreus_UWBM_43982_CSW4526,Larus hyperboreus,partial_success,UWBM43982,CSW4526,10.7,Charadriiformes,Leucosticte,Leucosticte hyperboreus,matched,high,,both
-Leucosticte_arctoa_UWBM_44077_CSW4675,Leucosticte arctoa,failed,UWBM44077,CSW4675,3.3,Passeriformes,Leucosticte,Leucosticte arctoa,matched,high,,both
-Leucosticte_arctoa_UWBM_44366_JMB1211,Leucosticte arctoa,failed,UWBM44366,JMB1211,3.7,Passeriformes,Leucosticte,Leucosticte arctoa,matched,high,,both
-Leucosticte_arctoa_UWBM_44622_SAR6262,Leucosticte arctoa,failed,UWBM44622,SAR6262,3.5,Passeriformes,Leucosticte,Leucosticte arctoa,matched,high,,both
-Leucosticte_arctoa_UWBM_44623_SAR6263,Leucosticte arctoa,failed,UWBM44623,SAR6263,5.1,Passeriformes,Leucosticte,Leucosticte arctoa,matched,high,,both
-Leucosticte_arctoa_UWBM_44624_SAR6264,Leucosticte arctoa,partial_success,UWBM44624,SAR6264,6.2,Passeriformes,Leucosticte,Leucosticte arctoa,matched,high,,both
-Leucosticte_tephrocotis_griseonucha_UAM_10981_DDG1750,Leucosticte tephrocotis griseonucha,partial_success,UAM10981,DDG1750,12.6,Passeriformes,Leucosticte,Leucosticte tephrocotis griseonucha,matched,high,,both
-Leucosticte_tephrocotis_griseonucha_UAM_24603_UAMX5158,Leucosticte tephrocotis griseonucha,partial_success,UAM24603,UAMX5158,6.7,Passeriformes,Leucosticte,Leucosticte tephrocotis griseonucha,matched,high,,both
-Leucosticte_tephrocotis_griseonucha_UAM_24607_UAMX5168,Leucosticte tephrocotis griseonucha,success,UAM24607,UAMX5168,13.7,Passeriformes,Leucosticte,Leucosticte tephrocotis griseonucha,matched,high,,both
-Leucosticte_tephrocotis_griseonucha_UAM_31438_RWD24852,Leucosticte tephrocotis griseonucha,partial_success,UAM31438,RWD24852,17.2,Passeriformes,Leucosticte,Leucosticte tephrocotis griseonucha,matched,high,,both
-Leucosticte_tephrocotis_littoralis_UAM_28707_JJW1163,Leucosticte tephrocotis littoralis,success,UAM28707,JJW1163,14.5,Passeriformes,Leucosticte,Leucosticte tephrocotis littoralis,matched,high,,both
-Leucosticte_tephrocotis_littoralis_UAM_40957_JJW3812,Leucosticte tephrocotis littoralis,success,UAM40957,JJW3812,83.6,Passeriformes,Leucosticte,Leucosticte tephrocotis littoralis,matched,high,,both
-Leucosticte_tephrocotis_littoralis_UAM_40961_JJW3816,Leucosticte tephrocotis littoralis,partial_success,UAM40961,JJW3816,66.5,Passeriformes,Leucosticte,Leucosticte tephrocotis littoralis,matched,high,,both
-Leucosticte_tephrocotis_tephrocotis_UAM_27288_JJW873,Leucosticte tephrocotis tephrocotis,success,UAM27288,JJW873,32.6,Passeriformes,Leucosticte,Leucosticte tephrocotis tephrocotis,matched,high,,both
-Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465,Leucosticte tephrocotis tephrocotis,partial_success,UAM35598,JJW2465,31.7,Passeriformes,Leucosticte,Leucosticte tephrocotis tephrocotis,matched,high,,both
-Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460,Leucosticte tephrocotis tephrocotis,partial_success,UAM35600,JJW2460,33.5,Passeriformes,Leucosticte,Leucosticte tephrocotis tephrocotis,matched,high,,both
-Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351,Leucosticte tephrocotis umbrina,success,FMNH34305,AF14351,10.1,Passeriformes,Leucosticte,Leucosticte tephrocotis umbrina,matched,high,,both
-Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921,Leucosticte tephrocotis umbrina,partial_success,UAM17748,UAMX2921,37.6,Passeriformes,Leucosticte,Leucosticte tephrocotis umbrina,matched,high,,both
-Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346,Leucosticte tephrocotis umbrina,success,UAM28619,AF14346,2.3,Passeriformes,Leucosticte,Leucosticte tephrocotis umbrina,matched,high,,both
-Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344,Leucosticte tephrocotis umbrina,success,UAM28620,AF14344,12.6,Passeriformes,Leucosticte,Leucosticte tephrocotis umbrina,matched,high,,both
-Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646,Leucosticte tephrocotis umbrina,failed,UAM7351,KSW1646,2.1,Passeriformes,Leucosticte,Leucosticte tephrocotis umbrina,matched,high,,both
-Luscinia_svecica_UWBM_44363_JMB1208,Luscinia svecica,success,UWBM44363,JMB1208,,Passeriformes,Luscinia,Luscinia svecica,matched,high,,both
-Melanitta_americana_UAM_25996_JJW179,Melanitta americana,success,UAM25996,JJW179,74.2,Anseriformes,Melanitta,Melanitta americana,matched,high,,both
-Melanitta_americana_UAM_28065_JJW950,Melanitta americana,success,UAM28065,JJW950,201.2,Anseriformes,Melanitta,Melanitta americana,matched,high,,both
-Melanitta_americana_UAM_29920_JJW1388,Melanitta americana,partial_success,UAM29920,JJW1388,65.4,Anseriformes,Melanitta,Melanitta americana,matched,high,,both
-Melanitta_americana_UAM_35578_JJW2276,Melanitta americana,success,UAM35578,JJW2276,119.4,Anseriformes,Melanitta,Melanitta americana,matched,high,,both
-Melanitta_americana_UAM_35578_JJW951,Melanitta americana,partial_success,UAM35578,JJW951,,Anseriformes,,,unmatched,low,no_matching_catalog_accession_in_old_depths,left_only
-Melanitta_americana_UWBM_43946_CSW4486,Melanitta americana,success,UWBM43946,CSW4486,196.1,Anseriformes,Melanitta,Melanitta americana,matched,high,,both
-Mergus_merganser_americanus_UAM_24305_UAMX4957,Mergus merganser americanus,failed,UAM24305,UAMX4957,6.4,Anseriformes,Mergus,Mergus merganser americanus,matched,high,,both
-Mergus_merganser_americanus_UAM_34366_JJW2298,Mergus merganser americanus,success,UAM34366,JJW2298,30.4,Anseriformes,Mergus,Mergus merganser americanus,matched,high,,both
-Mergus_merganser_americanus_UWBM_9348_AEI105,Mergus merganser americanus,failed,UWBM9348,AEI105,2.8,Anseriformes,Mergus,Mergus merganser americanus,matched,high,,both
-Mergus_merganser_merganser_UAM_25375_JJW063,Mergus merganser merganser,failed,UAM25375,JJW063,3.9,Anseriformes,Mergus,Mergus merganser merganser,matched,high,,both
-Mergus_merganser_merganser_UAM_25990_JJW335,Mergus merganser merganser,failed,UAM25990,JJW335,4.9,Anseriformes,Mergus,Mergus merganser merganser,matched,high,,both
-Mergus_merganser_merganser_UAM_25991_JJW334,Mergus merganser merganser,partial_success,UAM25991,JJW334,26.0,Anseriformes,Mergus,Mergus merganser merganser,matched,high,,both
-Mergus_merganser_merganser_UAM_27012_JJW762,Mergus merganser merganser,failed,UAM27012,JJW762,16.3,Anseriformes,Mergus,Mergus merganser merganser,matched,high,,both
-Mergus_merganser_merganser_UAM_28042_JJW344,Mergus merganser merganser,partial_success,UAM28042,JJW344,15.8,Anseriformes,Mergus,Mergus merganser merganser,matched,high,,both
-Mergus_merganser_merganser_UWBM_43819_CSW4346,Mergus merganser merganser,partial_success,UWBM43819,CSW4346,8.7,Anseriformes,Mergus,Mergus merganser merganser,matched,high,,both
-Motacilla_tschutschensis_simillima_UAM_14353_ABJ179,Motacilla tschutschensis simillima,failed,UAM14353,ABJ179,11.8,Passeriformes,Motacilla,Motacilla tschutschensis simillima,matched,high,,both
-Motacilla_tschutschensis_simillima_UAM_19448_MJM122,Motacilla tschutschensis simillima,partial_success,UAM19448,MJM122,5.1,Passeriformes,Motacilla,Motacilla tschutschensis simillima,matched,high,,both
-Motacilla_tschutschensis_simillima_UAM_28715_JJW1179,Motacilla tschutschensis simillima,failed,UAM28715,JJW1179,2.2,Passeriformes,Motacilla,Motacilla tschutschensis simillima,matched,high,,both
-Motacilla_tschutschensis_simillima_UAM_28717_JJW1185,Motacilla tschutschensis simillima,partial_success,UAM28717,JJW1185,5.4,Passeriformes,Motacilla,Motacilla tschutschensis simillima,matched,high,,both
-Motacilla_tschutschensis_simillima_UAM_29362_JJW1317,Motacilla tschutschensis simillima,success,UAM29362,JJW1317,13.3,Passeriformes,Motacilla,Motacilla tschutschensis simillima,matched,high,,both
-Motacilla_tschutschensis_tschutschensis_UAM_13402_ABJ133,Motacilla tschutschensis tschutschensis,partial_success,UAM13402,ABJ133,10.6,Passeriformes,Motacilla,Motacilla tschutschensis tschutschensis,matched,high,,both
-Motacilla_tschutschensis_tschutschensis_UAM_15178_DDG1935,Motacilla tschutschensis tschutschensis,partial_success,UAM15178,DDG1935,36.3,Passeriformes,Motacilla,Motacilla tschutschensis tschutschensis,matched,high,,both
-Motacilla_tschutschensis_tschutschensis_UAM_27364_JJW520,Motacilla tschutschensis tschutschensis,failed,UAM27364,JJW520,7.7,Passeriformes,Motacilla,Motacilla tschutschensis tschutschensis,matched,high,,both
-Motacilla_tschutschensis_tschutschensis_UAM_27366_JJW216,Motacilla tschutschensis tschutschensis,success,UAM27366,JJW216,21.9,Passeriformes,Motacilla,Motacilla tschutschensis tschutschensis,matched,high,,both
-Motacilla_tschutschensis_tschutschensis_UAM_28177_JJW629,Motacilla tschutschensis tschutschensis,success,UAM28177,JJW629,26.3,Passeriformes,Motacilla,Motacilla tschutschensis tschutschensis,matched,high,,both
-Phylloscopus_borealis_borealis_UWBM_43818_CSW4345,Phylloscopus borealis borealis,partial_success,UWBM43818,CSW4345,19.7,Passeriformes,Phylloscopus,Phylloscopus borealis borealis,matched,high,,both
-Phylloscopus_borealis_borealis_UWBM_44417_SAR6041,Phylloscopus borealis borealis,partial_success,UWBM44417,SAR6041,14.6,Passeriformes,Phylloscopus,Phylloscopus borealis borealis,matched,high,,both
-Phylloscopus_borealis_borealis_UWBM_44418_SAR6042,Phylloscopus borealis borealis,partial_success,UWBM44418,SAR6042,11.6,Passeriformes,Phylloscopus,Phylloscopus borealis borealis,matched,high,,both
-Phylloscopus_borealis_borealis_UWBM_82284_SVD2977,Phylloscopus borealis borealis,failed,UWBM82284,SVD2977,3.9,Passeriformes,Phylloscopus,Phylloscopus borealis borealis,matched,high,,both
-Phylloscopus_borealis_borealis_UWBM_82285_SVD2978,Phylloscopus borealis borealis,success,UWBM82285,SVD2978,21.1,Passeriformes,Phylloscopus,Phylloscopus borealis borealis,matched,high,,both
-Phylloscopus_borealis_kennicotti_UAM_20149_JMM337,Phylloscopus borealis kennicotti,partial_success,UAM20149,JMM337,47.3,Passeriformes,Phylloscopus,Phylloscopus borealis kennicotti,matched,high,,both
-Phylloscopus_borealis_kennicotti_UAM_20150_JMM338,Phylloscopus borealis kennicotti,success,UAM20150,JMM338,15.8,Passeriformes,Phylloscopus,Phylloscopus borealis kennicotti,matched,high,,both
-Phylloscopus_borealis_kennicotti_UAM_34615_JJW2241,Phylloscopus borealis kennicotti,success,UAM34615,JJW2241,47.2,Passeriformes,Phylloscopus,Phylloscopus borealis kennicotti,matched,high,,both
-Phylloscopus_borealis_kennicotti_UAM_36347_JJW2649,Phylloscopus borealis kennicotti,partial_success,UAM36347,JJW2649,17.3,Passeriformes,Phylloscopus,Phylloscopus borealis kennicotti,matched,high,,both
-Phylloscopus_borealis_kennicotti_UAM_7372_KSW1456,Phylloscopus borealis kennicotti,partial_success,UAM7372,KSW1456,3.8,Passeriformes,Phylloscopus,Phylloscopus borealis kennicotti,matched,high,,both
-Phylloscopus_examinandus_UAM_17665_DDG1991,Phylloscopus examinandus,partial_success,UAM17665,DDG1991,6.2,Passeriformes,Phylloscopus,Phylloscopus examinandus,matched,high,,both
-Phylloscopus_examinandus_UAM_29472_KSW5250,Phylloscopus examinandus,failed,UAM29472,KSW5250,1.6,Passeriformes,Phylloscopus,Phylloscopus examinandus,matched,high,,both
-Phylloscopus_examinandus_UAM_30461_KSW5373,Phylloscopus examinandus,partial_success,UAM30461,KSW5373,5.5,Passeriformes,Phylloscopus,Phylloscopus examinandus,matched,high,,both
-Phylloscopus_examinandus_UAM_30462_KSW5354,Phylloscopus examinandus,success,UAM30462,KSW5354,13.1,Passeriformes,Phylloscopus,Phylloscopus examinandus,matched,high,,both
-Phylloscopus_examinandus_UAM_30464_KSW5336,Phylloscopus examinandus,success,UAM30464,KSW5336,11.3,Passeriformes,Phylloscopus,Phylloscopus examinandus,matched,high,,both
-Picoides_dorsalis_fasciatus_UAM_20114_UAMX3273,Picoides dorsalis fasciatus,success,UAM20114,UAMX3273,38.7,Piciformes,Picoides,Picoides dorsalis fasciatus,matched,high,,both
-Picoides_dorsalis_fasciatus_UAM_31832_JJW2059,Picoides dorsalis fasciatus,success,UAM31832,JJW2059,26.5,Piciformes,Picoides,Picoides dorsalis fasciatus,matched,high,,both
-Picoides_dorsalis_fasciatus_UAM_36600_JJW2842,Picoides dorsalis fasciatus,success,UAM36600,JJW2842,19.8,Piciformes,Picoides,Picoides dorsalis fasciatus,matched,high,,both
-Picoides_dorsalis_fasciatus_UAM_8580_UAMX503,Picoides dorsalis fasciatus,partial_success,UAM8580,UAMX503,21.4,Piciformes,Picoides,Picoides dorsalis fasciatus,matched,high,,both
-Picoides_tridactylus_UAM_17739_TB1448,Picoides tridactylus,failed,UAM17739,TB1448,8.7,Piciformes,Picoides,Picoides tridactylus,matched,high,,both
-Picoides_tridactylus_UWBM_44422_SAR6046,Picoides tridactylus,failed,UWBM44422,SAR6046,10.4,Piciformes,Picoides,Picoides tridactylus,matched,high,,both
-Picoides_tridactylus_UWBM_52660_SVD144,Picoides tridactylus,partial_success,UWBM52660,SVD144,5.7,Piciformes,Picoides,Picoides tridactylus,matched,high,,both
-Plectrophenax_hyperboreus_UAM_7066_KSW1610,Plectrophenax hyperboreus,failed,UAM7066,KSW1610,98.3,Passeriformes,Plectrophenax,Plectropomus hyperboreus,matched,high,,both
-Plectrophenax_hyperboreus_UAM_7524_KSW1611,Plectrophenax hyperboreus,success,UAM7524,KSW1611,19.7,Passeriformes,Plectrophenax,Plectropomus hyperboreus,matched,high,,both
-Plectrophenax_hyperboreus_UAM_8200_KSW1617,Plectrophenax hyperboreus,success,UAM8200,KSW1617,113.8,Passeriformes,Plectrophenax,Plectropomus hyperboreus,matched,high,,both
-Plectrophenax_nivalis_UAM_11856_CLP163,Plectrophenax nivalis,partial_success,UAM11856,CLP163,240.1,Passeriformes,Plectrophenax,Plectrophenax nivalis,matched,high,,both
-Plectrophenax_nivalis_UAM_8474_KSW2691,Plectrophenax nivalis,success,UAM8474,KSW2691,392.6,Passeriformes,Plectrophenax,Plectrophenax nivalis,matched,high,,both
-Plectrophenax_nivalis_UAM_8476_KSW2690,Plectrophenax nivalis,failed,UAM8476,KSW2690,169.6,Passeriformes,Plectrophenax,Plectrophenax nivalis,matched,high,,both
-Somateria_mollissima_UAM_13336_DAR157,Somateria mollissima,success,UAM13336,DAR157,29.5,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_13721_UAMX1708,Somateria mollissima,partial_success,UAM13721,UAMX1708,6.1,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_20085_DDG1939,Somateria mollissima,partial_success,UAM20085,DDG1939,22.7,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_26746_KGM912,Somateria mollissima,success,UAM26746,KGM912,37.2,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_34628_JJW2274,Somateria mollissima,partial_success,UAM34628,JJW2274,43.6,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_34700_JJW2273,Somateria mollissima,success,UAM34700,JJW2273,83.3,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_35441_JJW2452,Somateria mollissima,partial_success,UAM35441,JJW2452,20.9,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_36436_KGM845,Somateria mollissima,success,UAM36436,KGM845,61.0,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_37604_JJW2952,Somateria mollissima,partial_success,UAM37604,JJW2952,22.4,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_mollissima_UAM_9440_UAMX378,Somateria mollissima,partial_success,UAM9440,UAMX378,31.1,Anseriformes,Somateria m,Somateria mollissima,matched,high,,both
-Somateria_spectabilis_UAM_13153_ABJ107,Somateria spectabilis,success,UAM13153,ABJ107,30.0,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Somateria_spectabilis_UAM_9396_UAMX892,Somateria spectabilis,partial_success,UAM9396,UAMX892,27.1,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Somateria_spectabilis_UAM_9422_UAMX901,Somateria spectabilis,partial_success,UAM9422,UAMX901,16.4,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Somateria_spectabilis_UAM_9423_UAMX903,Somateria spectabilis,failed,UAM9423,UAMX903,3.0,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Somateria_spectabilis_UAM_9439_UAMX907,Somateria spectabilis,partial_success,UAM9439,UAMX907,13.9,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Somateria_spectabilis_UWBM_43965_CSW4509,Somateria spectabilis,success,UWBM43965,CSW4509,211.9,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Somateria_spectabilis_UWBM_71169_SVD1425,Somateria spectabilis,partial_success,UWBM71169,SVD1425,33.9,Anseriformes,Somateria s,Somateria spectabilis,matched,high,,both
-Spatula_clypeata_UAM_15023_UAMX2539,Spatula clypeata,partial_success,UAM15023,UAMX2539,7.1,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_15459_DDG1988,Spatula clypeata,partial_success,UAM15459,DDG1988,3.6,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_20152_DDG2054,Spatula clypeata,partial_success,UAM20152,DDG2054,13.2,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_20167_DDG2053,Spatula clypeata,partial_success,UAM20167,DDG2053,17.2,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_26717_SVD475,Spatula clypeata,failed,UAM26717,SVD475,3.0,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_28973_UAMX5081,Spatula clypeata,partial_success,UAM28973,UAMX5081,7.8,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_36727_REW031,Spatula clypeata,partial_success,UAM36727,REW031,6.7,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UAM_36938_REW030,Spatula clypeata,partial_success,UAM36938,REW030,13.2,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Spatula_clypeata_UWBM_59827_CSW5794,Spatula clypeata,failed,UWBM59827,CSW5794,3.6,Anseriformes,Spatula,Spatula clypeata,matched,high,,both
-Tringa_melanoleuca_UAM_13578_UAMX1941,Tringa melanoleuca,partial_success,UAM13578,UAMX1941,6.8,Charadriiformes,Tringa nm,Tringa melanoleuca,matched,high,,both
-Tringa_melanoleuca_UAM_18023_JMM014,Tringa melanoleuca,partial_success,UAM18023,JMM014,15.3,Charadriiformes,Tringa nm,Tringa melanoleuca,matched,high,,both
-Tringa_melanoleuca_UAM_20143_JMM340,Tringa melanoleuca,partial_success,UAM20143,JMM340,75.3,Charadriiformes,Tringa nm,Tringa melanoleuca,matched,high,,both
-Tringa_melanoleuca_UAM_27573_UAMX5119,Tringa melanoleuca,partial_success,UAM27573,UAMX5119,12.3,Charadriiformes,Tringa nm,Tringa melanoleuca,matched,high,,both
-Tringa_melanoleuca_UAM_30489_JJW1663,Tringa melanoleuca,failed,UAM30489,JJW1663,2.0,Charadriiformes,Tringa nm,Tringa melanoleuca,matched,high,,both
-Tringa_nebularia_UAM_14119_DDG1916,Tringa nebularia,failed,UAM14119,DDG1916,27.1,Charadriiformes,Tringa nm,Tringa nebularia,matched,high,,both
-Tringa_nebularia_UAM_17482_DDG1990,Tringa nebularia,failed,UAM17482,DDG1990,2.0,Charadriiformes,Tringa nm,Tringa nebularia,matched,high,,both
-Tringa_nebularia_UAM_22850_KSW4958,Tringa nebularia,failed,UAM22850,KSW4958,2.8,Charadriiformes,Tringa nm,Tringa nebularia,matched,high,,both
-Tringa_nebularia_UAM_24570_UAMX4620,Tringa nebularia,partial_success,UAM24570,UAMX4620,28.8,Charadriiformes,Tringa nm,Tringa nebularia,matched,high,,both
-Tringa_nebularia_UAM_8282_DDG1686,Tringa nebularia,partial_success,UAM8282,DDG1686,2.1,Charadriiformes,Tringa nm,Tringa nebularia,matched,high,,both
-Uria_aalge_inornata_UAM_10688_KSW1632,Uria aalge inornata,partial_success,UAM10688,KSW1632,18.3,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_aalge_inornata_UAM_7729_KSW1629,Uria aalge inornata,success,UAM7729,KSW1629,19.2,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_aalge_inornata_UWBM_4408_JMB995,Uria aalge inornata,failed,UWBM4408,JMB995,9.6,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_aalge_inornata_UWBM_44407_JMB994,Uria aalge inornata,failed,UWBM44407,JMB994,6.8,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_aalge_inornata_UWBM_44409_JMB996,Uria aalge inornata,failed,UWBM44409,JMB996,10.7,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_aalge_inornata_UWBM_44410_JMB997,Uria aalge inornata,failed,UWBM44410,JMB997,15.0,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_aalge_inornata_UWBM_44411_JMB998,Uria aalge inornata,failed,UWBM44411,JMB998,16.1,Charadriiformes,Uria a,Uria aalge inornata,matched,high,,both
-Uria_lomvia_arra_UAM_13445_UAMX1553,Uria lomvia arra,failed,UAM13445,UAMX1553,8.1,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UAM_20236_UAMX3290,Uria lomvia arra,failed,UAM20236,UAMX3290,7.0,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UAM_30510_JJW1509,Uria lomvia arra,failed,UAM30510,JJW1509,2.6,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UAM_30511_JJW1510,Uria lomvia arra,partial_success,UAM30511,JJW1510,6.2,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UAM_9608_UAMX387,Uria lomvia arra,failed,UAM9608,UAMX387,5.8,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UWBM_44177_JMB1001,Uria lomvia arra,partial_success,UWBM44177,JMB1001,16.9,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UWBM_44178_JMB1002,Uria lomvia arra,failed,UWBM44178,JMB1002,17.8,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UWBM_55300_BKS351,Uria lomvia arra,failed,UWBM55300,BKS351,11.0,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UWBM_55725_JMB857,Uria lomvia arra,failed,UWBM55725,JMB857,11.4,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Uria_lomvia_arra_UWBM_72702_NCSM17754,Uria lomvia arra,failed,UWBM72702,NCSM17754,7.2,Charadriiformes,Uria l,Uria lomvia arra,matched,high,,both
-Mareca_penelope_UAM8758_DDG1663,Mareca penelope,,UAM8758,DDG1663,156.3,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM9759_DDG1703,Mareca penelope,,UAM9759,DDG1703,129.5,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM10008_DDG1716,Mareca penelope,,UAM10008,DDG1716,167.2,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM31321_DDG1768,Mareca penelope,,UAM31321,DDG1768,243.0,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM24301_UAMX4959,Mareca penelope,,UAM24301,UAMX4959,384.2,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM24455_MJL037,Mareca penelope,,UAM24455,MJL037,343.0,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM24550_UAMX5044,Mareca penelope,,UAM24550,UAMX5044,26.5,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_penelope_UAM27749_JJW968,Mareca penelope,,UAM27749,JJW968,633.9,Anseriformes,Mareca,Mareca penelope,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM11919_JSW3039,Mareca americana,,UAM11919,JSW3039,411.0,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM11908_KSW3028,Mareca americana,,UAM11908,KSW3028,595.9,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM11909_KSW3029,Mareca americana,,UAM11909,KSW3029,214.1,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM11916_KSW3036,Mareca americana,,UAM11916,KSW3036,404.6,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM13141_UAMX1468,Mareca americana,,UAM13141,UAMX1468,92.5,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM26061_JJW383,Mareca americana,,UAM26061,JJW383,177.4,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM28087_JJW976,Mareca americana,,UAM28087,JJW976,278.6,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mareca_americana_UAM28088_JJW948,Mareca americana,,UAM28088,JJW948,72.4,Anseriformes,Mareca,Mareca americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_platyrhynchos_UAM28089_JJW943,Anas platyrhynchos,,UAM28089,JJW943,89.9,Anseriformes,Anas p,Anas platyrhynchos,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_platyrhynchos_UAM28074_JJW944,Anas platyrhynchos,,UAM28074,JJW944,81.1,Anseriformes,Anas p,Anas platyrhynchos,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_acuta_UAM22595_DDG2122,Anas acuta,,UAM22595,DDG2122,12.1,Anseriformes,Anas acuta,Anas acuta,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_acuta_UAM31335_UAMX5487,Anas acuta,,UAM31335,UAMX5487,37.6,Anseriformes,Anas acuta,Anas acuta,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_crecca_UAM11334_KGM021,Anas crecca,,UAM11334,KGM021,142.1,Anseriformes,Anas crecca,Anas crecca,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_crecca_UAM14100_DDG1885,Anas crecca,,UAM14100,DDG1885,312.5,Anseriformes,Anas crecca,Anas crecca,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_carolinensis_UAM28444_UAMX5069,Anas carolinensis,,UAM28444,UAMX5069,177.9,Anseriformes,Anas crecca,Anas carolinensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_carolinensis_UAM20635_KSW4530,Anas carolinensis,,UAM20635,KSW4530,119.2,Anseriformes,Anas crecca,Anas carolinensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anas_carolinensis_UAM24497_JMM448,Anas carolinensis,,UAM24497,JMM448,34.1,Anseriformes,Anas crecca,Anas carolinensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Histrionicus_histrionicus_UAM36431_JJW2664,Histrionicus histrionicus,,UAM36431,JJW2664,2.2,Anseriformes,Histrionicus,Histrionicus histrionicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Histrionicus_histrionicus_UAM40489_JJW3695,Histrionicus histrionicus,,UAM40489,JJW3695,1.3,Anseriformes,Histrionicus,Histrionicus histrionicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Melanitta_americana_UAM27720_JJW951,Melanitta americana,,UAM27720,JJW951,14.5,Anseriformes,Melanitta,Melanitta americana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43970_CSW4514,Clangula hyemalis,,UWBM43970,CSW4514,124.1,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43919_CSW4454,Clangula hyemalis,,UWBM43919,CSW4454,264.4,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43918_CSW4453,Clangula hyemalis,,UWBM43918,CSW4453,351.8,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43917_CSW4452,Clangula hyemalis,,UWBM43917,CSW4452,407.5,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43895_CSW4428,Clangula hyemalis,,UWBM43895,CSW4428,208.9,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43894_CSW4427,Clangula hyemalis,,UWBM43894,CSW4427,209.9,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UWBM43893_CSW4426,Clangula hyemalis,,UWBM43893,CSW4426,132.9,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UAM29029_REW620,Clangula hyemalis,,UAM29029,REW620,3382.7,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UAM28184_REW619,Clangula hyemalis,,UAM28184,REW619,295.8,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UAM29027_REW618,Clangula hyemalis,,UAM29027,REW618,251.0,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UAM21883_REW583,Clangula hyemalis,,UAM21883,REW583,250.2,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UAM40387_REW564,Clangula hyemalis,,UAM40387,REW564,141.8,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Clangula_hyemalis_UAM21931_REW532,Clangula hyemalis,,UAM21931,REW532,437.8,Anseriformes,Clangula,Clangula hyemalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Mergus_merganser_americanus_UAM11037_UAMX1058,Mergus merganser americanus,,UAM11037,UAMX1058,12.0,Anseriformes,Mergus,Mergus merganser americanus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Lagopus_lagopus_koreni_UAM28171_KSW5133,Lagopus lagopus koreni,,UAM28171,KSW5133,28.2,Galliformes,Lagopus,Lagopus lagopus koreni,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_fulva_UAM13545_DDG1860,Pluvialis fulva,,UAM13545,DDG1860,188.6,Charadriiformes,Pluvialis,Pluvialis fulva,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_fulva_UAM26906_JJW145,Pluvialis fulva,,UAM26906,JJW145,228.6,Charadriiformes,Pluvialis,Pluvialis fulva,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_fulva_UAM8798_KSW2383,Pluvialis fulva,,UAM8798,KSW2383,68.3,Charadriiformes,Pluvialis,Pluvialis fulva,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_fulva_UAM11307_TB408,Pluvialis fulva,,UAM11307,TB408,188.3,Charadriiformes,Pluvialis,Pluvialis fulva,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_dominica_UAM26935_JJW362,Pluvialis dominica,,UAM26935,JJW362,137.0,Charadriiformes,Pluvialis,Pluvialis dominica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_dominica_UAM13181_KSW2402,Pluvialis dominica,,UAM13181,KSW2402,233.9,Charadriiformes,Pluvialis,Pluvialis dominica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_dominica_UAM8938_KSW2468,Pluvialis dominica,,UAM8938,KSW2468,169.0,Charadriiformes,Pluvialis,Pluvialis dominica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pluvialis_dominica_UAM9511_TB235,Pluvialis dominica,,UAM9511,TB235,395.1,Charadriiformes,Pluvialis,Pluvialis dominica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UWBM14228_TB1364,Numenius phaeopus variegatus,,UWBM14228,TB1364,,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UAM14229_TB1116,Numenius phaeopus variegatus,,UAM14229,TB1116,193.5,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UAM14230_TB1091,Numenius phaeopus variegatus,,UAM14230,TB1091,41.8,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UAM14225_TB1023,Numenius phaeopus variegatus,,UAM14225,TB1023,222.9,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UAM8212_DDF1666,Numenius phaeopus variegatus,,UAM8212,DDF1666,266.7,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UAM21379_CLP727,Numenius phaeopus variegatus,,UAM21379,CLP727,93.7,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_variegatus_UAM14625_CLP450,Numenius phaeopus variegatus,,UAM14625,CLP450,371.5,Charadriiformes,Numenius,Numenius phaeopus variegatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM11507_TB378,Numenius phaeopus hudsonicus,,UAM11507,TB378,343.4,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM13349_ABJ142,Numenius phaeopus hudsonicus,,UAM13349,ABJ142,114.4,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM9260_KSW2484,Numenius phaeopus hudsonicus,,UAM9260,KSW2484,343.4,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM13925_KGM036,Numenius phaeopus hudsonicus,,UAM13925,KGM036,120.9,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM17980_JMM011,Numenius phaeopus hudsonicus,,UAM17980,JMM011,36.4,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM28602_JJW1154,Numenius phaeopus hudsonicus,,UAM28602,JJW1154,24.9,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM28214_JJW1021,Numenius phaeopus hudsonicus,,UAM28214,JJW1021,452.8,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Numenius_phaeopus_hudsonicus_UAM28213_JJW1013,Numenius phaeopus hudsonicus,,UAM28213,JJW1013,361.5,Charadriiformes,Numenius,Numenius phaeopus hudsonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Arenaria_interpres_UAM26977_JJW676,Arenaria interpres,,UAM26977,JJW676,112.8,Charadriiformes,Arenaria,Arenaria interpres,unmatched,low,no_matching_assembly_status_in_new,right_only
-Arenaria_interpres_UAM30797_JJW1637,Arenaria interpres,,UAM30797,JJW1637,178.8,Charadriiformes,Arenaria,Arenaria interpres,unmatched,low,no_matching_assembly_status_in_new,right_only
-Calidris_alpina_arcticola_UAM25341_JJW4409,Calidris alpina arcticola,,UAM25341,JJW4409,18.9,Charadriiformes,Calidris,Calidris alpina arcticola,unmatched,low,no_matching_assembly_status_in_new,right_only
-Calidris_alpina_pacifica_UAM26913_JJW016,Calidris alpina pacifica,,UAM26913,JJW016,249.0,Charadriiformes,Calidris,Calidris alpina pacifica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Calidris_alpina_pacifica_UAM30879_JJW1821,Calidris alpina pacifica,,UAM30879,JJW1821,54.7,Charadriiformes,Calidris,Calidris alpina pacifica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM8805_KSW1782,Tringa brevipes,,UAM8805,KSW1782,897.6,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM8521_KSW1781,Tringa brevipes,,UAM8521,KSW1781,399.3,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM7534_KSW1780,Tringa brevipes,,UAM7534,KSW1780,167.3,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM28428_JJW1030,Tringa brevipes,,UAM28428,JJW1030,163.0,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM28427_JJW906,Tringa brevipes,,UAM28427,JJW906,227.9,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM10112_DDG1736,Tringa brevipes,,UAM10112,DDG1736,231.6,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM28430_JJW1061,Tringa brevipes,,UAM28430,JJW1061,146.5,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_brevipes_UAM28429_JJW1062,Tringa brevipes,,UAM28429,JJW1062,20.6,Charadriiformes,Tringa bi,Tringa brevipes,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM13434_DAR228,Tringa incana,,UAM13434,DAR228,12.8,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM28422_JJW720,Tringa incana,,UAM28422,JJW720,160.4,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM28425_JJW724,Tringa incana,,UAM28425,JJW724,76.2,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM28426_JJW1022,Tringa incana,,UAM28426,JJW1022,218.7,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM8240_KSW1778,Tringa incana,,UAM8240,KSW1778,413.4,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM21813_KSW3378,Tringa incana,,UAM21813,KSW3378,119.6,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM24859_UAMX1645,Tringa incana,,UAM24859,UAMX1645,126.2,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Tringa_incana_UAM13569_UAMX1735,Tringa incana,,UAM13569,UAMX1735,184.7,Charadriiformes,Tringa bi,Tringa incana,unmatched,low,no_matching_assembly_status_in_new,right_only
-Uria_aalge_inornata_UAM10687_KSW1631,Uria aalge inornata,,UAM10687,KSW1631,9.9,Charadriiformes,Uria a,Uria aalge inornata,unmatched,low,no_matching_assembly_status_in_new,right_only
-Uria_aalge_inornata_UAM10689_KSW1633,Uria aalge inornata,,UAM10689,KSW1633,5.5,Charadriiformes,Uria a,Uria aalge inornata,unmatched,low,no_matching_assembly_status_in_new,right_only
-Uria_aalge_inornata_UAM10690_KSW1634,Uria aalge inornata,,UAM10690,KSW1634,11.3,Charadriiformes,Uria a,Uria aalge inornata,unmatched,low,no_matching_assembly_status_in_new,right_only
-Larus_brachyrhynchus_UAM14803_DDG1922,Larus brachyrhynchus,,UAM14803,DDG1922,9.8,Charadriiformes,Larus c,Larus brachyrhynchus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Larus_argentatus_vegae_UAM25983_JJW343,Larus argentatus vegae,,UAM25983,JJW343,1.9,Charadriiformes,Larus a,Larus argentatus vegae,unmatched,low,no_matching_assembly_status_in_new,right_only
-Gavia_stellata_UAM38314_UAMX3952,Gavia stellata,,UAM38314,UAMX3952,67.4,Gaviiformes,Gavia,Gavia stellata,unmatched,low,no_matching_assembly_status_in_new,right_only
-Picoides_dorsalis_fasciatus_UAM38328_JJW3139,Picoides dorsalis fasciatus,,UAM38328,JJW3139,55.3,Piciformes,Picoides,Picoides dorsalis fasciatus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM74697_UWBM74697,Pica pica,,UWBM74697,UWBM74697,161.3,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM74569_UWBM74569,Pica pica,,UWBM74569,UWBM74569,87.8,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM72091_UWBM72091,Pica pica,,UWBM72091,UWBM72091,1.7,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM72084_UWBM72084,Pica pica,,UWBM72084,UWBM72084,69.4,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM47197_UWBM47197,Pica pica,,UWBM47197,UWBM47197,79.4,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM44585_UWBM44585,Pica pica,,UWBM44585,UWBM44585,158.1,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM44584_UWBM44584,Pica pica,,UWBM44584,UWBM44584,42.3,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_pica_UWBM44581_UWBM44581,Pica pica,,UWBM44581,UWBM44581,19.3,Passeriformes,Pica,Pica pica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM10105_UAMX953,Pica hudsonia,,UAM10105,UAMX953,6.8,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM8511_KSW2704,Pica hudsonia,,UAM8511,KSW2704,219.3,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM27024_JJW683,Pica hudsonia,,UAM27024,JJW683,139.3,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM17742_CLP245,Pica hudsonia,,UAM17742,CLP245,31.0,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM13052_CLP219,Pica hudsonia,,UAM13052,CLP219,71.8,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM13053_CLP218,Pica hudsonia,,UAM13053,CLP218,160.0,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pica_hudsonia_UAM12453_CLP208,Pica hudsonia,,UAM12453,CLP208,96.3,Passeriformes,Pica,Pica hudsonia,unmatched,low,no_matching_assembly_status_in_new,right_only
-Corvus_corax_UAM10021_DDG1749,Corvus corax,,UAM10021,DDG1749,5.5,Passeriformes,Corvus,Corvus corax,unmatched,low,no_matching_assembly_status_in_new,right_only
-Corvus_corax_UAM38000_JJW2991,Corvus corax,,UAM38000,JJW2991,48.3,Passeriformes,Corvus,Corvus corax,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44489_SAR6270,Luscinia svecica,,UWBM44489,SAR6270,,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44629_SAR6269,Luscinia svecica,,UWBM44629,SAR6269,1138.0,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44362_JMB1207,Luscinia svecica,,UWBM44362,JMB1207,1.9,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44361_JMB1206,Luscinia svecica,,UWBM44361,JMB1206,121.8,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44246_JMB1082,Luscinia svecica,,UWBM44246,JMB1082,113.9,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44242_JMB1278,Luscinia svecica,,UWBM44242,JMB1278,225.2,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UWBM44233_JMB1064,Luscinia svecica,,UWBM44233,JMB1064,128.3,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM13718_ABJ200,Luscinia svecica,,UAM13718,ABJ200,235.8,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM15419_MJM048,Luscinia svecica,,UAM15419,MJM048,58.7,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM17727_MJM047,Luscinia svecica,,UAM17727,MJM047,123.4,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM8944_KSW2481,Luscinia svecica,,UAM8944,KSW2481,50.6,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM8584_KSW2409,Luscinia svecica,,UAM8584,KSW2409,279.8,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM8945_KSW2408,Luscinia svecica,,UAM8945,KSW2408,49.6,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM8946_KSW2407,Luscinia svecica,,UAM8946,KSW2407,,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Luscinia_svecica_UAM8585_KSW2406,Luscinia svecica,,UAM8585,KSW2406,133.3,Passeriformes,Luscinia,Luscinia svecica,unmatched,low,no_matching_assembly_status_in_new,right_only
-Anthus_rubescens_japonicus_UAM28057_JJW905,Anthus rubescens japonicus,,UAM28057,JJW905,246.9,Passeriformes,Anthus,Anthus rubescens japonicus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_kamtschatschensis_UWBM51643_SVD423,Pinicola enucleator kamtschatschensis,,UWBM51643,SVD423,172.5,Passeriformes,Pinicola,Pinicola enucleator kamtschatschensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_kamtschatschensis_UWBM51627_SVD407,Pinicola enucleator kamtschatschensis,,UWBM51627,SVD407,139.4,Passeriformes,Pinicola,Pinicola enucleator kamtschatschensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_kamtschatschensis_UWBM47315_SAR6539,Pinicola enucleator kamtschatschensis,,UWBM47315,SAR6539,53.1,Passeriformes,Pinicola,Pinicola enucleator kamtschatschensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_kamtschatschensis_UWBM47314_SAR6538,Pinicola enucleator kamtschatschensis,,UWBM47314,SAR6538,1535.1,Passeriformes,Pinicola,Pinicola enucleator kamtschatschensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_kamtschatschensis_UAM24602_DDG2190,Pinicola enucleator kamtschatschensis,,UAM24602,DDG2190,396.8,Passeriformes,Pinicola,Pinicola enucleator kamtschatschensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_kamtschatschensis_UAM24601_DDG2189,Pinicola enucleator kamtschatschensis,,UAM24601,DDG2189,225.2,Passeriformes,Pinicola,Pinicola enucleator kamtschatschensis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM10158_UAMX1014,Pinicola enucleator flammula,,UAM10158,UAMX1014,1146.7,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM8794_KSW1695,Pinicola enucleator flammula,,UAM8794,KSW1695,116.5,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM8797_KSW1694,Pinicola enucleator flammula,,UAM8797,KSW1694,432.4,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM28530_JJW1097,Pinicola enucleator flammula,,UAM28530,JJW1097,297.8,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM26361_JJW030,Pinicola enucleator flammula,,UAM26361,JJW030,245.3,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM11286_ABJ012,Pinicola enucleator flammula,,UAM11286,ABJ012,105.1,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Pinicola_enucleator_flammula_UAM11285_ABJ011,Pinicola enucleator flammula,,UAM11285,ABJ011,56.2,Passeriformes,Pinicola,Pinicola enucleator flammula,unmatched,low,no_matching_assembly_status_in_new,right_only
-Leucosticte_tephrocotis_griseonucha_UAM31439_RWD24857,Leucosticte tephrocotis griseonucha,,UAM31439,RWD24857,367.0,Passeriformes,Leucosticte,Leucosticte tephrocotis griseonucha,unmatched,low,no_matching_assembly_status_in_new,right_only
-Leucosticte_tephrocotis_littoralis_UAM40954_JJW3809,Leucosticte tephrocotis littoralis,,UAM40954,JJW3809,39.2,Passeriformes,Leucosticte,Leucosticte tephrocotis littoralis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Leucosticte_tephrocotis_littoralis_UAM40959_JJW3814,Leucosticte tephrocotis littoralis,,UAM40959,JJW3814,13.7,Passeriformes,Leucosticte,Leucosticte tephrocotis littoralis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Leucosticte_tephrocotis_tephrocotis_UAM38654_JJW3204,Leucosticte tephrocotis tephrocotis,,UAM38654,JJW3204,87.5,Passeriformes,Leucosticte,Leucosticte tephrocotis tephrocotis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Calcarius_lapponicus_coloratus_UAM29827_UAM29827,Calcarius lapponicus coloratus,,UAM29827,UAM29827,8.5,Passeriformes,Calcarius,Calcarius lapponicus coloratus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Calcarius_lapponicus_coloratus_UAM29825_UAM29825,Calcarius lapponicus coloratus,,UAM29825,UAM29825,25.6,Passeriformes,Calcarius,Calcarius lapponicus coloratus,unmatched,low,no_matching_assembly_status_in_new,right_only
-Plectrophenax_nivalis_UAM27725_JJW292,Plectrophenax nivalis,,UAM27725,JJW292,261.6,Passeriformes,Plectrophenax,Plectrophenax nivalis,unmatched,low,no_matching_assembly_status_in_new,right_only
-Plectropomus_hyperboreus_UAM7407_KSW1588,Plectropomus hyperboreus,,UAM7407,KSW1588,8.0,,Plectrophenax,Plectropomus hyperboreus,unmatched,low,no_matching_assembly_status_in_new,right_only
+directory_name,species,assembly_level,catalog_num,field_num,coverage,order,taxon_pair
+Anas_acuta_UAM_22113_REW601,Anas acuta,partial_success,UAM22113,REW601,9.8,Anseriformes,Anas acuta
+Anas_acuta_UAM_23468_KGM895,Anas acuta,partial_success,UAM23468,KGM895,48.3,Anseriformes,Anas acuta
+Anas_acuta_UAM_28156_KSW5107,Anas acuta,partial_success,UAM28156,KSW5107,31.3,Anseriformes,Anas acuta
+Anas_acuta_UAM_28167_KSW5120,Anas acuta,partial_success,UAM28167,KSW5120,23.2,Anseriformes,Anas acuta
+Anas_acuta_UAM_29039_REW548,Anas acuta,partial_success,UAM29039,REW548,22.8,Anseriformes,Anas acuta
+Anas_acuta_UAM_30400_KSW5391,Anas acuta,partial_success,UAM30400,KSW5391,4.3,Anseriformes,Anas acuta
+Anas_acuta_UAM_31205_JJW1897,Anas acuta,partial_success,UAM31205,JJW1897,17.4,Anseriformes,Anas acuta
+Anas_acuta_UWBM_44114_DAB055,Anas acuta,partial_success,UWBM44114,DAB055,66.6,Anseriformes,Anas acuta
+Anas_carolinensis_UAM_11251_UAMX203,Anas carolinensis,success,UAM11251,UAMX203,50.2,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_11251_UAMX203,Anas carolinensis,success,UAM11251,UAMX203,50.2,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_11920_KSW3040,Anas carolinensis,success,UAM11920,KSW3040,176.5,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_11920_KSW3040,Anas carolinensis,success,UAM11920,KSW3040,176.5,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_14961_KGM335,Anas carolinensis,success,UAM14961,KGM335,320.8,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_14961_KGM335,Anas carolinensis,success,UAM14961,KGM335,320.8,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_20635_KSW4530,Anas carolinensis,success,UAM20635,KSW4530,119.2,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_24497_JMM448,Anas carolinensis,partial_success,UAM24497,JMM448,34.1,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_28085_JJW978,Anas carolinensis,success,UAM28085,JJW978,76.0,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_28085_JJW978,Anas carolinensis,success,UAM28085,JJW978,76.0,Anseriformes,Anas carolinensis
+Anas_carolinensis_UAM_28444_UAMX5069,Anas carolinensis,success,UAM28444,UAMX5069,177.9,Anseriformes,Anas carolinensis
+Anas_crecca_UAM_11334_KGM021,Anas crecca,partial_success,UAM11334,KGM021,142.1,Anseriformes,Anas crecca
+Anas_crecca_UAM_11335_KGM020,Anas crecca,success,UAM11335,KGM020,481.6,Anseriformes,Anas crecca
+Anas_crecca_UAM_11335_KGM020,Anas crecca,success,UAM11335,KGM020,481.6,Anseriformes,Anas crecca
+Anas_crecca_UAM_14100_DDG1885,Anas crecca,success,UAM14100,DDG1885,312.5,Anseriformes,Anas crecca
+Anas_crecca_UAM_14666_DDG1884,Anas crecca,success,UAM14666,DDG1884,104.3,Anseriformes,Anas crecca
+Anas_crecca_UAM_14666_DDG1884,Anas crecca,success,UAM14666,DDG1884,104.3,Anseriformes,Anas crecca
+Anas_crecca_UAM_22853_KSW4951,Anas crecca,success,UAM22853,KSW4951,304.6,Anseriformes,Anas crecca
+Anas_crecca_UAM_22853_KSW4951,Anas crecca,success,UAM22853,KSW4951,304.6,Anseriformes,Anas crecca
+Anas_crecca_UAM_9191_DDG1732,Anas crecca,success,UAM9191,DDG1732,1282.9,Anseriformes,Anas crecca
+Anas_crecca_UAM_9191_DDG1732,Anas crecca,success,UAM9191,DDG1732,1282.9,Anseriformes,Anas crecca
+Anas_crecca_UAM_9255_DDG1704,Anas crecca,success,UAM9255,DDG1704,459.4,Anseriformes,Anas crecca
+Anas_crecca_UAM_9255_DDG1704,Anas crecca,success,UAM9255,DDG1704,459.4,Anseriformes,Anas crecca
+Anas_platyrhynchos_UAM_11193_KGM007,Anas platyrhynchos,success,UAM11193,KGM007,127.2,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_11328_DDG1776,Anas platyrhynchos,partial_success,UAM11328,DDG1776,23.9,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_29647_JJW1397,Anas platyrhynchos,partial_success,UAM29647,JJW1397,48.3,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_30286_JJW1602,Anas platyrhynchos,partial_success,UAM30286,JJW1602,22.8,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_30290_JJW1592,Anas platyrhynchos,partial_success,UAM30290,JJW1592,20.4,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_30399_KSW5390,Anas platyrhynchos,failed,UAM30399,KSW5390,5.0,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_31321_UAMX5540,Anas platyrhynchos,partial_success,UAM31321,UAMX5540,25.4,Anseriformes,Anas p
+Anas_platyrhynchos_UWBM_44374_JMB1220,Anas platyrhynchos,partial_success,UWBM44374,JMB1220,36.7,Anseriformes,Anas p
+Anas_platyrhynchos_UWBM_47068_CSW4828,Anas platyrhynchos,partial_success,UWBM47068,CSW4828,16.4,Anseriformes,Anas p
+Anas_platyrhynchos_UWBM_47160_SAR6383,Anas platyrhynchos,success,UWBM47160,SAR6383,31.6,Anseriformes,Anas p
+Anser_albifrons_UAM_27372_JJW884,Anser albifrons,partial_success,UAM27372,JJW884,22.2,Anseriformes,Anser
+Anser_albifrons_UAM_30571_JJW1495,Anser albifrons,partial_success,UAM30571,JJW1495,32.6,Anseriformes,Anser
+Anser_albifrons_UAM_34089_KSW4176,Anser albifrons,partial_success,UAM34089,KSW4176,11.5,Anseriformes,Anser
+Anser_albifrons_UAM_35427_JJW2405,Anser albifrons,success,UAM35427,JJW2405,70.5,Anseriformes,Anser
+Anser_albifrons_UAM_35428_JJW2413,Anser albifrons,partial_success,UAM35428,JJW2413,7.6,Anseriformes,Anser
+Anser_albifrons_UWBM_43977_CSW4521,Anser albifrons,partial_success,UWBM43977,CSW4521,83.9,Anseriformes,Anser
+Anser_albifrons_UWBM_43978_CSW4522,Anser albifrons,failed,UWBM43978,CSW4522,56.9,Anseriformes,Anser
+Anser_albifrons_UWBM_71170_SVD1426,Anser albifrons,success,UWBM71170,SVD1426,94.6,Anseriformes,Anser
+Anthus_rubescens_japonicus_UAM_13353_DDG1877,Anthus rubescens japonicus,partial_success,UAM13353,DDG1877,3.2,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_15068_KSW3980,Anthus rubescens japonicus,partial_success,UAM15068,KSW3980,15.4,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_27351_JJW864,Anthus rubescens japonicus,success,UAM27351,JJW864,25.3,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_28057_JJW905,Anthus rubescens japonicus,success,UAM28057,JJW905,246.9,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_39615_JJW3455,Anthus rubescens japonicus,partial_success,UAM39615,JJW3455,258.3,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_11452_CLP200,Anthus rubescens pacificus,partial_success,UAM11452,CLP200,33.3,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_13540_RWD25949,Anthus rubescens pacificus,partial_success,UAM13540,RWD25949,4.3,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_19419_MJM037,Anthus rubescens pacificus,partial_success,UAM19419,MJM037,13.2,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_31927_JJW2045,Anthus rubescens pacificus,failed,UAM31927,JJW2045,1.7,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_31928_JJW2046,Anthus rubescens pacificus,success,UAM31928,JJW2046,15.5,Passeriformes,Anthus
+Arenaria_interpres_UAM_13527_UAMX1744,Arenaria interpres,partial_success,UAM13527,UAMX1744,76.7,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_14954_DAR268,Arenaria interpres,partial_success,UAM14954,DAR268,20.0,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_20220_JMM422,Arenaria interpres,partial_success,UAM20220,JMM422,8.2,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_26977_JJW676,Arenaria interpres,success,UAM26977,JJW676,112.8,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_30797_JJW1637,Arenaria interpres,success,UAM30797,JJW1637,178.8,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_20098_JMM327,Arenaria melanocephala,success,UAM20098,JMM327,18.0,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_20142_JMM326,Arenaria melanocephala,partial_success,UAM20142,JMM326,141.0,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_28748_JJW1153,Arenaria melanocephala,failed,UAM28748,JJW1153,5.0,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_40266_JJW3588,Arenaria melanocephala,success,UAM40266,JJW3588,449.8,Charadriiformes,Arenaria
+Aythya_marila_UAM_18068_JJW325,Aythya marila,success,UAM18068,JJW325,111.9,Anseriformes,Aythya
+Aythya_marila_UAM_28067_JJW324,Aythya marila,success,UAM28067,JJW324,163.1,Anseriformes,Aythya
+Aythya_marila_UAM_29987_UAMX5077,Aythya marila,success,UAM29987,UAMX5077,183.8,Anseriformes,Aythya
+Aythya_marila_UAM_30392_KSW5394,Aythya marila,failed,UAM30392,KSW5394,2.6,Anseriformes,Aythya
+Aythya_marila_UAM_30393_KSW5396,Aythya marila,partial_success,UAM30393,KSW5396,7.2,Anseriformes,Aythya
+Aythya_marila_UAM_30394_KSW5393,Aythya marila,partial_success,UAM30394,KSW5393,8.7,Anseriformes,Aythya
+Aythya_marila_UAM_30395_KSW5385,Aythya marila,success,UAM30395,KSW5385,24.8,Anseriformes,Aythya
+Aythya_marila_UAM_30396_KSW5395,Aythya marila,failed,UAM30396,KSW5395,2.3,Anseriformes,Aythya
+Aythya_marila_UAM_30915_UAMX5076,Aythya marila,partial_success,UAM30915,UAMX5076,151.9,Anseriformes,Aythya
+Aythya_marila_UAM_35653_REW611,Aythya marila,success,UAM35653,REW611,127.3,Anseriformes,Aythya
+Calcarius_lapponicus_alascensis_UAM_13337_RWD25944,Calcarius lapponicus alascensis,partial_success,UAM13337,RWD25944,9.4,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_19614_CLP051,Calcarius lapponicus alascensis,partial_success,UAM19614,CLP051,12.3,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_7653_KSW1821,Calcarius lapponicus alascensis,failed,UAM7653,KSW1821,4.1,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_9407_CLP038,Calcarius lapponicus alascensis,success,UAM9407,CLP038,74.8,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_29835,Calcarius lapponicus alascensis,success,UAM29835,,,Passeriformes,
+Calcarius_lapponicus_alascensis_UAM_9525_CLP048,Calcarius lapponicus alascensis,success,UAM9525,CLP048,40.0,Passeriformes,Calcarius
+Calcarius_lapponicus_coloratus_UAM_29825_UAM29825,Calcarius lapponicus coloratus,partial_success,UAM29825,UAM29825,25.6,Passeriformes,Calcarius
+Calcarius_lapponicus_coloratus_UAM_29827_UAM29827,Calcarius lapponicus coloratus,partial_success,UAM29827,UAM29827,8.5,Passeriformes,Calcarius
+Calidris_alpina_arcticola_UAM_19815_JJW4411,Calidris alpina arcticola,failed,UAM19815,JJW4411,3.3,Charadriiformes,Calidris
+Calidris_alpina_arcticola_UAM_20132_UAMX3267,Calidris alpina arcticola,partial_success,UAM20132,UAMX3267,26.7,Charadriiformes,Calidris
+Calidris_alpina_arcticola_UAM_25341_JJW4409,Calidris alpina arcticola,failed,UAM25341,JJW4409,18.9,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_26913_JJW016,Calidris alpina pacifica,partial_success,UAM26913,JJW016,249.0,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_26914_JJW015,Calidris alpina pacifica,failed,UAM26914,JJW015,14.8,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_27576_JJW704,Calidris alpina pacifica,failed,UAM27576,JJW704,22.2,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_30313_JJW1490,Calidris alpina pacifica,partial_success,UAM30313,JJW1490,21.7,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_30879_JJW1821,Calidris alpina pacifica,success,UAM30879,JJW1821,54.7,Charadriiformes,Calidris
+Clangula_hyemalis_UAM_13154_DAR149,Clangula hyemalis,success,UAM13154,DAR149,,Anseriformes,
+Clangula_hyemalis_UAM_21883_REW583,Clangula hyemalis,success,UAM21883,REW583,250.2,Anseriformes,Clangula
+Clangula_hyemalis_UAM_21931_REW532,Clangula hyemalis,success,UAM21931,REW532,437.8,Anseriformes,Clangula
+Clangula_hyemalis_UAM_28184_REW619,Clangula hyemalis,success,UAM28184,REW619,295.8,Anseriformes,Clangula
+Clangula_hyemalis_UAM_29027_REW618,Clangula hyemalis,success,UAM29027,REW618,251.0,Anseriformes,Clangula
+Clangula_hyemalis_UAM_29029_REW620,Clangula hyemalis,success,UAM29029,REW620,3382.7,Anseriformes,Clangula
+Clangula_hyemalis_UAM_40387_REW564,Clangula hyemalis,success,UAM40387,REW564,141.8,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43893_CSW4426,Clangula hyemalis,success,UWBM43893,CSW4426,132.9,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43894_CSW4427,Clangula hyemalis,success,UWBM43894,CSW4427,209.9,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43895_CSW4428,Clangula hyemalis,success,UWBM43895,CSW4428,208.9,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43917_CSW4452,Clangula hyemalis,success,UWBM43917,CSW4452,407.5,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43918_CSW4453,Clangula hyemalis,success,UWBM43918,CSW4453,351.8,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43919_CSW4454,Clangula hyemalis,success,UWBM43919,CSW4454,264.4,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43970_CSW4514,Clangula hyemalis,success,UWBM43970,CSW4514,124.1,Anseriformes,Clangula
+Corvus_corax_UAM_10021_DDG1749,Corvus corax,failed,UAM10021,DDG1749,5.5,Passeriformes,Corvus
+Corvus_corax_UAM_11113_UAMX1061,Corvus corax,partial_success,UAM11113,UAMX1061,5.5,Passeriformes,Corvus
+Corvus_corax_UAM_15040_RWD26009,Corvus corax,failed,UAM15040,RWD26009,4.4,Passeriformes,Corvus
+Corvus_corax_UAM_17737_TB1445,Corvus corax,failed,UAM17737,TB1445,2.6,Passeriformes,Corvus
+Corvus_corax_UAM_17761_JMM133,Corvus corax,partial_success,UAM17761,JMM133,4.2,Passeriformes,Corvus
+Corvus_corax_UAM_22252_KSW4763,Corvus corax,partial_success,UAM22252,KSW4763,9.8,Passeriformes,Corvus
+Corvus_corax_UAM_38000_JJW2991,Corvus corax,success,UAM38000,JJW2991,48.3,Passeriformes,Corvus
+Corvus_corax_UAM_39709_JJW3401,Corvus corax,partial_success,UAM39709,JJW3401,58.2,Passeriformes,Corvus
+Corvus_corax_UAM_41600_JJW4373,Corvus corax,partial_success,UAM41600,JJW4373,3.2,Passeriformes,Corvus
+Corvus_corax_UAM_8803_KSW2715,Corvus corax,failed,UAM8803,KSW2715,8.1,Passeriformes,Corvus
+Corvus_corax_UAM_9313_UAMX844,Corvus corax,partial_success,UAM9313,UAMX844,9.8,Passeriformes,Corvus
+Corvus_corax_UWBM_46861_BKS908,Corvus corax,failed,UWBM46861,BKS908,3.3,Passeriformes,Corvus
+Corvus_corax_UWBM_56544_BKS3241,Corvus corax,failed,UWBM56544,BKS3241,1.5,Passeriformes,Corvus
+Corvus_corax_UWBM_57899_BKS4041,Corvus corax,failed,UWBM57899,BKS4041,2.6,Passeriformes,Corvus
+Corvus_corax_UWBM_57909_BKS4052,Corvus corax,partial_success,UWBM57909,BKS4052,5.3,Passeriformes,Corvus
+Corvus_corax_UWBM_59566_SVD1398,Corvus corax,partial_success,UWBM59566,SVD1398,9.0,Passeriformes,Corvus
+Corvus_corax_UWBM_71244_SVD231a,Corvus corax,failed,UWBM71244,SVD231a,2.2,Passeriformes,Corvus
+Gallinago_delicata_UAM_15063_DDG1945,Gallinago delicata,failed,UAM15063,DDG1945,2.1,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_19231_DDG2021,Gallinago delicata,failed,UAM19231,DDG2021,2.2,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_20505_DDG2035,Gallinago delicata,partial_success,UAM20505,DDG2035,55.0,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_22570_DDG2118,Gallinago delicata,partial_success,UAM22570,DDG2118,31.9,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_30488_JJW1536,Gallinago delicata,failed,UAM30488,JJW1536,1.6,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_21848_CLP713,Gallinago gallinago gallinago,partial_success,UAM21848,CLP713,9.8,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_24695_KSW5126,Gallinago gallinago gallinago,partial_success,UAM24695,KSW5126,33.9,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_26800_JJW158,Gallinago gallinago gallinago,failed,UAM26800,JJW158,1.5,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_28175_KSW5134,Gallinago gallinago gallinago,failed,UAM28175,KSW5134,1.9,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_8228_DDG1650,Gallinago gallinago gallinago,failed,UAM8228,DDG1650,1.8,Charadriiformes,Gallinago
+Gavia_stellata_UAM_13601_DAR275,Gavia stellata,failed,UAM13601,DAR275,4.5,Gaviiformes,Gavia
+Gavia_stellata_UAM_20711_KGM628,Gavia stellata,partial_success,UAM20711,KGM628,30.2,Gaviiformes,Gavia
+Gavia_stellata_UAM_38314_UAMX3952,Gavia stellata,partial_success,UAM38314,UAMX3952,67.4,Gaviiformes,Gavia
+Gavia_stellata_UAM_40093_UAMX6608,Gavia stellata,partial_success,UAM40093,UAMX6608,44.7,Gaviiformes,Gavia
+Gavia_stellata_UAM_40094_JJW3574,Gavia stellata,partial_success,UAM40094,JJW3574,41.0,Gaviiformes,Gavia
+Gavia_stellata_UWBM_43925_CSW4461,Gavia stellata,partial_success,UWBM43925,CSW4461,14.1,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44122_DAB063,Gavia stellata,partial_success,UWBM44122,DAB063,,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44259_JMB1098,Gavia stellata,partial_success,UWBM44259,JMB1098,9.3,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44260_JMB1099,Gavia stellata,failed,UWBM44260,JMB1099,2.9,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44653_SAR6293,Gavia stellata,failed,UWBM44653,SAR6293,3.2,Gaviiformes,Gavia
+Histrionicus_histrionicus_UAM_11799_DDG1754,Histrionicus histrionicus,partial_success,UAM11799,DDG1754,22.0,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_11800_DDG1753,Histrionicus histrionicus,partial_success,UAM11800,DDG1753,19.0,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_11801_DDG1755,Histrionicus histrionicus,failed,UAM11801,DDG1755,1.9,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_36431_JJW2664,Histrionicus histrionicus,failed,UAM36431,JJW2664,2.2,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_36745_KGM641,Histrionicus histrionicus,partial_success,UAM36745,KGM641,13.5,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_40488_JJW3694,Histrionicus histrionicus,failed,UAM40488,JJW3694,2.0,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_40489_JJW3695,Histrionicus histrionicus,failed,UAM40489,JJW3695,1.3,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_9600_KSW2979,Histrionicus histrionicus,failed,UAM9600,KSW2979,2.3,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UWBM_44446_SAR6074,Histrionicus histrionicus,partial_success,UWBM44446,SAR6074,40.8,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UWBM_82975_RYA1002,Histrionicus histrionicus,success,UWBM82975,RYA1002,79.3,Anseriformes,Histrionicus
+Lagopus_lagopus_alascensis_UAM_27018_JJW711,Lagopus lagopus alascensis,partial_success,UAM27018,JJW711,15.1,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_28238_TB349,Lagopus lagopus alascensis,partial_success,UAM28238,TB349,32.0,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_31562_JJW1970,Lagopus lagopus alascensis,partial_success,UAM31562,JJW1970,21.5,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_36927_JJW2909,Lagopus lagopus alascensis,failed,UAM36927,JJW2909,15.2,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_39209_JJW3352,Lagopus lagopus alascensis,failed,UAM39209,JJW3352,9.0,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_14834_KSW5045,Lagopus lagopus koreni,partial_success,UAM14834,KSW5045,20.7,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_25139_KSW5046,Lagopus lagopus koreni,partial_success,UAM25139,KSW5046,63.2,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_28169_KSW5052,Lagopus lagopus koreni,partial_success,UAM28169,KSW5052,32.3,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_28171_KSW5113,Lagopus lagopus koreni,failed,UAM28171,KSW5113,,Galliformes,
+Lagopus_lagopus_koreni_UAM_29685_KSW5082,Lagopus lagopus koreni,failed,UAM29685,KSW5082,2.3,Galliformes,Lagopus
+Larus_argentatus_smithsonianus_UAM_30575_JJW1533,Larus argentatus smithsonianus,failed,UAM30575,JJW1533,6.8,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35751_JJW2551,Larus argentatus smithsonianus,failed,UAM35751,JJW2551,2.6,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35753_JJW2549,Larus argentatus smithsonianus,failed,UAM35753,JJW2549,2.5,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35754_JJW2548,Larus argentatus smithsonianus,partial_success,UAM35754,JJW2548,28.1,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35755_JJW2547,Larus argentatus smithsonianus,success,UAM35755,JJW2547,19.8,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_25984_JJW257,Larus argentatus vegae,partial_success,UAM25984,JJW257,13.1,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_25987_JJW224,Larus argentatus vegae,failed,UAM25987,JJW224,1.4,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_26660_KSW5044,Larus argentatus vegae,partial_success,UAM26660,KSW5044,84.5,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_28162_KSW5090,Larus argentatus vegae,partial_success,UAM28162,KSW5090,67.2,Charadriiformes,Larus a
+Larus_brachyrhynchus_UAM_14682_DDG1921,Larus brachyrhynchus,failed,UAM14682,DDG1921,1.2,Charadriiformes,Larus c
+Larus_brachyrhynchus_UAM_14803_DDG1922,Larus brachyrhynchus,partial_success,UAM14803,DDG1922,,Charadriiformes,
+Larus_brachyrhynchus_UAM_14803_DDG2122,Larus brachyrhynchus,partial_success,UAM14803,DDG2122,,Charadriiformes,
+Larus_brachyrhynchus_UAM_26901_JJW010,Larus brachyrhynchus,failed,UAM26901,JJW010,5.0,Charadriiformes,Larus c
+Larus_brachyrhynchus_UAM_36875_JJW2921,Larus brachyrhynchus,partial_success,UAM36875,JJW2921,90.0,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_11014_DDG1771,Larus canus kamtschatschensis,failed,UAM11014,DDG1771,2.7,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_13377_DDG1876,Larus canus kamtschatschensis,partial_success,UAM13377,DDG1876,20.6,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_22863_KSW4959,Larus canus kamtschatschensis,partial_success,UAM22863,KSW4959,269.6,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_22926_KSW4989,Larus canus kamtschatschensis,partial_success,UAM22926,KSW4989,15.5,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_24812_UAMX4789,Larus canus kamtschatschensis,failed,UAM24812,UAMX4789,3.0,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_37770_JJW3012,Larus canus kamtschatschensis,failed,UAM37770,JJW3012,2.7,Charadriiformes,Larus c
+Larus_hyperboreus_UAM_24327_UAMX4940,Larus hyperboreus,failed,UAM24327,UAMX4940,2.1,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_28158_KSW5035,Larus hyperboreus,partial_success,UAM28158,KSW5035,9.5,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_28160_KSW5108,Larus hyperboreus,partial_success,UAM28160,KSW5108,24.3,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_40190_JJW3585,Larus hyperboreus,failed,UAM40190,JJW3585,1.3,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_40191_JJW3586,Larus hyperboreus,failed,UAM40191,JJW3586,13.4,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_8929_UAMX683,Larus hyperboreus,partial_success,UAM8929,UAMX683,28.6,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_9257_KSW2490,Larus hyperboreus,failed,UAM9257,KSW2490,8.3,Charadriiformes,Leucosticte
+Larus_hyperboreus_UWBM_43851_CSW4378,Larus hyperboreus,partial_success,UWBM43851,CSW4378,5.4,Charadriiformes,Leucosticte
+Larus_hyperboreus_UWBM_43852_CSW4379,Larus hyperboreus,failed,UWBM43852,CSW4379,5.0,Charadriiformes,Leucosticte
+Larus_hyperboreus_UWBM_43982_CSW4526,Larus hyperboreus,partial_success,UWBM43982,CSW4526,10.7,Charadriiformes,Leucosticte
+Leucosticte_arctoa_UWBM_44077_CSW4675,Leucosticte arctoa,partial_success,UWBM44077,CSW4675,3.3,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44366_JMB1211,Leucosticte arctoa,failed,UWBM44366,JMB1211,3.7,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44622_SAR6262,Leucosticte arctoa,partial_success,UWBM44622,SAR6262,3.5,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44623_SAR6263,Leucosticte arctoa,partial_success,UWBM44623,SAR6263,5.1,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44624_SAR6264,Leucosticte arctoa,partial_success,UWBM44624,SAR6264,6.2,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_10981_DDG1750,Leucosticte tephrocotis griseonucha,partial_success,UAM10981,DDG1750,12.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_24603_UAMX5158,Leucosticte tephrocotis griseonucha,partial_success,UAM24603,UAMX5158,6.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_24607_UAMX5168,Leucosticte tephrocotis griseonucha,success,UAM24607,UAMX5168,13.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_31438_RWD24852,Leucosticte tephrocotis griseonucha,partial_success,UAM31438,RWD24852,17.2,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_31439_RWD24857,Leucosticte tephrocotis griseonucha,success,UAM31439,RWD24857,367.0,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_28707_JJW1163,Leucosticte tephrocotis littoralis,success,UAM28707,JJW1163,14.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40954_JJW3809,Leucosticte tephrocotis littoralis,success,UAM40954,JJW3809,39.2,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40957_JJW3812,Leucosticte tephrocotis littoralis,success,UAM40957,JJW3812,83.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40959_JJW3814,Leucosticte tephrocotis littoralis,partial_success,UAM40959,JJW3814,13.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40961_JJW3816,Leucosticte tephrocotis littoralis,partial_success,UAM40961,JJW3816,66.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_27288_JJW873,Leucosticte tephrocotis tephrocotis,success,UAM27288,JJW873,32.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465,Leucosticte tephrocotis tephrocotis,partial_success,UAM35598,JJW2465,31.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460,Leucosticte tephrocotis tephrocotis,partial_success,UAM35600,JJW2460,33.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_38650_JJW3200,Leucosticte tephrocotis tephrocotis,failed,UAM38650,JJW3200,,Passeriformes,
+Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351,Leucosticte tephrocotis umbrina,success,FMNH34305,AF14351,10.1,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921,Leucosticte tephrocotis umbrina,success,UAM17748,UAMX2921,37.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346,Leucosticte tephrocotis umbrina,success,UAM28619,AF14346,2.3,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344,Leucosticte tephrocotis umbrina,success,UAM28620,AF14344,12.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646,Leucosticte tephrocotis umbrina,partial_success,UAM7351,KSW1646,2.1,Passeriformes,Leucosticte
+Luscinia_svecica_UAM_13718_ABJ200,Luscinia svecica,success,UAM13718,ABJ200,235.8,Passeriformes,Luscinia
+Luscinia_svecica_UAM_15419_MJM048,Luscinia svecica,partial_success,UAM15419,MJM048,58.7,Passeriformes,Luscinia
+Luscinia_svecica_UAM_17727_MJM047,Luscinia svecica,success,UAM17727,MJM047,123.4,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8584_KSW2409,Luscinia svecica,success,UAM8584,KSW2409,279.8,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8585_KSW2406,Luscinia svecica,success,UAM8585,KSW2406,133.3,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8944_KSW2481,Luscinia svecica,success,UAM8944,KSW2481,50.6,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8946_KSW2407,Luscinia svecica,success,UAM8946,KSW2407,,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44233_JMB1064,Luscinia svecica,success,UWBM44233,JMB1064,128.3,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44242_JMB1278,Luscinia svecica,success,UWBM44242,JMB1078,,Passeriformes,
+Luscinia_svecica_UWBM_44246_JMB1082,Luscinia svecica,success,UWBM44246,JMB1082,113.9,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44361_JMB1206,Luscinia svecica,success,UWBM44361,JMB1206,121.8,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44362_JMB1207,Luscinia svecica,failed,UWBM44362,JMB1207,1.9,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44363_JMB1208,Luscinia svecica,success,UWBM44363,JMB1208,,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44629_SAR6269,Luscinia svecica,success,UWBM44629,SAR6269,1138.0,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44630,Luscinia svecica,success,UWBM44630,,,Passeriformes,
+Mareca_americana_UAM_11908_KSW3028,Mareca americana,success,UAM11908,KSW3028,595.9,Anseriformes,Mareca
+Mareca_americana_UAM_11909_KSW3029,Mareca americana,success,UAM11909,KSW3029,214.1,Anseriformes,Mareca
+Mareca_americana_UAM_11916_KSW3036,Mareca americana,success,UAM11916,KSW3036,404.6,Anseriformes,Mareca
+Mareca_americana_UAM_11919_KSW3039,Mareca americana,success,UAM11919,KSW3039,411.0,Anseriformes,Mareca
+Mareca_americana_UAM_13141_UAMX1468,Mareca americana,partial_success,UAM13141,UAMX1468,92.5,Anseriformes,Mareca
+Mareca_americana_UAM_26061_JJW383,Mareca americana,success,UAM26061,JJW383,177.4,Anseriformes,Mareca
+Mareca_americana_UAM_28087_JJW976,Mareca americana,success,UAM28087,JJW976,278.6,Anseriformes,Mareca
+Mareca_americana_UAM_28088_JJW948,Mareca americana,success,UAM28088,JJW948,72.4,Anseriformes,Mareca
+Mareca_penelope_UAM_10008_DDG1716,Mareca penelope,success,UAM10008,DDG1716,167.2,Anseriformes,Mareca
+Mareca_penelope_UAM_11803_DDG1768,Mareca penelope,success,UAM11803,DDG1768,,Anseriformes,
+Mareca_penelope_UAM_24301_UAMX4959,Mareca penelope,success,UAM24301,UAMX4959,384.2,Anseriformes,Mareca
+Mareca_penelope_UAM_24455_MJL037,Mareca penelope,success,UAM24455,MJL037,343.0,Anseriformes,Mareca
+Mareca_penelope_UAM_24550_UAMX5044,Mareca penelope,partial_success,UAM24550,UAMX5044,26.5,Anseriformes,Mareca
+Mareca_penelope_UAM_27749_JJW968,Mareca penelope,success,UAM27749,JJW968,633.9,Anseriformes,Mareca
+Mareca_penelope_UAM_8758_DDG1663,Mareca penelope,success,UAM8758,DDG1663,156.3,Anseriformes,Mareca
+Mareca_penelope_UAM_9359_DDG1703,Mareca penelope,success,UAM9359,DDG1703,129.5,Anseriformes,Mareca
+Melanitta_americana_UAM_25996_JJW179,Melanitta americana,success,UAM25996,JJW179,74.2,Anseriformes,Melanitta
+Melanitta_americana_UAM_28065_JJW950,Melanitta americana,success,UAM28065,JJW950,201.2,Anseriformes,Melanitta
+Melanitta_americana_UAM_29920_JJW1388,Melanitta americana,partial_success,UAM29920,JJW1388,65.4,Anseriformes,Melanitta
+Melanitta_americana_UAM_35578_JJW2276,Melanitta americana,success,UAM35578,JJW2276,119.4,Anseriformes,Melanitta
+Melanitta_americana_UAM_35578_JJW951,Melanitta americana,partial_success,UAM35578,JJW951,,Anseriformes,
+Melanitta_americana_UWBM_43946_CSW4486,Melanitta americana,success,UWBM43946,CSW4486,196.1,Anseriformes,Melanitta
+Mergus_merganser_americanus_UAM_11037_UAMX1058,Mergus merganser americanus,partial_success,UAM11037,UAMX1058,12.0,Anseriformes,Mergus
+Mergus_merganser_americanus_UAM_24305_UAMX4957,Mergus merganser americanus,partial_success,UAM24305,UAMX4957,6.4,Anseriformes,Mergus
+Mergus_merganser_americanus_UAM_34366_JJW2298,Mergus merganser americanus,success,UAM34366,JJW2298,30.4,Anseriformes,Mergus
+Mergus_merganser_americanus_UWBM_9348_AEI105,Mergus merganser americanus,failed,UWBM9348,AEI105,2.8,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_25375_JJW063,Mergus merganser merganser,failed,UAM25375,JJW063,3.9,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_25990_JJW335,Mergus merganser merganser,failed,UAM25990,JJW335,4.9,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_25991_JJW334,Mergus merganser merganser,partial_success,UAM25991,JJW334,26.0,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_27012_JJW762,Mergus merganser merganser,partial_success,UAM27012,JJW762,16.3,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_28042_JJW344,Mergus merganser merganser,partial_success,UAM28042,JJW344,15.8,Anseriformes,Mergus
+Mergus_merganser_merganser_UWBM_43819_CSW4346,Mergus merganser merganser,failed,UWBM43819,CSW4346,8.7,Anseriformes,Mergus
+Motacilla_tschutschensis_simillima_UAM_14353_ABJ179,Motacilla tschutschensis simillima,partial_success,UAM14353,ABJ179,11.8,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_19448_MJM122,Motacilla tschutschensis simillima,failed,UAM19448,MJM122,5.1,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_28715_JJW1179,Motacilla tschutschensis simillima,failed,UAM28715,JJW1179,2.2,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_28717_JJW1185,Motacilla tschutschensis simillima,partial_success,UAM28717,JJW1185,5.4,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_29362_JJW1317,Motacilla tschutschensis simillima,success,UAM29362,JJW1317,13.3,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_13402_ABJ133,Motacilla tschutschensis tschutschensis,partial_success,UAM13402,ABJ133,10.6,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_15178_DDG1935,Motacilla tschutschensis tschutschensis,partial_success,UAM15178,DDG1935,36.3,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_27364_JJW520,Motacilla tschutschensis tschutschensis,partial_success,UAM27364,JJW520,7.7,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_27366_JJW216,Motacilla tschutschensis tschutschensis,partial_success,UAM27366,JJW216,21.9,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_28177_JJW629,Motacilla tschutschensis tschutschensis,partial_success,UAM28177,JJW629,26.3,Passeriformes,Motacilla
+Numenius_phaeopus_UAM_14928_DAR271,Numenius phaeopus,partial_success,UAM14928,DAR271,,Charadriiformes,
+Numenius_phaeopus_hudsonicus_UAM_11507_TB378,Numenius phaeopus hudsonicus,partial_success,UAM11507,TB378,343.4,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_13349_ABJ142,Numenius phaeopus hudsonicus,partial_success,UAM13349,ABJ142,114.4,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_13925_KGM036,Numenius phaeopus hudsonicus,partial_success,UAM13925,KGM036,120.9,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_17980_JMM011,Numenius phaeopus hudsonicus,partial_success,UAM17980,JMM011,36.4,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_28213_JJW1013,Numenius phaeopus hudsonicus,success,UAM28213,JJW1013,361.5,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_28214_JJW1021,Numenius phaeopus hudsonicus,partial_success,UAM28214,JJW1021,452.8,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_28602_JJW1154,Numenius phaeopus hudsonicus,partial_success,UAM28602,JJW1154,24.9,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_9260_KSW2484,Numenius phaeopus hudsonicus,partial_success,UAM9260,KSW2484,343.4,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14225_TB1023,Numenius phaeopus variegatus,partial_success,UAM14225,TB1023,222.9,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14229_TB1116,Numenius phaeopus variegatus,partial_success,UAM14229,TB1116,193.5,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14230_TB1091,Numenius phaeopus variegatus,partial_success,UAM14230,TB1091,41.8,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14625_CLP450,Numenius phaeopus variegatus,partial_success,UAM14625,CLP450,371.5,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_21379_CLP727,Numenius phaeopus variegatus,partial_success,UAM21379,CLP727,93.7,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_8212_DDF1666,Numenius phaeopus variegatus,partial_success,UAM8212,DDF1666,266.7,Charadriiformes,Numenius
+Phylloscopus_borealis_borealis_UWBM_43818_CSW4345,Phylloscopus borealis borealis,partial_success,UWBM43818,CSW4345,19.7,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_44417_SAR6041,Phylloscopus borealis borealis,partial_success,UWBM44417,SAR6041,14.6,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_44418_SAR6042,Phylloscopus borealis borealis,partial_success,UWBM44418,SAR6042,11.6,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_82284_SVD2977,Phylloscopus borealis borealis,partial_success,UWBM82284,SVD2977,3.9,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_82285_SVD2978,Phylloscopus borealis borealis,partial_success,UWBM82285,SVD2978,21.1,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_20149_JMM337,Phylloscopus borealis kennicotti,partial_success,UAM20149,JMM337,47.3,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_20150_JMM338,Phylloscopus borealis kennicotti,partial_success,UAM20150,JMM338,15.8,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_34615_JJW2241,Phylloscopus borealis kennicotti,success,UAM34615,JJW2241,47.2,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_36347_JJW2649,Phylloscopus borealis kennicotti,partial_success,UAM36347,JJW2649,17.3,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_7372_KSW1456,Phylloscopus borealis kennicotti,partial_success,UAM7372,KSW1456,3.8,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_17665_DDG1991,Phylloscopus examinandus,partial_success,UAM17665,DDG1991,6.2,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_29472_KSW5250,Phylloscopus examinandus,failed,UAM29472,KSW5250,1.6,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_30461_KSW5373,Phylloscopus examinandus,partial_success,UAM30461,KSW5373,5.5,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_30462_KSW5354,Phylloscopus examinandus,success,UAM30462,KSW5354,13.1,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_30464_KSW5336,Phylloscopus examinandus,success,UAM30464,KSW5336,11.3,Passeriformes,Phylloscopus
+Pica_hudsonia_UAM_10105_UAMX953,Pica hudsonia,partial_success,UAM10105,UAMX953,6.8,Passeriformes,Pica
+Pica_hudsonia_UAM_12453_CLP208,Pica hudsonia,success,UAM12453,CLP208,96.3,Passeriformes,Pica
+Pica_hudsonia_UAM_13052_CLP219,Pica hudsonia,success,UAM13052,CLP219,71.8,Passeriformes,Pica
+Pica_hudsonia_UAM_13053_CLP218,Pica hudsonia,success,UAM13053,CLP218,160.0,Passeriformes,Pica
+Pica_hudsonia_UAM_17742_CLP245,Pica hudsonia,success,UAM17742,CLP245,31.0,Passeriformes,Pica
+Pica_hudsonia_UAM_27024_JJW683,Pica hudsonia,success,UAM27024,JJW683,139.3,Passeriformes,Pica
+Pica_hudsonia_UAM_8511_KSW2704,Pica hudsonia,success,UAM8511,KSW2704,219.3,Passeriformes,Pica
+Pica_pica_UWBM_44581_UWBM44581,Pica pica,success,UWBM44581,UWBM44581,19.3,Passeriformes,Pica
+Pica_pica_UWBM_44584_UWBM44584,Pica pica,success,UWBM44584,UWBM44584,42.3,Passeriformes,Pica
+Pica_pica_UWBM_44585_UWBM44585,Pica pica,success,UWBM44585,UWBM44585,158.1,Passeriformes,Pica
+Pica_pica_UWBM_47197_UWBM47197,Pica pica,success,UWBM47197,UWBM47197,79.4,Passeriformes,Pica
+Pica_pica_UWBM_72084_UWBM72084,Pica pica,success,UWBM72084,UWBM72084,69.4,Passeriformes,Pica
+Pica_pica_UWBM_72091_UWBM72091,Pica pica,failed,UWBM72091,UWBM72091,1.7,Passeriformes,Pica
+Pica_pica_UWBM_74569_UWBM74569,Pica pica,success,UWBM74569,UWBM74569,87.8,Passeriformes,Pica
+Pica_pica_UWBM_74697_UWBM74697,Pica pica,success,UWBM74697,UWBM74697,161.3,Passeriformes,Pica
+Picoides_dorsalis_fasciatus_UAM_20114_UAMX3273,Picoides dorsalis fasciatus,partial_success,UAM20114,UAMX3273,38.7,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_31832_JJW2059,Picoides dorsalis fasciatus,success,UAM31832,JJW2059,26.5,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_36600_JJW2842,Picoides dorsalis fasciatus,success,UAM36600,JJW2842,19.8,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_8580_UAMX503,Picoides dorsalis fasciatus,partial_success,UAM8580,UAMX503,21.4,Piciformes,Picoides
+Picoides_tridactylus_UAM_10581,Picoides tridactylus,partial_success,UAM10581,,,Piciformes,
+Picoides_tridactylus_UAM_17739_TB1448,Picoides tridactylus,partial_success,UAM17739,TB1448,8.7,Piciformes,Picoides
+Picoides_tridactylus_UWBM_44422_SAR6046,Picoides tridactylus,partial_success,UWBM44422,SAR6046,10.4,Piciformes,Picoides
+Picoides_tridactylus_UWBM_52660_SVD144,Picoides tridactylus,partial_success,UWBM52660,SVD144,5.7,Piciformes,Picoides
+Picoides_tridactylus_UWBM_82309_SVD3025,Picoides tridactylus,failed,UWBM82309,SVD3025,,Piciformes,
+Pinicola_enucleator_UAM_11287_ABJ013,Pinicola enucleator,success,UAM11287,ABJ013,,Passeriformes,
+Pinicola_enucleator_UWBM_44628,Pinicola enucleator,success,UWBM44628,,,Passeriformes,
+Pinicola_enucleator_kamtschatschensis_UWBM_51642_SVD422,Pinicola enucleator,success,UWBM51642,SVD422,,Passeriformes,
+Pinicola_enucleator_flammula_UAM_10158_UAMX1014,Pinicola enucleator flammula,success,UAM10158,UAMX1014,1146.7,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_11286_ABJ012,Pinicola enucleator flammula,success,UAM11286,ABJ012,105.1,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_26361_JJW030,Pinicola enucleator flammula,success,UAM26361,JJW030,245.3,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_28530_JJW1097,Pinicola enucleator flammula,success,UAM28530,JJW1097,297.8,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_8794_KSW1695,Pinicola enucleator flammula,success,UAM8794,KSW1695,116.5,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_8797_KSW1694,Pinicola enucleator flammula,success,UAM8797,KSW1694,432.4,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UAM_24601_DDG2189,Pinicola enucleator kamtschatschensis,success,UAM24601,DDG2189,225.2,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UAM_24602_DDG2190,Pinicola enucleator kamtschatschensis,success,UAM24602,DDG2190,396.8,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_47314_SAR6538,Pinicola enucleator kamtschatschensis,success,UWBM47314,SAR6538,1535.1,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_47315_SAR6539,Pinicola enucleator kamtschatschensis,partial_success,UWBM47315,SAR6539,53.1,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_51627_SVD407,Pinicola enucleator kamtschatschensis,success,UWBM51627,SVD407,139.4,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_51643_SVD423,Pinicola enucleator kamtschatschensis,success,UWBM51643,SVD423,172.5,Passeriformes,Pinicola
+Plectrophenax_hyperboreus_UAM_7066_KSW1610,Plectrophenax hyperboreus,failed,UAM7066,KSW1610,98.3,Passeriformes,Plectrophenax
+Plectrophenax_hyperboreus_UAM_7524_KSW1611,Plectrophenax hyperboreus,success,UAM7524,KSW1611,19.7,Passeriformes,Plectrophenax
+Plectrophenax_hyperboreus_UAM_8200_KSW1617,Plectrophenax hyperboreus,success,UAM8200,KSW1617,113.8,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_11856_CLP163,Plectrophenax nivalis,partial_success,UAM11856,CLP163,240.1,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_8474_KSW2691,Plectrophenax nivalis,success,UAM8474,KSW2691,392.6,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_8476_KSW2690,Plectrophenax nivalis,failed,UAM8476,KSW2690,169.6,Passeriformes,Plectrophenax
+Pluvialis_squatarola_UAM_14237_TB1089,Pluvialis squatarola,success,UAM14237,TB1089,,Charadriiformes,
+Pluvialis_squatarola_UAM_14238_TB1383,Pluvialis squatarola,partial_success,UAM14238,TB1383,,Charadriiformes,
+Pluvialis_squatarola_UAM_14239_TB1377,Pluvialis squatarola,partial_success,UAM14239,TB1377,,Charadriiformes,
+Pluvialis_squatarola_UAM_14240_TB1365,Pluvialis squatarola,success,UAM14240,TB1365,,Charadriiformes,
+Pluvialis_squatarola_UAM_14241_TB1363,Pluvialis squatarola,success,UAM14241,TB1363,,Charadriiformes,
+Pluvialis_squatarola_UWBM_43931,Pluvialis squatarola,success,UWBM43931,,,Charadriiformes,
+Pluvialis_squatarola_UWBM_43963,Pluvialis squatarola,success,UWBM43963,,,Charadriiformes,
+Pluvialis_squatarola_UWBM_43964,Pluvialis squatarola,partial_success,UWBM43964,,,Charadriiformes,
+Pluvialis_squatarola_UWBM_44500,Pluvialis squatarola,partial_success,UWBM44500,,,Charadriiformes,
+Pluvialis_squatarola_UWBM_51608,Pluvialis squatarola,partial_success,UWBM51608,,,Charadriiformes,
+Somateria_mollissima_UAM_13336_DAR157,Somateria mollissima,success,UAM13336,DAR157,29.5,Anseriformes,Somateria m
+Somateria_mollissima_UAM_13721_UAMX1708,Somateria mollissima,partial_success,UAM13721,UAMX1708,6.1,Anseriformes,Somateria m
+Somateria_mollissima_UAM_20085_DDG1939,Somateria mollissima,partial_success,UAM20085,DDG1939,22.7,Anseriformes,Somateria m
+Somateria_mollissima_UAM_26746_KGM912,Somateria mollissima,success,UAM26746,KGM912,37.2,Anseriformes,Somateria m
+Somateria_mollissima_UAM_34628_JJW2274,Somateria mollissima,partial_success,UAM34628,JJW2274,43.6,Anseriformes,Somateria m
+Somateria_mollissima_UAM_34700_JJW2273,Somateria mollissima,success,UAM34700,JJW2273,83.3,Anseriformes,Somateria m
+Somateria_mollissima_UAM_35441_JJW2452,Somateria mollissima,partial_success,UAM35441,JJW2452,20.9,Anseriformes,Somateria m
+Somateria_mollissima_UAM_36436_KGM845,Somateria mollissima,success,UAM36436,KGM845,61.0,Anseriformes,Somateria m
+Somateria_mollissima_UAM_37604_JJW2952,Somateria mollissima,partial_success,UAM37604,JJW2952,22.4,Anseriformes,Somateria m
+Somateria_mollissima_UAM_9440_UAMX378,Somateria mollissima,partial_success,UAM9440,UAMX378,31.1,Anseriformes,Somateria m
+Somateria_spectabilis_UAM_13153_ABJ107,Somateria spectabilis,success,UAM13153,ABJ107,30.0,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9396_UAMX892,Somateria spectabilis,partial_success,UAM9396,UAMX892,27.1,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9422_UAMX901,Somateria spectabilis,partial_success,UAM9422,UAMX901,16.4,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9423_UAMX903,Somateria spectabilis,failed,UAM9423,UAMX903,3.0,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9439_UAMX907,Somateria spectabilis,partial_success,UAM9439,UAMX907,13.9,Anseriformes,Somateria s
+Somateria_spectabilis_UWBM_43965_CSW4509,Somateria spectabilis,success,UWBM43965,CSW4509,211.9,Anseriformes,Somateria s
+Somateria_spectabilis_UWBM_71169_SVD1425,Somateria spectabilis,partial_success,UWBM71169,SVD1425,33.9,Anseriformes,Somateria s
+Spatula_clypeata_UAM_15023_UAMX2539,Spatula clypeata,partial_success,UAM15023,UAMX2539,7.1,Anseriformes,Spatula
+Spatula_clypeata_UAM_15459_DDG1988,Spatula clypeata,partial_success,UAM15459,DDG1988,3.6,Anseriformes,Spatula
+Spatula_clypeata_UAM_20152_DDG2054,Spatula clypeata,partial_success,UAM20152,DDG2054,13.2,Anseriformes,Spatula
+Spatula_clypeata_UAM_20167_DDG2053,Spatula clypeata,partial_success,UAM20167,DDG2053,17.2,Anseriformes,Spatula
+Spatula_clypeata_UAM_26717_SVD475,Spatula clypeata,failed,UAM26717,SVD475,3.0,Anseriformes,Spatula
+Spatula_clypeata_UAM_28973_UAMX5081,Spatula clypeata,partial_success,UAM28973,UAMX5081,7.8,Anseriformes,Spatula
+Spatula_clypeata_UAM_35604_JJW2478,Spatula clypeata,success,UAM35604,JJW2478,,Anseriformes,
+Spatula_clypeata_UAM_36727_REW031,Spatula clypeata,partial_success,UAM36727,REW031,6.7,Anseriformes,Spatula
+Spatula_clypeata_UAM_36938_REW030,Spatula clypeata,partial_success,UAM36938,REW030,13.2,Anseriformes,Spatula
+Spatula_clypeata_UWBM_59827_CSW5794,Spatula clypeata,failed,UWBM59827,CSW5794,3.6,Anseriformes,Spatula
+Tringa_brevipes_UAM_10112_DDG1736,Tringa brevipes,partial_success,UAM10112,DDG1736,231.6,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28427_JJW906,Tringa brevipes,success,UAM28427,JJW906,227.9,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28428_JJW1030,Tringa brevipes,partial_success,UAM28428,JJW1030,163.0,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28429_JJW1062,Tringa brevipes,partial_success,UAM28429,JJW1062,20.6,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28430_JJW1061,Tringa brevipes,partial_success,UAM28430,JJW1061,146.5,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_7534_KSW1780,Tringa brevipes,partial_success,UAM7534,KSW1780,167.3,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_8521_KSW1781,Tringa brevipes,success,UAM8521,KSW1781,399.3,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_8805_KSW1782,Tringa brevipes,partial_success,UAM8805,KSW1782,897.6,Charadriiformes,Tringa bi
+Tringa_incana_UAM_13434_DAR228,Tringa incana,partial_success,UAM13434,DAR228,12.8,Charadriiformes,Tringa bi
+Tringa_incana_UAM_13569_UAMX1735,Tringa incana,partial_success,UAM13569,UAMX1735,184.7,Charadriiformes,Tringa bi
+Tringa_incana_UAM_21813_KSW3378,Tringa incana,partial_success,UAM21813,KSW3378,119.6,Charadriiformes,Tringa bi
+Tringa_incana_UAM_24859_UAMX1645,Tringa incana,success,UAM24859,UAMX1645,126.2,Charadriiformes,Tringa bi
+Tringa_incana_UAM_28422_JJW720,Tringa incana,partial_success,UAM28422,JJW720,160.4,Charadriiformes,Tringa bi
+Tringa_incana_UAM_28425_JJW724,Tringa incana,partial_success,UAM28425,JJW724,76.2,Charadriiformes,Tringa bi
+Tringa_incana_UAM_28426_JJW1022,Tringa incana,partial_success,UAM28426,JJW1022,218.7,Charadriiformes,Tringa bi
+Tringa_incana_UAM_8240_KSW1778,Tringa incana,partial_success,UAM8240,KSW1778,413.4,Charadriiformes,Tringa bi
+Tringa_melanoleuca_UAM_13578_UAMX1941,Tringa melanoleuca,partial_success,UAM13578,UAMX1941,6.8,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_18023_JMM014,Tringa melanoleuca,partial_success,UAM18023,JMM014,15.3,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_20143_JMM340,Tringa melanoleuca,partial_success,UAM20143,JMM340,75.3,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_27573_UAMX5119,Tringa melanoleuca,partial_success,UAM27573,UAMX5119,12.3,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_30489_JJW1663,Tringa melanoleuca,failed,UAM30489,JJW1663,2.0,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_14119_DDG1916,Tringa nebularia,failed,UAM14119,DDG1916,27.1,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_17482_DDG1990,Tringa nebularia,failed,UAM17482,DDG1990,2.0,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_22850_KSW4958,Tringa nebularia,failed,UAM22850,KSW4958,2.8,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_24570_UAMX4620,Tringa nebularia,partial_success,UAM24570,UAMX4620,28.8,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_8282_DDG1686,Tringa nebularia,partial_success,UAM8282,DDG1686,2.1,Charadriiformes,Tringa nm
+Uria_aalge_inornata_UAM_10687_KSW1631,Uria aalge inornata,partial_success,UAM10687,KSW1631,9.9,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_10688_KSW1632,Uria aalge inornata,partial_success,UAM10688,KSW1632,18.3,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_10689_KSW1633,Uria aalge inornata,failed,UAM10689,KSW1633,5.5,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_10690_KSW1634,Uria aalge inornata,partial_success,UAM10690,KSW1634,11.3,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_7729_KSW1629,Uria aalge inornata,success,UAM7729,KSW1629,19.2,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_4408_JMB995,Uria aalge inornata,failed,UWBM4408,JMB995,9.6,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44407_JMB994,Uria aalge inornata,failed,UWBM44407,JMB994,6.8,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44409_JMB996,Uria aalge inornata,failed,UWBM44409,JMB996,10.7,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44410_JMB997,Uria aalge inornata,partial_success,UWBM44410,JMB997,15.0,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44411_JMB998,Uria aalge inornata,failed,UWBM44411,JMB998,16.1,Charadriiformes,Uria a
+Uria_lomvia_arra_UAM_13445_UAMX1553,Uria lomvia arra,partial_success,UAM13445,UAMX1553,8.1,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_20236_UAMX3290,Uria lomvia arra,partial_success,UAM20236,UAMX3290,7.0,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_30510_JJW1509,Uria lomvia arra,failed,UAM30510,JJW1509,2.6,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_30511_JJW1510,Uria lomvia arra,partial_success,UAM30511,JJW1510,6.2,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_9608_UAMX387,Uria lomvia arra,failed,UAM9608,UAMX387,5.8,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_44177_JMB1001,Uria lomvia arra,partial_success,UWBM44177,JMB1001,16.9,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_44178_JMB1002,Uria lomvia arra,partial_success,UWBM44178,JMB1002,17.8,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_55300_BKS351,Uria lomvia arra,failed,UWBM55300,BKS351,11.0,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_55725_JMB857,Uria lomvia arra,failed,UWBM55725,JMB857,11.4,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_72702_NCSM17754,Uria lomvia arra,partial_success,UWBM72702,NCSM17754,7.2,Charadriiformes,Uria l

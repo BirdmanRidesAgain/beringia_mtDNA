@@ -16,29 +16,29 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Anas acuta | UAM 30400 | KSW5391 | `TransB_KSW5391_TGTGACTG-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_30400_KSW5391/` | False | True |
 | Anas acuta | UAM 31205 | JJW1897 | `TransB_JJW1897_CAGCGATT-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_31205_JJW1897/` | False | True |
 | Anas acuta | UWBM 44114 | DAB055 | `TransB_DAB_055_GCATGTCT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UWBM_44114_DAB055/` | False | True |
-| Anas crecca carolinensis | UAM 11251 | UAMX203 | `Sample_UAMX203_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_11251_UAMX203/` | False | True |
-| Anas crecca carolinensis | UAM 11251 | UAMX203 | `SRR5821115/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
-| Anas crecca carolinensis | UAM 11920 | KSW3040 | `Sample_KSW3040_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_11920_KSW3040/` | False | True |
-| Anas crecca carolinensis | UAM 11920 | KSW3040 | `SRR5821114/` | `Anas_carolinensis_UAM_11920_KSW3040/` | False | True |
-| Anas crecca carolinensis | UAM 14961 | KGM335 | `Sample_KGM335_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_14961_KGM335/` | False | True |
-| Anas crecca carolinensis | UAM 14961 | KGM335 | `SRR5821117/` | `Anas_carolinensis_UAM_14961_KGM335/` | False | True |
-| Anas crecca carolinensis | UAM 20635 | KSW4530 | `SRR5821116/` | `Anas_carolinensis_UAM_20635_KSW4530/` | False | True |
-| Anas crecca carolinensis | UAM 24497 | JMM448 | `SRR5821086/` | `Anas_carolinensis_UAM_24497_JMM448/` | False | True |
-| Anas crecca carolinensis | UAM 28085 | JJW978 | `Sample_JJW978_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_carolinensis_UAM_28085_JJW978/` | False | True |
-| Anas crecca carolinensis | UAM 28085 | JJW978 | `SRR5821087/` | `Anas_carolinensis_UAM_28085_JJW978/` | False | True |
-| Anas crecca carolinensis | UAM 28444 | UAMX5069 | `SRR5821088/` | `Anas_carolinensis_UAM_28444_UAMX5069/` | False | True |
-| Anas crecca crecca | UAM 11334 | KGM021 | `SRR5821083/` | `Anas_crecca_UAM_11334_KGM021/` | False | True |
-| Anas crecca crecca | UAM 11335 | KGM020 | `Sample_KGM020_Sterna_paradisea_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_11335_KGM020/` | False | True |
-| Anas crecca crecca | UAM 11335 | KGM020 | `SRR5821084/` | `Anas_crecca_UAM_11335_KGM020/` | False | True |
-| Anas crecca crecca | UAM 14100 | DDG1885 | `SRR5821085/` | `Anas_crecca_UAM_14100_DDG1885/` | False | True |
-| Anas crecca crecca | UAM 14666 | DDG1884 | `Sample_DDG1884_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_14666_DDG1884/` | False | True |
-| Anas crecca crecca | UAM 14666 | DDG1884 | `SRR5821090/` | `Anas_crecca_UAM_14666_DDG1884/` | False | True |
-| Anas crecca crecca | UAM 22853 | KSW4951 | `Sample_KSW4951_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_22853_KSW4951/` | False | True |
-| Anas crecca crecca | UAM 22853 | KSW4951 | `SRR5821091/` | `Anas_crecca_UAM_22853_KSW4951/` | False | True |
-| Anas crecca crecca | UAM 9191 | DDG1732 | `Sample_DDG1732_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_9191_DDG1732/` | False | True |
-| Anas crecca crecca | UAM 9191 | DDG1732 | `SRR5821039/` | `Anas_crecca_UAM_9191_DDG1732/` | False | True |
-| Anas crecca crecca | UAM 9255 | DDG1704 | `Sample_DDG1704_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_crecca_UAM_9255_DDG1704/` | False | True |
-| Anas crecca crecca | UAM 9255 | DDG1704 | `SRR5821082/` | `Anas_crecca_UAM_9255_DDG1704/` | False | True |
+| Anas carolinensis | UAM 11251 | UAMX203 | `Sample_UAMX203_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
+| Anas carolinensis | UAM 11251 | UAMX203 | `SRR5821115/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
+| Anas carolinensis | UAM 11920 | KSW3040 | `Sample_KSW3040_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_11920_KSW3040/` | False | True |
+| Anas carolinensis | UAM 11920 | KSW3040 | `SRR5821114/` | `Anas_carolinensis_UAM_11920_KSW3040/` | False | True |
+| Anas carolinensis | UAM 14961 | KGM335 | `Sample_KGM335_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_14961_KGM335/` | False | True |
+| Anas carolinensis | UAM 14961 | KGM335 | `SRR5821117/` | `Anas_carolinensis_UAM_14961_KGM335/` | False | True |
+| Anas carolinensis | UAM 20635 | KSW4530 | `SRR5821116/` | `Anas_carolinensis_UAM_20635_KSW4530/` | False | True |
+| Anas carolinensis | UAM 24497 | JMM448 | `SRR5821086/` | `Anas_carolinensis_UAM_24497_JMM448/` | False | True |
+| Anas carolinensis | UAM 28085 | JJW978 | `Sample_JJW978_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_28085_JJW978/` | False | True |
+| Anas carolinensis | UAM 28085 | JJW978 | `SRR5821087/` | `Anas_carolinensis_UAM_28085_JJW978/` | False | True |
+| Anas carolinensis | UAM 28444 | UAMX5069 | `SRR5821088/` | `Anas_carolinensis_UAM_28444_UAMX5069/` | False | True |
+| Anas crecca | UAM 11334 | KGM021 | `SRR5821083/` | `Anas_crecca_UAM_11334_KGM021/` | False | True |
+| Anas crecca | UAM 11335 | KGM020 | `Sample_KGM020_Sterna_paradisea_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_11335_KGM020/` | False | True |
+| Anas crecca | UAM 11335 | KGM020 | `SRR5821084/` | `Anas_crecca_UAM_11335_KGM020/` | False | True |
+| Anas crecca | UAM 14100 | DDG1885 | `SRR5821085/` | `Anas_crecca_UAM_14100_DDG1885/` | False | True |
+| Anas crecca | UAM 14666 | DDG1884 | `Sample_DDG1884_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_14666_DDG1884/` | False | True |
+| Anas crecca | UAM 14666 | DDG1884 | `SRR5821090/` | `Anas_crecca_UAM_14666_DDG1884/` | False | True |
+| Anas crecca | UAM 22853 | KSW4951 | `Sample_KSW4951_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_22853_KSW4951/` | False | True |
+| Anas crecca | UAM 22853 | KSW4951 | `SRR5821091/` | `Anas_crecca_UAM_22853_KSW4951/` | False | True |
+| Anas crecca | UAM 9191 | DDG1732 | `Sample_DDG1732_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_9191_DDG1732/` | False | True |
+| Anas crecca | UAM 9191 | DDG1732 | `SRR5821039/` | `Anas_crecca_UAM_9191_DDG1732/` | False | True |
+| Anas crecca | UAM 9255 | DDG1704 | `Sample_DDG1704_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_9255_DDG1704/` | False | True |
+| Anas crecca | UAM 9255 | DDG1704 | `SRR5821082/` | `Anas_crecca_UAM_9255_DDG1704/` | False | True |
 | Anas platyrhynchos | UAM 11193 | KGM007 | `TransB_KGM007_CGAGACTA-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11193_KGM007/` | False | True |
 | Anas platyrhynchos | UAM 11328 | DDG1776 | `TransB_DDG1776_CGAGACTA-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11328_DDG1776/` | False | True |
 | Anas platyrhynchos | UAM 29647 | JJW1397 | `TransB_JJW1397_CAGCGATT-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_29647_JJW1397/` | False | True |
@@ -471,105 +471,3 @@ These **22** individuals appear in `table_S1.csv` but do not have a matching row
 | Pluvialis fulva | UAM 13545 | DDG1860 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR243120 |
 | Pluvialis fulva | UAM 26906 | JJW145 | 2009 | USA: Alaska; Aleutian Islands, Attu Island | OR243121 |
 | Pluvialis fulva | UAM 8798 | KSW2383 | 1998 | USA: Alaska; Seward Peninsula, Teller Road | OR243122 |
-
-## Table 3. Resequenced birds in 2018 Kevin sent me from Travis
-
-Birds with **additional 2018 resequencing data** to reassemble/reannotate. Matched to Table 1 by field.
-
-**93** individuals with additional 2018 resequencing data (see `multiple datasets?` in Table 1).
-
-| Collection name | Species | Catalog num | Assembled directory |
-| - | - | - | - |
-| ABJ133 | Motacilla tschutschensis tschutschensis | UAM 13402 | `Motacilla_tschutschensis_tschutschensis_UAM_13402_ABJ133/` |
-| ABJ179 | Motacilla tschutschensis simillima | UAM 14353 | `Motacilla_tschutschensis_simillima_UAM_14353_ABJ179/` |
-| AEI105 | Mergus merganser americanus | UWBM 9348 | `Mergus_merganser_americanus_UWBM_9348_AEI105/` |
-| BKS3241 | Corvus corax | UWBM 56544 | `Corvus_corax_UWBM_56544_BKS3241/` |
-| BKS351 | Uria lomvia arra | UWBM 55300 | `Uria_lomvia_arra_UWBM_55300_BKS351/` |
-| BKS4041 | Corvus corax | UWBM 57899 | `Corvus_corax_UWBM_57899_BKS4041/` |
-| BKS4052 | Corvus corax | UWBM 57909 | `Corvus_corax_UWBM_57909_BKS4052/` |
-| BKS908 | Corvus corax | UWBM 46861 | `Corvus_corax_UWBM_46861_BKS908/` |
-| CLP038 | Calcarius lapponicus alascensis | UAM 9407 | `Calcarius_lapponicus_alascensis_UAM_9407_CLP038/` |
-| CLP048 | Calcarius lapponicus alascensis | UAM 9525 | `Calcarius_lapponicus_alascensis_UAM_9525_CLP048/` |
-| CLP051 | Calcarius lapponicus alascensis | UAM 19614 | `Calcarius_lapponicus_alascensis_UAM_19614_CLP051/` |
-| CLP200 | Anthus rubescens pacificus | UAM 11452 | `Anthus_rubescens_pacificus_UAM_11452_CLP200/` |
-| CSW4345 | Phylloscopus borealis borealis | UWBM 43818 | `Phylloscopus_borealis_borealis_UWBM_43818_CSW4345/` |
-| CSW4346 | Mergus merganser merganser | UWBM 43819 | `Mergus_merganser_merganser_UWBM_43819_CSW4346/` |
-| CSW4378 | Larus hyperboreus | UWBM 43851 | `Larus_hyperboreus_UWBM_43851_CSW4378/` |
-| CSW4379 | Larus hyperboreus | UWBM 43852 | `Larus_hyperboreus_UWBM_43852_CSW4379/` |
-| CSW4461 | Gavia stellata | UWBM 43925 | `Gavia_stellata_UWBM_43925_CSW4461/` |
-| CSW4526 | Larus hyperboreus | UWBM 43982 | `Larus_hyperboreus_UWBM_43982_CSW4526/` |
-| CSW4675 | Leucosticte arctoa | UWBM 44077 | `Leucosticte_arctoa_UWBM_44077_CSW4675/` |
-| CSW5794 | Spatula clypeata | UWBM 59827 | `Spatula_clypeata_UWBM_59827_CSW5794/` |
-| DAB063 | Gavia stellata | UWBM 44122 | `Gavia_stellata_UWBM_44122_DAB063/` |
-| DAR268 | Arenaria interpres | UAM 14954 | `Arenaria_interpres_UAM_14954_DAR268/` |
-| DAR275 | Gavia stellata | UAM 13601 | `Gavia_stellata_UAM_13601_DAR275/` |
-| DDG1750 | Leucosticte tephrocotis griseonucha | UAM 10981 | `Leucosticte_tephrocotis_griseonucha_UAM_10981_DDG1750/` |
-| DDG1877 | Anthus rubescens japonicus | UAM 13353 | `Anthus_rubescens_japonicus_UAM_13353_DDG1877/` |
-| DDG1935 | Motacilla tschutschensis tschutschensis | UAM 15178 | `Motacilla_tschutschensis_tschutschensis_UAM_15178_DDG1935/` |
-| DDG1991 | Phylloscopus examinandus | UAM 17665 | `Phylloscopus_examinandus_UAM_17665_DDG1991/` |
-| JJW015 | Calidris alpina pacifica | UAM 26914 | `Calidris_alpina_pacifica_UAM_26914_JJW015/` |
-| JJW063 | Mergus merganser merganser | UAM 25375 | `Mergus_merganser_merganser_UAM_25375_JJW063/` |
-| JJW216 | Motacilla tschutschensis tschutschensis | UAM 27366 | `Motacilla_tschutschensis_tschutschensis_UAM_27366_JJW216/` |
-| JJW520 | Motacilla tschutschensis tschutschensis | UAM 27364 | `Motacilla_tschutschensis_tschutschensis_UAM_27364_JJW520/` |
-| JJW629 | Motacilla tschutschensis tschutschensis | UAM 28177 | `Motacilla_tschutschensis_tschutschensis_UAM_28177_JJW629/` |
-| JJW704 | Calidris alpina pacifica | UAM 27576 | `Calidris_alpina_pacifica_UAM_27576_JJW704/` |
-| JJW762 | Mergus merganser merganser | UAM 27012 | `Mergus_merganser_merganser_UAM_27012_JJW762/` |
-| JMB1001 | Uria lomvia arra | UWBM 44177 | `Uria_lomvia_arra_UWBM_44177_JMB1001/` |
-| JMB1002 | Uria lomvia arra | UWBM 44178 | `Uria_lomvia_arra_UWBM_44178_JMB1002/` |
-| JMB1098 | Gavia stellata | UWBM 44259 | `Gavia_stellata_UWBM_44259_JMB1098/` |
-| JMB1099 | Gavia stellata | UWBM 44260 | `Gavia_stellata_UWBM_44260_JMB1099/` |
-| JMB1211 | Leucosticte arctoa | UWBM 44366 | `Leucosticte_arctoa_UWBM_44366_JMB1211/` |
-| JMB857 | Uria lomvia arra | UWBM 55725 | `Uria_lomvia_arra_UWBM_55725_JMB857/` |
-| JMB994 | Uria aalge inornata | UWBM 44407 | `Uria_aalge_inornata_UWBM_44407_JMB994/` |
-| JMB995 | Uria aalge inornata | UWBM 4408 | `Uria_aalge_inornata_UWBM_4408_JMB995/` |
-| JMB996 | Uria aalge inornata | UWBM 44409 | `Uria_aalge_inornata_UWBM_44409_JMB996/` |
-| JMB997 | Uria aalge inornata | UWBM 44410 | `Uria_aalge_inornata_UWBM_44410_JMB997/` |
-| JMB998 | Uria aalge inornata | UWBM 44411 | `Uria_aalge_inornata_UWBM_44411_JMB998/` |
-| JMM133 | Corvus corax | UAM 17761 | `Corvus_corax_UAM_17761_JMM133/` |
-| JMM326 | Arenaria melanocephala | UAM 20142 | `Arenaria_melanocephala_UAM_20142_JMM326/` |
-| JMM337 | Phylloscopus borealis kennicotti | UAM 20149 | `Phylloscopus_borealis_kennicotti_UAM_20149_JMM337/` |
-| JMM338 | Phylloscopus borealis kennicotti | UAM 20150 | `Phylloscopus_borealis_kennicotti_UAM_20150_JMM338/` |
-| JMM422 | Arenaria interpres | UAM 20220 | `Arenaria_interpres_UAM_20220_JMM422/` |
-| KGM628 | Gavia stellata | UAM 20711 | `Gavia_stellata_UAM_20711_KGM628/` |
-| KSW1456 | Phylloscopus borealis kennicotti | UAM 7372 | `Phylloscopus_borealis_kennicotti_UAM_7372_KSW1456/` |
-| KSW1646 | Leucosticte tephrocotis umbrina | UAM 7351 | `Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646/` |
-| KSW1821 | Calcarius lapponicus alascensis | UAM 7653 | `Calcarius_lapponicus_alascensis_UAM_7653_KSW1821/` |
-| KSW2715 | Corvus corax | UAM 8803 | `Corvus_corax_UAM_8803_KSW2715/` |
-| KSW3980 | Anthus rubescens japonicus | UAM 15068 | `Anthus_rubescens_japonicus_UAM_15068_KSW3980/` |
-| KSW4763 | Corvus corax | UAM 22252 | `Corvus_corax_UAM_22252_KSW4763/` |
-| MJM037 | Anthus rubescens pacificus | UAM 19419 | `Anthus_rubescens_pacificus_UAM_19419_MJM037/` |
-| MJM122 | Motacilla tschutschensis simillima | UAM 19448 | `Motacilla_tschutschensis_simillima_UAM_19448_MJM122/` |
-| NCSM17754 | Uria lomvia arra | UWBM 72702 | `Uria_lomvia_arra_UWBM_72702_NCSM17754/` |
-| RWD25944 | Calcarius lapponicus alascensis | UAM 13337 | `Calcarius_lapponicus_alascensis_UAM_13337_RWD25944/` |
-| RWD25949 | Anthus rubescens pacificus | UAM 13540 | `Anthus_rubescens_pacificus_UAM_13540_RWD25949/` |
-| RWD26009 | Corvus corax | UAM 15040 | `Corvus_corax_UAM_15040_RWD26009/` |
-| RYA1002 | Histrionicus histrionicus | UWBM 82975 | `Histrionicus_histrionicus_UWBM_82975_RYA1002/` |
-| SAR6041 | Phylloscopus borealis borealis | UWBM 44417 | `Phylloscopus_borealis_borealis_UWBM_44417_SAR6041/` |
-| SAR6042 | Phylloscopus borealis borealis | UWBM 44418 | `Phylloscopus_borealis_borealis_UWBM_44418_SAR6042/` |
-| SAR6046 | Picoides tridactylus | UWBM 44422 | `Picoides_tridactylus_UWBM_44422_SAR6046/` |
-| SAR6074 | Histrionicus histrionicus | UWBM 44446 | `Histrionicus_histrionicus_UWBM_44446_SAR6074/` |
-| SAR6262 | Leucosticte arctoa | UWBM 44622 | `Leucosticte_arctoa_UWBM_44622_SAR6262/` |
-| SAR6263 | Leucosticte arctoa | UWBM 44623 | `Leucosticte_arctoa_UWBM_44623_SAR6263/` |
-| SAR6264 | Leucosticte arctoa | UWBM 44624 | `Leucosticte_arctoa_UWBM_44624_SAR6264/` |
-| SAR6293 | Gavia stellata | UWBM 44653 | `Gavia_stellata_UWBM_44653_SAR6293/` |
-| SVD1398 | Corvus corax | UWBM 59566 | `Corvus_corax_UWBM_59566_SVD1398/` |
-| SVD144 | Picoides tridactylus | UWBM 52660 | `Picoides_tridactylus_UWBM_52660_SVD144/` |
-| SVD231a | Corvus corax | UWBM 71244 | `Corvus_corax_UWBM_71244_SVD231a/` |
-| SVD2977 | Phylloscopus borealis borealis | UWBM 82284 | `Phylloscopus_borealis_borealis_UWBM_82284_SVD2977/` |
-| SVD2978 | Phylloscopus borealis borealis | UWBM 82285 | `Phylloscopus_borealis_borealis_UWBM_82285_SVD2978/` |
-| SVD3025 | Unknown | (Table 1, unmatched) | `Sample_SVD3025_UNKNOWN_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` |
-| SVD475 | Spatula clypeata | UAM 26717 | `Spatula_clypeata_UAM_26717_SVD475/` |
-| TB1445 | Corvus corax | UAM 17737 | `Corvus_corax_UAM_17737_TB1445/` |
-| TB1448 | Picoides tridactylus | UAM 17739 | `Picoides_tridactylus_UAM_17739_TB1448/` |
-| UAMX1061 | Corvus corax | UAM 11113 | `Corvus_corax_UAM_11113_UAMX1061/` |
-| UAMX1553 | Uria lomvia arra | UAM 13445 | `Uria_lomvia_arra_UAM_13445_UAMX1553/` |
-| UAMX1744 | Arenaria interpres | UAM 13527 | `Arenaria_interpres_UAM_13527_UAMX1744/` |
-| UAMX2921 | Leucosticte tephrocotis umbrina | UAM 17748 | `Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921/` |
-| UAMX3267 | Calidris alpina arcticola | UAM 20132 | `Calidris_alpina_arcticola_UAM_20132_UAMX3267/` |
-| UAMX3273 | Picoides dorsalis fasciatus | UAM 20114 | `Picoides_dorsalis_fasciatus_UAM_20114_UAMX3273/` |
-| UAMX3290 | Uria lomvia arra | UAM 20236 | `Uria_lomvia_arra_UAM_20236_UAMX3290/` |
-| UAMX387 | Uria lomvia arra | UAM 9608 | `Uria_lomvia_arra_UAM_9608_UAMX387/` |
-| UAMX4957 | Mergus merganser americanus | UAM 24305 | `Mergus_merganser_americanus_UAM_24305_UAMX4957/` |
-| UAMX503 | Picoides dorsalis fasciatus | UAM 8580 | `Picoides_dorsalis_fasciatus_UAM_8580_UAMX503/` |
-| UAMX5158 | Leucosticte tephrocotis griseonucha | UAM 24603 | `Leucosticte_tephrocotis_griseonucha_UAM_24603_UAMX5158/` |
-| UAMX844 | Corvus corax | UAM 9313 | `Corvus_corax_UAM_9313_UAMX844/` |

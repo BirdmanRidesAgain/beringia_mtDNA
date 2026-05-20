@@ -37,7 +37,6 @@ GENUS_TO_ORDER = {
     "Numenius": "Charadriiformes",
     "Arenaria": "Charadriiformes",
     "Calidris": "Charadriiformes",
-    "Calidria": "Charadriiformes",
     "Gallinago": "Charadriiformes",
     "Tringa": "Charadriiformes",
     "Uria": "Charadriiformes",
@@ -132,23 +131,23 @@ def main() -> None:
     df_old = normalize_old_columns(pd.read_csv(DEPTHS))
 
     keys = df_new["directory_name"].apply(parse_directory_keys)
-    df_new["catalog_guess"] = keys.str[0]
-    df_new["accession_guess"] = keys.str[1]
+    df_new["catalog_num"] = keys.str[0]
+    df_new["field_num"] = keys.str[1]
 
     merged = df_new.merge(
         df_old,
         how="outer",
-        left_on=["catalog_guess", "accession_guess"],
+        left_on=["catalog_num", "field_num"],
         right_on=["catalog", "accession"],
         indicator=True,
     )
 
     # Fill key fields for old-only rows.
-    merged["catalog_guess"] = merged["catalog_guess"].where(
-        merged["catalog_guess"].notna(), merged["catalog"]
+    merged["catalog_num"] = merged["catalog_num"].where(
+        merged["catalog_num"].notna(), merged["catalog"]
     )
-    merged["accession_guess"] = merged["accession_guess"].where(
-        merged["accession_guess"].notna(), merged["accession"]
+    merged["field_num"] = merged["field_num"].where(
+        merged["field_num"].notna(), merged["accession"]
     )
 
     merged["species"] = merged["species"].where(merged["species"].notna(), merged["species_old"])
@@ -164,44 +163,17 @@ def main() -> None:
         ),
     )
 
-    merged["match_status"] = merged["_merge"].map(
-        {"both": "matched", "left_only": "unmatched", "right_only": "unmatched"}
-    )
-    merged["match_confidence"] = merged["match_status"].map(
-        {"matched": "high", "unmatched": "low"}
-    )
-
-    def notes(row: pd.Series) -> str:
-        if row["_merge"] == "both":
-            return ""
-        if row["_merge"] == "right_only":
-            return "no_matching_assembly_status_in_new"
-        if pd.isna(row["catalog_guess"]) or pd.isna(row["accession_guess"]):
-            return "control_or_unparsed_directory_name"
-        return "no_matching_catalog_accession_in_old_depths"
-
-    merged["match_notes"] = merged.apply(notes, axis=1)
     merged["order"] = add_order(merged["species"])
-
-    # Keep old species label as audit field.
-    merged["species_old"] = merged["species_old"].where(
-        merged["species_old"].notna(), pd.NA
-    )
 
     out_cols = [
         "directory_name",
         "species",
         "assembly_level",
-        "catalog_guess",
-        "accession_guess",
+        "catalog_num",
+        "field_num",
         "coverage",
         "order",
         "taxon_pair",
-        "species_old",
-        "match_status",
-        "match_confidence",
-        "match_notes",
-        "_merge",
     ]
     merged[out_cols].to_csv(OUTPUT, index=False)
     print(f"Wrote {OUTPUT} ({len(merged)} rows)")
