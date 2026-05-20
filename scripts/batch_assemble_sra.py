@@ -26,7 +26,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 FASTQ_ROOT = Path.home() / "Downloads/sra_downloads/fastq"
 REFSEQ = REPO / "test/refseq/Taeniopygia_guttata_NC_007897.1_mitogenome.fa"
-OUT_ROOT = REPO / "assembled_mitogenomes"
+OUT_ROOT = REPO / "mitogenomes_output"
 ASM = REPO / "scripts/assemble_mitogenome.py"
 LOG = OUT_ROOT / "batch_assemble_sra.log"
 

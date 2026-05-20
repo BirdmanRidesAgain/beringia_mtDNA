@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Batch-annotate mitogenome assemblies under ``assembled_mitogenomes/``.
+Batch-annotate mitogenome assemblies under ``mitogenomes_output/``.
 
 For each ``novoplasty_*`` subdirectory, picks the best NOVOPlasty FASTA per
 priority (Circularized > Option > Contigs > contigs_tmp) and runs
@@ -14,8 +14,11 @@ Special handling:
 * For sample dirs with multiple ``novoplasty_*`` subdirs (the merged trinomial
   Anas_crecca_* dirs), keep only the higher-tier subdir; on a tier tie keep all.
 * Sample dirs with no ``novoplasty_*`` subdir, or with only zero-byte
-  ``contigs_tmp_*.txt``, are recorded in ``mitogenome_annotations/skipped.tsv``
+  ``contigs_tmp_*.txt``, are recorded in ``mitogenomes_output/_batch_logs/skipped.tsv``
   and not annotated.
+
+MitoZ outputs are written under each assembly directory:
+``mitogenomes_output/<sample>/annotation/<suffix>/mitoz/``.
 
 Examples::
 
@@ -35,11 +38,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-ASM_ROOT = REPO / "assembled_mitogenomes"
+ASM_ROOT = REPO / "mitogenomes_output"
 ANNOT_SCRIPT = REPO / "scripts/annotate_mitogenome.py"
-OUT_ROOT = REPO / "mitogenome_annotations"
-LOG = OUT_ROOT / "batch_annotate_assemblies.log"
-SKIP_TSV = OUT_ROOT / "skipped.tsv"
+BATCH_LOGS_DIR = ASM_ROOT / "_batch_logs"
+LOG = BATCH_LOGS_DIR / "batch_annotate_assemblies.log"
+SKIP_TSV = BATCH_LOGS_DIR / "skipped.tsv"
+
+from mitogenome_paths import (  # noqa: E402
+    annotation_done,
+    clear_annotation_output,
+    parse_sample_label,
+)
 
 CONDA_ENV = "mitoz-x64"
 
@@ -225,27 +234,20 @@ def discover_jobs() -> tuple[list[AnnotationJob], list[SkippedItem]]:
     return jobs, skipped
 
 
-def output_already_done(sample_label: str) -> bool:
-    """Resumable check: True if a MitoZ ``*.result/`` directory exists for this sample."""
-    mitoz_dir = OUT_ROOT / sample_label / "mitoz"
-    if not mitoz_dir.is_dir():
-        return False
-    if (mitoz_dir / f"{sample_label}.result").is_dir():
-        return True
-    # Some MitoZ versions write the result dir nested one level deeper under the sample name.
-    for child in mitoz_dir.iterdir():
-        if child.is_dir() and child.name.endswith(".result"):
-            return True
-    return False
+def output_already_done(job: AnnotationJob) -> bool:
+    """Resumable check: True if a MitoZ ``*.result/`` directory exists for this job."""
+    return annotation_done(job.sample_dir, job.sample_label)
 
 
 def annotate_cmd(job: AnnotationJob, *, threads: int, clade: str) -> list[str]:
+    _, suffix = parse_sample_label(job.sample_label)
+    annot_root = job.sample_dir / "annotation"
     return [
         str(mitoz_python()),
         str(ANNOT_SCRIPT),
         "-i", str(job.fasta),
-        "-s", job.sample_label,
-        "-o", str(OUT_ROOT),
+        "-s", suffix,
+        "-o", str(annot_root),
         "--threads", str(threads),
         "--mitoz-clade", clade,
     ]
@@ -273,7 +275,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def write_skip_tsv(skipped: list[SkippedItem]) -> None:
-    OUT_ROOT.mkdir(parents=True, exist_ok=True)
+    BATCH_LOGS_DIR.mkdir(parents=True, exist_ok=True)
     with SKIP_TSV.open("w", encoding="utf-8") as f:
         f.write("path\treason\n")
         for s in skipped:
@@ -342,7 +344,7 @@ def main() -> None:
             log.write(f"\n[{idx}/{total}] tier={job.tier}({tname}) {job.sample_label}\n")
             log.write(f"  fasta: {job.fasta.relative_to(ASM_ROOT)}\n")
             log.flush()
-            if (not args.force) and output_already_done(job.sample_label):
+            if (not args.force) and output_already_done(job):
                 log.write("  Skipped: existing mitoz output detected (use --force to re-run).\n")
                 log.flush()
                 continue

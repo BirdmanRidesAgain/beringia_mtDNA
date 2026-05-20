@@ -6,5 +6,4 @@ __pycache__
 data
 test
 resources/bbsplit_ref/ # bbsplit reference; regenerated any time you use a new reference
-assembled_mitogenomes/
-mitogenome_annotations/
+mitogenomes_output/

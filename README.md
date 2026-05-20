@@ -25,6 +25,14 @@ This resulted in genuine variants being lost in favor of calling the reference s
 | Reassembled mitogenome summary statistics (CSV) | [Assembly results CSV](./mitogenome_assembly_results.csv) |
 | Executable scripts | [Scripts directory](./scripts/) |
 
+Each sample directory under `mitogenomes_output/<sample>/` contains:
+
+- `trim_<field>/` — fastp-trimmed reads
+- `novoplasty_<field>/` — NOVOPlasty assembly outputs
+- `annotation/<suffix>/mitoz/` — MitoZ annotation (suffix is usually the field # or novoplasty token)
+
+Batch logs: `mitogenomes_output/_batch_logs/`
+
 -----
 
 ## Assembly protocol

@@ -25,7 +25,7 @@ REPO = Path(__file__).resolve().parent.parent
 CHECKLIST = REPO / "mitogenomes_assembled_checklist.md"
 FASTQ_ROOT = Path.home() / "Downloads/new_beringia_birds"
 REFSEQ = REPO / "test/refseq/Taeniopygia_guttata_NC_007897.1_mitogenome.fa"
-OUT_ROOT = REPO / "assembled_mitogenomes"
+OUT_ROOT = REPO / "mitogenomes_output"
 ASM = REPO / "scripts/assemble_mitogenome.py"
 LOG = OUT_ROOT / "batch_assemble_beringia2018.log"
 
@@ -118,6 +118,10 @@ def find_read_pair(field: str, root: Path) -> tuple[Path, Path]:
     r1: list[Path] = []
     r2: list[Path] = []
     for base in search_roots:
+        r1 = sorted(base.glob(f"{field}_R1.fq.gz"))
+        r2 = sorted(base.glob(f"{field}_R2.fq.gz"))
+        if len(r1) == 1 and len(r2) == 1:
+            return r1[0], r2[0]
         r1 = sorted(base.glob(f"{field}_*_1.fq.gz"))
         r2 = sorted(base.glob(f"{field}_*_2.fq.gz"))
         if r1 or r2:
@@ -135,7 +139,15 @@ def find_read_pair(field: str, root: Path) -> tuple[Path, Path]:
     return r1[0], r2[0]
 
 
-def assemble_cmd(field: str, out_dir: Path, fq1: Path, fq2: Path, *, verbose: bool) -> list[str]:
+def assemble_cmd(
+    field: str,
+    out_dir: Path,
+    fq1: Path,
+    fq2: Path,
+    *,
+    verbose: bool,
+    threads: int | None = None,
+) -> list[str]:
     cmd = [
         str(mitogenome_python()),
         str(ASM),
@@ -151,6 +163,8 @@ def assemble_cmd(field: str, out_dir: Path, fq1: Path, fq2: Path, *, verbose: bo
         str(REFSEQ),
         "-S",
     ]
+    if threads is not None:
+        cmd.extend(["-t", str(threads)])
     if verbose:
         cmd.append("-v")
     return cmd
