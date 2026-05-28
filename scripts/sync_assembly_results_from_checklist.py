@@ -11,7 +11,11 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from mitogenome_paths import ASM_ROOT, assembly_level_for_sample_dir  # noqa: E402
+from mitogenome_paths import (  # noqa: E402
+    ASM_ROOT,
+    annotation_success_for_sample_dir,
+    assembly_level_for_sample_dir,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 CHECKLIST = ROOT / "mitogenomes_assembled_checklist.md"
@@ -73,6 +77,7 @@ OUT_COLUMNS = [
     "directory_name",
     "species",
     "assembly_level",
+    "annotation_success",
     "catalog_num",
     "field_num",
     "coverage",
@@ -220,6 +225,9 @@ def main() -> None:
 
         disk_path = resolve_disk_directory(chk["directory_name"])
         new_level = assembly_level_for_sample_dir(disk_path) if disk_path else "failed"
+        annotation_success = (
+            annotation_success_for_sample_dir(disk_path) if disk_path else "not_attempted"
+        )
         if disk_path is None:
             dir_missing_on_disk.append(chk["directory_name"])
 
@@ -234,6 +242,7 @@ def main() -> None:
                 "directory_name": chk["directory_name"],
                 "species": chk["species"],
                 "assembly_level": new_level,
+                "annotation_success": annotation_success,
                 "catalog_num": chk["catalog_num"],
                 "field_num": chk["field_num"],
                 "coverage": coverage,

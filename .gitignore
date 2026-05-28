@@ -7,3 +7,5 @@ data
 test
 resources/bbsplit_ref/ # bbsplit reference; regenerated any time you use a new reference
 mitogenomes_output/
+papers/
+mitoz.log

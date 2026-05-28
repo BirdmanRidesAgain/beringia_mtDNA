@@ -69,6 +69,60 @@ def assembly_level_for_sample_dir(sample_dir: Path) -> str:
     return tier_to_assembly_level(best)
 
 
+def _annotation_files_under(suffix_dir: Path) -> list[Path]:
+    """All regular files under one ``annotation/<suffix>/`` tree."""
+    return [
+        f
+        for f in suffix_dir.rglob("*")
+        if f.is_file() and not f.name.startswith("._")
+    ]
+
+
+def annotation_status_for_suffix_dir(suffix_dir: Path) -> str:
+    """
+    Classify one annotation attempt (``annotation/<suffix>/``).
+
+    - ``not_attempted``: no annotation output files
+    - ``failed``: files exist but every file is 0 bytes
+    - ``success``: at least one non-zero output file
+    """
+    files = _annotation_files_under(suffix_dir)
+    if not files:
+        return "not_attempted"
+    if all(f.stat().st_size == 0 for f in files):
+        return "failed"
+    return "success"
+
+
+def annotation_success_for_sample_dir(sample_dir: Path) -> str:
+    """
+    Best annotation outcome for a sample directory.
+
+    Scans every ``annotation/<suffix>/`` subtree. If any suffix run succeeded,
+    the sample is ``success``; otherwise ``failed`` when outputs exist but are
+    all empty; otherwise ``not_attempted``.
+    """
+    if not sample_dir.is_dir():
+        return "not_attempted"
+    ann = sample_dir / ANNOTATION_FOLDER
+    if not ann.is_dir():
+        return "not_attempted"
+
+    statuses: list[str] = []
+    for suffix_dir in sorted(ann.iterdir()):
+        if not suffix_dir.is_dir() or suffix_dir.name.startswith("._"):
+            continue
+        statuses.append(annotation_status_for_suffix_dir(suffix_dir))
+
+    if not statuses:
+        return "not_attempted"
+    if "success" in statuses:
+        return "success"
+    if "failed" in statuses:
+        return "failed"
+    return "not_attempted"
+
+
 def parse_sample_label(sample_label: str) -> tuple[str, str]:
     """
     Split a batch annotation label into assembly directory name and suffix.

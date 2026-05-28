@@ -233,6 +233,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Luscinia svecica | UAM 8584 | KSW2409 | `SRR5821099/` | `Luscinia_svecica_UAM_8584_KSW2409/` | False | True |
 | Luscinia svecica | UAM 8585 | KSW2406 | `SRR5821098/` | `Luscinia_svecica_UAM_8585_KSW2406/` | False | True |
 | Luscinia svecica | UAM 8944 | KSW2481 | `SRR5821089/` | `Luscinia_svecica_UAM_8944_KSW2481/` | False | True |
+| Luscinia svecica | UAM 8945 | KSW2408 | `data/beringia_birds/Luscinia_svecica_UAM_8945_KSW2408/` | `Luscinia_svecica_UAM_8945_KSW2408/` | False | True |
 | Luscinia svecica | UAM 8946 | KSW2407 | `SRR5821096/` | `Luscinia_svecica_UAM_8946_KSW2407/` | False | True |
 | Luscinia svecica | UWBM 44233 | JMB1064 | `SRR5821092/` | `Luscinia_svecica_UWBM_44233_JMB1064/` | False | True |
 | Luscinia svecica | UWBM 44242 | JMB1078 | `SRR5821040/` | `Luscinia_svecica_UWBM_44242_JMB1278/` | False | True |
@@ -342,6 +343,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Pinicola enucleator | UWBM 44628 | | `SRR5821072/` | `Pinicola_enucleator_UWBM_44628/` | False | False |
 | *Pinicola enucleator* | UWBM 51642 | SVD422 | `TransB_SVD_422_ACTCCATC-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa__TransB_SVD_422_ACTCCATC-CTCTGGTT_.1_mitogenome.fa` | `Pinicola_enucleator_kamtschatschensis_UWBM_51642_SVD422` | False | False |
 | Pinicola enucleator flammula | UAM 10158 | UAMX1014 | `SRR5821075/` | `Pinicola_enucleator_flammula_UAM_10158_UAMX1014/` | False | True |
+| Pinicola enucleator flammula | UAM 11285 | ABJ011 | `data/beringia_birds/Pinicola_enucleator_flammula_UAM_11285_ABJ011/` | `Pinicola_enucleator_flammula_UAM_11285_ABJ011/` | False | True |
 | Pinicola enucleator flammula | UAM 11286 | ABJ012 | `SRR5821074/` | `Pinicola_enucleator_flammula_UAM_11286_ABJ012/` | False | True |
 | Pinicola enucleator flammula | UAM 26361 | JJW030 | `SRR5821078/` | `Pinicola_enucleator_flammula_UAM_26361_JJW030/` | False | True |
 | Pinicola enucleator flammula | UAM 28530 | JJW1097 | `SRR5821073/` | `Pinicola_enucleator_flammula_UAM_28530_JJW1097/` | False | True |
@@ -354,11 +356,21 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Pinicola enucleator kamtschatschensis | UWBM 51627 | SVD407 | `SRR5821066/` | `Pinicola_enucleator_kamtschatschensis_UWBM_51627_SVD407/` | False | True |
 | Pinicola enucleator kamtschatschensis | UWBM 51643 | SVD423 | `SRR5821067/` | `Pinicola_enucleator_kamtschatschensis_UWBM_51643_SVD423/` | False | True |
 | Plectrophenax hyperboreus | UAM 7066 | KSW1610 | `Sample_KSW1610_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_7066_KSW1610/` | False | True |
+| Plectrophenax hyperboreus | UAM 7407 | KSW1588 | `data/beringia_birds/Plectrophenax_hyperboreus_UAM_7407_KSW1588/` | `Plectrophenax_hyperboreus_UAM_7407_KSW1588/` | False | True |
 | Plectrophenax hyperboreus | UAM 7524 | KSW1611 | `Sample_KSW1611_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_7524_KSW1611/` | False | True |
 | Plectrophenax hyperboreus | UAM 8200 | KSW1617 | `Sample_KSW1617_Plect_hyperbor_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_hyperboreus_UAM_8200_KSW1617/` | False | True |
 | Plectrophenax nivalis | UAM 11856 | CLP163 | `Sample_CLP163_Plect_nival_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_nivalis_UAM_11856_CLP163/` | False | True |
 | Plectrophenax nivalis | UAM 8474 | KSW2691 | `Sample_KSW2691_Plect_nivalis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_nivalis_UAM_8474_KSW2691/` | False | True |
 | Plectrophenax nivalis | UAM 8476 | KSW2690 | `Sample_KSW2690_Plect_nivalis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Plectrophenax_nivalis_UAM_8476_KSW2690/` | False | True |
+| Plectrophenax nivalis | UAM 27725 | JJW292 | `data/beringia_birds/Plectrophenax_nivalis_UAM_27725_JJW292/` | `Plectrophenax_nivalis_UAM_27725_JJW292/` | False | True |
+| Pluvialis dominica | UAM 13181 | KSW2402 | `data/beringia_birds/Pluvialis_dominica_UAM_13181_KSW2402/` | `Pluvialis_dominica_UAM_13181_KSW2402/` | False | True |
+| Pluvialis dominica | UAM 26935 | JJW362 | `data/beringia_birds/Pluvialis_dominica_UAM_26935_JJW362/` | `Pluvialis_dominica_UAM_26935_JJW362/` | False | True |
+| Pluvialis dominica | UAM 8938 | KSW2468 | `data/beringia_birds/Pluvialis_dominica_UAM_8938_KSW2468/` | `Pluvialis_dominica_UAM_8938_KSW2468/` | False | True |
+| Pluvialis dominica | UAM 9511 | TB235 | `data/beringia_birds/Pluvialis_dominica_UAM_9511_TB235/` | `Pluvialis_dominica_UAM_9511_TB235/` | False | True |
+| Pluvialis fulva | UAM 11307 | TB408 | `data/beringia_birds/Pluvialis_fulva_UAM_11307_TB408/` | `Pluvialis_fulva_UAM_11307_TB408/` | False | True |
+| Pluvialis fulva | UAM 13545 | DDG1860 | `data/beringia_birds/Pluvialis_fulva_UAM_13545_DDG1860/` | `Pluvialis_fulva_UAM_13545_DDG1860/` | False | True |
+| Pluvialis fulva | UAM 26906 | JJW145 | `data/beringia_birds/Pluvialis_fulva_UAM_26906_JJW145/` | `Pluvialis_fulva_UAM_26906_JJW145/` | False | True |
+| Pluvialis fulva | UAM 8798 | KSW2383 | `data/beringia_birds/Pluvialis_fulva_UAM_8798_KSW2383/` | `Pluvialis_fulva_UAM_8798_KSW2383/` | False | True |
 | Pluvialis squatarola | UAM 14237 | TB1089 | `SRR5821045/` | `Pluvialis_squatarola_UAM_14237_TB1089/` | False | False |
 | Pluvialis squatarola | UAM 14238 | TB1383 | `SRR5821044/` | `Pluvialis_squatarola_UAM_14238_TB1383/` | False | False |
 | Pluvialis squatarola | UAM 14239 | TB1377 | `SRR5821047/` | `Pluvialis_squatarola_UAM_14239_TB1377/` | False | False |
@@ -445,7 +457,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 
 ## Table 2. Individuals in `table_S1.csv` without an assembled mitogenome
 
-These **22** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
+These **10** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
 
 | Species | Catalog num | Field num | Year | Locality | NCBI-SRA |
 | - | - | - | - | - | - |
@@ -456,18 +468,6 @@ These **22** individuals appear in `table_S1.csv` but do not have a matching row
 | Lagopus lagopus koreni | UAM 28171 | KSW5133 | 2007 | Russia: Yakutia; Indigirka River | OR242945 |
 | Larus argentatus vegae | UAM 25983 | JJW343 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR242955 |
 | Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | 2016 | USA: Alaska; Interior, Mt. Prindle | OR242993 |
-| Luscinia svecica | UAM 8945 | KSW2408 | 1998 | USA: Alaska; Seward Peninsula, Mile 73 Taylor Highway | OR242899 |
 | Luscinia svecica | UWBM 44489 | SAR6270 | 1992 | Russia: Kamchatka; Milkovo | OR242905 |
 | Numenius phaeopus variegatus | UWBM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
 | Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | 2016 | USA: Alaska; Interior, Chatanika River | OR243089 |
-| Pinicola enucleator flammula | UAM 11285 | ABJ011 | 2000 | USA: Alaska; Alexander Archipelago, Revillagigedo Island | OR243095 |
-| Plectrophenax hyperboreus | UAM 7407 | KSW1588 | 1997 | USA: Alaska; Bering Sea, St. Matthew Island | OR243108 |
-| Plectrophenax nivalis | UAM 27725 | JJW292 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR243113 |
-| Pluvialis dominica | UAM 13181 | KSW2402 | 1998 | USA: Alaska; Seward Peninsula, Kougarok Road | OR243117 |
-| Pluvialis dominica | UAM 26935 | JJW362 | 2009 | USA: Alaska; Alaska Range, Rusty Hill | OR243116 |
-| Pluvialis dominica | UAM 8938 | KSW2468 | 1998 | USA: Alaska; Seward Peninsula, Council Road | OR243118 |
-| Pluvialis dominica | UAM 9511 | TB235 | 1998 | USA: Alaska; Seward Peninsula, Council Road | OR243119 |
-| Pluvialis fulva | UAM 11307 | TB408 | 2000 | USA: Alaska; Seward Peninsula, Teller Road | OR243123 |
-| Pluvialis fulva | UAM 13545 | DDG1860 | 1999 | USA: Alaska; Aleutian Islands, Attu Island | OR243120 |
-| Pluvialis fulva | UAM 26906 | JJW145 | 2009 | USA: Alaska; Aleutian Islands, Attu Island | OR243121 |
-| Pluvialis fulva | UAM 8798 | KSW2383 | 1998 | USA: Alaska; Seward Peninsula, Teller Road | OR243122 |

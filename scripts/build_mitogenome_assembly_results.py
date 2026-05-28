@@ -169,6 +169,7 @@ def main() -> None:
         "directory_name",
         "species",
         "assembly_level",
+        "annotation_success",
         "catalog_num",
         "field_num",
         "coverage",
