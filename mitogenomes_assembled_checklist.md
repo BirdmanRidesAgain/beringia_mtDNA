@@ -469,5 +469,5 @@ These **10** individuals appear in `table_S1.csv` but do not have a matching row
 | Larus argentatus vegae | UAM 25983 | JJW343 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR242955 |
 | Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | 2016 | USA: Alaska; Interior, Mt. Prindle | OR242993 |
 | Luscinia svecica | UWBM 44489 | SAR6270 | 1992 | Russia: Kamchatka; Milkovo | OR242905 |
-| Numenius phaeopus variegatus | UWBM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
+| Numenius phaeopus variegatus | UAM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
 | Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | 2016 | USA: Alaska; Interior, Chatanika River | OR243089 |
