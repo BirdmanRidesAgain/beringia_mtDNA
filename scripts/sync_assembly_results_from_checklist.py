@@ -13,8 +13,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from mitogenome_paths import (  # noqa: E402
     ASM_ROOT,
+    DISK_DIRECTORY_ALIASES,
     annotation_success_for_sample_dir,
+    assembly_length_bp_for_sample_dir,
     assembly_level_for_sample_dir,
+    resolve_sample_dir,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -68,11 +71,6 @@ LEGACY_DIRECTORY_ALIASES = {
     "Mareca_penelope_UAM9759_DDG1703": "Mareca_penelope_UAM_9359_DDG1703",
 }
 
-# Checklist directory_name -> on-disk mitogenomes_output folder (when names differ)
-DISK_DIRECTORY_ALIASES: dict[str, str] = {}
-
-_DIR_SUFFIX_RE = re.compile(r"_(UAM|UWBM)_(\d+)_([^_]+)$")
-
 OUT_COLUMNS = [
     "directory_name",
     "species",
@@ -83,6 +81,7 @@ OUT_COLUMNS = [
     "coverage",
     "order",
     "taxon_pair",
+    "length_bp",
 ]
 
 
@@ -158,31 +157,6 @@ def parse_checklist(path: Path) -> list[dict]:
     return rows
 
 
-def directory_suffix(directory_name: str) -> str | None:
-    match = _DIR_SUFFIX_RE.search(directory_name)
-    if not match:
-        return None
-    museum, number, field = match.groups()
-    return f"_{museum}_{number}_{field}"
-
-
-def resolve_disk_directory(directory_name: str) -> Path | None:
-    """Return existing mitogenomes_output sample dir (checklist or disk alias)."""
-    if directory_name in DISK_DIRECTORY_ALIASES:
-        alias = ASM_ROOT / DISK_DIRECTORY_ALIASES[directory_name]
-        if alias.is_dir():
-            return alias
-    direct = ASM_ROOT / directory_name
-    if direct.is_dir():
-        return direct
-    suffix = directory_suffix(directory_name)
-    if suffix:
-        matches = [p for p in ASM_ROOT.iterdir() if p.is_dir() and p.name.endswith(suffix)]
-        if len(matches) == 1:
-            return matches[0]
-    return None
-
-
 def add_order(species: str) -> str:
     genus = species.split()[0] if species else ""
     return GENUS_TO_ORDER.get(genus, "")
@@ -223,11 +197,12 @@ def main() -> None:
         else:
             coverage = taxon_pair = old_level = old_species = ""
 
-        disk_path = resolve_disk_directory(chk["directory_name"])
+        disk_path = resolve_sample_dir(chk["directory_name"])
         new_level = assembly_level_for_sample_dir(disk_path) if disk_path else "failed"
         annotation_success = (
             annotation_success_for_sample_dir(disk_path) if disk_path else "not_attempted"
         )
+        length_bp = assembly_length_bp_for_sample_dir(disk_path)
         if disk_path is None:
             dir_missing_on_disk.append(chk["directory_name"])
 
@@ -248,6 +223,7 @@ def main() -> None:
                 "coverage": coverage,
                 "order": add_order(chk["species"]),
                 "taxon_pair": taxon_pair,
+                "length_bp": length_bp,
             }
         )
 

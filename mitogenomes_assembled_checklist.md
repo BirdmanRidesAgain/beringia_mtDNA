@@ -9,12 +9,14 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Species | Catalog num | Field num | Old directory name | New directory name | multiple datasets? | In Table S1? |
 | - | - | - | - | - | - | - |
 | Anas acuta | UAM 22113 | REW601 | `TransB_REW601_CAGCGATT-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_22113_REW601/` | False | True |
+| Anas acuta | UAM 22595 | DDG2122 | `data/final_batch/Anas_acuta_UAM_22595_DDG2122/` | `Anas_acuta_UAM_22595_DDG2122/` | False | True |
 | Anas acuta | UAM 23468 | KGM895 | `TransB_KGM895_TAGTGACC-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_23468_KGM895/` | False | True |
 | Anas acuta | UAM 28156 | KSW5107 | `TransB_KSW5107_CGAAGAAC-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_28156_KSW5107/` | False | True |
 | Anas acuta | UAM 28167 | KSW5120 | `TransB_KSW5120_CGAAGAAC-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_28167_KSW5120/` | False | True |
 | Anas acuta | UAM 29039 | REW548 | `TransB_REW548_TAGTGACC-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_29039_REW548/` | False | True |
 | Anas acuta | UAM 30400 | KSW5391 | `TransB_KSW5391_TGTGACTG-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_30400_KSW5391/` | False | True |
 | Anas acuta | UAM 31205 | JJW1897 | `TransB_JJW1897_CAGCGATT-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_31205_JJW1897/` | False | True |
+| Anas acuta | UAM 31335 | UAMX5487 | `data/final_batch/Anas_acuta_UAM_31335_UAMX5487/` | `Anas_acuta_UAM_31335_UAMX5487/` | False | True |
 | Anas acuta | UWBM 44114 | DAB055 | `TransB_DAB_055_GCATGTCT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UWBM_44114_DAB055/` | False | True |
 | Anas carolinensis | UAM 11251 | UAMX203 | `Sample_UAMX203_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
 | Anas carolinensis | UAM 11251 | UAMX203 | `SRR5821115/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
@@ -41,6 +43,8 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Anas crecca | UAM 9255 | DDG1704 | `SRR5821082/` | `Anas_crecca_UAM_9255_DDG1704/` | False | True |
 | Anas platyrhynchos | UAM 11193 | KGM007 | `TransB_KGM007_CGAGACTA-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11193_KGM007/` | False | True |
 | Anas platyrhynchos | UAM 11328 | DDG1776 | `TransB_DDG1776_CGAGACTA-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11328_DDG1776/` | False | True |
+| Anas platyrhynchos | UAM 28074 | JJW944 | `data/final_batch/Anas_platyrhynchos_UAM_28074_JJW944/` | `Anas_platyrhynchos_UAM_28074_JJW944/` | False | True |
+| Anas platyrhynchos | UAM 28089 | JJW943 | `data/final_batch/Anas_platyrhynchos_UAM_28089_JJW943/` | `Anas_platyrhynchos_UAM_28089_JJW943/` | False | True |
 | Anas platyrhynchos | UAM 29647 | JJW1397 | `TransB_JJW1397_CAGCGATT-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_29647_JJW1397/` | False | True |
 | Anas platyrhynchos | UAM 30286 | JJW1602 | `TransB_JJW1602_CAGCGATT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_30286_JJW1602/` | False | True |
 | Anas platyrhynchos | UAM 30290 | JJW1592 | `TransB_JJW1592_CAGCGATT-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_30290_JJW1592/` | False | True |
@@ -171,13 +175,14 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Lagopus lagopus koreni | UAM 14834 | KSW5045 | `KSW5045_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_14834_KSW5045/` | False | True |
 | Lagopus lagopus koreni | UAM 25139 | KSW5046 | `KSW5046_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_25139_KSW5046/` | False | True |
 | Lagopus lagopus koreni | UAM 28169 | KSW5052 | `KSW5052_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_28169_KSW5052/` | False | True |
-| *Lagopus lagopus koreni* | UAM 28171 | KSW5113 | `KSW5113_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` |  | False | False |
+| Lagopus lagopus koreni | UAM 28171 | KSW5133 | `data/final_batch/Lagopus_lagopus_koreni_UAM_28171_KSW5133/` | `Lagopus_lagopus_koreni_UAM_28171_KSW5133/` | False | True |
 | Lagopus lagopus koreni | UAM 29685 | KSW5082 | `KSW5082_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_29685_KSW5082/` | False | True |
 | Larus argentatus smithsonianus | UAM 30575 | JJW1533 | `JJW1533_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_30575_JJW1533/` | False | True |
 | Larus argentatus smithsonianus | UAM 35751 | JJW2551 | `JJW2551_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35751_JJW2551/` | False | True |
 | Larus argentatus smithsonianus | UAM 35753 | JJW2549 | `JJW2549_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35753_JJW2549/` | False | True |
 | Larus argentatus smithsonianus | UAM 35754 | JJW2548 | `JJW2548_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35754_JJW2548/` | False | True |
 | Larus argentatus smithsonianus | UAM 35755 | JJW2547 | `JJW2547_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35755_JJW2547/` | False | True |
+| Larus argentatus vegae | UAM 25983 | JJW343 | `data/final_batch/Larus_argentatus_vegae_UAM_25983_JJW343/` | `Larus_argentatus_vegae_UAM_25983_JJW343/` | False | True |
 | Larus argentatus vegae | UAM 25984 | JJW257 | `JJW257_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_25984_JJW257/` | False | True |
 | Larus argentatus vegae | UAM 25987 | JJW224 | `JJW224_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_25987_JJW224/` | False | True |
 | Larus argentatus vegae | UAM 26660 | KSW5044 | `KSW5044_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_26660_KSW5044/` | False | True |
@@ -222,6 +227,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Leucosticte tephrocotis tephrocotis | UAM 35598 | JJW2465 | `JJW2465_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465/` | False | True |
 | Leucosticte tephrocotis tephrocotis | UAM 35600 | JJW2460 | `JJW2460_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460/` | False | True |
 | *Leucosticte tephrocotis tephrocotis* | UAM 38650 | JJW3200 | `JJW3200_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_38650_JJW3200/` | False | False |
+| Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | `data/final_batch/Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | `Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | False | True |
 | Leucosticte tephrocotis umbrina | FMNH34305 | AF14351 | `AF14351_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351/` | False | True |
 | Leucosticte tephrocotis umbrina | UAM 17748 | UAMX2921 | `UAMX2921_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921/` | True | True |
 | Leucosticte tephrocotis umbrina | UAM 28619 | AF14346 | `AF14346_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346/` | False | True |
@@ -241,6 +247,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Luscinia svecica | UWBM 44361 | JMB1206 | `SRR5821049/` | `Luscinia_svecica_UWBM_44361_JMB1206/` | False | True |
 | Luscinia svecica | UWBM 44362 | JMB1207 | `SRR5821048/` | `Luscinia_svecica_UWBM_44362_JMB1207/` | False | True |
 | Luscinia svecica | UWBM 44363 | JMB1208 | `TransB_JMB_1208_ACTCCATC-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Luscinia_svecica_UWBM_44363_JMB1208/` | False | True |
+| Luscinia svecica | UWBM 44489 | SAR6270 | `data/final_batch/Luscinia_svecica_UWBM_44489_SAR6270/` | `Luscinia_svecica_UWBM_44489_SAR6270/` | False | True |
 | Luscinia svecica | UWBM 44629 | SAR6269 | `SRR5821051/` | `Luscinia_svecica_UWBM_44629_SAR6269/` | False | True |
 | Luscinia svecica | UWBM 44630 |  | `SRR5821050/` | `Luscinia_svecica_UWBM_44630/` | False | False |
 | Mareca americana | UAM 11908 | KSW3028 | `SRR5821130/` | `Mareca_americana_UAM_11908_KSW3028/` | False | True |
@@ -334,6 +341,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | Picoides dorsalis fasciatus | UAM 31832 | JJW2059 | `JJW2059_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_31832_JJW2059/` | False | True |
 | Picoides dorsalis fasciatus | UAM 36600 | JJW2842 | `JJW2842_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_36600_JJW2842/` | False | True |
 | Picoides dorsalis fasciatus | UAM 8580 | UAMX503 | `UAMX503_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_dorsalis_fasciatus_UAM_8580_UAMX503/` | True | True |
+| Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | `data/final_batch/Picoides_dorsalis_fasciatus_UAM_38328_JJW3139/` | `Picoides_dorsalis_fasciatus_UAM_38328_JJW3139/` | False | True |
 | *Picoides tridactylus* | UAM 10581 | | `UAM10581_Taeniopygia_guttata_NC_007897.1_mitogenome.fa` | `Picoides_tridactylus_UAM_10581` | False | False |
 | Picoides tridactylus | UAM 17739 | TB1448 | `TB1448_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_tridactylus_UAM_17739_TB1448/` | True | True |
 | Picoides tridactylus | UWBM 44422 | SAR6046 | `SAR6046_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Picoides_tridactylus_UWBM_44422_SAR6046/` | True | True |
@@ -457,17 +465,8 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 
 ## Table 2. Individuals in `table_S1.csv` without an assembled mitogenome
 
-These **10** individuals appear in `table_S1.csv` but do not have a matching row in the main assembled table (catalog + field #).
+This **1** individual appears in `table_S1.csv` but does not have a matching row in the main assembled table (catalog + field #).
 
 | Species | Catalog num | Field num | Year | Locality | NCBI-SRA |
 | - | - | - | - | - | - |
-| Anas acuta | UAM 22595 | DDG2122 | 2006 | USA: Alaska; Aleutian Islands, Shemya Island | OR242770 |
-| Anas acuta | UAM 31335 | UAMX5487 | 2010 | USA: Alaska; Interior, Eielson Air Force Base | OR242768 |
-| Anas platyrhynchos | UAM 28074 | JJW944 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242804 |
-| Anas platyrhynchos | UAM 28089 | JJW943 | 2010 | USA: Alaska; Kodiak Archipelago, Deadman Bay | OR242805 |
-| Lagopus lagopus koreni | UAM 28171 | KSW5133 | 2007 | Russia: Yakutia; Indigirka River | OR242945 |
-| Larus argentatus vegae | UAM 25983 | JJW343 | 2009 | USA: Alaska; Aleutian Islands, Kiska Island | OR242955 |
-| Leucosticte tephrocotis tephrocotis | UAM 38654 | JJW3204 | 2016 | USA: Alaska; Interior, Mt. Prindle | OR242993 |
-| Luscinia svecica | UWBM 44489 | SAR6270 | 1992 | Russia: Kamchatka; Milkovo | OR242905 |
 | Numenius phaeopus variegatus | UAM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
-| Picoides dorsalis fasciatus | UAM 38328 | JJW3139 | 2016 | USA: Alaska; Interior, Chatanika River | OR243089 |

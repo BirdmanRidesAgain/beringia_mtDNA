@@ -1,6 +1,7 @@
 """Path conventions for assemblies and co-located MitoZ annotations."""
 from __future__ import annotations
 
+import re
 import shutil
 from pathlib import Path
 
@@ -52,6 +53,103 @@ def tier_to_assembly_level(tier: int) -> str:
     if tier in (TIER_OPTION, TIER_CONTIGS):
         return "partial_success"
     return "failed"
+
+
+_DIR_SUFFIX_RE = re.compile(r"_(UAM|UWBM)_(\d+)_([^_]+)$")
+
+# Checklist directory_name -> on-disk mitogenomes_output folder (when names differ)
+DISK_DIRECTORY_ALIASES: dict[str, str] = {}
+
+
+def resolve_sample_dir(directory_name: str) -> Path | None:
+    """Return existing mitogenomes_output sample dir for a checklist/CSV directory_name."""
+    if directory_name in DISK_DIRECTORY_ALIASES:
+        alias = ASM_ROOT / DISK_DIRECTORY_ALIASES[directory_name]
+        if alias.is_dir():
+            return alias
+    direct = ASM_ROOT / directory_name
+    if direct.is_dir():
+        return direct
+    match = _DIR_SUFFIX_RE.search(directory_name)
+    if match:
+        suffix = f"_{match.group(1)}_{match.group(2)}_{match.group(3)}"
+        matches = [p for p in ASM_ROOT.iterdir() if p.is_dir() and p.name.endswith(suffix)]
+        if len(matches) == 1:
+            return matches[0]
+    return None
+
+
+def sequence_length_from_fasta(path: Path) -> int:
+    """Total bp across all sequences in a FASTA or FASTA-like text file."""
+    total = 0
+    with path.open(encoding="utf-8", errors="replace") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line or line.startswith(">"):
+                continue
+            total += len(line)
+    return total
+
+
+def candidate_assembly_paths(novop: Path) -> list[Path]:
+    """
+    Assembly outputs to measure for one ``novoplasty_*`` directory.
+
+    Prefer Circularized > Option > Contigs FASTAs; use non-empty ``contigs_tmp_*``
+    only when no FASTA exists.
+    """
+    files = _list_novoplasty_files(novop)
+    circ = sorted(
+        p for p in files if p.name.startswith("Circularized_assembly_") and p.suffix == ".fasta"
+    )
+    if circ:
+        return circ
+    options = sorted(p for p in files if p.name.startswith("Option_") and p.suffix == ".fasta")
+    if options:
+        return options
+    contigs = sorted(p for p in files if p.name.startswith("Contigs_") and p.suffix == ".fasta")
+    if contigs:
+        return contigs
+    contigs_tmp = sorted(
+        p
+        for p in files
+        if p.name.startswith("contigs_tmp_") and p.suffix == ".txt" and p.stat().st_size > 0
+    )
+    return contigs_tmp
+
+
+def assembly_length_bp_for_sample_dir(sample_dir: Path | None) -> str:
+    """
+    Colon-separated sequence lengths (bp) for the best-tier assembly file(s).
+
+    When multiple ``novoplasty_*`` subdirs tie at the best tier, lengths from all
+    kept subdirs are concatenated (sorted by path).
+    """
+    if sample_dir is None or not sample_dir.is_dir():
+        return "0"
+
+    novops = sorted(
+        p for p in sample_dir.iterdir() if p.is_dir() and p.name.startswith("novoplasty_")
+    )
+    if not novops:
+        return "0"
+
+    classified: list[tuple[int, list[Path]]] = []
+    for novop in novops:
+        tier = classify_novoplasty_dir(novop)
+        if tier == TIER_NONE:
+            continue
+        paths = candidate_assembly_paths(novop)
+        if paths:
+            classified.append((tier, paths))
+
+    if not classified:
+        return "0"
+
+    best_tier = min(tier for tier, _ in classified)
+    kept_paths = sorted(p for tier, paths in classified if tier == best_tier for p in paths)
+    lengths = [str(sequence_length_from_fasta(p)) for p in kept_paths]
+    return ":".join(lengths)
 
 
 def assembly_level_for_sample_dir(sample_dir: Path) -> str:
