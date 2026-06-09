@@ -13,3 +13,4 @@ One row per assembled mitogenome in **Table 1** of `mitogenomes_assembled_checkl
 | `coverage` | mtDNA coverage from Collier et al. 2025 (`samtools depth` on earlier assemblies), when available. |
 | `order` | Taxonomic order (derived from genus). |
 | `taxon_pair` | Taxon pair label from Collier et al. 2025, when available. |
+| `length_bp` | The length (in base pairs) of the longest assembled, reliable mitogenome fragment. |

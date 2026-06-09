@@ -61,8 +61,10 @@ GENUS_TO_ORDER = {
 
 # Legacy CSV directory_name -> canonical checklist directory_name
 LEGACY_DIRECTORY_ALIASES = {
-    "UAM29835_Taeniopygia_guttata_NC_007897.1_mitogenome.fa": "Calcarius_lapponicus_alascensis_UAM_29835",
+    "UAM29835_Taeniopygia_guttata_NC_007897.1_mitogenome.fa": "Calcarius_lapponicus_coloratus_UAM_29835",
+    "Calcarius_lapponicus_alascensis_UAM_29835": "Calcarius_lapponicus_coloratus_UAM_29835",
     "DDG1922_Taeniopygia_guttata_NC_007897.1_mitogenome.fa": "Larus_brachyrhynchus_UAM_14803_DDG1922",
+    "Larus_brachyrhynchus_UAM_14803_DDG2122": "Larus_brachyrhynchus_UAM_14803_DDG1922",
     "UAM10581_Taeniopygia_guttata_NC_007897.1_mitogenome.fa": "Picoides_tridactylus_UAM_10581",
     "TransB_SVD_422_ACTCCATC-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa": (
         "Pinicola_enucleator_kamtschatschensis_UWBM_51642_SVD422"

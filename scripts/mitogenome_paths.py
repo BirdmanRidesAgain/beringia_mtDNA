@@ -58,7 +58,10 @@ def tier_to_assembly_level(tier: int) -> str:
 _DIR_SUFFIX_RE = re.compile(r"_(UAM|UWBM)_(\d+)_([^_]+)$")
 
 # Checklist directory_name -> on-disk mitogenomes_output folder (when names differ)
-DISK_DIRECTORY_ALIASES: dict[str, str] = {}
+DISK_DIRECTORY_ALIASES: dict[str, str] = {
+    "Calcarius_lapponicus_alascensis_UAM_29835": "Calcarius_lapponicus_coloratus_UAM_29835",
+    "Larus_brachyrhynchus_UAM_14803_DDG2122": "Larus_brachyrhynchus_UAM_14803_DDG1922",
+}
 
 
 def resolve_sample_dir(directory_name: str) -> Path | None:
