@@ -20,7 +20,7 @@ This resulted in genuine variants being lost in favor of calling the reference s
 | - | - |
 | Bad mitogenome coverage visualization prior to running new assemblies. | [Bad mdDNA analysis](notebooks/bad_mtDNA_analysis.ipynb) |
 | Reassembly protocol testing | [Protocol details](notebooks/mtDNA_assembly_protocol_testing.ipynb) |
-| Checklist of reassembled mitogenomes | [Completed mitogenome checklist](./mitogenomes_assembled_checklist.md) |
+| Checklist of reassembled mitogenomes | [Completed mitogenome checklist](./mitogenome_assembly_checklist.md) |
 | Reassembled mitogenome summary statistics and ML analysis | [Assembly stats notebook](notebooks/assembly_stats.ipynb) |
 | Reassembled mitogenome summary statistics (CSV) | [Assembly results CSV](./mitogenome_assembly_results.csv) |
 | Executable scripts | [Scripts directory](./scripts/) |

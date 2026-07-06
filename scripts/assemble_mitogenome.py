@@ -86,6 +86,8 @@ def run_fastp(
     output: str,
     threads: int,
     verbose: bool,
+    *,
+    write_reports: bool = True,
 ) -> tuple[Path, Path]:
     """Run fastp and return paths to trimmed paired reads."""
     trim_dir = Path(output) / f"trim_{sample_name}"
@@ -106,13 +108,11 @@ def run_fastp(
         str(trimmed_r1),
         "-O",
         str(trimmed_r2),
-        "-h",
-        str(report_html),
-        "-j",
-        str(report_json),
         "-w",
         str(threads),
     ]
+    if write_reports:
+        cmd.extend(["-h", str(report_html), "-j", str(report_json)])
 
     run_external(cmd, verbose=verbose, label="fastp")
 

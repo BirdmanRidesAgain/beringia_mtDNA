@@ -119,7 +119,7 @@ def load_assembly_base() -> pd.DataFrame:
             "Could not find new_mitogenome_assembly_stats.csv or mitogenome_assembly_results.csv"
         )
 
-    required = {"directory_name", "species", "assembly_level"}
+    required = {"directory_name", "species", "assembly_success"}
     missing = required.difference(df.columns)
     if missing:
         raise ValueError(f"Assembly base missing columns: {sorted(missing)}")
@@ -168,8 +168,7 @@ def main() -> None:
     out_cols = [
         "directory_name",
         "species",
-        "assembly_level",
-        "annotation_success",
+        "assembly_success",
         "catalog_num",
         "field_num",
         "coverage",

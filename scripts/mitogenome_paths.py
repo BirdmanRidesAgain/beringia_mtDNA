@@ -3,12 +3,14 @@ from __future__ import annotations
 
 import re
 import shutil
+from dataclasses import dataclass
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 ASM_ROOT = REPO / "mitogenomes_output"
 ANNOTATION_FOLDER = "annotation"
 BATCH_LOGS_DIR = ASM_ROOT / "_batch_logs"
+ARCHIVE_ROOT = Path("/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/assembled_mitogenomes")
 
 # NOVOPlasty output tiers (lower = better). Matches batch_annotate_assemblies.py.
 TIER_CIRC = 1
@@ -17,6 +19,41 @@ TIER_CONTIGS = 3
 TIER_TMP = 4
 TIER_NONE = 99
 TIER_NAMES = {1: "circularized", 2: "option", 3: "contigs", 4: "contigs_tmp", 99: "none"}
+
+# MitoZ ``summary.txt``: full circular mitogenome expected in this size range (bp).
+MITOZ_SUCCESS_MIN_BP = 15_000
+MITOZ_SUCCESS_MAX_BP = 17_000
+
+
+@dataclass(frozen=True)
+class MitozSummary:
+    """Parsed MitoZ ``summary.txt`` scaffold table and gene totals."""
+
+    scaffolds: tuple[tuple[str, int, str], ...]  # (seq_id, length_bp, circularity)
+    protein_coding_genes: int
+    trna_genes: int
+    rrna_genes: int
+    genes_total: int
+    nd2_present: bool
+
+    @property
+    def length_bp(self) -> str:
+        if not self.scaffolds:
+            return "0"
+        return ";".join(str(length) for _, length, _ in self.scaffolds)
+
+    @property
+    def circularity(self) -> str:
+        if not self.scaffolds:
+            return ""
+        return ";".join(circ for _, _, circ in self.scaffolds)
+
+    @property
+    def assembly_success(self) -> bool:
+        return any(
+            circ == "yes" and MITOZ_SUCCESS_MIN_BP <= length <= MITOZ_SUCCESS_MAX_BP
+            for _, length, circ in self.scaffolds
+        )
 
 
 def _list_novoplasty_files(novop: Path) -> list[Path]:
@@ -40,9 +77,14 @@ def classify_novoplasty_dir(novop: Path) -> int:
     return TIER_NONE
 
 
+def tier_to_assembly_success(tier: int) -> bool:
+    """True only for a circularized NOVOPlasty FASTA (tier 1)."""
+    return tier == TIER_CIRC
+
+
 def tier_to_assembly_level(tier: int) -> str:
     """
-    Map best tier to CSV ``assembly_level``.
+    Map best tier to a legacy three-way label (internal use).
 
     - ``success``: circularized FASTA (tier 1)
     - ``partial_success``: Option or Contigs FASTA (tiers 2–3)
@@ -61,24 +103,37 @@ _DIR_SUFFIX_RE = re.compile(r"_(UAM|UWBM)_(\d+)_([^_]+)$")
 DISK_DIRECTORY_ALIASES: dict[str, str] = {
     "Calcarius_lapponicus_alascensis_UAM_29835": "Calcarius_lapponicus_coloratus_UAM_29835",
     "Larus_brachyrhynchus_UAM_14803_DDG2122": "Larus_brachyrhynchus_UAM_14803_DDG1922",
+    "Lagopus_lagopus_koreni_UAM_28171_KSW5133": "Lagopus_lagopus_koreni_UAM_28171_KSW5113",
+    "Melanitta_americana_UAM_35578_JJW951": "Melanitta_americana_UAM_28065_JJW951",
+    "Melanitta_americana_UAM_28065_JJW950": "Melanitta_americana_UAM_27720_JJW950",
 }
 
 
 def resolve_sample_dir(directory_name: str) -> Path | None:
-    """Return existing mitogenomes_output sample dir for a checklist/CSV directory_name."""
+    """
+    Return an existing sample dir for a checklist/CSV directory_name.
+
+    Prefers local ``mitogenomes_output/``, then the SSD archive under
+    ``assembled_mitogenomes/``.
+    """
+    candidates: list[Path] = []
     if directory_name in DISK_DIRECTORY_ALIASES:
-        alias = ASM_ROOT / DISK_DIRECTORY_ALIASES[directory_name]
-        if alias.is_dir():
-            return alias
-    direct = ASM_ROOT / directory_name
-    if direct.is_dir():
-        return direct
+        alias_name = DISK_DIRECTORY_ALIASES[directory_name]
+        candidates.extend([ASM_ROOT / alias_name, ARCHIVE_ROOT / alias_name])
+    candidates.extend([ASM_ROOT / directory_name, ARCHIVE_ROOT / directory_name])
+    for path in candidates:
+        if path.is_dir():
+            return path
+
     match = _DIR_SUFFIX_RE.search(directory_name)
     if match:
         suffix = f"_{match.group(1)}_{match.group(2)}_{match.group(3)}"
-        matches = [p for p in ASM_ROOT.iterdir() if p.is_dir() and p.name.endswith(suffix)]
-        if len(matches) == 1:
-            return matches[0]
+        for root in (ASM_ROOT, ARCHIVE_ROOT):
+            if not root.is_dir():
+                continue
+            matches = [p for p in root.iterdir() if p.is_dir() and p.name.endswith(suffix)]
+            if len(matches) == 1:
+                return matches[0]
     return None
 
 
@@ -152,7 +207,154 @@ def assembly_length_bp_for_sample_dir(sample_dir: Path | None) -> str:
     best_tier = min(tier for tier, _ in classified)
     kept_paths = sorted(p for tier, paths in classified if tier == best_tier for p in paths)
     lengths = [str(sequence_length_from_fasta(p)) for p in kept_paths]
-    return ":".join(lengths)
+    return ";".join(lengths)
+
+
+def has_mitoz_pipeline_output(sample_dir: Path | None) -> bool:
+    """True when a sample has MitoZ output from trim+assemble (``sample/mitoz/``)."""
+    if sample_dir is not None and (sample_dir / "mitoz").is_dir():
+        return True
+    if sample_dir is not None:
+        archived = ARCHIVE_ROOT / sample_dir.name / "mitoz"
+        if archived.is_dir():
+            return True
+    return False
+
+
+def mitoz_dir_for_sample(sample_dir: Path) -> Path | None:
+    """Local or SSD-archived ``mitoz/`` directory for a sample."""
+    local = sample_dir / "mitoz"
+    if local.is_dir():
+        return local
+    archived = ARCHIVE_ROOT / sample_dir.name / "mitoz"
+    if archived.is_dir():
+        return archived
+    return None
+
+
+def assembly_method_for_sample_dir(sample_dir: Path | None) -> str:
+    """``mitoZ`` for pipeline output under ``sample/mitoz/``; otherwise ``novoplasty``."""
+    if has_mitoz_pipeline_output(sample_dir):
+        return "mitoZ"
+    return "novoplasty"
+
+
+def _mitoz_summary_score(path: Path) -> int:
+    rel = str(path)
+    score = 0
+    if "tmp_" in rel:
+        score -= 10
+    if ".result/" in rel:
+        score += 10
+    if "metaspades.mitogenome.fa.result" in rel:
+        score += 5
+    return score
+
+
+def find_mitoz_summary_txt(sample_dir: Path) -> Path | None:
+    """Best ``summary.txt`` under local or SSD-archived ``mitoz/``."""
+    mitoz_dir = mitoz_dir_for_sample(sample_dir)
+    if mitoz_dir is None:
+        return None
+    candidates = [
+        p for p in mitoz_dir.rglob("summary.txt") if p.is_file() and not p.name.startswith("._")
+    ]
+    if not candidates:
+        return None
+    return max(candidates, key=_mitoz_summary_score)
+
+
+def _parse_int_after_colon(line: str) -> int:
+    return int(line.split(":", 1)[1].strip())
+
+
+def parse_mitoz_summary(path: Path) -> MitozSummary:
+    """Parse scaffold table, gene totals, and ND2 presence from a MitoZ ``summary.txt``."""
+    scaffolds: list[tuple[str, int, str]] = []
+    protein_coding_genes = 0
+    trna_genes = 0
+    rrna_genes = 0
+    genes_total = 0
+    nd2_present = False
+    in_scaffold_table = False
+    in_gene_table = False
+
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        if (
+            line.startswith("#Seq_id")
+            and "Length(bp)" in line
+            and "Circularity" in line
+        ):
+            in_scaffold_table = True
+            in_gene_table = False
+            continue
+        if (
+            line.startswith("#Seq_id")
+            and "Gene_name" in line
+        ):
+            in_scaffold_table = False
+            in_gene_table = True
+            continue
+        if in_scaffold_table:
+            if not line.strip():
+                in_scaffold_table = False
+                continue
+            if line.startswith("#") or line.startswith("-"):
+                in_scaffold_table = False
+                continue
+            parts = line.split()
+            if len(parts) >= 3 and parts[1].isdigit():
+                scaffolds.append((parts[0], int(parts[1]), parts[2].lower()))
+            continue
+        if in_gene_table:
+            if not line.strip() or line.startswith("-"):
+                continue
+            if line.startswith("#") or line.startswith("Protein coding"):
+                in_gene_table = False
+                # fall through to gene-total parsers below
+            else:
+                parts = line.split()
+                # Columns: Seq_id Start End Length Direction Type Gene_name ...
+                if len(parts) >= 7 and parts[5] in ("CDS", "tRNA", "rRNA"):
+                    gene_name = parts[6]
+                    if gene_name.upper() == "ND2":
+                        nd2_present = True
+                continue
+        if line.startswith("Protein coding genes totally found:"):
+            protein_coding_genes = _parse_int_after_colon(line)
+        elif line.startswith("tRNA genes totally found:"):
+            trna_genes = _parse_int_after_colon(line)
+        elif line.startswith("rRNA genes totally found:"):
+            rrna_genes = _parse_int_after_colon(line)
+        elif line.startswith("Genes totally found:"):
+            genes_total = _parse_int_after_colon(line)
+
+    return MitozSummary(
+        scaffolds=tuple(scaffolds),
+        protein_coding_genes=protein_coding_genes,
+        trna_genes=trna_genes,
+        rrna_genes=rrna_genes,
+        genes_total=genes_total,
+        nd2_present=nd2_present,
+    )
+
+
+def mitoz_summary_for_sample_dir(sample_dir: Path | None) -> MitozSummary | None:
+    """Best MitoZ ``summary.txt`` for a sample, or ``None`` if missing."""
+    if sample_dir is None or not sample_dir.is_dir():
+        return None
+    summary_path = find_mitoz_summary_txt(sample_dir)
+    if summary_path is None:
+        return None
+    return parse_mitoz_summary(summary_path)
+
+
+def mitoz_results_for_sample_dir(sample_dir: Path | None) -> tuple[bool, str]:
+    """``(assembly_success, length_bp)`` from MitoZ ``summary.txt``."""
+    summary = mitoz_summary_for_sample_dir(sample_dir)
+    if summary is None:
+        return False, "0"
+    return summary.assembly_success, summary.length_bp
 
 
 def assembly_level_for_sample_dir(sample_dir: Path) -> str:
@@ -168,6 +370,73 @@ def assembly_level_for_sample_dir(sample_dir: Path) -> str:
     for novop in novops:
         best = min(best, classify_novoplasty_dir(novop))
     return tier_to_assembly_level(best)
+
+
+def assembly_success_and_length_for_sample_dir(
+    sample_dir: Path | None,
+) -> tuple[bool, str]:
+    """
+    ``(assembly_success, length_bp)`` preferring MitoZ pipeline output when present.
+
+    MitoZ success: circular scaffold 15–17 kbp. NOVOPlasty success: circularized FASTA.
+    """
+    metrics = assembly_metrics_for_sample_dir(sample_dir)
+    return metrics["assembly_success"], metrics["length_bp"]
+
+
+def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
+    """
+    Assembly and annotation metrics for the results CSV.
+
+    Prefers MitoZ ``summary.txt`` when present; otherwise falls back to NOVOPlasty
+    length/success only (gene counts and circularity left empty / False).
+    """
+    empty = {
+        "assembly_success": False,
+        "length_bp": "0",
+        "circularity": "",
+        "num_protein_coding_genes_totally_found": 0,
+        "num_trna_coding_genes_totally_found": 0,
+        "num_rrna_coding_genes_totally_found": 0,
+        "num_genes_totally_found": 0,
+        "ND2_present": False,
+    }
+    if sample_dir is None or not sample_dir.is_dir():
+        return empty
+
+    summary = mitoz_summary_for_sample_dir(sample_dir)
+    if summary is not None:
+        return {
+            "assembly_success": summary.assembly_success,
+            "length_bp": summary.length_bp,
+            "circularity": summary.circularity,
+            "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
+            "num_trna_coding_genes_totally_found": summary.trna_genes,
+            "num_rrna_coding_genes_totally_found": summary.rrna_genes,
+            "num_genes_totally_found": summary.genes_total,
+            "ND2_present": summary.nd2_present,
+        }
+
+    level = assembly_level_for_sample_dir(sample_dir)
+    length_bp = assembly_length_bp_for_sample_dir(sample_dir)
+    success = level == "success"
+    n_lengths = length_bp.count(";") + 1 if length_bp and length_bp != "0" else 0
+    if success and n_lengths:
+        circularity = ";".join(["yes"] * n_lengths)
+    elif n_lengths:
+        circularity = ";".join(["no"] * n_lengths)
+    else:
+        circularity = ""
+    return {
+        "assembly_success": success,
+        "length_bp": length_bp,
+        "circularity": circularity,
+        "num_protein_coding_genes_totally_found": 0,
+        "num_trna_coding_genes_totally_found": 0,
+        "num_rrna_coding_genes_totally_found": 0,
+        "num_genes_totally_found": 0,
+        "ND2_present": False,
+    }
 
 
 def _annotation_files_under(suffix_dir: Path) -> list[Path]:

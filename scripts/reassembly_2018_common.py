@@ -5,7 +5,7 @@ import shutil
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-CHECKLIST = REPO / "mitogenomes_assembled_checklist.md"
+CHECKLIST = REPO / "mitogenome_assembly_checklist.md"
 FASTQ_ROOT = Path("/Volumes/Seagate Por/KAC_mtDNA_reassembly/raw_data")
 OUT_ROOT = REPO / "mitogenomes_output"
 REFSEQ = REPO / "test/refseq/Taeniopygia_guttata_NC_007897.1_mitogenome.fa"

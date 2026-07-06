@@ -15,13 +15,6 @@ from batch_assemble_beringia_birds import (  # noqa: F401 re-export
 
 CHECKLIST_INGEST_PREFIXES = ("final_batch/", "data/final_batch/")
 
-# Downloads subdir name when it differs from canonical directory_name (field # typo).
-DOWNLOADS_DIR_ALIASES: dict[str, str] = {
-    "Lagopus_lagopus_koreni_UAM_28171_KSW5133": (
-        "Lagopus_lagopus_koreni_UAM_28171_KSW5113"
-    ),
-}
-
 
 @dataclass(frozen=True)
 class FinalBatchSample:
@@ -40,8 +33,7 @@ class FinalBatchSample:
 
 
 def downloads_sample_dir(downloads_root: Path, directory_name: str) -> Path:
-    sub = DOWNLOADS_DIR_ALIASES.get(directory_name, directory_name)
-    return downloads_root / sub
+    return downloads_root / directory_name
 
 
 def parse_final_batch_samples(checklist: Path) -> list[FinalBatchSample]:

@@ -2,7 +2,7 @@
 """
 Batch-assemble the 18 pending mitogenomes from ~/Downloads/new_beringia_birds.
 
-Reads sample metadata from the pending-assembly block in mitogenomes_assembled_checklist.md
+Reads sample metadata from the pending-assembly block in mitogenome_assembly_checklist.md
 (Table 1). Uses conda env ``mitogenome-tools`` and ``assemble_mitogenome.py`` with
 ``--skip-bbsplit``, matching batch_assemble_sra.py.
 
@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-CHECKLIST = REPO / "mitogenomes_assembled_checklist.md"
+CHECKLIST = REPO / "mitogenome_assembly_checklist.md"
 FASTQ_ROOT = Path.home() / "Downloads/new_beringia_birds"
 REFSEQ = REPO / "test/refseq/Taeniopygia_guttata_NC_007897.1_mitogenome.fa"
 OUT_ROOT = REPO / "mitogenomes_output"

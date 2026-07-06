@@ -8,8 +8,6 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 
 | Species | Catalog num | Field num | Old directory name | New directory name | multiple datasets? | In Table S1? |
 | - | - | - | - | - | - | - |
-
-
 | *Anas acuta* | UAM 22113 | REW601 | `TransB_REW601_CAGCGATT-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_22113_REW601/` | False | True |
 | *Anas acuta* | UAM 22595 | DDG2122 | `data/final_batch/Anas_acuta_UAM_22595_DDG2122/` | `Anas_acuta_UAM_22595_DDG2122/` | False | True |
 | *Anas acuta* | UAM 23468 | KGM895 | `TransB_KGM895_TAGTGACC-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_23468_KGM895/` | False | True |
@@ -20,29 +18,20 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Anas acuta* | UAM 31205 | JJW1897 | `TransB_JJW1897_CAGCGATT-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UAM_31205_JJW1897/` | False | True |
 | *Anas acuta* | UAM 31335 | UAMX5487 | `data/final_batch/Anas_acuta_UAM_31335_UAMX5487/` | `Anas_acuta_UAM_31335_UAMX5487/` | False | True |
 | *Anas acuta* | UWBM 44114 | DAB055 | `TransB_DAB_055_GCATGTCT-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_acuta_UWBM_44114_DAB055/` | False | True |
-| *Anas carolinensis* | UAM 11251 | UAMX203 | `Sample_UAMX203_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
-| *Anas carolinensis* | UAM 11251 | UAMX203 | `SRR5821115/` | `Anas_carolinensis_UAM_11251_UAMX203/` | False | True |
-| *Anas carolinensis* | UAM 11920 | KSW3040 | `Sample_KSW3040_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_11920_KSW3040/` | False | True |
-| *Anas carolinensis* | UAM 11920 | KSW3040 | `SRR5821114/` | `Anas_carolinensis_UAM_11920_KSW3040/` | False | True |
-| *Anas carolinensis* | UAM 14961 | KGM335 | `Sample_KGM335_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_14961_KGM335/` | False | True |
-| *Anas carolinensis* | UAM 14961 | KGM335 | `SRR5821117/` | `Anas_carolinensis_UAM_14961_KGM335/` | False | True |
+| *Anas carolinensis* | UAM 11251 | UAMX203 | `Sample_UAMX203_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`,`SRR5821115/` | `Anas_carolinensis_UAM_11251_UAMX203/` | True | True |
+| *Anas carolinensis* | UAM 11920 | KSW3040 | `Sample_KSW3040_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`, KSW3040 | `Anas_carolinensis_UAM_11920_KSW3040/` | True | True |
+| *Anas carolinensis* | UAM 14961 | KGM335 | `Sample_KGM335_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`, `SRR5821117/` | `Anas_carolinensis_UAM_14961_KGM335/` | True | True |
 | *Anas carolinensis* | UAM 20635 | KSW4530 | `SRR5821116/` | `Anas_carolinensis_UAM_20635_KSW4530/` | False | True |
 | *Anas carolinensis* | UAM 24497 | JMM448 | `SRR5821086/` | `Anas_carolinensis_UAM_24497_JMM448/` | False | True |
-| *Anas carolinensis* | UAM 28085 | JJW978 | `Sample_JJW978_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_carolinensis_UAM_28085_JJW978/` | False | True |
-| *Anas carolinensis* | UAM 28085 | JJW978 | `SRR5821087/` | `Anas_carolinensis_UAM_28085_JJW978/` | False | True |
+| *Anas carolinensis* | UAM 28085 | JJW978 | `Sample_JJW978_Anas_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`, `SRR5821087/` | `Anas_carolinensis_UAM_28085_JJW978/` | True | True |
 | *Anas carolinensis* | UAM 28444 | UAMX5069 | `SRR5821088/` | `Anas_carolinensis_UAM_28444_UAMX5069/` | False | True |
 | *Anas crecca* | UAM 11334 | KGM021 | `SRR5821083/` | `Anas_crecca_UAM_11334_KGM021/` | False | True |
-| *Anas crecca* | UAM 11335 | KGM020 | `Sample_KGM020_Sterna_paradisea_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_11335_KGM020/` | False | True |
-| *Anas crecca* | UAM 11335 | KGM020 | `SRR5821084/` | `Anas_crecca_UAM_11335_KGM020/` | False | True |
+| *Anas crecca* | UAM 11335 | KGM020 | `Sample_KGM020_Sterna_paradisea_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`,`SRR5821084/` | `Anas_crecca_UAM_11335_KGM020/` | True | True |
 | *Anas crecca* | UAM 14100 | DDG1885 | `SRR5821085/` | `Anas_crecca_UAM_14100_DDG1885/` | False | True |
-| *Anas crecca* | UAM 14666 | DDG1884 | `Sample_DDG1884_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_14666_DDG1884/` | False | True |
-| *Anas crecca* | UAM 14666 | DDG1884 | `SRR5821090/` | `Anas_crecca_UAM_14666_DDG1884/` | False | True |
-| *Anas crecca* | UAM 22853 | KSW4951 | `Sample_KSW4951_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_22853_KSW4951/` | False | True |
-| *Anas crecca* | UAM 22853 | KSW4951 | `SRR5821091/` | `Anas_crecca_UAM_22853_KSW4951/` | False | True |
-| *Anas crecca* | UAM 9191 | DDG1732 | `Sample_DDG1732_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_9191_DDG1732/` | False | True |
-| *Anas crecca* | UAM 9191 | DDG1732 | `SRR5821039/` | `Anas_crecca_UAM_9191_DDG1732/` | False | True |
-| *Anas crecca* | UAM 9255 | DDG1704 | `Sample_DDG1704_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_crecca_UAM_9255_DDG1704/` | False | True |
-| *Anas crecca* | UAM 9255 | DDG1704 | `SRR5821082/` | `Anas_crecca_UAM_9255_DDG1704/` | False | True |
+| *Anas crecca* | UAM 14666 | DDG1884 | `Sample_DDG1884_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`,`SRR5821090/` | `Anas_crecca_UAM_14666_DDG1884/` | True | True |
+| *Anas crecca* | UAM 22853 | KSW4951 | `Sample_KSW4951_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`,`SRR5821091/` | `Anas_crecca_UAM_22853_KSW4951/` | True | True |
+| *Anas crecca* | UAM 9191 | DDG1732 | `Sample_DDG1732_Anas_c_carolinensis_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`, `SRR5821039/` | `Anas_crecca_UAM_9191_DDG1732/` | True | True |
+| *Anas crecca* | UAM 9255 | DDG1704 | `Sample_DDG1704_Anas_c_crecca_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/`, `SRR5821082/` | `Anas_crecca_UAM_9255_DDG1704/` | True | True |
 | *Anas platyrhynchos* | UAM 11193 | KGM007 | `TransB_KGM007_CGAGACTA-TCAGACGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11193_KGM007/` | False | True |
 | *Anas platyrhynchos* | UAM 11328 | DDG1776 | `TransB_DDG1776_CGAGACTA-GGACTAGA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Anas_platyrhynchos_UAM_11328_DDG1776/` | False | True |
 | *Anas platyrhynchos* | UAM 28074 | JJW944 | `data/final_batch/Anas_platyrhynchos_UAM_28074_JJW944/` | `Anas_platyrhynchos_UAM_28074_JJW944/` | False | True |
@@ -172,7 +161,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Lagopus lagopus koreni* | UAM 14834 | KSW5045 | `KSW5045_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_14834_KSW5045/` | False | True |
 | *Lagopus lagopus koreni* | UAM 25139 | KSW5046 | `KSW5046_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_25139_KSW5046/` | False | True |
 | *Lagopus lagopus koreni* | UAM 28169 | KSW5052 | `KSW5052_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_28169_KSW5052/` | False | True |
-| *Lagopus lagopus koreni* | UAM 28171 | KSW5133 | `data/final_batch/Lagopus_lagopus_koreni_UAM_28171_KSW5133/` | `Lagopus_lagopus_koreni_UAM_28171_KSW5133/` | False | True |
+| *Lagopus lagopus koreni* | UAM 28171 | KSW5113 | `data/final_batch/Lagopus_lagopus_koreni_UAM_28171_KSW5113/` | `Lagopus_lagopus_koreni_UAM_28171_KSW5113/` | False | True |
 | *Lagopus lagopus koreni* | UAM 29685 | KSW5082 | `KSW5082_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Lagopus_lagopus_koreni_UAM_29685_KSW5082/` | False | True |
 | *Larus argentatus smithsonianus* | UAM 30575 | JJW1533 | `JJW1533_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_30575_JJW1533/` | False | True |
 | *Larus argentatus smithsonianus* | UAM 35751 | JJW2551 | `JJW2551_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35751_JJW2551/` | False | True |
@@ -221,7 +210,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Leucosticte tephrocotis tephrocotis* | UAM 27288 | JJW873 | `JJW873_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_27288_JJW873/` | False | True |
 | *Leucosticte tephrocotis tephrocotis* | UAM 35598 | JJW2465 | `JJW2465_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465/` | False | True |
 | *Leucosticte tephrocotis tephrocotis* | UAM 35600 | JJW2460 | `JJW2460_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460/` | False | True |
-| *Leucosticte tephrocotis tephrocotis* | UAM 38654 | JJW3204 | `data/final_batch/Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | `Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | False | True |
+| *Leucosticte tephrocotis tephrocotis* | UAM 38654 | JJW3204 | `data/final_batch/Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | `Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | True | True |
 | *Leucosticte tephrocotis umbrina* | FMNH34305 | AF14351 | `AF14351_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351/` | False | True |
 | *Leucosticte tephrocotis umbrina* | UAM 28619 | AF14346 | `AF14346_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346/` | False | True |
 | *Leucosticte tephrocotis umbrina* | UAM 28620 | AF14344 | `AF14344_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344/` | False | True |
@@ -259,10 +248,10 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Mareca penelope* | UAM 8758 | DDG1663 | `SRR5821136/` | `Mareca_penelope_UAM_8758_DDG1663/` | False | True |
 | *Mareca penelope* | UAM 9359 | DDG1703 | `SRR5821137/` | `Mareca_penelope_UAM_9359_DDG1703` | False | True |
 | *Melanitta americana* | UAM 25996 | JJW179 | `TransB_JJW179_GACATGGT-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_25996_JJW179/` | False | True |
-| *Melanitta americana* | UAM 28065 | JJW950 | `TransB_JJW950_CGAGACTA-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_28065_JJW950/` | False | True |
+| *Melanitta americana* | UAM 27720 | JJW950 | `TransB_JJW950_CGAGACTA-GCGATAGT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_27720_JJW950/` | False | True |
 | *Melanitta americana* | UAM 29920 | JJW1388 | `TransB_JJW1388_GACATGGT-CACACATG__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_29920_JJW1388/` | False | True |
 | *Melanitta americana* | UAM 35578 | JJW2276 | `TransB_JJW2276_GACATGGT-AACGGTCA__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_35578_JJW2276/` | False | True |
-| *Melanitta americana* | UAM 35578 | JJW951 | `TransB_JJW951_CGAGACTA-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_35578_JJW951/` | False | True |
+| *Melanitta americana* | UAM 28065 | JJW951 | `TransB_JJW951_CGAGACTA-CTTAGGAC__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UAM_28065_JJW951/` | False | True |
 | *Melanitta americana* | UWBM 43946 | CSW4486 | `TransB_CSW_4486_ACTCCATC-AGAGCCTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Melanitta_americana_UWBM_43946_CSW4486/` | False | True |
 | *Mergus merganser americanus* | UAM 11037 | UAMX1058 | `UAMX1058/` | `Mergus_merganser_americanus_UAM_11037_UAMX1058/` | False | True |
 | *Mergus merganser americanus* | UAM 24305 | UAMX4957 | `UAMX4957_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Mergus_merganser_americanus_UAM_24305_UAMX4957/` | True | True |

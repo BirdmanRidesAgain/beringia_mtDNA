@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild mitogenome_assembly_results.csv from mitogenomes_assembled_checklist.md Table 1."""
+"""Rebuild mitogenome_assembly_results.csv from mitogenome_assembly_checklist.md Table 1."""
 
 from __future__ import annotations
 
@@ -12,16 +12,12 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from mitogenome_paths import (  # noqa: E402
-    ASM_ROOT,
-    DISK_DIRECTORY_ALIASES,
-    annotation_success_for_sample_dir,
-    assembly_length_bp_for_sample_dir,
-    assembly_level_for_sample_dir,
+    assembly_metrics_for_sample_dir,
     resolve_sample_dir,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
-CHECKLIST = ROOT / "mitogenomes_assembled_checklist.md"
+CHECKLIST = ROOT / "mitogenome_assembly_checklist.md"
 CSV_IN = ROOT / "mitogenome_assembly_results.csv"
 CSV_OUT = ROOT / "mitogenome_assembly_results.csv"
 
@@ -65,6 +61,9 @@ LEGACY_DIRECTORY_ALIASES = {
     "Calcarius_lapponicus_alascensis_UAM_29835": "Calcarius_lapponicus_coloratus_UAM_29835",
     "DDG1922_Taeniopygia_guttata_NC_007897.1_mitogenome.fa": "Larus_brachyrhynchus_UAM_14803_DDG1922",
     "Larus_brachyrhynchus_UAM_14803_DDG2122": "Larus_brachyrhynchus_UAM_14803_DDG1922",
+    "Lagopus_lagopus_koreni_UAM_28171_KSW5133": "Lagopus_lagopus_koreni_UAM_28171_KSW5113",
+    "Melanitta_americana_UAM_35578_JJW951": "Melanitta_americana_UAM_28065_JJW951",
+    "Melanitta_americana_UAM_28065_JJW950": "Melanitta_americana_UAM_27720_JJW950",
     "UAM10581_Taeniopygia_guttata_NC_007897.1_mitogenome.fa": "Picoides_tridactylus_UAM_10581",
     "TransB_SVD_422_ACTCCATC-CTCTGGTT__Taeniopygia_guttata_NC_007897.1_mitogenome.fa": (
         "Pinicola_enucleator_kamtschatschensis_UWBM_51642_SVD422"
@@ -76,14 +75,19 @@ LEGACY_DIRECTORY_ALIASES = {
 OUT_COLUMNS = [
     "directory_name",
     "species",
-    "assembly_level",
-    "annotation_success",
+    "assembly_success",
+    "length_bp",
+    "circularity",
+    "num_protein_coding_genes_totally_found",
+    "num_trna_coding_genes_totally_found",
+    "num_rrna_coding_genes_totally_found",
+    "num_genes_totally_found",
+    "ND2_present",
     "catalog_num",
     "field_num",
     "coverage",
     "order",
     "taxon_pair",
-    "length_bp",
 ]
 
 
@@ -179,12 +183,22 @@ def load_csv_index(path: Path) -> tuple[dict[tuple[str, str], dict], dict[str, d
     return by_key, by_dir
 
 
+def parse_legacy_assembly_success(row: dict) -> bool | None:
+    """Read prior success from old or new CSV column names."""
+    if "assembly_success" in row and row["assembly_success"] != "":
+        return str(row["assembly_success"]).strip().lower() in ("true", "1", "yes")
+    level = (row.get("assembly_level") or "").strip()
+    if level:
+        return level == "success"
+    return None
+
+
 def main() -> None:
     checklist = parse_checklist(CHECKLIST)
     by_key, by_dir = load_csv_index(CSV_IN)
 
     out_rows = []
-    level_changes = []
+    success_changes = []
     species_mismatches = []
     dir_missing_on_disk = []
 
@@ -194,22 +208,21 @@ def main() -> None:
         if old:
             coverage = old.get("coverage") or ""
             taxon_pair = old.get("taxon_pair") or ""
-            old_level = old.get("assembly_level") or ""
+            old_success = parse_legacy_assembly_success(old)
             old_species = old.get("species") or ""
         else:
-            coverage = taxon_pair = old_level = old_species = ""
+            coverage = taxon_pair = old_species = ""
+            old_success = None
 
         disk_path = resolve_sample_dir(chk["directory_name"])
-        new_level = assembly_level_for_sample_dir(disk_path) if disk_path else "failed"
-        annotation_success = (
-            annotation_success_for_sample_dir(disk_path) if disk_path else "not_attempted"
-        )
-        length_bp = assembly_length_bp_for_sample_dir(disk_path)
+        metrics = assembly_metrics_for_sample_dir(disk_path)
         if disk_path is None:
             dir_missing_on_disk.append(chk["directory_name"])
 
-        if old_level and new_level and old_level != new_level:
-            level_changes.append((chk["directory_name"], old_level, new_level))
+        if old_success is not None and old_success != metrics["assembly_success"]:
+            success_changes.append(
+                (chk["directory_name"], old_success, metrics["assembly_success"])
+            )
 
         if old_species and old_species != chk["species"] and old_species != "Unknown":
             species_mismatches.append((chk["directory_name"], old_species, chk["species"]))
@@ -218,14 +231,25 @@ def main() -> None:
             {
                 "directory_name": chk["directory_name"],
                 "species": chk["species"],
-                "assembly_level": new_level,
-                "annotation_success": annotation_success,
+                "assembly_success": metrics["assembly_success"],
+                "length_bp": metrics["length_bp"],
+                "circularity": metrics["circularity"],
+                "num_protein_coding_genes_totally_found": metrics[
+                    "num_protein_coding_genes_totally_found"
+                ],
+                "num_trna_coding_genes_totally_found": metrics[
+                    "num_trna_coding_genes_totally_found"
+                ],
+                "num_rrna_coding_genes_totally_found": metrics[
+                    "num_rrna_coding_genes_totally_found"
+                ],
+                "num_genes_totally_found": metrics["num_genes_totally_found"],
+                "ND2_present": metrics["ND2_present"],
                 "catalog_num": chk["catalog_num"],
                 "field_num": chk["field_num"],
                 "coverage": coverage,
                 "order": add_order(chk["species"]),
                 "taxon_pair": taxon_pair,
-                "length_bp": length_bp,
             }
         )
 
@@ -234,12 +258,18 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(out_rows)
 
+    n_true = sum(1 for r in out_rows if r["assembly_success"])
+    n_nd2 = sum(1 for r in out_rows if r["ND2_present"])
+    n_with_genes = sum(1 for r in out_rows if r["num_genes_totally_found"] > 0)
     print(f"Wrote {len(out_rows)} rows to {CSV_OUT}")
-    print(f"assembly_level changes: {len(level_changes)}")
-    for d, old, new in level_changes[:30]:
+    print(f"assembly_success True: {n_true}, False: {len(out_rows) - n_true}")
+    print(f"rows with MitoZ gene counts: {n_with_genes}")
+    print(f"ND2_present True: {n_nd2}")
+    print(f"assembly_success changes: {len(success_changes)}")
+    for d, old, new in success_changes[:30]:
         print(f"  {d}: {old} -> {new}")
-    if len(level_changes) > 30:
-        print(f"  ... and {len(level_changes) - 30} more")
+    if len(success_changes) > 30:
+        print(f"  ... and {len(success_changes) - 30} more")
     print(f"species mismatches (old csv vs checklist): {len(species_mismatches)}")
     for item in species_mismatches:
         print(f"  {item}")
