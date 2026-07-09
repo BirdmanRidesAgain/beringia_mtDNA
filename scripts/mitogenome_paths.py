@@ -11,6 +11,7 @@ ASM_ROOT = REPO / "mitogenomes_output"
 ANNOTATION_FOLDER = "annotation"
 BATCH_LOGS_DIR = ASM_ROOT / "_batch_logs"
 ARCHIVE_ROOT = Path("/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/assembled_mitogenomes")
+SSD_OUTPUT_ROOT = ARCHIVE_ROOT / "mitogenomes_output"
 
 # NOVOPlasty output tiers (lower = better). Matches batch_annotate_assemblies.py.
 TIER_CIRC = 1
@@ -109,18 +110,41 @@ DISK_DIRECTORY_ALIASES: dict[str, str] = {
 }
 
 
+def _nested_ssd_sample_dirs(directory_name: str) -> list[Path]:
+    """``mitogenomes_output/<species_group>/<directory_name>/`` on SSD."""
+    if not SSD_OUTPUT_ROOT.is_dir():
+        return []
+    return sorted(
+        p
+        for p in SSD_OUTPUT_ROOT.glob(f"*/{directory_name}")
+        if p.is_dir() and not p.name.startswith("._")
+    )
+
+
 def resolve_sample_dir(directory_name: str) -> Path | None:
     """
     Return an existing sample dir for a checklist/CSV directory_name.
 
-    Prefers local ``mitogenomes_output/``, then the SSD archive under
-    ``assembled_mitogenomes/``.
+    Prefers local ``mitogenomes_output/``, then SSD ``mitogenomes_output/<group>/``,
+    then the legacy flat SSD archive under ``assembled_mitogenomes/<sample>/``.
     """
     candidates: list[Path] = []
     if directory_name in DISK_DIRECTORY_ALIASES:
         alias_name = DISK_DIRECTORY_ALIASES[directory_name]
-        candidates.extend([ASM_ROOT / alias_name, ARCHIVE_ROOT / alias_name])
-    candidates.extend([ASM_ROOT / directory_name, ARCHIVE_ROOT / directory_name])
+        candidates.extend(
+            [
+                ASM_ROOT / alias_name,
+                ARCHIVE_ROOT / alias_name,
+                *_nested_ssd_sample_dirs(alias_name),
+            ]
+        )
+    candidates.extend(
+        [
+            ASM_ROOT / directory_name,
+            ARCHIVE_ROOT / directory_name,
+            *_nested_ssd_sample_dirs(directory_name),
+        ]
+    )
     for path in candidates:
         if path.is_dir():
             return path
@@ -128,10 +152,25 @@ def resolve_sample_dir(directory_name: str) -> Path | None:
     match = _DIR_SUFFIX_RE.search(directory_name)
     if match:
         suffix = f"_{match.group(1)}_{match.group(2)}_{match.group(3)}"
-        for root in (ASM_ROOT, ARCHIVE_ROOT):
+        for root in (ASM_ROOT, ARCHIVE_ROOT, SSD_OUTPUT_ROOT):
             if not root.is_dir():
                 continue
-            matches = [p for p in root.iterdir() if p.is_dir() and p.name.endswith(suffix)]
+            if root == SSD_OUTPUT_ROOT:
+                matches = [
+                    p
+                    for p in root.glob(f"*/{directory_name}")
+                    if p.is_dir()
+                ]
+                if not matches:
+                    matches = [
+                        p
+                        for group in root.iterdir()
+                        if group.is_dir() and not group.name.startswith("._")
+                        for p in group.iterdir()
+                        if p.is_dir() and p.name.endswith(suffix)
+                    ]
+            else:
+                matches = [p for p in root.iterdir() if p.is_dir() and p.name.endswith(suffix)]
             if len(matches) == 1:
                 return matches[0]
     return None
@@ -222,7 +261,7 @@ def has_mitoz_pipeline_output(sample_dir: Path | None) -> bool:
 
 
 def mitoz_dir_for_sample(sample_dir: Path) -> Path | None:
-    """Local or SSD-archived ``mitoz/`` directory for a sample."""
+    """Local or SSD ``mitoz/`` directory for a resolved sample path."""
     local = sample_dir / "mitoz"
     if local.is_dir():
         return local
@@ -349,6 +388,49 @@ def mitoz_summary_for_sample_dir(sample_dir: Path | None) -> MitozSummary | None
     return parse_mitoz_summary(summary_path)
 
 
+def find_novoplasty_annotation_summary_txt(sample_dir: Path) -> Path | None:
+    """Best ``summary.txt`` under any ``novoplasty_*/annotation/`` tree."""
+    candidates: list[Path] = []
+    for novop in sorted(sample_dir.iterdir()):
+        if not novop.is_dir() or not novop.name.startswith("novoplasty"):
+            continue
+        ann = novop / ANNOTATION_FOLDER
+        if not ann.is_dir():
+            continue
+        for summary in ann.rglob("summary.txt"):
+            if summary.is_file() and not summary.name.startswith("._"):
+                candidates.append(summary)
+    if not candidates:
+        return None
+    return max(candidates, key=_mitoz_summary_score)
+
+
+def novoplasty_annotation_summary_for_sample_dir(
+    sample_dir: Path | None,
+) -> MitozSummary | None:
+    """Parsed annotation ``summary.txt`` from a NOVOPlasty run, if present."""
+    if sample_dir is None or not sample_dir.is_dir():
+        return None
+    summary_path = find_novoplasty_annotation_summary_txt(sample_dir)
+    if summary_path is None:
+        return None
+    return parse_mitoz_summary(summary_path)
+
+
+def _metrics_from_summary(summary: MitozSummary, assembler: str) -> dict:
+    return {
+        "assembly_success": True,
+        "length_bp": summary.length_bp,
+        "circularity": summary.circularity,
+        "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
+        "num_trna_coding_genes_totally_found": summary.trna_genes,
+        "num_rrna_coding_genes_totally_found": summary.rrna_genes,
+        "num_genes_totally_found": summary.genes_total,
+        "ND2_present": summary.nd2_present,
+        "assembler": assembler,
+    }
+
+
 def mitoz_results_for_sample_dir(sample_dir: Path | None) -> tuple[bool, str]:
     """``(assembly_success, length_bp)`` from MitoZ ``summary.txt``."""
     summary = mitoz_summary_for_sample_dir(sample_dir)
@@ -388,8 +470,9 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
     """
     Assembly and annotation metrics for the results CSV.
 
-    Prefers MitoZ ``summary.txt`` when present; otherwise falls back to NOVOPlasty
-    length/success only (gene counts and circularity left empty / False).
+    MitoZ pipeline success sets ``assembler`` to ``mitoz``. Samples without a
+    successful MitoZ assembly are upgraded when a NOVOPlasty
+    ``novoplasty_*/annotation/`` tree contains a ``summary.txt``.
     """
     empty = {
         "assembly_success": False,
@@ -400,14 +483,30 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
         "num_rrna_coding_genes_totally_found": 0,
         "num_genes_totally_found": 0,
         "ND2_present": False,
+        "assembler": "",
     }
     if sample_dir is None or not sample_dir.is_dir():
         return empty
 
     summary = mitoz_summary_for_sample_dir(sample_dir)
     if summary is not None:
+        if summary.assembly_success:
+            return {
+                "assembly_success": True,
+                "length_bp": summary.length_bp,
+                "circularity": summary.circularity,
+                "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
+                "num_trna_coding_genes_totally_found": summary.trna_genes,
+                "num_rrna_coding_genes_totally_found": summary.rrna_genes,
+                "num_genes_totally_found": summary.genes_total,
+                "ND2_present": summary.nd2_present,
+                "assembler": "mitoz",
+            }
+        novo_summary = novoplasty_annotation_summary_for_sample_dir(sample_dir)
+        if novo_summary is not None:
+            return _metrics_from_summary(novo_summary, "novoplasty")
         return {
-            "assembly_success": summary.assembly_success,
+            "assembly_success": False,
             "length_bp": summary.length_bp,
             "circularity": summary.circularity,
             "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
@@ -415,20 +514,21 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
             "num_rrna_coding_genes_totally_found": summary.rrna_genes,
             "num_genes_totally_found": summary.genes_total,
             "ND2_present": summary.nd2_present,
+            "assembler": "",
         }
 
-    level = assembly_level_for_sample_dir(sample_dir)
+    novo_summary = novoplasty_annotation_summary_for_sample_dir(sample_dir)
+    if novo_summary is not None:
+        return _metrics_from_summary(novo_summary, "novoplasty")
+
     length_bp = assembly_length_bp_for_sample_dir(sample_dir)
-    success = level == "success"
     n_lengths = length_bp.count(";") + 1 if length_bp and length_bp != "0" else 0
-    if success and n_lengths:
-        circularity = ";".join(["yes"] * n_lengths)
-    elif n_lengths:
+    if n_lengths:
         circularity = ";".join(["no"] * n_lengths)
     else:
         circularity = ""
     return {
-        "assembly_success": success,
+        "assembly_success": False,
         "length_bp": length_bp,
         "circularity": circularity,
         "num_protein_coding_genes_totally_found": 0,
@@ -436,6 +536,7 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
         "num_rrna_coding_genes_totally_found": 0,
         "num_genes_totally_found": 0,
         "ND2_present": False,
+        "assembler": "",
     }
 
 

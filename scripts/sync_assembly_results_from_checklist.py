@@ -76,6 +76,7 @@ OUT_COLUMNS = [
     "directory_name",
     "species",
     "assembly_success",
+    "assembler",
     "length_bp",
     "circularity",
     "num_protein_coding_genes_totally_found",
@@ -232,6 +233,7 @@ def main() -> None:
                 "directory_name": chk["directory_name"],
                 "species": chk["species"],
                 "assembly_success": metrics["assembly_success"],
+                "assembler": metrics["assembler"],
                 "length_bp": metrics["length_bp"],
                 "circularity": metrics["circularity"],
                 "num_protein_coding_genes_totally_found": metrics[
@@ -259,10 +261,13 @@ def main() -> None:
         writer.writerows(out_rows)
 
     n_true = sum(1 for r in out_rows if r["assembly_success"])
+    n_mitoz = sum(1 for r in out_rows if r["assembler"] == "mitoz")
+    n_novoplasty = sum(1 for r in out_rows if r["assembler"] == "novoplasty")
     n_nd2 = sum(1 for r in out_rows if r["ND2_present"])
     n_with_genes = sum(1 for r in out_rows if r["num_genes_totally_found"] > 0)
     print(f"Wrote {len(out_rows)} rows to {CSV_OUT}")
     print(f"assembly_success True: {n_true}, False: {len(out_rows) - n_true}")
+    print(f"assembler mitoz: {n_mitoz}, novoplasty: {n_novoplasty}, unset: {len(out_rows) - n_mitoz - n_novoplasty}")
     print(f"rows with MitoZ gene counts: {n_with_genes}")
     print(f"ND2_present True: {n_nd2}")
     print(f"assembly_success changes: {len(success_changes)}")

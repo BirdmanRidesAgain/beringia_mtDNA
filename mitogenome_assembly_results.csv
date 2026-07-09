@@ -1,419 +1,419 @@
-directory_name,species,assembly_success,length_bp,circularity,num_protein_coding_genes_totally_found,num_trna_coding_genes_totally_found,num_rrna_coding_genes_totally_found,num_genes_totally_found,ND2_present,catalog_num,field_num,coverage,order,taxon_pair
-Anas_acuta_UAM_22113_REW601,Anas acuta,False,2208;1929;1734;1065,no;no;no;no,11,12,0,23,True,UAM22113,REW601,9.8,Anseriformes,Anas acuta
-Anas_acuta_UAM_22595_DDG2122,Anas acuta,False,1206;1157,no;no,4,5,0,9,True,UAM22595,DDG2122,12.1,Anseriformes,Anas acuta
-Anas_acuta_UAM_23468_KGM895,Anas acuta,False,15767,no,13,21,2,36,True,UAM23468,KGM895,48.3,Anseriformes,Anas acuta
-Anas_acuta_UAM_28156_KSW5107,Anas acuta,False,9519,no,10,15,2,27,True,UAM28156,KSW5107,31.3,Anseriformes,Anas acuta
-Anas_acuta_UAM_28167_KSW5120,Anas acuta,False,6837,no,6,12,1,19,True,UAM28167,KSW5120,23.2,Anseriformes,Anas acuta
-Anas_acuta_UAM_29039_REW548,Anas acuta,False,2580;1310,no;no,6,6,0,12,False,UAM29039,REW548,22.8,Anseriformes,Anas acuta
-Anas_acuta_UAM_30400_KSW5391,Anas acuta,False,0,,0,0,0,0,False,UAM30400,KSW5391,4.3,Anseriformes,Anas acuta
-Anas_acuta_UAM_31205_JJW1897,Anas acuta,False,2915;1043,no;no,6,4,0,10,False,UAM31205,JJW1897,17.4,Anseriformes,Anas acuta
-Anas_acuta_UAM_31335_UAMX5487,Anas acuta,True,16599,yes,13,22,2,37,True,UAM31335,UAMX5487,37.6,Anseriformes,Anas acuta
-Anas_acuta_UWBM_44114_DAB055,Anas acuta,False,16759,no,13,22,2,37,True,UWBM44114,DAB055,66.6,Anseriformes,Anas acuta
-Anas_carolinensis_UAM_11251_UAMX203,Anas carolinensis,True,16603,yes,14,22,2,38,True,UAM11251,UAMX203,50.2,Anseriformes,Anas c
-Anas_carolinensis_UAM_11920_KSW3040,Anas carolinensis,True,16601,yes,13,22,2,37,True,UAM11920,KSW3040,176.5,Anseriformes,Anas c
-Anas_carolinensis_UAM_14961_KGM335,Anas carolinensis,True,16602,yes,14,22,2,38,True,UAM14961,KGM335,320.8,Anseriformes,Anas c
-Anas_carolinensis_UAM_20635_KSW4530,Anas carolinensis,False,0,,0,0,0,0,False,UAM20635,KSW4530,119.2,Anseriformes,Anas c
-Anas_carolinensis_UAM_24497_JMM448,Anas carolinensis,False,0,,0,0,0,0,False,UAM24497,JMM448,34.1,Anseriformes,Anas c
-Anas_carolinensis_UAM_28085_JJW978,Anas carolinensis,True,16604,yes,13,22,2,37,True,UAM28085,JJW978,76,Anseriformes,Anas c
-Anas_carolinensis_UAM_28444_UAMX5069,Anas carolinensis,False,0,,0,0,0,0,False,UAM28444,UAMX5069,177.9,Anseriformes,Anas c
-Anas_crecca_UAM_11334_KGM021,Anas crecca,False,0,,0,0,0,0,False,UAM11334,KGM021,142.1,Anseriformes,Anas c
-Anas_crecca_UAM_11335_KGM020,Anas crecca,True,16598,yes,13,22,2,37,True,UAM11335,KGM020,481.6,Anseriformes,Anas c
-Anas_crecca_UAM_14100_DDG1885,Anas crecca,False,0,,0,0,0,0,False,UAM14100,DDG1885,312.5,Anseriformes,Anas c
-Anas_crecca_UAM_14666_DDG1884,Anas crecca,True,16598,yes,13,22,3,38,True,UAM14666,DDG1884,104.3,Anseriformes,Anas c
-Anas_crecca_UAM_22853_KSW4951,Anas crecca,False,16653,no,13,22,2,37,True,UAM22853,KSW4951,304.6,Anseriformes,Anas c
-Anas_crecca_UAM_9191_DDG1732,Anas crecca,False,16658,no,13,22,2,37,True,UAM9191,DDG1732,1282.9,Anseriformes,Anas c
-Anas_crecca_UAM_9255_DDG1704,Anas crecca,True,16598,yes,13,22,2,37,True,UAM9255,DDG1704,459.4,Anseriformes,Anas c
-Anas_platyrhynchos_UAM_11193_KGM007,Anas platyrhynchos,True,16604,yes,13,21,2,36,True,UAM11193,KGM007,127.2,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_11328_DDG1776,Anas platyrhynchos,False,4782;3892;2848,no;no;no,11,11,3,25,False,UAM11328,DDG1776,23.9,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_28074_JJW944,Anas platyrhynchos,True,16608,yes,13,22,2,37,True,UAM28074,JJW944,81.1,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_28089_JJW943,Anas platyrhynchos,True,16604,yes,13,22,2,37,True,UAM28089,JJW943,89.9,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_29647_JJW1397,Anas platyrhynchos,False,5990;3302;2190,no;no;no,9,13,3,25,False,UAM29647,JJW1397,48.3,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_30286_JJW1602,Anas platyrhynchos,False,2703;2211;2114,no;no;no,8,11,1,20,True,UAM30286,JJW1602,22.8,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_30290_JJW1592,Anas platyrhynchos,True,16605,yes,13,21,2,36,True,UAM30290,JJW1592,20.4,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_30399_KSW5390,Anas platyrhynchos,False,1171,no,2,3,0,5,False,UAM30399,KSW5390,5,Anseriformes,Anas p
-Anas_platyrhynchos_UAM_31321_UAMX5540,Anas platyrhynchos,False,4222;1883,no;no,8,11,0,19,True,UAM31321,UAMX5540,25.4,Anseriformes,Anas p
-Anas_platyrhynchos_UWBM_44374_JMB1220,Anas platyrhynchos,False,3804;2114,no;no,8,6,0,14,False,UWBM44374,JMB1220,36.7,Anseriformes,Anas p
-Anas_platyrhynchos_UWBM_47068_CSW4828,Anas platyrhynchos,False,7159;6071,no;no,12,19,2,33,True,UWBM47068,CSW4828,16.4,Anseriformes,Anas p
-Anas_platyrhynchos_UWBM_47160_SAR6383,Anas platyrhynchos,False,6231,no,6,5,0,11,False,UWBM47160,SAR6383,31.6,Anseriformes,Anas p
-Anser_albifrons_UAM_27372_JJW884,Anser albifrons,False,4972,no,7,7,0,14,False,UAM27372,JJW884,22.2,Anseriformes,Anser
-Anser_albifrons_UAM_30571_JJW1495,Anser albifrons,False,5277,no,5,5,0,10,False,UAM30571,JJW1495,32.6,Anseriformes,Anser
-Anser_albifrons_UAM_34089_KSW4176,Anser albifrons,False,12646;1838,no;no,11,17,3,31,False,UAM34089,KSW4176,11.5,Anseriformes,Anser
-Anser_albifrons_UAM_35427_JJW2405,Anser albifrons,False,16397,no,13,22,2,37,True,UAM35427,JJW2405,70.5,Anseriformes,Anser
-Anser_albifrons_UAM_35428_JJW2413,Anser albifrons,False,1254;1099;1001,no;no;no,7,2,0,9,False,UAM35428,JJW2413,7.6,Anseriformes,Anser
-Anser_albifrons_UWBM_43977_CSW4521,Anser albifrons,True,16743,yes,13,22,2,37,True,UWBM43977,CSW4521,83.9,Anseriformes,Anser
-Anser_albifrons_UWBM_43978_CSW4522,Anser albifrons,False,17363,no,13,22,2,37,True,UWBM43978,CSW4522,56.9,Anseriformes,Anser
-Anser_albifrons_UWBM_71170_SVD1426,Anser albifrons,False,5819,no,6,7,0,13,False,UWBM71170,SVD1426,94.6,Anseriformes,Anser
-Anthus_rubescens_japonicus_UAM_13353_DDG1877,Anthus rubescens japonicus,False,0,,0,0,0,0,False,UAM13353,DDG1877,3.2,Passeriformes,Anthus
-Anthus_rubescens_japonicus_UAM_15068_KSW3980,Anthus rubescens japonicus,False,7431,no,7,8,0,15,False,UAM15068,KSW3980,15.4,Passeriformes,Anthus
-Anthus_rubescens_japonicus_UAM_27351_JJW864,Anthus rubescens japonicus,False,16835,no,13,22,2,37,True,UAM27351,JJW864,25.3,Passeriformes,Anthus
-Anthus_rubescens_japonicus_UAM_28057_JJW905,Anthus rubescens japonicus,False,33627,no,26,44,4,74,True,UAM28057,JJW905,246.9,Passeriformes,Anthus
-Anthus_rubescens_japonicus_UAM_39615_JJW3455,Anthus rubescens japonicus,False,6617,no,8,5,0,13,False,UAM39615,JJW3455,258.3,Passeriformes,Anthus
-Anthus_rubescens_pacificus_UAM_11452_CLP200,Anthus rubescens pacificus,True,16741,yes,13,22,2,37,True,UAM11452,CLP200,33.3,Passeriformes,Anthus
-Anthus_rubescens_pacificus_UAM_13540_RWD25949,Anthus rubescens pacificus,False,2086;1136,no;no,3,6,0,9,False,UAM13540,RWD25949,4.3,Passeriformes,Anthus
-Anthus_rubescens_pacificus_UAM_19419_MJM037,Anthus rubescens pacificus,False,10043,no,11,16,0,27,True,UAM19419,MJM037,13.2,Passeriformes,Anthus
-Anthus_rubescens_pacificus_UAM_31927_JJW2045,Anthus rubescens pacificus,False,0,,0,0,0,0,False,UAM31927,JJW2045,1.7,Passeriformes,Anthus
-Anthus_rubescens_pacificus_UAM_31928_JJW2046,Anthus rubescens pacificus,False,16859,no,13,22,2,37,True,UAM31928,JJW2046,15.5,Passeriformes,Anthus
-Arenaria_interpres_UAM_13527_UAMX1744,Arenaria interpres,False,14418,no,12,19,2,33,True,UAM13527,UAMX1744,76.7,Charadriiformes,Arenaria
-Arenaria_interpres_UAM_14954_DAR268,Arenaria interpres,False,2381;1413;1322,no;no;no,5,13,0,18,False,UAM14954,DAR268,20,Charadriiformes,Arenaria
-Arenaria_interpres_UAM_20220_JMM422,Arenaria interpres,False,1840;1386;1098,no;no;no,6,9,0,15,True,UAM20220,JMM422,8.2,Charadriiformes,Arenaria
-Arenaria_interpres_UAM_26977_JJW676,Arenaria interpres,False,14647,no,12,19,2,33,True,UAM26977,JJW676,112.8,Charadriiformes,Arenaria
-Arenaria_interpres_UAM_30797_JJW1637,Arenaria interpres,False,14582,no,12,19,2,33,True,UAM30797,JJW1637,178.8,Charadriiformes,Arenaria
-Arenaria_melanocephala_UAM_20142_JMM326,Arenaria melanocephala,False,10310,no,12,16,0,28,True,UAM20142,JMM326,141,Charadriiformes,Arenaria
-Arenaria_melanocephala_UAM_28748_JJW1153,Arenaria melanocephala,False,1609;1395;1111,no;no;no,4,9,1,14,False,UAM28748,JJW1153,5,Charadriiformes,Arenaria
-Arenaria_melanocephala_UAM_40266_JJW3588,Arenaria melanocephala,False,14525,no,12,19,2,33,True,UAM40266,JJW3588,449.8,Charadriiformes,Arenaria
-Aythya_marila_UAM_18068_JJW325,Aythya marila,True,16616,yes,13,22,2,37,True,UAM18068,JJW325,111.9,Anseriformes,Aythya
-Aythya_marila_UAM_28067_JJW324,Aythya marila,True,16616,yes,13,22,2,37,True,UAM28067,JJW324,163.1,Anseriformes,Aythya
-Aythya_marila_UAM_29987_UAMX5077,Aythya marila,True,16620,yes,13,22,2,37,True,UAM29987,UAMX5077,183.8,Anseriformes,Aythya
-Aythya_marila_UAM_30392_KSW5394,Aythya marila,False,0,,0,0,0,0,False,UAM30392,KSW5394,2.6,Anseriformes,Aythya
-Aythya_marila_UAM_30393_KSW5396,Aythya marila,False,1254,no,2,3,0,5,False,UAM30393,KSW5396,7.2,Anseriformes,Aythya
-Aythya_marila_UAM_30394_KSW5393,Aythya marila,False,1409,no,2,3,0,5,False,UAM30394,KSW5393,8.7,Anseriformes,Aythya
-Aythya_marila_UAM_30395_KSW5385,Aythya marila,False,1627,no,2,4,0,6,True,UAM30395,KSW5385,24.8,Anseriformes,Aythya
-Aythya_marila_UAM_30396_KSW5395,Aythya marila,False,0,,0,0,0,0,False,UAM30396,KSW5395,2.3,Anseriformes,Aythya
-Aythya_marila_UAM_30915_UAMX5076,Aythya marila,False,16578,no,13,22,2,37,True,UAM30915,UAMX5076,151.9,Anseriformes,Aythya
-Aythya_marila_UAM_35653_REW611,Aythya marila,True,16618,yes,13,22,2,37,True,UAM35653,REW611,127.3,Anseriformes,Aythya
-Calcarius_lapponicus_alascensis_UAM_13337_RWD25944,Calcarius lapponicus alascensis,False,2230,no,2,5,0,7,True,UAM13337,RWD25944,9.4,Passeriformes,Calcarius
-Calcarius_lapponicus_alascensis_UAM_19614_CLP051,Calcarius lapponicus alascensis,False,1443;1095,no;no,5,6,0,11,True,UAM19614,CLP051,12.3,Passeriformes,Calcarius
-Calcarius_lapponicus_alascensis_UAM_7653_KSW1821,Calcarius lapponicus alascensis,False,1656;1167,no;no,4,6,0,10,False,UAM7653,KSW1821,4.1,Passeriformes,Calcarius
-Calcarius_lapponicus_alascensis_UAM_9407_CLP038,Calcarius lapponicus alascensis,False,14776,no,9,20,2,31,True,UAM9407,CLP038,74.8,Passeriformes,Calcarius
-Calcarius_lapponicus_alascensis_UAM_9525_CLP048,Calcarius lapponicus alascensis,False,10429,no,10,15,1,26,True,UAM9525,CLP048,40,Passeriformes,Calcarius
-Calcarius_lapponicus_coloratus_UAM_29825_UAM29825,Calcarius lapponicus coloratus,False,1785,no,2,5,0,7,True,UAM29825,UAM29825,25.6,Passeriformes,Calcarius
-Calcarius_lapponicus_coloratus_UAM_29827_UAM29827,Calcarius lapponicus coloratus,False,1271,no,1,0,0,1,False,UAM29827,UAM29827,8.5,Passeriformes,Calcarius
-Calidris_alpina_arcticola_UAM_19815_JJW4411,Calidris alpina arcticola,False,2237,no,2,3,0,5,False,UAM19815,JJW4411,3.3,Charadriiformes,Calidris
-Calidris_alpina_arcticola_UAM_20132_UAMX3267,Calidris alpina arcticola,False,8026;1109,no;no,10,15,1,26,True,UAM20132,UAMX3267,26.7,Charadriiformes,Calidris
-Calidris_alpina_arcticola_UAM_25341_JJW4409,Calidris alpina arcticola,False,0,,0,0,0,0,False,UAM25341,JJW4409,18.9,Charadriiformes,Calidris
-Calidris_alpina_pacifica_UAM_26913_JJW016,Calidris alpina pacifica,False,19217,no,14,25,2,41,True,UAM26913,JJW016,249,Charadriiformes,Calidris
-Calidris_alpina_pacifica_UAM_26914_JJW015,Calidris alpina pacifica,False,0,,0,0,0,0,False,UAM26914,JJW015,14.8,Charadriiformes,Calidris
-Calidris_alpina_pacifica_UAM_27576_JJW704,Calidris alpina pacifica,False,1082;1045;1016,no;no;no,3,2,1,6,False,UAM27576,JJW704,22.2,Charadriiformes,Calidris
-Calidris_alpina_pacifica_UAM_30313_JJW1490,Calidris alpina pacifica,False,8338;1530,no;no,7,15,2,24,True,UAM30313,JJW1490,21.7,Charadriiformes,Calidris
-Calidris_alpina_pacifica_UAM_30879_JJW1821,Calidris alpina pacifica,False,19061,yes,14,25,2,41,True,UAM30879,JJW1821,54.7,Charadriiformes,Calidris
-Clangula_hyemalis_UAM_21883_REW583,Clangula hyemalis,False,0,,0,0,0,0,False,UAM21883,REW583,250.2,Anseriformes,Clangula
-Clangula_hyemalis_UAM_21931_REW532,Clangula hyemalis,False,0,,0,0,0,0,False,UAM21931,REW532,437.8,Anseriformes,Clangula
-Clangula_hyemalis_UAM_28184_REW619,Clangula hyemalis,False,0,,0,0,0,0,False,UAM28184,REW619,295.8,Anseriformes,Clangula
-Clangula_hyemalis_UAM_29027_REW618,Clangula hyemalis,False,0,,0,0,0,0,False,UAM29027,REW618,251,Anseriformes,Clangula
-Clangula_hyemalis_UAM_29029_REW620,Clangula hyemalis,False,0,,0,0,0,0,False,UAM29029,REW620,3382.7,Anseriformes,Clangula
-Clangula_hyemalis_UAM_40387_REW564,Clangula hyemalis,False,0,,0,0,0,0,False,UAM40387,REW564,141.8,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43893_CSW4426,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43893,CSW4426,132.9,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43894_CSW4427,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43894,CSW4427,209.9,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43895_CSW4428,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43895,CSW4428,208.9,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43917_CSW4452,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43917,CSW4452,407.5,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43918_CSW4453,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43918,CSW4453,351.8,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43919_CSW4454,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43919,CSW4454,264.4,Anseriformes,Clangula
-Clangula_hyemalis_UWBM_43970_CSW4514,Clangula hyemalis,False,0,,0,0,0,0,False,UWBM43970,CSW4514,124.1,Anseriformes,Clangula
-Corvus_corax_UAM_10021_DDG1749,Corvus corax,False,1107,no,1,0,0,1,False,UAM10021,DDG1749,5.5,Passeriformes,Corvus
-Corvus_corax_UAM_11113_UAMX1061,Corvus corax,False,2561;2257;1616,no;no;no,9,9,0,18,False,UAM11113,UAMX1061,5.5,Passeriformes,Corvus
-Corvus_corax_UAM_15040_RWD26009,Corvus corax,False,0,,0,0,0,0,False,UAM15040,RWD26009,4.4,Passeriformes,Corvus
-Corvus_corax_UAM_17737_TB1445,Corvus corax,False,0,,0,0,0,0,False,UAM17737,TB1445,2.6,Passeriformes,Corvus
-Corvus_corax_UAM_17761_JMM133,Corvus corax,False,1519,no,4,2,0,6,False,UAM17761,JMM133,4.2,Passeriformes,Corvus
-Corvus_corax_UAM_22252_KSW4763,Corvus corax,False,16640,no,13,22,2,37,True,UAM22252,KSW4763,9.8,Passeriformes,Corvus
-Corvus_corax_UAM_38000_JJW2991,Corvus corax,True,16931,yes,13,22,2,37,True,UAM38000,JJW2991,48.3,Passeriformes,Corvus
-Corvus_corax_UAM_39709_JJW3401,Corvus corax,False,1661;1345,no;no,2,5,0,7,True,UAM39709,JJW3401,58.2,Passeriformes,Corvus
-Corvus_corax_UAM_41600_JJW4373,Corvus corax,False,2701;1615,no;no,8,6,0,14,False,UAM41600,JJW4373,3.2,Passeriformes,Corvus
-Corvus_corax_UAM_8803_KSW2715,Corvus corax,False,1616;1298;1040,no;no;no,7,3,0,10,False,UAM8803,KSW2715,8.1,Passeriformes,Corvus
-Corvus_corax_UAM_9313_UAMX844,Corvus corax,False,4180,no,7,3,0,10,False,UAM9313,UAMX844,9.8,Passeriformes,Corvus
-Corvus_corax_UWBM_46861_BKS908,Corvus corax,False,0,,0,0,0,0,False,UWBM46861,BKS908,3.3,Passeriformes,Corvus
-Corvus_corax_UWBM_56544_BKS3241,Corvus corax,False,0,,0,0,0,0,False,UWBM56544,BKS3241,1.5,Passeriformes,Corvus
-Corvus_corax_UWBM_57899_BKS4041,Corvus corax,False,0,,0,0,0,0,False,UWBM57899,BKS4041,2.6,Passeriformes,Corvus
-Corvus_corax_UWBM_57909_BKS4052,Corvus corax,False,1506;1441,no;no,2,4,0,6,False,UWBM57909,BKS4052,5.3,Passeriformes,Corvus
-Corvus_corax_UWBM_59566_SVD1398,Corvus corax,False,0,,0,0,0,0,False,UWBM59566,SVD1398,9,Passeriformes,Corvus
-Corvus_corax_UWBM_71244_SVD231a,Corvus corax,False,0,,0,0,0,0,False,UWBM71244,SVD231a,2.2,Passeriformes,Corvus
-Gallinago_delicata_UAM_15063_DDG1945,Gallinago delicata,False,0,,0,0,0,0,False,UAM15063,DDG1945,2.1,Charadriiformes,Gallinago
-Gallinago_delicata_UAM_19231_DDG2021,Gallinago delicata,False,0,,0,0,0,0,False,UAM19231,DDG2021,2.2,Charadriiformes,Gallinago
-Gallinago_delicata_UAM_20505_DDG2035,Gallinago delicata,False,15269,no,13,21,2,36,True,UAM20505,DDG2035,55,Charadriiformes,Gallinago
-Gallinago_delicata_UAM_22570_DDG2118,Gallinago delicata,True,16768,yes,13,22,2,37,True,UAM22570,DDG2118,31.9,Charadriiformes,Gallinago
-Gallinago_delicata_UAM_30488_JJW1536,Gallinago delicata,False,0,,0,0,0,0,False,UAM30488,JJW1536,1.6,Charadriiformes,Gallinago
-Gallinago_gallinago_gallinago_UAM_21848_CLP713,Gallinago gallinago gallinago,False,9430,no,11,11,0,22,False,UAM21848,CLP713,9.8,Charadriiformes,Gallinago
-Gallinago_gallinago_gallinago_UAM_24695_KSW5126,Gallinago gallinago gallinago,False,16963,no,13,22,2,37,True,UAM24695,KSW5126,33.9,Charadriiformes,Gallinago
-Gallinago_gallinago_gallinago_UAM_26800_JJW158,Gallinago gallinago gallinago,False,0,,0,0,0,0,False,UAM26800,JJW158,1.5,Charadriiformes,Gallinago
-Gallinago_gallinago_gallinago_UAM_28175_KSW5134,Gallinago gallinago gallinago,False,0,,0,0,0,0,False,UAM28175,KSW5134,1.9,Charadriiformes,Gallinago
-Gallinago_gallinago_gallinago_UAM_8228_DDG1650,Gallinago gallinago gallinago,False,0,,0,0,0,0,False,UAM8228,DDG1650,1.8,Charadriiformes,Gallinago
-Gavia_stellata_UAM_13601_DAR275,Gavia stellata,False,2604;1764;1032,no;no;no,4,7,1,12,False,UAM13601,DAR275,4.5,Gaviiformes,Gavia
-Gavia_stellata_UAM_20711_KGM628,Gavia stellata,False,16194,no,13,22,2,37,True,UAM20711,KGM628,30.2,Gaviiformes,Gavia
-Gavia_stellata_UAM_38314_UAMX3952,Gavia stellata,False,11319,no,12,16,0,28,True,UAM38314,UAMX3952,67.4,Gaviiformes,Gavia
-Gavia_stellata_UAM_40093_UAMX6608,Gavia stellata,False,2156;1712,no;no,6,6,0,12,False,UAM40093,UAMX6608,44.7,Gaviiformes,Gavia
-Gavia_stellata_UAM_40094_JJW3574,Gavia stellata,False,2633;1411,no;no,8,5,0,13,False,UAM40094,JJW3574,41,Gaviiformes,Gavia
-Gavia_stellata_UWBM_43925_CSW4461,Gavia stellata,False,6070,no,9,8,0,17,False,UWBM43925,CSW4461,14.1,Gaviiformes,Gavia
-Gavia_stellata_UWBM_44122_DAB063,Gavia stellata,False,0,,0,0,0,0,False,UWBM44122,DAB063,NA,Gaviiformes,Gavia
-Gavia_stellata_UWBM_44259_JMB1098,Gavia stellata,False,5650;2046;1676,no;no;no,11,11,1,23,False,UWBM44259,JMB1098,9.3,Gaviiformes,Gavia
-Gavia_stellata_UWBM_44260_JMB1099,Gavia stellata,False,1329,no,1,2,1,4,False,UWBM44260,JMB1099,2.9,Gaviiformes,Gavia
-Gavia_stellata_UWBM_44653_SAR6293,Gavia stellata,False,1064,no,3,1,0,4,False,UWBM44653,SAR6293,3.2,Gaviiformes,Gavia
-Histrionicus_histrionicus_UAM_11799_DDG1754,Histrionicus histrionicus,False,7426,no,7,8,0,15,False,UAM11799,DDG1754,22,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UAM_11800_DDG1753,Histrionicus histrionicus,False,7480;5376,no;no,12,19,2,33,False,UAM11800,DDG1753,19,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UAM_11801_DDG1755,Histrionicus histrionicus,False,0,,0,0,0,0,False,UAM11801,DDG1755,1.9,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UAM_36745_KGM641,Histrionicus histrionicus,False,10913,no,11,16,0,27,True,UAM36745,KGM641,13.5,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UAM_40488_JJW3694,Histrionicus histrionicus,False,0,,0,0,0,0,False,UAM40488,JJW3694,2,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UAM_9600_KSW2979,Histrionicus histrionicus,False,0,,0,0,0,0,False,UAM9600,KSW2979,2.3,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UWBM_44446_SAR6074,Histrionicus histrionicus,False,13096,no,11,14,2,27,True,UWBM44446,SAR6074,40.8,Anseriformes,Histrionicus
-Histrionicus_histrionicus_UWBM_82975_RYA1002,Histrionicus histrionicus,False,16902,no,13,22,2,37,True,UWBM82975,RYA1002,79.3,Anseriformes,Histrionicus
-Lagopus_lagopus_alascensis_UAM_27018_JJW711,Lagopus lagopus alascensis,False,3393,no,1,3,2,6,False,UAM27018,JJW711,15.1,Galliformes,Lagopus
-Lagopus_lagopus_alascensis_UAM_28238_TB349,Lagopus lagopus alascensis,False,1449,no,1,1,1,3,False,UAM28238,TB349,32,Galliformes,Lagopus
-Lagopus_lagopus_alascensis_UAM_31562_JJW1970,Lagopus lagopus alascensis,False,3833,no,3,9,1,13,True,UAM31562,JJW1970,21.5,Galliformes,Lagopus
-Lagopus_lagopus_alascensis_UAM_36927_JJW2909,Lagopus lagopus alascensis,False,0,,0,0,0,0,False,UAM36927,JJW2909,15.2,Galliformes,Lagopus
-Lagopus_lagopus_alascensis_UAM_39209_JJW3352,Lagopus lagopus alascensis,False,1561,no,1,2,1,4,False,UAM39209,JJW3352,9,Galliformes,Lagopus
-Lagopus_lagopus_koreni_UAM_14834_KSW5045,Lagopus lagopus koreni,False,3106,no,2,6,1,9,True,UAM14834,KSW5045,20.7,Galliformes,Lagopus
-Lagopus_lagopus_koreni_UAM_25139_KSW5046,Lagopus lagopus koreni,False,15410,no,13,21,2,36,True,UAM25139,KSW5046,63.2,Galliformes,Lagopus
-Lagopus_lagopus_koreni_UAM_28169_KSW5052,Lagopus lagopus koreni,False,1305,no,1,1,1,3,False,UAM28169,KSW5052,32.3,Galliformes,Lagopus
-Lagopus_lagopus_koreni_UAM_28171_KSW5113,Lagopus lagopus koreni,False,1630,no,1,3,1,5,False,UAM28171,KSW5113,28.2,Galliformes,Lagopus
-Lagopus_lagopus_koreni_UAM_29685_KSW5082,Lagopus lagopus koreni,False,0,,0,0,0,0,False,UAM29685,KSW5082,2.3,Galliformes,Lagopus
-Larus_argentatus_smithsonianus_UAM_30575_JJW1533,Larus argentatus smithsonianus,False,9440,no,10,9,0,19,False,UAM30575,JJW1533,6.8,Charadriiformes,Larus a
-Larus_argentatus_smithsonianus_UAM_35751_JJW2551,Larus argentatus smithsonianus,False,0,,0,0,0,0,False,UAM35751,JJW2551,2.6,Charadriiformes,Larus a
-Larus_argentatus_smithsonianus_UAM_35753_JJW2549,Larus argentatus smithsonianus,False,0,,0,0,0,0,False,UAM35753,JJW2549,2.5,Charadriiformes,Larus a
-Larus_argentatus_smithsonianus_UAM_35754_JJW2548,Larus argentatus smithsonianus,False,19094,no,14,25,2,41,True,UAM35754,JJW2548,28.1,Charadriiformes,Larus a
-Larus_argentatus_vegae_UAM_25983_JJW343,Larus argentatus vegae,False,0,,0,0,0,0,False,UAM25983,JJW343,1.9,Charadriiformes,Larus a
-Larus_argentatus_vegae_UAM_25984_JJW257,Larus argentatus vegae,False,15862,no,13,22,2,37,True,UAM25984,JJW257,13.1,Charadriiformes,Larus a
-Larus_argentatus_vegae_UAM_25987_JJW224,Larus argentatus vegae,False,0,,0,0,0,0,False,UAM25987,JJW224,1.4,Charadriiformes,Larus a
-Larus_argentatus_vegae_UAM_26660_KSW5044,Larus argentatus vegae,False,14808,no,12,19,2,33,True,UAM26660,KSW5044,84.5,Charadriiformes,Larus a
-Larus_argentatus_vegae_UAM_28162_KSW5090,Larus argentatus vegae,False,14585,no,12,19,2,33,True,UAM28162,KSW5090,67.2,Charadriiformes,Larus a
-Larus_brachyrhynchus_UAM_14682_DDG1921,Larus brachyrhynchus,False,0,,0,0,0,0,False,UAM14682,DDG1921,1.2,Charadriiformes,Larus c
-Larus_brachyrhynchus_UAM_14803_DDG1922,Larus brachyrhynchus,False,1430,no,2,3,0,5,False,UAM14803,DDG1922,9.8,Charadriiformes,Larus c
-Larus_brachyrhynchus_UAM_26901_JJW010,Larus brachyrhynchus,False,1489,no,2,3,0,5,False,UAM26901,JJW010,5,Charadriiformes,Larus c
-Larus_brachyrhynchus_UAM_36875_JJW2921,Larus brachyrhynchus,False,14668,no,12,19,2,33,True,UAM36875,JJW2921,90,Charadriiformes,Larus c
-Larus_canus_kamtschatschensis_UAM_11014_DDG1771,Larus canus kamtschatschensis,False,0,,0,0,0,0,False,UAM11014,DDG1771,2.7,Charadriiformes,Larus c
-Larus_canus_kamtschatschensis_UAM_13377_DDG1876,Larus canus kamtschatschensis,False,14617,no,12,19,2,33,True,UAM13377,DDG1876,20.6,Charadriiformes,Larus c
-Larus_canus_kamtschatschensis_UAM_22863_KSW4959,Larus canus kamtschatschensis,False,14415,no,12,19,2,33,True,UAM22863,KSW4959,269.6,Charadriiformes,Larus c
-Larus_canus_kamtschatschensis_UAM_22926_KSW4989,Larus canus kamtschatschensis,False,10359;3833,no;no,12,19,2,33,True,UAM22926,KSW4989,15.5,Charadriiformes,Larus c
-Larus_canus_kamtschatschensis_UAM_24812_UAMX4789,Larus canus kamtschatschensis,False,0,,0,0,0,0,False,UAM24812,UAMX4789,3,Charadriiformes,Larus c
-Larus_canus_kamtschatschensis_UAM_37770_JJW3012,Larus canus kamtschatschensis,False,0,,0,0,0,0,False,UAM37770,JJW3012,2.7,Charadriiformes,Larus c
-Larus_hyperboreus_UAM_24327_UAMX4940,Larus hyperboreus,False,0,,0,0,0,0,False,UAM24327,UAMX4940,2.1,Charadriiformes,Leucosticte
-Larus_hyperboreus_UAM_28158_KSW5035,Larus hyperboreus,False,3367;2983,no;no,7,12,1,20,True,UAM28158,KSW5035,9.5,Charadriiformes,Leucosticte
-Larus_hyperboreus_UAM_28160_KSW5108,Larus hyperboreus,False,12215,no,12,18,0,30,True,UAM28160,KSW5108,24.3,Charadriiformes,Leucosticte
-Larus_hyperboreus_UAM_40190_JJW3585,Larus hyperboreus,False,0,,0,0,0,0,False,UAM40190,JJW3585,1.3,Charadriiformes,Leucosticte
-Larus_hyperboreus_UAM_40191_JJW3586,Larus hyperboreus,False,14617,no,12,19,2,33,True,UAM40191,JJW3586,13.4,Charadriiformes,Leucosticte
-Larus_hyperboreus_UAM_8929_UAMX683,Larus hyperboreus,False,17160,no,13,22,3,38,True,UAM8929,UAMX683,28.6,Charadriiformes,Leucosticte
-Larus_hyperboreus_UAM_9257_KSW2490,Larus hyperboreus,False,9709,no,10,11,0,21,False,UAM9257,KSW2490,8.3,Charadriiformes,Leucosticte
-Larus_hyperboreus_UWBM_43851_CSW4378,Larus hyperboreus,False,0,,0,0,0,0,False,UWBM43851,CSW4378,5.4,Charadriiformes,Leucosticte
-Larus_hyperboreus_UWBM_43852_CSW4379,Larus hyperboreus,False,1010,no,1,3,0,4,False,UWBM43852,CSW4379,5,Charadriiformes,Leucosticte
-Larus_hyperboreus_UWBM_43982_CSW4526,Larus hyperboreus,False,3068;2262;1436,no;no;no,7,9,1,17,True,UWBM43982,CSW4526,10.7,Charadriiformes,Leucosticte
-Leucosticte_arctoa_UWBM_44077_CSW4675,Leucosticte arctoa,False,0,,0,0,0,0,False,UWBM44077,CSW4675,3.3,Passeriformes,Leucosticte
-Leucosticte_arctoa_UWBM_44366_JMB1211,Leucosticte arctoa,False,0,,0,0,0,0,False,UWBM44366,JMB1211,3.7,Passeriformes,Leucosticte
-Leucosticte_arctoa_UWBM_44622_SAR6262,Leucosticte arctoa,False,0,,0,0,0,0,False,UWBM44622,SAR6262,3.5,Passeriformes,Leucosticte
-Leucosticte_arctoa_UWBM_44623_SAR6263,Leucosticte arctoa,False,2484;1909,no;no,4,9,0,13,True,UWBM44623,SAR6263,5.1,Passeriformes,Leucosticte
-Leucosticte_arctoa_UWBM_44624_SAR6264,Leucosticte arctoa,False,4649,no,6,8,0,14,True,UWBM44624,SAR6264,6.2,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_griseonucha_UAM_10981_DDG1750,Leucosticte tephrocotis griseonucha,False,4303,no,5,8,0,13,True,UAM10981,DDG1750,12.6,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_griseonucha_UAM_24603_UAMX5158,Leucosticte tephrocotis griseonucha,False,1521,no,3,2,0,5,False,UAM24603,UAMX5158,6.7,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_griseonucha_UAM_24607_UAMX5168,Leucosticte tephrocotis griseonucha,True,16812,yes,13,22,2,37,True,UAM24607,UAMX5168,13.7,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_griseonucha_UAM_31438_RWD24852,Leucosticte tephrocotis griseonucha,False,15408,no,13,22,2,37,True,UAM31438,RWD24852,17.2,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_griseonucha_UAM_31439_RWD24857,Leucosticte tephrocotis griseonucha,False,16921,no,13,22,2,37,True,UAM31439,RWD24857,367,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_littoralis_UAM_28707_JJW1163,Leucosticte tephrocotis littoralis,True,16815,yes,13,22,2,37,True,UAM28707,JJW1163,14.5,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_littoralis_UAM_40954_JJW3809,Leucosticte tephrocotis littoralis,False,11105,no,8,15,2,25,True,UAM40954,JJW3809,39.2,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_littoralis_UAM_40957_JJW3812,Leucosticte tephrocotis littoralis,True,16815,yes,13,22,2,37,True,UAM40957,JJW3812,83.6,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_littoralis_UAM_40959_JJW3814,Leucosticte tephrocotis littoralis,False,7025,no,8,8,0,16,False,UAM40959,JJW3814,13.7,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_littoralis_UAM_40961_JJW3816,Leucosticte tephrocotis littoralis,False,14797,no,13,21,2,36,True,UAM40961,JJW3816,66.5,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_tephrocotis_UAM_27288_JJW873,Leucosticte tephrocotis tephrocotis,False,16956,no,13,22,2,37,True,UAM27288,JJW873,32.6,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465,Leucosticte tephrocotis tephrocotis,False,15353,no,13,21,2,36,True,UAM35598,JJW2465,31.7,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460,Leucosticte tephrocotis tephrocotis,True,16815,yes,13,22,2,37,True,UAM35600,JJW2460,33.5,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204,Leucosticte tephrocotis tephrocotis,True,16815,yes,13,22,2,37,True,UAM38654,JJW3204,87.5,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351,Leucosticte tephrocotis umbrina,True,16812,yes,13,22,3,38,True,FMNH34305,AF14351,10.1,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346,Leucosticte tephrocotis umbrina,True,16813,yes,13,22,2,37,True,UAM28619,AF14346,2.3,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344,Leucosticte tephrocotis umbrina,True,16814,yes,13,22,2,37,True,UAM28620,AF14344,12.6,Passeriformes,Leucosticte
-Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646,Leucosticte tephrocotis umbrina,False,0,,0,0,0,0,False,UAM7351,KSW1646,2.1,Passeriformes,Leucosticte
-Luscinia_svecica_UAM_13718_ABJ200,Luscinia svecica,False,0,,0,0,0,0,False,UAM13718,ABJ200,235.8,Passeriformes,Luscinia
-Luscinia_svecica_UAM_15419_MJM048,Luscinia svecica,False,0,,0,0,0,0,False,UAM15419,MJM048,58.7,Passeriformes,Luscinia
-Luscinia_svecica_UAM_17727_MJM047,Luscinia svecica,False,0,,0,0,0,0,False,UAM17727,MJM047,123.4,Passeriformes,Luscinia
-Luscinia_svecica_UAM_8584_KSW2409,Luscinia svecica,False,0,,0,0,0,0,False,UAM8584,KSW2409,279.8,Passeriformes,Luscinia
-Luscinia_svecica_UAM_8585_KSW2406,Luscinia svecica,False,0,,0,0,0,0,False,UAM8585,KSW2406,133.3,Passeriformes,Luscinia
-Luscinia_svecica_UAM_8944_KSW2481,Luscinia svecica,False,0,,0,0,0,0,False,UAM8944,KSW2481,50.6,Passeriformes,Luscinia
-Luscinia_svecica_UAM_8945_KSW2408,Luscinia svecica,False,0,,0,0,0,0,False,UAM8945,KSW2408,49.6,Passeriformes,Luscinia
-Luscinia_svecica_UAM_8946_KSW2407,Luscinia svecica,False,0,,0,0,0,0,False,UAM8946,KSW2407,NA,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44233_JMB1064,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44233,JMB1064,128.3,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44242_JMB1278,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44242,JMB1078,225.4,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44246_JMB1082,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44246,JMB1082,113.9,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44361_JMB1206,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44361,JMB1206,121.8,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44362_JMB1207,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44362,JMB1207,1.9,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44363_JMB1208,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44363,JMB1208,NA,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44489_SAR6270,Luscinia svecica,False,18683,no,14,24,2,40,True,UWBM44489,SAR6270,NA,Passeriformes,Luscinia
-Luscinia_svecica_UWBM_44629_SAR6269,Luscinia svecica,False,0,,0,0,0,0,False,UWBM44629,SAR6269,1138,Passeriformes,Luscinia
-Mareca_americana_UAM_11908_KSW3028,Mareca americana,False,0,,0,0,0,0,False,UAM11908,KSW3028,595.9,Anseriformes,Mareca
-Mareca_americana_UAM_11909_KSW3029,Mareca americana,False,0,,0,0,0,0,False,UAM11909,KSW3029,214.1,Anseriformes,Mareca
-Mareca_americana_UAM_11916_KSW3036,Mareca americana,False,0,,0,0,0,0,False,UAM11916,KSW3036,404.6,Anseriformes,Mareca
-Mareca_americana_UAM_11919_KSW3039,Mareca americana,False,0,,0,0,0,0,False,UAM11919,KSW3039,411,Anseriformes,Mareca
-Mareca_americana_UAM_13141_UAMX1468,Mareca americana,False,0,,0,0,0,0,False,UAM13141,UAMX1468,92.5,Anseriformes,Mareca
-Mareca_americana_UAM_26061_JJW383,Mareca americana,False,0,,0,0,0,0,False,UAM26061,JJW383,177.4,Anseriformes,Mareca
-Mareca_americana_UAM_28087_JJW976,Mareca americana,False,0,,0,0,0,0,False,UAM28087,JJW976,278.6,Anseriformes,Mareca
-Mareca_americana_UAM_28088_JJW948,Mareca americana,False,0,,0,0,0,0,False,UAM28088,JJW948,72.4,Anseriformes,Mareca
-Mareca_penelope_UAM_10008_DDG1716,Mareca penelope,False,0,,0,0,0,0,False,UAM10008,DDG1716,167.2,Anseriformes,Mareca
-Mareca_penelope_UAM_11803_DDG1768,Mareca penelope,False,0,,0,0,0,0,False,UAM11803,DDG1768,243,Anseriformes,Mareca
-Mareca_penelope_UAM_24301_UAMX4959,Mareca penelope,False,0,,0,0,0,0,False,UAM24301,UAMX4959,384.2,Anseriformes,Mareca
-Mareca_penelope_UAM_24455_MJL037,Mareca penelope,False,0,,0,0,0,0,False,UAM24455,MJL037,343,Anseriformes,Mareca
-Mareca_penelope_UAM_24550_UAMX5044,Mareca penelope,False,0,,0,0,0,0,False,UAM24550,UAMX5044,26.5,Anseriformes,Mareca
-Mareca_penelope_UAM_27749_JJW968,Mareca penelope,False,0,,0,0,0,0,False,UAM27749,JJW968,633.9,Anseriformes,Mareca
-Mareca_penelope_UAM_8758_DDG1663,Mareca penelope,False,0,,0,0,0,0,False,UAM8758,DDG1663,156.3,Anseriformes,Mareca
-Mareca_penelope_UAM_9359_DDG1703,Mareca penelope,False,0,,0,0,0,0,False,UAM9359,DDG1703,129.5,Anseriformes,Mareca
-Melanitta_americana_UAM_25996_JJW179,Melanitta americana,False,24639,no,16,35,4,55,True,UAM25996,JJW179,74.2,Anseriformes,Melanitta
-Melanitta_americana_UAM_27720_JJW950,Melanitta americana,False,16591,no,13,22,2,37,True,UAM27720,JJW950,201.2,Anseriformes,Melanitta
-Melanitta_americana_UAM_29920_JJW1388,Melanitta americana,True,16617,yes,13,22,2,37,True,UAM29920,JJW1388,65.4,Anseriformes,Melanitta
-Melanitta_americana_UAM_35578_JJW2276,Melanitta americana,True,16618,yes,13,22,2,37,True,UAM35578,JJW2276,119.4,Anseriformes,Melanitta
-Melanitta_americana_UAM_28065_JJW951,Melanitta americana,False,6690,no,9,6,0,15,False,UAM28065,JJW951,14.5,Anseriformes,Melanitta
-Melanitta_americana_UWBM_43946_CSW4486,Melanitta americana,False,16818,no,13,23,2,38,True,UWBM43946,CSW4486,196.1,Anseriformes,Melanitta
-Mergus_merganser_americanus_UAM_11037_UAMX1058,Mergus merganser americanus,False,4669,no,8,5,0,13,False,UAM11037,UAMX1058,12,Anseriformes,Mergus
-Mergus_merganser_americanus_UAM_24305_UAMX4957,Mergus merganser americanus,False,1707;1180,no;no,4,7,1,12,True,UAM24305,UAMX4957,6.4,Anseriformes,Mergus
-Mergus_merganser_americanus_UAM_34366_JJW2298,Mergus merganser americanus,True,16627,yes,13,22,2,37,True,UAM34366,JJW2298,30.4,Anseriformes,Mergus
-Mergus_merganser_americanus_UWBM_9348_AEI105,Mergus merganser americanus,False,0,,0,0,0,0,False,UWBM9348,AEI105,2.8,Anseriformes,Mergus
-Mergus_merganser_merganser_UAM_25375_JJW063,Mergus merganser merganser,False,1749;1324,no;no,2,3,1,6,False,UAM25375,JJW063,3.9,Anseriformes,Mergus
-Mergus_merganser_merganser_UAM_25990_JJW335,Mergus merganser merganser,False,1160,no,1,4,0,5,True,UAM25990,JJW335,4.9,Anseriformes,Mergus
-Mergus_merganser_merganser_UAM_25991_JJW334,Mergus merganser merganser,True,16629,yes,13,22,2,37,True,UAM25991,JJW334,26,Anseriformes,Mergus
-Mergus_merganser_merganser_UAM_27012_JJW762,Mergus merganser merganser,False,9288,no,11,11,0,22,False,UAM27012,JJW762,16.3,Anseriformes,Mergus
-Mergus_merganser_merganser_UAM_28042_JJW344,Mergus merganser merganser,False,5075;1009,no;no,10,9,0,19,False,UAM28042,JJW344,15.8,Anseriformes,Mergus
-Mergus_merganser_merganser_UWBM_43819_CSW4346,Mergus merganser merganser,False,3935;2126,no;no,7,11,1,19,True,UWBM43819,CSW4346,8.7,Anseriformes,Mergus
-Motacilla_tschutschensis_simillima_UAM_14353_ABJ179,Motacilla tschutschensis simillima,False,2354,no,4,3,0,7,False,UAM14353,ABJ179,11.8,Passeriformes,Motacilla
-Motacilla_tschutschensis_simillima_UAM_19448_MJM122,Motacilla tschutschensis simillima,False,0,,0,0,0,0,False,UAM19448,MJM122,5.1,Passeriformes,Motacilla
-Motacilla_tschutschensis_simillima_UAM_28715_JJW1179,Motacilla tschutschensis simillima,False,0,,0,0,0,0,False,UAM28715,JJW1179,2.2,Passeriformes,Motacilla
-Motacilla_tschutschensis_simillima_UAM_28717_JJW1185,Motacilla tschutschensis simillima,False,3326;1400,no;no,5,5,1,11,False,UAM28717,JJW1185,5.4,Passeriformes,Motacilla
-Motacilla_tschutschensis_simillima_UAM_29362_JJW1317,Motacilla tschutschensis simillima,False,16886,no,13,22,2,37,True,UAM29362,JJW1317,13.3,Passeriformes,Motacilla
-Motacilla_tschutschensis_tschutschensis_UAM_13402_ABJ133,Motacilla tschutschensis tschutschensis,False,3494;1717;1496,no;no;no,6,7,2,15,True,UAM13402,ABJ133,10.6,Passeriformes,Motacilla
-Motacilla_tschutschensis_tschutschensis_UAM_15178_DDG1935,Motacilla tschutschensis tschutschensis,True,16831,yes,13,21,2,36,True,UAM15178,DDG1935,36.3,Passeriformes,Motacilla
-Motacilla_tschutschensis_tschutschensis_UAM_27364_JJW520,Motacilla tschutschensis tschutschensis,False,2060;1151,no;no,3,6,1,10,False,UAM27364,JJW520,7.7,Passeriformes,Motacilla
-Motacilla_tschutschensis_tschutschensis_UAM_27366_JJW216,Motacilla tschutschensis tschutschensis,False,22806,no,18,29,2,49,True,UAM27366,JJW216,21.9,Passeriformes,Motacilla
-Motacilla_tschutschensis_tschutschensis_UAM_28177_JJW629,Motacilla tschutschensis tschutschensis,False,1959;1823;1787,no;no;no,7,6,0,13,True,UAM28177,JJW629,26.3,Passeriformes,Motacilla
-Numenius_phaeopus_hudsonicus_UAM_11507_TB378,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM11507,TB378,343.4,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_13349_ABJ142,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM13349,ABJ142,114.4,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_13925_KGM036,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM13925,KGM036,120.9,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_17980_JMM011,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM17980,JMM011,36.4,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_28213_JJW1013,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM28213,JJW1013,361.5,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_28214_JJW1021,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM28214,JJW1021,452.8,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_28602_JJW1154,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM28602,JJW1154,24.9,Charadriiformes,Numenius
-Numenius_phaeopus_hudsonicus_UAM_9260_KSW2484,Numenius phaeopus hudsonicus,False,0,,0,0,0,0,False,UAM9260,KSW2484,343.4,Charadriiformes,Numenius
-Numenius_phaeopus_variegatus_UAM_14225_TB1023,Numenius phaeopus variegatus,False,0,,0,0,0,0,False,UAM14225,TB1023,222.9,Charadriiformes,Numenius
-Numenius_phaeopus_variegatus_UAM_14229_TB1116,Numenius phaeopus variegatus,False,0,,0,0,0,0,False,UAM14229,TB1116,193.5,Charadriiformes,Numenius
-Numenius_phaeopus_variegatus_UAM_14230_TB1091,Numenius phaeopus variegatus,False,0,,0,0,0,0,False,UAM14230,TB1091,41.8,Charadriiformes,Numenius
-Numenius_phaeopus_variegatus_UAM_14625_CLP450,Numenius phaeopus variegatus,False,0,,0,0,0,0,False,UAM14625,CLP450,371.5,Charadriiformes,Numenius
-Numenius_phaeopus_variegatus_UAM_21379_CLP727,Numenius phaeopus variegatus,False,0,,0,0,0,0,False,UAM21379,CLP727,93.7,Charadriiformes,Numenius
-Numenius_phaeopus_variegatus_UAM_8212_DDF1666,Numenius phaeopus variegatus,False,0,,0,0,0,0,False,UAM8212,DDF1666,266.7,Charadriiformes,Numenius
-Phylloscopus_borealis_borealis_UWBM_43818_CSW4345,Phylloscopus borealis borealis,False,3123;2895;1298,no;no;no,6,11,2,19,True,UWBM43818,CSW4345,19.7,Passeriformes,Phylloscopus
-Phylloscopus_borealis_borealis_UWBM_44417_SAR6041,Phylloscopus borealis borealis,False,12997,no,8,17,2,27,True,UWBM44417,SAR6041,14.6,Passeriformes,Phylloscopus
-Phylloscopus_borealis_borealis_UWBM_44418_SAR6042,Phylloscopus borealis borealis,False,15598,no,13,21,2,36,True,UWBM44418,SAR6042,11.6,Passeriformes,Phylloscopus
-Phylloscopus_borealis_borealis_UWBM_82284_SVD2977,Phylloscopus borealis borealis,False,0,,0,0,0,0,False,UWBM82284,SVD2977,3.9,Passeriformes,Phylloscopus
-Phylloscopus_borealis_borealis_UWBM_82285_SVD2978,Phylloscopus borealis borealis,False,10630,no,10,11,2,23,False,UWBM82285,SVD2978,21.1,Passeriformes,Phylloscopus
-Phylloscopus_borealis_kennicotti_UAM_20149_JMM337,Phylloscopus borealis kennicotti,False,2392;1407;1357,no;no;no,4,7,3,14,False,UAM20149,JMM337,47.3,Passeriformes,Phylloscopus
-Phylloscopus_borealis_kennicotti_UAM_20150_JMM338,Phylloscopus borealis kennicotti,False,13973,yes,12,19,1,32,True,UAM20150,JMM338,15.8,Passeriformes,Phylloscopus
-Phylloscopus_borealis_kennicotti_UAM_34615_JJW2241,Phylloscopus borealis kennicotti,True,16886,yes,13,22,2,37,True,UAM34615,JJW2241,47.2,Passeriformes,Phylloscopus
-Phylloscopus_borealis_kennicotti_UAM_36347_JJW2649,Phylloscopus borealis kennicotti,False,16999,no,13,22,2,37,True,UAM36347,JJW2649,17.3,Passeriformes,Phylloscopus
-Phylloscopus_borealis_kennicotti_UAM_7372_KSW1456,Phylloscopus borealis kennicotti,False,0,,0,0,0,0,False,UAM7372,KSW1456,3.8,Passeriformes,Phylloscopus
-Phylloscopus_examinandus_UAM_17665_DDG1991,Phylloscopus examinandus,False,1571;1240;1121,no;no;no,3,4,2,9,False,UAM17665,DDG1991,6.2,Passeriformes,Phylloscopus
-Phylloscopus_examinandus_UAM_29472_KSW5250,Phylloscopus examinandus,False,0,,0,0,0,0,False,UAM29472,KSW5250,1.6,Passeriformes,Phylloscopus
-Phylloscopus_examinandus_UAM_30461_KSW5373,Phylloscopus examinandus,False,4741,no,6,5,0,11,False,UAM30461,KSW5373,5.5,Passeriformes,Phylloscopus
-Phylloscopus_examinandus_UAM_30462_KSW5354,Phylloscopus examinandus,False,17558,no,13,22,2,37,True,UAM30462,KSW5354,13.1,Passeriformes,Phylloscopus
-Phylloscopus_examinandus_UAM_30464_KSW5336,Phylloscopus examinandus,True,16884,yes,13,22,2,37,True,UAM30464,KSW5336,11.3,Passeriformes,Phylloscopus
-Pica_hudsonia_UAM_10105_UAMX953,Pica hudsonia,False,0,,0,0,0,0,False,UAM10105,UAMX953,6.8,Passeriformes,Pica
-Pica_hudsonia_UAM_12453_CLP208,Pica hudsonia,False,0,,0,0,0,0,False,UAM12453,CLP208,96.3,Passeriformes,Pica
-Pica_hudsonia_UAM_13052_CLP219,Pica hudsonia,False,0,,0,0,0,0,False,UAM13052,CLP219,71.8,Passeriformes,Pica
-Pica_hudsonia_UAM_13053_CLP218,Pica hudsonia,False,0,,0,0,0,0,False,UAM13053,CLP218,160,Passeriformes,Pica
-Pica_hudsonia_UAM_17742_CLP245,Pica hudsonia,False,0,,0,0,0,0,False,UAM17742,CLP245,31,Passeriformes,Pica
-Pica_hudsonia_UAM_27024_JJW683,Pica hudsonia,False,0,,0,0,0,0,False,UAM27024,JJW683,139.3,Passeriformes,Pica
-Pica_hudsonia_UAM_8511_KSW2704,Pica hudsonia,False,0,,0,0,0,0,False,UAM8511,KSW2704,219.3,Passeriformes,Pica
-Pica_pica_UWBM_44581_UWBM44581,Pica pica,False,0,,0,0,0,0,False,UWBM44581,UWBM44581,19.3,Passeriformes,Pica
-Pica_pica_UWBM_44584_UWBM44584,Pica pica,False,0,,0,0,0,0,False,UWBM44584,UWBM44584,42.3,Passeriformes,Pica
-Pica_pica_UWBM_44585_UWBM44585,Pica pica,False,0,,0,0,0,0,False,UWBM44585,UWBM44585,158.1,Passeriformes,Pica
-Pica_pica_UWBM_47197_UWBM47197,Pica pica,False,0,,0,0,0,0,False,UWBM47197,UWBM47197,79.4,Passeriformes,Pica
-Pica_pica_UWBM_72084_UWBM72084,Pica pica,False,0,,0,0,0,0,False,UWBM72084,UWBM72084,69.4,Passeriformes,Pica
-Pica_pica_UWBM_72091_UWBM72091,Pica pica,False,0,,0,0,0,0,False,UWBM72091,UWBM72091,1.7,Passeriformes,Pica
-Pica_pica_UWBM_74569_UWBM74569,Pica pica,False,0,,0,0,0,0,False,UWBM74569,UWBM74569,87.8,Passeriformes,Pica
-Pica_pica_UWBM_74697_UWBM74697,Pica pica,False,0,,0,0,0,0,False,UWBM74697,UWBM74697,161.3,Passeriformes,Pica
-Picoides_dorsalis_fasciatus_UAM_20114_UAMX3273,Picoides dorsalis fasciatus,False,16816,no,13,22,2,37,True,UAM20114,UAMX3273,38.7,Piciformes,Picoides
-Picoides_dorsalis_fasciatus_UAM_31832_JJW2059,Picoides dorsalis fasciatus,False,16734,no,13,22,2,37,True,UAM31832,JJW2059,26.5,Piciformes,Picoides
-Picoides_dorsalis_fasciatus_UAM_36600_JJW2842,Picoides dorsalis fasciatus,False,16915,no,13,22,3,38,True,UAM36600,JJW2842,19.8,Piciformes,Picoides
-Picoides_dorsalis_fasciatus_UAM_8580_UAMX503,Picoides dorsalis fasciatus,False,12029,no,9,17,2,28,True,UAM8580,UAMX503,21.4,Piciformes,Picoides
-Picoides_dorsalis_fasciatus_UAM_38328_JJW3139,Picoides dorsalis fasciatus,True,16864,yes,13,22,2,37,True,UAM38328,JJW3139,55.3,Piciformes,Picoides
-Picoides_tridactylus_UAM_17739_TB1448,Picoides tridactylus,False,2619;2326,no;no,8,6,0,14,False,UAM17739,TB1448,8.7,Piciformes,Picoides
-Picoides_tridactylus_UWBM_44422_SAR6046,Picoides tridactylus,False,6214,no,8,10,0,18,False,UWBM44422,SAR6046,10.4,Piciformes,Picoides
-Picoides_tridactylus_UWBM_52660_SVD144,Picoides tridactylus,False,3973;1092,no;no,6,7,0,13,False,UWBM52660,SVD144,5.7,Piciformes,Picoides
-Pinicola_enucleator_flammula_UAM_10158_UAMX1014,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM10158,UAMX1014,1146.7,Passeriformes,Pinicola
-Pinicola_enucleator_flammula_UAM_11285_ABJ011,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM11285,ABJ011,56.2,Passeriformes,Pinicola
-Pinicola_enucleator_flammula_UAM_11286_ABJ012,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM11286,ABJ012,105.1,Passeriformes,Pinicola
-Pinicola_enucleator_flammula_UAM_26361_JJW030,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM26361,JJW030,245.3,Passeriformes,Pinicola
-Pinicola_enucleator_flammula_UAM_28530_JJW1097,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM28530,JJW1097,297.8,Passeriformes,Pinicola
-Pinicola_enucleator_flammula_UAM_8794_KSW1695,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM8794,KSW1695,116.5,Passeriformes,Pinicola
-Pinicola_enucleator_flammula_UAM_8797_KSW1694,Pinicola enucleator flammula,False,0,,0,0,0,0,False,UAM8797,KSW1694,432.4,Passeriformes,Pinicola
-Pinicola_enucleator_kamtschatschensis_UAM_24601_DDG2189,Pinicola enucleator kamtschatschensis,False,0,,0,0,0,0,False,UAM24601,DDG2189,225.2,Passeriformes,Pinicola
-Pinicola_enucleator_kamtschatschensis_UAM_24602_DDG2190,Pinicola enucleator kamtschatschensis,False,0,,0,0,0,0,False,UAM24602,DDG2190,396.8,Passeriformes,Pinicola
-Pinicola_enucleator_kamtschatschensis_UWBM_47314_SAR6538,Pinicola enucleator kamtschatschensis,False,0,,0,0,0,0,False,UWBM47314,SAR6538,1535.1,Passeriformes,Pinicola
-Pinicola_enucleator_kamtschatschensis_UWBM_47315_SAR6539,Pinicola enucleator kamtschatschensis,False,0,,0,0,0,0,False,UWBM47315,SAR6539,53.1,Passeriformes,Pinicola
-Pinicola_enucleator_kamtschatschensis_UWBM_51627_SVD407,Pinicola enucleator kamtschatschensis,False,0,,0,0,0,0,False,UWBM51627,SVD407,139.4,Passeriformes,Pinicola
-Pinicola_enucleator_kamtschatschensis_UWBM_51643_SVD423,Pinicola enucleator kamtschatschensis,False,0,,0,0,0,0,False,UWBM51643,SVD423,172.5,Passeriformes,Pinicola
-Plectrophenax_hyperboreus_UAM_7066_KSW1610,Plectrophenax hyperboreus,False,0,,0,0,0,0,False,UAM7066,KSW1610,98.3,Passeriformes,Plectrophenax
-Plectrophenax_hyperboreus_UAM_7407_KSW1588,Plectrophenax hyperboreus,False,0,,0,0,0,0,False,UAM7407,KSW1588,8,Passeriformes,Plectrophenax
-Plectrophenax_hyperboreus_UAM_7524_KSW1611,Plectrophenax hyperboreus,True,16855,yes,13,22,2,37,True,UAM7524,KSW1611,19.7,Passeriformes,Plectrophenax
-Plectrophenax_hyperboreus_UAM_8200_KSW1617,Plectrophenax hyperboreus,True,16830,yes,13,22,2,37,True,UAM8200,KSW1617,113.8,Passeriformes,Plectrophenax
-Plectrophenax_nivalis_UAM_11856_CLP163,Plectrophenax nivalis,True,16833,yes,13,22,2,37,True,UAM11856,CLP163,240.1,Passeriformes,Plectrophenax
-Plectrophenax_nivalis_UAM_8474_KSW2691,Plectrophenax nivalis,False,16884,no,13,22,3,38,True,UAM8474,KSW2691,392.6,Passeriformes,Plectrophenax
-Plectrophenax_nivalis_UAM_8476_KSW2690,Plectrophenax nivalis,False,0,,0,0,0,0,False,UAM8476,KSW2690,169.6,Passeriformes,Plectrophenax
-Plectrophenax_nivalis_UAM_27725_JJW292,Plectrophenax nivalis,False,0,,0,0,0,0,False,UAM27725,JJW292,261.6,Passeriformes,Plectrophenax
-Pluvialis_dominica_UAM_13181_KSW2402,Pluvialis dominica,False,0,,0,0,0,0,False,UAM13181,KSW2402,233.9,Charadriiformes,Pluvialis df
-Pluvialis_dominica_UAM_26935_JJW362,Pluvialis dominica,False,0,,0,0,0,0,False,UAM26935,JJW362,137,Charadriiformes,Pluvialis df
-Pluvialis_dominica_UAM_8938_KSW2468,Pluvialis dominica,False,0,,0,0,0,0,False,UAM8938,KSW2468,169,Charadriiformes,Pluvialis df
-Pluvialis_dominica_UAM_9511_TB235,Pluvialis dominica,False,0,,0,0,0,0,False,UAM9511,TB235,395.1,Charadriiformes,Pluvialis df
-Pluvialis_fulva_UAM_11307_TB408,Pluvialis fulva,False,0,,0,0,0,0,False,UAM11307,TB408,188.3,Charadriiformes,Pluvialis df
-Pluvialis_fulva_UAM_13545_DDG1860,Pluvialis fulva,False,0,,0,0,0,0,False,UAM13545,DDG1860,188.6,Charadriiformes,Pluvialis df
-Pluvialis_fulva_UAM_26906_JJW145,Pluvialis fulva,False,0,,0,0,0,0,False,UAM26906,JJW145,228.6,Charadriiformes,Pluvialis df
-Pluvialis_fulva_UAM_8798_KSW2383,Pluvialis fulva,False,0,,0,0,0,0,False,UAM8798,KSW2383,68.3,Charadriiformes,Pluvialis df
-Somateria_mollissima_UAM_13336_DAR157,Somateria mollissima,False,12130,no,7,17,2,26,True,UAM13336,DAR157,29.5,Anseriformes,Somateria m
-Somateria_mollissima_UAM_13721_UAMX1708,Somateria mollissima,False,1169;1105,no;no,2,2,0,4,False,UAM13721,UAMX1708,6.1,Anseriformes,Somateria m
-Somateria_mollissima_UAM_20085_DDG1939,Somateria mollissima,False,9138,no,5,8,2,15,False,UAM20085,DDG1939,22.7,Anseriformes,Somateria m
-Somateria_mollissima_UAM_26746_KGM912,Somateria mollissima,False,9328,no,7,10,2,19,False,UAM26746,KGM912,37.2,Anseriformes,Somateria m
-Somateria_mollissima_UAM_34628_JJW2274,Somateria mollissima,True,16628,yes,13,22,2,37,True,UAM34628,JJW2274,43.6,Anseriformes,Somateria m
-Somateria_mollissima_UAM_34700_JJW2273,Somateria mollissima,False,16907,no,13,22,2,37,True,UAM34700,JJW2273,83.3,Anseriformes,Somateria m
-Somateria_mollissima_UAM_35441_JJW2452,Somateria mollissima,False,4255;1225,no;no,8,8,0,16,False,UAM35441,JJW2452,20.9,Anseriformes,Somateria m
-Somateria_mollissima_UAM_36436_KGM845,Somateria mollissima,True,16626,yes,13,22,3,38,True,UAM36436,KGM845,61,Anseriformes,Somateria m
-Somateria_mollissima_UAM_37604_JJW2952,Somateria mollissima,False,3144;2378;1013,no;no;no,8,14,1,23,True,UAM37604,JJW2952,22.4,Anseriformes,Somateria m
-Somateria_mollissima_UAM_9440_UAMX378,Somateria mollissima,False,3086;1010,no;no,4,3,0,7,False,UAM9440,UAMX378,31.1,Anseriformes,Somateria m
-Somateria_spectabilis_UAM_13153_ABJ107,Somateria spectabilis,False,13719,no,11,14,2,27,False,UAM13153,ABJ107,30,Anseriformes,Somateria s
-Somateria_spectabilis_UAM_9396_UAMX892,Somateria spectabilis,False,4273;1905;1101,no;no;no,9,11,1,21,False,UAM9396,UAMX892,27.1,Anseriformes,Somateria s
-Somateria_spectabilis_UAM_9422_UAMX901,Somateria spectabilis,False,2518;2212;1129,no;no;no,8,9,1,18,True,UAM9422,UAMX901,16.4,Anseriformes,Somateria s
-Somateria_spectabilis_UAM_9423_UAMX903,Somateria spectabilis,False,0,,0,0,0,0,False,UAM9423,UAMX903,3,Anseriformes,Somateria s
-Somateria_spectabilis_UAM_9439_UAMX907,Somateria spectabilis,False,1521;1160,no;no,3,3,1,7,False,UAM9439,UAMX907,13.9,Anseriformes,Somateria s
-Somateria_spectabilis_UWBM_43965_CSW4509,Somateria spectabilis,True,16628,yes,13,22,2,37,True,UWBM43965,CSW4509,211.9,Anseriformes,Somateria s
-Somateria_spectabilis_UWBM_71169_SVD1425,Somateria spectabilis,False,1644;1204,no;no,5,4,0,9,False,UWBM71169,SVD1425,33.9,Anseriformes,Somateria s
-Spatula_clypeata_UAM_15023_UAMX2539,Spatula clypeata,False,1307,no,1,1,1,3,False,UAM15023,UAMX2539,7.1,Anseriformes,Spatula
-Spatula_clypeata_UAM_15459_DDG1988,Spatula clypeata,False,0,,0,0,0,0,False,UAM15459,DDG1988,3.6,Anseriformes,Spatula
-Spatula_clypeata_UAM_20152_DDG2054,Spatula clypeata,False,1581,no,1,4,1,6,False,UAM20152,DDG2054,13.2,Anseriformes,Spatula
-Spatula_clypeata_UAM_20167_DDG2053,Spatula clypeata,False,6903,no,4,12,2,18,True,UAM20167,DDG2053,17.2,Anseriformes,Spatula
-Spatula_clypeata_UAM_26717_SVD475,Spatula clypeata,False,1878,no,2,3,0,5,False,UAM26717,SVD475,3,Anseriformes,Spatula
-Spatula_clypeata_UAM_28973_UAMX5081,Spatula clypeata,False,1391,no,1,1,1,3,False,UAM28973,UAMX5081,7.8,Anseriformes,Spatula
-Spatula_clypeata_UAM_36727_REW031,Spatula clypeata,False,1209,no,1,1,1,3,False,UAM36727,REW031,6.7,Anseriformes,Spatula
-Spatula_clypeata_UAM_36938_REW030,Spatula clypeata,False,11850,no,9,14,2,25,True,UAM36938,REW030,13.2,Anseriformes,Spatula
-Spatula_clypeata_UWBM_59827_CSW5794,Spatula clypeata,False,1145,no,3,1,0,4,False,UWBM59827,CSW5794,3.6,Anseriformes,Spatula
-Tringa_brevipes_UAM_10112_DDG1736,Tringa brevipes,False,0,,0,0,0,0,False,UAM10112,DDG1736,231.6,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_28427_JJW906,Tringa brevipes,False,0,,0,0,0,0,False,UAM28427,JJW906,227.9,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_28428_JJW1030,Tringa brevipes,False,0,,0,0,0,0,False,UAM28428,JJW1030,163,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_28429_JJW1062,Tringa brevipes,False,0,,0,0,0,0,False,UAM28429,JJW1062,20.6,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_28430_JJW1061,Tringa brevipes,False,0,,0,0,0,0,False,UAM28430,JJW1061,146.5,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_7534_KSW1780,Tringa brevipes,False,0,,0,0,0,0,False,UAM7534,KSW1780,167.3,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_8521_KSW1781,Tringa brevipes,False,0,,0,0,0,0,False,UAM8521,KSW1781,399.3,Charadriiformes,Tringa bi
-Tringa_brevipes_UAM_8805_KSW1782,Tringa brevipes,False,0,,0,0,0,0,False,UAM8805,KSW1782,897.6,Charadriiformes,Tringa bi
-Tringa_incana_UAM_13434_DAR228,Tringa incana,False,0,,0,0,0,0,False,UAM13434,DAR228,12.8,Charadriiformes,Tringa bi
-Tringa_incana_UAM_13569_UAMX1735,Tringa incana,False,0,,0,0,0,0,False,UAM13569,UAMX1735,184.7,Charadriiformes,Tringa bi
-Tringa_incana_UAM_21813_KSW3378,Tringa incana,False,0,,0,0,0,0,False,UAM21813,KSW3378,119.6,Charadriiformes,Tringa bi
-Tringa_incana_UAM_24859_UAMX1645,Tringa incana,False,0,,0,0,0,0,False,UAM24859,UAMX1645,126.2,Charadriiformes,Tringa bi
-Tringa_incana_UAM_28422_JJW720,Tringa incana,False,0,,0,0,0,0,False,UAM28422,JJW720,160.4,Charadriiformes,Tringa bi
-Tringa_incana_UAM_28425_JJW724,Tringa incana,False,0,,0,0,0,0,False,UAM28425,JJW724,76.2,Charadriiformes,Tringa bi
-Tringa_incana_UAM_28426_JJW1022,Tringa incana,False,0,,0,0,0,0,False,UAM28426,JJW1022,218.7,Charadriiformes,Tringa bi
-Tringa_incana_UAM_8240_KSW1778,Tringa incana,False,0,,0,0,0,0,False,UAM8240,KSW1778,413.4,Charadriiformes,Tringa bi
-Tringa_melanoleuca_UAM_13578_UAMX1941,Tringa melanoleuca,False,0,,0,0,0,0,False,UAM13578,UAMX1941,6.8,Charadriiformes,Tringa nm
-Tringa_melanoleuca_UAM_18023_JMM014,Tringa melanoleuca,False,1416,no,1,1,1,3,False,UAM18023,JMM014,15.3,Charadriiformes,Tringa nm
-Tringa_melanoleuca_UAM_20143_JMM340,Tringa melanoleuca,False,1702,no,2,3,0,5,False,UAM20143,JMM340,75.3,Charadriiformes,Tringa nm
-Tringa_melanoleuca_UAM_27573_UAMX5119,Tringa melanoleuca,False,1873,no,2,4,1,7,True,UAM27573,UAMX5119,12.3,Charadriiformes,Tringa nm
-Tringa_melanoleuca_UAM_30489_JJW1663,Tringa melanoleuca,False,0,,0,0,0,0,False,UAM30489,JJW1663,2,Charadriiformes,Tringa nm
-Tringa_nebularia_UAM_14119_DDG1916,Tringa nebularia,False,0,,0,0,0,0,False,UAM14119,DDG1916,27.1,Charadriiformes,Tringa nm
-Tringa_nebularia_UAM_17482_DDG1990,Tringa nebularia,False,0,,0,0,0,0,False,UAM17482,DDG1990,2,Charadriiformes,Tringa nm
-Tringa_nebularia_UAM_22850_KSW4958,Tringa nebularia,False,0,,0,0,0,0,False,UAM22850,KSW4958,2.8,Charadriiformes,Tringa nm
-Tringa_nebularia_UAM_24570_UAMX4620,Tringa nebularia,False,1387,no,2,3,0,5,False,UAM24570,UAMX4620,28.8,Charadriiformes,Tringa nm
-Tringa_nebularia_UAM_8282_DDG1686,Tringa nebularia,False,18455,no,14,25,2,41,True,UAM8282,DDG1686,2.1,Charadriiformes,Tringa nm
-Uria_aalge_inornata_UAM_10687_KSW1631,Uria aalge inornata,False,2886;1075,no;no,3,8,1,12,False,UAM10687,KSW1631,9.9,Charadriiformes,Uria a
-Uria_aalge_inornata_UAM_10688_KSW1632,Uria aalge inornata,False,14593,no,12,19,2,33,True,UAM10688,KSW1632,18.3,Charadriiformes,Uria a
-Uria_aalge_inornata_UAM_10689_KSW1633,Uria aalge inornata,False,0,,0,0,0,0,False,UAM10689,KSW1633,5.5,Charadriiformes,Uria a
-Uria_aalge_inornata_UAM_10690_KSW1634,Uria aalge inornata,False,2415;2194,no;no,4,8,0,12,False,UAM10690,KSW1634,11.3,Charadriiformes,Uria a
-Uria_aalge_inornata_UAM_7729_KSW1629,Uria aalge inornata,False,19007,yes,14,25,2,41,True,UAM7729,KSW1629,19.2,Charadriiformes,Uria a
-Uria_aalge_inornata_UWBM_4408_JMB995,Uria aalge inornata,False,0,,0,0,0,0,False,UWBM4408,JMB995,9.6,Charadriiformes,Uria a
-Uria_aalge_inornata_UWBM_44407_JMB994,Uria aalge inornata,False,0,,0,0,0,0,False,UWBM44407,JMB994,6.8,Charadriiformes,Uria a
-Uria_aalge_inornata_UWBM_44409_JMB996,Uria aalge inornata,False,0,,0,0,0,0,False,UWBM44409,JMB996,10.7,Charadriiformes,Uria a
-Uria_aalge_inornata_UWBM_44410_JMB997,Uria aalge inornata,False,1163,no,2,2,0,4,False,UWBM44410,JMB997,15,Charadriiformes,Uria a
-Uria_aalge_inornata_UWBM_44411_JMB998,Uria aalge inornata,False,0,,0,0,0,0,False,UWBM44411,JMB998,16.1,Charadriiformes,Uria a
-Uria_lomvia_arra_UAM_13445_UAMX1553,Uria lomvia arra,False,3291;1173,no;no,4,11,0,15,True,UAM13445,UAMX1553,8.1,Charadriiformes,Uria l
-Uria_lomvia_arra_UAM_20236_UAMX3290,Uria lomvia arra,False,1328;1273,no;no,6,4,0,10,False,UAM20236,UAMX3290,7,Charadriiformes,Uria l
-Uria_lomvia_arra_UAM_30510_JJW1509,Uria lomvia arra,False,1296,no,1,0,0,1,False,UAM30510,JJW1509,2.6,Charadriiformes,Uria l
-Uria_lomvia_arra_UAM_30511_JJW1510,Uria lomvia arra,False,3585;2263;1972;1634,no;no;no;no,8,11,2,21,False,UAM30511,JJW1510,6.2,Charadriiformes,Uria l
-Uria_lomvia_arra_UAM_9608_UAMX387,Uria lomvia arra,False,2275,no,2,2,0,4,False,UAM9608,UAMX387,5.8,Charadriiformes,Uria l
-Uria_lomvia_arra_UWBM_44177_JMB1001,Uria lomvia arra,False,5291;1355,no;no,8,14,0,22,True,UWBM44177,JMB1001,16.9,Charadriiformes,Uria l
-Uria_lomvia_arra_UWBM_44178_JMB1002,Uria lomvia arra,False,1901;1277,no;no,5,4,0,9,False,UWBM44178,JMB1002,17.8,Charadriiformes,Uria l
-Uria_lomvia_arra_UWBM_55300_BKS351,Uria lomvia arra,False,0,,0,0,0,0,False,UWBM55300,BKS351,11,Charadriiformes,Uria l
-Uria_lomvia_arra_UWBM_55725_JMB857,Uria lomvia arra,False,0,,0,0,0,0,False,UWBM55725,JMB857,11.4,Charadriiformes,Uria l
-Uria_lomvia_arra_UWBM_72702_NCSM17754,Uria lomvia arra,False,1680,no,2,2,0,4,False,UWBM72702,NCSM17754,7.2,Charadriiformes,Uria l
+directory_name,species,assembly_success,assembler,length_bp,circularity,num_protein_coding_genes_totally_found,num_trna_coding_genes_totally_found,num_rrna_coding_genes_totally_found,num_genes_totally_found,ND2_present,catalog_num,field_num,coverage,order,taxon_pair
+Anas_acuta_UAM_22113_REW601,Anas acuta,False,,2208;1929;1734;1065,no;no;no;no,11,12,0,23,True,UAM22113,REW601,9.8,Anseriformes,Anas acuta
+Anas_acuta_UAM_22595_DDG2122,Anas acuta,False,,1206;1157,no;no,4,5,0,9,True,UAM22595,DDG2122,12.1,Anseriformes,Anas acuta
+Anas_acuta_UAM_23468_KGM895,Anas acuta,False,,15767,no,13,21,2,36,True,UAM23468,KGM895,48.3,Anseriformes,Anas acuta
+Anas_acuta_UAM_28156_KSW5107,Anas acuta,False,,9519,no,10,15,2,27,True,UAM28156,KSW5107,31.3,Anseriformes,Anas acuta
+Anas_acuta_UAM_28167_KSW5120,Anas acuta,False,,6837,no,6,12,1,19,True,UAM28167,KSW5120,23.2,Anseriformes,Anas acuta
+Anas_acuta_UAM_29039_REW548,Anas acuta,False,,2580;1310,no;no,6,6,0,12,False,UAM29039,REW548,22.8,Anseriformes,Anas acuta
+Anas_acuta_UAM_30400_KSW5391,Anas acuta,False,,0,,0,0,0,0,False,UAM30400,KSW5391,4.3,Anseriformes,Anas acuta
+Anas_acuta_UAM_31205_JJW1897,Anas acuta,False,,2915;1043,no;no,6,4,0,10,False,UAM31205,JJW1897,17.4,Anseriformes,Anas acuta
+Anas_acuta_UAM_31335_UAMX5487,Anas acuta,True,mitoz,16599,yes,13,22,2,37,True,UAM31335,UAMX5487,37.6,Anseriformes,Anas acuta
+Anas_acuta_UWBM_44114_DAB055,Anas acuta,False,,16759,no,13,22,2,37,True,UWBM44114,DAB055,66.6,Anseriformes,Anas acuta
+Anas_carolinensis_UAM_11251_UAMX203,Anas carolinensis,True,mitoz,16603,yes,14,22,2,38,True,UAM11251,UAMX203,50.2,Anseriformes,Anas c
+Anas_carolinensis_UAM_11920_KSW3040,Anas carolinensis,True,mitoz,16601,yes,13,22,2,37,True,UAM11920,KSW3040,176.5,Anseriformes,Anas c
+Anas_carolinensis_UAM_14961_KGM335,Anas carolinensis,True,mitoz,16602,yes,14,22,2,38,True,UAM14961,KGM335,320.8,Anseriformes,Anas c
+Anas_carolinensis_UAM_20635_KSW4530,Anas carolinensis,True,novoplasty,16603,no,13,22,2,37,True,UAM20635,KSW4530,119.2,Anseriformes,Anas c
+Anas_carolinensis_UAM_24497_JMM448,Anas carolinensis,False,,22004,no,0,0,0,0,False,UAM24497,JMM448,34.1,Anseriformes,Anas c
+Anas_carolinensis_UAM_28085_JJW978,Anas carolinensis,True,mitoz,16604,yes,13,22,2,37,True,UAM28085,JJW978,76,Anseriformes,Anas c
+Anas_carolinensis_UAM_28444_UAMX5069,Anas carolinensis,True,novoplasty,16603,no,13,22,2,37,True,UAM28444,UAMX5069,177.9,Anseriformes,Anas c
+Anas_crecca_UAM_11334_KGM021,Anas crecca,False,,16613,no,0,0,0,0,False,UAM11334,KGM021,142.1,Anseriformes,Anas c
+Anas_crecca_UAM_11335_KGM020,Anas crecca,True,mitoz,16598,yes,13,22,2,37,True,UAM11335,KGM020,481.6,Anseriformes,Anas c
+Anas_crecca_UAM_14100_DDG1885,Anas crecca,True,novoplasty,15578;1046,no;no,14,22,2,38,True,UAM14100,DDG1885,312.5,Anseriformes,Anas c
+Anas_crecca_UAM_14666_DDG1884,Anas crecca,True,mitoz,16598,yes,13,22,3,38,True,UAM14666,DDG1884,104.3,Anseriformes,Anas c
+Anas_crecca_UAM_22853_KSW4951,Anas crecca,False,,16653,no,13,22,2,37,True,UAM22853,KSW4951,304.6,Anseriformes,Anas c
+Anas_crecca_UAM_9191_DDG1732,Anas crecca,False,,16658,no,13,22,2,37,True,UAM9191,DDG1732,1282.9,Anseriformes,Anas c
+Anas_crecca_UAM_9255_DDG1704,Anas crecca,True,mitoz,16598,yes,13,22,2,37,True,UAM9255,DDG1704,459.4,Anseriformes,Anas c
+Anas_platyrhynchos_UAM_11193_KGM007,Anas platyrhynchos,True,mitoz,16604,yes,13,21,2,36,True,UAM11193,KGM007,127.2,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_11328_DDG1776,Anas platyrhynchos,False,,4782;3892;2848,no;no;no,11,11,3,25,False,UAM11328,DDG1776,23.9,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_28074_JJW944,Anas platyrhynchos,True,mitoz,16608,yes,13,22,2,37,True,UAM28074,JJW944,81.1,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_28089_JJW943,Anas platyrhynchos,True,mitoz,16604,yes,13,22,2,37,True,UAM28089,JJW943,89.9,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_29647_JJW1397,Anas platyrhynchos,False,,5990;3302;2190,no;no;no,9,13,3,25,False,UAM29647,JJW1397,48.3,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_30286_JJW1602,Anas platyrhynchos,False,,2703;2211;2114,no;no;no,8,11,1,20,True,UAM30286,JJW1602,22.8,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_30290_JJW1592,Anas platyrhynchos,True,mitoz,16605,yes,13,21,2,36,True,UAM30290,JJW1592,20.4,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_30399_KSW5390,Anas platyrhynchos,False,,1171,no,2,3,0,5,False,UAM30399,KSW5390,5,Anseriformes,Anas p
+Anas_platyrhynchos_UAM_31321_UAMX5540,Anas platyrhynchos,False,,4222;1883,no;no,8,11,0,19,True,UAM31321,UAMX5540,25.4,Anseriformes,Anas p
+Anas_platyrhynchos_UWBM_44374_JMB1220,Anas platyrhynchos,False,,3804;2114,no;no,8,6,0,14,False,UWBM44374,JMB1220,36.7,Anseriformes,Anas p
+Anas_platyrhynchos_UWBM_47068_CSW4828,Anas platyrhynchos,False,,7159;6071,no;no,12,19,2,33,True,UWBM47068,CSW4828,16.4,Anseriformes,Anas p
+Anas_platyrhynchos_UWBM_47160_SAR6383,Anas platyrhynchos,False,,6231,no,6,5,0,11,False,UWBM47160,SAR6383,31.6,Anseriformes,Anas p
+Anser_albifrons_UAM_27372_JJW884,Anser albifrons,False,,4972,no,7,7,0,14,False,UAM27372,JJW884,22.2,Anseriformes,Anser
+Anser_albifrons_UAM_30571_JJW1495,Anser albifrons,False,,5277,no,5,5,0,10,False,UAM30571,JJW1495,32.6,Anseriformes,Anser
+Anser_albifrons_UAM_34089_KSW4176,Anser albifrons,False,,12646;1838,no;no,11,17,3,31,False,UAM34089,KSW4176,11.5,Anseriformes,Anser
+Anser_albifrons_UAM_35427_JJW2405,Anser albifrons,False,,16397,no,13,22,2,37,True,UAM35427,JJW2405,70.5,Anseriformes,Anser
+Anser_albifrons_UAM_35428_JJW2413,Anser albifrons,False,,1254;1099;1001,no;no;no,7,2,0,9,False,UAM35428,JJW2413,7.6,Anseriformes,Anser
+Anser_albifrons_UWBM_43977_CSW4521,Anser albifrons,True,mitoz,16743,yes,13,22,2,37,True,UWBM43977,CSW4521,83.9,Anseriformes,Anser
+Anser_albifrons_UWBM_43978_CSW4522,Anser albifrons,False,,17363,no,13,22,2,37,True,UWBM43978,CSW4522,56.9,Anseriformes,Anser
+Anser_albifrons_UWBM_71170_SVD1426,Anser albifrons,False,,5819,no,6,7,0,13,False,UWBM71170,SVD1426,94.6,Anseriformes,Anser
+Anthus_rubescens_japonicus_UAM_13353_DDG1877,Anthus rubescens japonicus,False,,0,,0,0,0,0,False,UAM13353,DDG1877,3.2,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_15068_KSW3980,Anthus rubescens japonicus,False,,7431,no,7,8,0,15,False,UAM15068,KSW3980,15.4,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_27351_JJW864,Anthus rubescens japonicus,False,,16835,no,13,22,2,37,True,UAM27351,JJW864,25.3,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_28057_JJW905,Anthus rubescens japonicus,False,,33627,no,26,44,4,74,True,UAM28057,JJW905,246.9,Passeriformes,Anthus
+Anthus_rubescens_japonicus_UAM_39615_JJW3455,Anthus rubescens japonicus,False,,6617,no,8,5,0,13,False,UAM39615,JJW3455,258.3,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_11452_CLP200,Anthus rubescens pacificus,True,mitoz,16741,yes,13,22,2,37,True,UAM11452,CLP200,33.3,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_13540_RWD25949,Anthus rubescens pacificus,False,,2086;1136,no;no,3,6,0,9,False,UAM13540,RWD25949,4.3,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_19419_MJM037,Anthus rubescens pacificus,False,,10043,no,11,16,0,27,True,UAM19419,MJM037,13.2,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_31927_JJW2045,Anthus rubescens pacificus,False,,0,,0,0,0,0,False,UAM31927,JJW2045,1.7,Passeriformes,Anthus
+Anthus_rubescens_pacificus_UAM_31928_JJW2046,Anthus rubescens pacificus,False,,16859,no,13,22,2,37,True,UAM31928,JJW2046,15.5,Passeriformes,Anthus
+Arenaria_interpres_UAM_13527_UAMX1744,Arenaria interpres,False,,14418,no,12,19,2,33,True,UAM13527,UAMX1744,76.7,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_14954_DAR268,Arenaria interpres,False,,2381;1413;1322,no;no;no,5,13,0,18,False,UAM14954,DAR268,20,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_20220_JMM422,Arenaria interpres,False,,1840;1386;1098,no;no;no,6,9,0,15,True,UAM20220,JMM422,8.2,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_26977_JJW676,Arenaria interpres,False,,14647,no,12,19,2,33,True,UAM26977,JJW676,112.8,Charadriiformes,Arenaria
+Arenaria_interpres_UAM_30797_JJW1637,Arenaria interpres,True,novoplasty,16954,no,13,22,2,37,True,UAM30797,JJW1637,178.8,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_20142_JMM326,Arenaria melanocephala,False,,10310,no,12,16,0,28,True,UAM20142,JMM326,141,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_28748_JJW1153,Arenaria melanocephala,False,,1609;1395;1111,no;no;no,4,9,1,14,False,UAM28748,JJW1153,5,Charadriiformes,Arenaria
+Arenaria_melanocephala_UAM_40266_JJW3588,Arenaria melanocephala,True,novoplasty,15761;1207,no;no,13,22,2,37,True,UAM40266,JJW3588,449.8,Charadriiformes,Arenaria
+Aythya_marila_UAM_18068_JJW325,Aythya marila,True,mitoz,16616,yes,13,22,2,37,True,UAM18068,JJW325,111.9,Anseriformes,Aythya
+Aythya_marila_UAM_28067_JJW324,Aythya marila,True,mitoz,16616,yes,13,22,2,37,True,UAM28067,JJW324,163.1,Anseriformes,Aythya
+Aythya_marila_UAM_29987_UAMX5077,Aythya marila,True,mitoz,16620,yes,13,22,2,37,True,UAM29987,UAMX5077,183.8,Anseriformes,Aythya
+Aythya_marila_UAM_30392_KSW5394,Aythya marila,False,,0,,0,0,0,0,False,UAM30392,KSW5394,2.6,Anseriformes,Aythya
+Aythya_marila_UAM_30393_KSW5396,Aythya marila,False,,1254,no,2,3,0,5,False,UAM30393,KSW5396,7.2,Anseriformes,Aythya
+Aythya_marila_UAM_30394_KSW5393,Aythya marila,False,,1409,no,2,3,0,5,False,UAM30394,KSW5393,8.7,Anseriformes,Aythya
+Aythya_marila_UAM_30395_KSW5385,Aythya marila,False,,1627,no,2,4,0,6,True,UAM30395,KSW5385,24.8,Anseriformes,Aythya
+Aythya_marila_UAM_30396_KSW5395,Aythya marila,False,,0,,0,0,0,0,False,UAM30396,KSW5395,2.3,Anseriformes,Aythya
+Aythya_marila_UAM_30915_UAMX5076,Aythya marila,False,,16578,no,13,22,2,37,True,UAM30915,UAMX5076,151.9,Anseriformes,Aythya
+Aythya_marila_UAM_35653_REW611,Aythya marila,True,mitoz,16618,yes,13,22,2,37,True,UAM35653,REW611,127.3,Anseriformes,Aythya
+Calcarius_lapponicus_alascensis_UAM_13337_RWD25944,Calcarius lapponicus alascensis,False,,2230,no,2,5,0,7,True,UAM13337,RWD25944,9.4,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_19614_CLP051,Calcarius lapponicus alascensis,False,,1443;1095,no;no,5,6,0,11,True,UAM19614,CLP051,12.3,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_7653_KSW1821,Calcarius lapponicus alascensis,False,,1656;1167,no;no,4,6,0,10,False,UAM7653,KSW1821,4.1,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_9407_CLP038,Calcarius lapponicus alascensis,True,novoplasty,16814,no,13,22,2,37,True,UAM9407,CLP038,74.8,Passeriformes,Calcarius
+Calcarius_lapponicus_alascensis_UAM_9525_CLP048,Calcarius lapponicus alascensis,False,,10429,no,10,15,1,26,True,UAM9525,CLP048,40,Passeriformes,Calcarius
+Calcarius_lapponicus_coloratus_UAM_29825_UAM29825,Calcarius lapponicus coloratus,False,,1785,no,2,5,0,7,True,UAM29825,UAM29825,25.6,Passeriformes,Calcarius
+Calcarius_lapponicus_coloratus_UAM_29827_UAM29827,Calcarius lapponicus coloratus,False,,1271,no,1,0,0,1,False,UAM29827,UAM29827,8.5,Passeriformes,Calcarius
+Calidris_alpina_arcticola_UAM_19815_JJW4411,Calidris alpina arcticola,False,,2237,no,2,3,0,5,False,UAM19815,JJW4411,3.3,Charadriiformes,Calidris
+Calidris_alpina_arcticola_UAM_20132_UAMX3267,Calidris alpina arcticola,False,,8026;1109,no;no,10,15,1,26,True,UAM20132,UAMX3267,26.7,Charadriiformes,Calidris
+Calidris_alpina_arcticola_UAM_25341_JJW4409,Calidris alpina arcticola,False,,0,,0,0,0,0,False,UAM25341,JJW4409,18.9,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_26913_JJW016,Calidris alpina pacifica,False,,19217,no,14,25,2,41,True,UAM26913,JJW016,249,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_26914_JJW015,Calidris alpina pacifica,False,,0,,0,0,0,0,False,UAM26914,JJW015,14.8,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_27576_JJW704,Calidris alpina pacifica,False,,1082;1045;1016,no;no;no,3,2,1,6,False,UAM27576,JJW704,22.2,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_30313_JJW1490,Calidris alpina pacifica,False,,8338;1530,no;no,7,15,2,24,True,UAM30313,JJW1490,21.7,Charadriiformes,Calidris
+Calidris_alpina_pacifica_UAM_30879_JJW1821,Calidris alpina pacifica,True,novoplasty,16780,no,13,22,2,37,True,UAM30879,JJW1821,54.7,Charadriiformes,Calidris
+Clangula_hyemalis_UAM_21883_REW583,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UAM21883,REW583,250.2,Anseriformes,Clangula
+Clangula_hyemalis_UAM_21931_REW532,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UAM21931,REW532,437.8,Anseriformes,Clangula
+Clangula_hyemalis_UAM_28184_REW619,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UAM28184,REW619,295.8,Anseriformes,Clangula
+Clangula_hyemalis_UAM_29027_REW618,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UAM29027,REW618,251,Anseriformes,Clangula
+Clangula_hyemalis_UAM_29029_REW620,Clangula hyemalis,True,novoplasty,16640,no,14,22,2,38,True,UAM29029,REW620,3382.7,Anseriformes,Clangula
+Clangula_hyemalis_UAM_40387_REW564,Clangula hyemalis,True,novoplasty,16638,no,13,22,2,37,True,UAM40387,REW564,141.8,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43893_CSW4426,Clangula hyemalis,True,novoplasty,16638,no,13,22,2,37,True,UWBM43893,CSW4426,132.9,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43894_CSW4427,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UWBM43894,CSW4427,209.9,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43895_CSW4428,Clangula hyemalis,True,novoplasty,16639,no,13,22,2,37,True,UWBM43895,CSW4428,208.9,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43917_CSW4452,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UWBM43917,CSW4452,407.5,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43918_CSW4453,Clangula hyemalis,True,novoplasty,16639,no,13,22,2,37,True,UWBM43918,CSW4453,351.8,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43919_CSW4454,Clangula hyemalis,True,novoplasty,16640,no,13,22,2,37,True,UWBM43919,CSW4454,264.4,Anseriformes,Clangula
+Clangula_hyemalis_UWBM_43970_CSW4514,Clangula hyemalis,True,novoplasty,16639,no,13,22,2,37,True,UWBM43970,CSW4514,124.1,Anseriformes,Clangula
+Corvus_corax_UAM_10021_DDG1749,Corvus corax,False,,1107,no,1,0,0,1,False,UAM10021,DDG1749,5.5,Passeriformes,Corvus
+Corvus_corax_UAM_11113_UAMX1061,Corvus corax,False,,2561;2257;1616,no;no;no,9,9,0,18,False,UAM11113,UAMX1061,5.5,Passeriformes,Corvus
+Corvus_corax_UAM_15040_RWD26009,Corvus corax,False,,0,,0,0,0,0,False,UAM15040,RWD26009,4.4,Passeriformes,Corvus
+Corvus_corax_UAM_17737_TB1445,Corvus corax,False,,0,,0,0,0,0,False,UAM17737,TB1445,2.6,Passeriformes,Corvus
+Corvus_corax_UAM_17761_JMM133,Corvus corax,False,,1519,no,4,2,0,6,False,UAM17761,JMM133,4.2,Passeriformes,Corvus
+Corvus_corax_UAM_22252_KSW4763,Corvus corax,False,,16640,no,13,22,2,37,True,UAM22252,KSW4763,9.8,Passeriformes,Corvus
+Corvus_corax_UAM_38000_JJW2991,Corvus corax,True,mitoz,16931,yes,13,22,2,37,True,UAM38000,JJW2991,48.3,Passeriformes,Corvus
+Corvus_corax_UAM_39709_JJW3401,Corvus corax,False,,1661;1345,no;no,2,5,0,7,True,UAM39709,JJW3401,58.2,Passeriformes,Corvus
+Corvus_corax_UAM_41600_JJW4373,Corvus corax,False,,2701;1615,no;no,8,6,0,14,False,UAM41600,JJW4373,3.2,Passeriformes,Corvus
+Corvus_corax_UAM_8803_KSW2715,Corvus corax,False,,1616;1298;1040,no;no;no,7,3,0,10,False,UAM8803,KSW2715,8.1,Passeriformes,Corvus
+Corvus_corax_UAM_9313_UAMX844,Corvus corax,False,,4180,no,7,3,0,10,False,UAM9313,UAMX844,9.8,Passeriformes,Corvus
+Corvus_corax_UWBM_46861_BKS908,Corvus corax,False,,0,,0,0,0,0,False,UWBM46861,BKS908,3.3,Passeriformes,Corvus
+Corvus_corax_UWBM_56544_BKS3241,Corvus corax,False,,0,,0,0,0,0,False,UWBM56544,BKS3241,1.5,Passeriformes,Corvus
+Corvus_corax_UWBM_57899_BKS4041,Corvus corax,False,,0,,0,0,0,0,False,UWBM57899,BKS4041,2.6,Passeriformes,Corvus
+Corvus_corax_UWBM_57909_BKS4052,Corvus corax,False,,1506;1441,no;no,2,4,0,6,False,UWBM57909,BKS4052,5.3,Passeriformes,Corvus
+Corvus_corax_UWBM_59566_SVD1398,Corvus corax,False,,0,,0,0,0,0,False,UWBM59566,SVD1398,9,Passeriformes,Corvus
+Corvus_corax_UWBM_71244_SVD231a,Corvus corax,False,,0,,0,0,0,0,False,UWBM71244,SVD231a,2.2,Passeriformes,Corvus
+Gallinago_delicata_UAM_15063_DDG1945,Gallinago delicata,False,,0,,0,0,0,0,False,UAM15063,DDG1945,2.1,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_19231_DDG2021,Gallinago delicata,False,,0,,0,0,0,0,False,UAM19231,DDG2021,2.2,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_20505_DDG2035,Gallinago delicata,False,,15269,no,13,21,2,36,True,UAM20505,DDG2035,55,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_22570_DDG2118,Gallinago delicata,True,mitoz,16768,yes,13,22,2,37,True,UAM22570,DDG2118,31.9,Charadriiformes,Gallinago
+Gallinago_delicata_UAM_30488_JJW1536,Gallinago delicata,False,,0,,0,0,0,0,False,UAM30488,JJW1536,1.6,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_21848_CLP713,Gallinago gallinago gallinago,False,,9430,no,11,11,0,22,False,UAM21848,CLP713,9.8,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_24695_KSW5126,Gallinago gallinago gallinago,False,,16963,no,13,22,2,37,True,UAM24695,KSW5126,33.9,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_26800_JJW158,Gallinago gallinago gallinago,False,,0,,0,0,0,0,False,UAM26800,JJW158,1.5,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_28175_KSW5134,Gallinago gallinago gallinago,False,,0,,0,0,0,0,False,UAM28175,KSW5134,1.9,Charadriiformes,Gallinago
+Gallinago_gallinago_gallinago_UAM_8228_DDG1650,Gallinago gallinago gallinago,False,,0,,0,0,0,0,False,UAM8228,DDG1650,1.8,Charadriiformes,Gallinago
+Gavia_stellata_UAM_13601_DAR275,Gavia stellata,False,,2604;1764;1032,no;no;no,4,7,1,12,False,UAM13601,DAR275,4.5,Gaviiformes,Gavia
+Gavia_stellata_UAM_20711_KGM628,Gavia stellata,False,,16194,no,13,22,2,37,True,UAM20711,KGM628,30.2,Gaviiformes,Gavia
+Gavia_stellata_UAM_38314_UAMX3952,Gavia stellata,False,,11319,no,12,16,0,28,True,UAM38314,UAMX3952,67.4,Gaviiformes,Gavia
+Gavia_stellata_UAM_40093_UAMX6608,Gavia stellata,False,,2156;1712,no;no,6,6,0,12,False,UAM40093,UAMX6608,44.7,Gaviiformes,Gavia
+Gavia_stellata_UAM_40094_JJW3574,Gavia stellata,False,,2633;1411,no;no,8,5,0,13,False,UAM40094,JJW3574,41,Gaviiformes,Gavia
+Gavia_stellata_UWBM_43925_CSW4461,Gavia stellata,False,,6070,no,9,8,0,17,False,UWBM43925,CSW4461,14.1,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44122_DAB063,Gavia stellata,False,,0,,0,0,0,0,False,UWBM44122,DAB063,NA,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44259_JMB1098,Gavia stellata,False,,5650;2046;1676,no;no;no,11,11,1,23,False,UWBM44259,JMB1098,9.3,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44260_JMB1099,Gavia stellata,False,,1329,no,1,2,1,4,False,UWBM44260,JMB1099,2.9,Gaviiformes,Gavia
+Gavia_stellata_UWBM_44653_SAR6293,Gavia stellata,False,,1064,no,3,1,0,4,False,UWBM44653,SAR6293,3.2,Gaviiformes,Gavia
+Histrionicus_histrionicus_UAM_11799_DDG1754,Histrionicus histrionicus,False,,7426,no,7,8,0,15,False,UAM11799,DDG1754,22,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_11800_DDG1753,Histrionicus histrionicus,False,,7480;5376,no;no,12,19,2,33,False,UAM11800,DDG1753,19,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_11801_DDG1755,Histrionicus histrionicus,False,,0,,0,0,0,0,False,UAM11801,DDG1755,1.9,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_36745_KGM641,Histrionicus histrionicus,False,,10913,no,11,16,0,27,True,UAM36745,KGM641,13.5,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_40488_JJW3694,Histrionicus histrionicus,False,,0,,0,0,0,0,False,UAM40488,JJW3694,2,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UAM_9600_KSW2979,Histrionicus histrionicus,False,,0,,0,0,0,0,False,UAM9600,KSW2979,2.3,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UWBM_44446_SAR6074,Histrionicus histrionicus,False,,13096,no,11,14,2,27,True,UWBM44446,SAR6074,40.8,Anseriformes,Histrionicus
+Histrionicus_histrionicus_UWBM_82975_RYA1002,Histrionicus histrionicus,True,novoplasty,16632,no,13,22,2,37,True,UWBM82975,RYA1002,79.3,Anseriformes,Histrionicus
+Lagopus_lagopus_alascensis_UAM_27018_JJW711,Lagopus lagopus alascensis,False,,3393,no,1,3,2,6,False,UAM27018,JJW711,15.1,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_28238_TB349,Lagopus lagopus alascensis,False,,1449,no,1,1,1,3,False,UAM28238,TB349,32,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_31562_JJW1970,Lagopus lagopus alascensis,False,,3833,no,3,9,1,13,True,UAM31562,JJW1970,21.5,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_36927_JJW2909,Lagopus lagopus alascensis,False,,0,,0,0,0,0,False,UAM36927,JJW2909,15.2,Galliformes,Lagopus
+Lagopus_lagopus_alascensis_UAM_39209_JJW3352,Lagopus lagopus alascensis,False,,1561,no,1,2,1,4,False,UAM39209,JJW3352,9,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_14834_KSW5045,Lagopus lagopus koreni,False,,3106,no,2,6,1,9,True,UAM14834,KSW5045,20.7,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_25139_KSW5046,Lagopus lagopus koreni,False,,15410,no,13,21,2,36,True,UAM25139,KSW5046,63.2,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_28169_KSW5052,Lagopus lagopus koreni,False,,1305,no,1,1,1,3,False,UAM28169,KSW5052,32.3,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_28171_KSW5113,Lagopus lagopus koreni,False,,1630,no,1,3,1,5,False,UAM28171,KSW5113,28.2,Galliformes,Lagopus
+Lagopus_lagopus_koreni_UAM_29685_KSW5082,Lagopus lagopus koreni,False,,0,,0,0,0,0,False,UAM29685,KSW5082,2.3,Galliformes,Lagopus
+Larus_argentatus_smithsonianus_UAM_30575_JJW1533,Larus argentatus smithsonianus,False,,9440,no,10,9,0,19,False,UAM30575,JJW1533,6.8,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35751_JJW2551,Larus argentatus smithsonianus,False,,0,,0,0,0,0,False,UAM35751,JJW2551,2.6,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35753_JJW2549,Larus argentatus smithsonianus,False,,0,,0,0,0,0,False,UAM35753,JJW2549,2.5,Charadriiformes,Larus a
+Larus_argentatus_smithsonianus_UAM_35754_JJW2548,Larus argentatus smithsonianus,False,,19094,no,14,25,2,41,True,UAM35754,JJW2548,28.1,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_25983_JJW343,Larus argentatus vegae,False,,0,,0,0,0,0,False,UAM25983,JJW343,1.9,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_25984_JJW257,Larus argentatus vegae,False,,15862,no,13,22,2,37,True,UAM25984,JJW257,13.1,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_25987_JJW224,Larus argentatus vegae,False,,0,,0,0,0,0,False,UAM25987,JJW224,1.4,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_26660_KSW5044,Larus argentatus vegae,False,,14808,no,12,19,2,33,True,UAM26660,KSW5044,84.5,Charadriiformes,Larus a
+Larus_argentatus_vegae_UAM_28162_KSW5090,Larus argentatus vegae,False,,14585,no,12,19,2,33,True,UAM28162,KSW5090,67.2,Charadriiformes,Larus a
+Larus_brachyrhynchus_UAM_14682_DDG1921,Larus brachyrhynchus,False,,0,,0,0,0,0,False,UAM14682,DDG1921,1.2,Charadriiformes,Larus c
+Larus_brachyrhynchus_UAM_14803_DDG1922,Larus brachyrhynchus,False,,1430,no,2,3,0,5,False,UAM14803,DDG1922,9.8,Charadriiformes,Larus c
+Larus_brachyrhynchus_UAM_26901_JJW010,Larus brachyrhynchus,False,,1489,no,2,3,0,5,False,UAM26901,JJW010,5,Charadriiformes,Larus c
+Larus_brachyrhynchus_UAM_36875_JJW2921,Larus brachyrhynchus,False,,14668,no,12,19,2,33,True,UAM36875,JJW2921,90,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_11014_DDG1771,Larus canus kamtschatschensis,False,,0,,0,0,0,0,False,UAM11014,DDG1771,2.7,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_13377_DDG1876,Larus canus kamtschatschensis,False,,14617,no,12,19,2,33,True,UAM13377,DDG1876,20.6,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_22863_KSW4959,Larus canus kamtschatschensis,False,,14415,no,12,19,2,33,True,UAM22863,KSW4959,269.6,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_22926_KSW4989,Larus canus kamtschatschensis,False,,10359;3833,no;no,12,19,2,33,True,UAM22926,KSW4989,15.5,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_24812_UAMX4789,Larus canus kamtschatschensis,False,,0,,0,0,0,0,False,UAM24812,UAMX4789,3,Charadriiformes,Larus c
+Larus_canus_kamtschatschensis_UAM_37770_JJW3012,Larus canus kamtschatschensis,False,,0,,0,0,0,0,False,UAM37770,JJW3012,2.7,Charadriiformes,Larus c
+Larus_hyperboreus_UAM_24327_UAMX4940,Larus hyperboreus,False,,0,,0,0,0,0,False,UAM24327,UAMX4940,2.1,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_28158_KSW5035,Larus hyperboreus,False,,3367;2983,no;no,7,12,1,20,True,UAM28158,KSW5035,9.5,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_28160_KSW5108,Larus hyperboreus,False,,12215,no,12,18,0,30,True,UAM28160,KSW5108,24.3,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_40190_JJW3585,Larus hyperboreus,False,,0,,0,0,0,0,False,UAM40190,JJW3585,1.3,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_40191_JJW3586,Larus hyperboreus,False,,14617,no,12,19,2,33,True,UAM40191,JJW3586,13.4,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_8929_UAMX683,Larus hyperboreus,False,,17160,no,13,22,3,38,True,UAM8929,UAMX683,28.6,Charadriiformes,Leucosticte
+Larus_hyperboreus_UAM_9257_KSW2490,Larus hyperboreus,False,,9709,no,10,11,0,21,False,UAM9257,KSW2490,8.3,Charadriiformes,Leucosticte
+Larus_hyperboreus_UWBM_43851_CSW4378,Larus hyperboreus,False,,0,,0,0,0,0,False,UWBM43851,CSW4378,5.4,Charadriiformes,Leucosticte
+Larus_hyperboreus_UWBM_43852_CSW4379,Larus hyperboreus,False,,1010,no,1,3,0,4,False,UWBM43852,CSW4379,5,Charadriiformes,Leucosticte
+Larus_hyperboreus_UWBM_43982_CSW4526,Larus hyperboreus,False,,3068;2262;1436,no;no;no,7,9,1,17,True,UWBM43982,CSW4526,10.7,Charadriiformes,Leucosticte
+Leucosticte_arctoa_UWBM_44077_CSW4675,Leucosticte arctoa,False,,0,,0,0,0,0,False,UWBM44077,CSW4675,3.3,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44366_JMB1211,Leucosticte arctoa,False,,0,,0,0,0,0,False,UWBM44366,JMB1211,3.7,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44622_SAR6262,Leucosticte arctoa,False,,0,,0,0,0,0,False,UWBM44622,SAR6262,3.5,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44623_SAR6263,Leucosticte arctoa,False,,2484;1909,no;no,4,9,0,13,True,UWBM44623,SAR6263,5.1,Passeriformes,Leucosticte
+Leucosticte_arctoa_UWBM_44624_SAR6264,Leucosticte arctoa,False,,4649,no,6,8,0,14,True,UWBM44624,SAR6264,6.2,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_10981_DDG1750,Leucosticte tephrocotis griseonucha,False,,4303,no,5,8,0,13,True,UAM10981,DDG1750,12.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_24603_UAMX5158,Leucosticte tephrocotis griseonucha,False,,1521,no,3,2,0,5,False,UAM24603,UAMX5158,6.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_24607_UAMX5168,Leucosticte tephrocotis griseonucha,True,mitoz,16812,yes,13,22,2,37,True,UAM24607,UAMX5168,13.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_31438_RWD24852,Leucosticte tephrocotis griseonucha,False,,15408,no,13,22,2,37,True,UAM31438,RWD24852,17.2,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_griseonucha_UAM_31439_RWD24857,Leucosticte tephrocotis griseonucha,True,novoplasty,16816,no,13,22,2,37,True,UAM31439,RWD24857,367,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_28707_JJW1163,Leucosticte tephrocotis littoralis,True,mitoz,16815,yes,13,22,2,37,True,UAM28707,JJW1163,14.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40954_JJW3809,Leucosticte tephrocotis littoralis,True,novoplasty,16814,no,13,22,2,37,True,UAM40954,JJW3809,39.2,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40957_JJW3812,Leucosticte tephrocotis littoralis,True,mitoz,16815,yes,13,22,2,37,True,UAM40957,JJW3812,83.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40959_JJW3814,Leucosticte tephrocotis littoralis,False,,7025,no,8,8,0,16,False,UAM40959,JJW3814,13.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_littoralis_UAM_40961_JJW3816,Leucosticte tephrocotis littoralis,False,,14797,no,13,21,2,36,True,UAM40961,JJW3816,66.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_27288_JJW873,Leucosticte tephrocotis tephrocotis,True,novoplasty,16812,no,13,22,2,37,True,UAM27288,JJW873,32.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_35598_JJW2465,Leucosticte tephrocotis tephrocotis,False,,15353,no,13,21,2,36,True,UAM35598,JJW2465,31.7,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460,Leucosticte tephrocotis tephrocotis,True,mitoz,16815,yes,13,22,2,37,True,UAM35600,JJW2460,33.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204,Leucosticte tephrocotis tephrocotis,True,mitoz,16815,yes,13,22,2,37,True,UAM38654,JJW3204,87.5,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351,Leucosticte tephrocotis umbrina,True,mitoz,16812,yes,13,22,3,38,True,FMNH34305,AF14351,10.1,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346,Leucosticte tephrocotis umbrina,True,mitoz,16813,yes,13,22,2,37,True,UAM28619,AF14346,2.3,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344,Leucosticte tephrocotis umbrina,True,mitoz,16814,yes,13,22,2,37,True,UAM28620,AF14344,12.6,Passeriformes,Leucosticte
+Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646,Leucosticte tephrocotis umbrina,False,,0,,0,0,0,0,False,UAM7351,KSW1646,2.1,Passeriformes,Leucosticte
+Luscinia_svecica_UAM_13718_ABJ200,Luscinia svecica,True,novoplasty,16784,no,13,22,2,37,True,UAM13718,ABJ200,235.8,Passeriformes,Luscinia
+Luscinia_svecica_UAM_15419_MJM048,Luscinia svecica,False,,16192,no,0,0,0,0,False,UAM15419,MJM048,58.7,Passeriformes,Luscinia
+Luscinia_svecica_UAM_17727_MJM047,Luscinia svecica,True,novoplasty,16784,no,13,22,2,37,True,UAM17727,MJM047,123.4,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8584_KSW2409,Luscinia svecica,True,novoplasty,16786,no,13,22,2,37,True,UAM8584,KSW2409,279.8,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8585_KSW2406,Luscinia svecica,True,novoplasty,16788,no,13,22,2,37,True,UAM8585,KSW2406,133.3,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8944_KSW2481,Luscinia svecica,True,novoplasty,15796;1044,no;no,13,22,2,37,True,UAM8944,KSW2481,50.6,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8945_KSW2408,Luscinia svecica,True,novoplasty,16780,no,13,22,2,37,True,UAM8945,KSW2408,49.6,Passeriformes,Luscinia
+Luscinia_svecica_UAM_8946_KSW2407,Luscinia svecica,True,novoplasty,16789,no,13,22,2,37,True,UAM8946,KSW2407,NA,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44233_JMB1064,Luscinia svecica,True,novoplasty,16785,no,13,22,2,37,True,UWBM44233,JMB1064,128.3,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44242_JMB1278,Luscinia svecica,True,novoplasty,16787,no,13,22,2,37,True,UWBM44242,JMB1078,225.4,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44246_JMB1082,Luscinia svecica,True,novoplasty,15793;1025,no;no,13,22,2,37,True,UWBM44246,JMB1082,113.9,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44361_JMB1206,Luscinia svecica,True,novoplasty,16785,no,13,22,2,37,True,UWBM44361,JMB1206,121.8,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44362_JMB1207,Luscinia svecica,False,,0,,0,0,0,0,False,UWBM44362,JMB1207,1.9,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44363_JMB1208,Luscinia svecica,True,novoplasty,16791,no,13,22,2,37,True,UWBM44363,JMB1208,NA,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44489_SAR6270,Luscinia svecica,True,novoplasty,15781;1036,no;no,13,22,2,37,True,UWBM44489,SAR6270,NA,Passeriformes,Luscinia
+Luscinia_svecica_UWBM_44629_SAR6269,Luscinia svecica,True,novoplasty,16788,no,13,22,2,37,True,UWBM44629,SAR6269,1138,Passeriformes,Luscinia
+Mareca_americana_UAM_11908_KSW3028,Mareca americana,True,novoplasty,15599;1031,no;no,14,22,2,38,True,UAM11908,KSW3028,595.9,Anseriformes,Mareca
+Mareca_americana_UAM_11909_KSW3029,Mareca americana,True,novoplasty,15550;1075,no;no,14,22,2,38,True,UAM11909,KSW3029,214.1,Anseriformes,Mareca
+Mareca_americana_UAM_11916_KSW3036,Mareca americana,True,novoplasty,15594;1031,no;no,14,22,2,38,True,UAM11916,KSW3036,404.6,Anseriformes,Mareca
+Mareca_americana_UAM_11919_KSW3039,Mareca americana,True,novoplasty,15581;1050,no;no,14,22,2,38,True,UAM11919,KSW3039,411,Anseriformes,Mareca
+Mareca_americana_UAM_13141_UAMX1468,Mareca americana,False,,22003,no,0,0,0,0,False,UAM13141,UAMX1468,92.5,Anseriformes,Mareca
+Mareca_americana_UAM_26061_JJW383,Mareca americana,True,novoplasty,15578;1046,no;no,14,22,2,38,True,UAM26061,JJW383,177.4,Anseriformes,Mareca
+Mareca_americana_UAM_28087_JJW976,Mareca americana,True,novoplasty,15602;1014,no;no,14,22,2,38,True,UAM28087,JJW976,278.6,Anseriformes,Mareca
+Mareca_americana_UAM_28088_JJW948,Mareca americana,True,novoplasty,15250;1356,no;no,14,21,2,37,True,UAM28088,JJW948,72.4,Anseriformes,Mareca
+Mareca_penelope_UAM_10008_DDG1716,Mareca penelope,True,novoplasty,16602,no,13,22,2,37,True,UAM10008,DDG1716,167.2,Anseriformes,Mareca
+Mareca_penelope_UAM_11803_DDG1768,Mareca penelope,True,novoplasty,16602,no,13,22,2,37,True,UAM11803,DDG1768,243,Anseriformes,Mareca
+Mareca_penelope_UAM_24301_UAMX4959,Mareca penelope,True,novoplasty,16602,no,14,22,2,38,True,UAM24301,UAMX4959,384.2,Anseriformes,Mareca
+Mareca_penelope_UAM_24455_MJL037,Mareca penelope,True,novoplasty,16602,no,14,22,2,38,True,UAM24455,MJL037,343,Anseriformes,Mareca
+Mareca_penelope_UAM_24550_UAMX5044,Mareca penelope,False,,16187,no,0,0,0,0,False,UAM24550,UAMX5044,26.5,Anseriformes,Mareca
+Mareca_penelope_UAM_27749_JJW968,Mareca penelope,True,novoplasty,16603,no,13,22,2,37,True,UAM27749,JJW968,633.9,Anseriformes,Mareca
+Mareca_penelope_UAM_8758_DDG1663,Mareca penelope,True,novoplasty,16602,no,13,22,2,37,True,UAM8758,DDG1663,156.3,Anseriformes,Mareca
+Mareca_penelope_UAM_9359_DDG1703,Mareca penelope,True,novoplasty,16602,no,13,22,2,37,True,UAM9359,DDG1703,129.5,Anseriformes,Mareca
+Melanitta_americana_UAM_25996_JJW179,Melanitta americana,False,,24639,no,16,35,4,55,True,UAM25996,JJW179,74.2,Anseriformes,Melanitta
+Melanitta_americana_UAM_27720_JJW950,Melanitta americana,True,novoplasty,16618,no,13,22,2,37,True,UAM27720,JJW950,201.2,Anseriformes,Melanitta
+Melanitta_americana_UAM_29920_JJW1388,Melanitta americana,True,mitoz,16617,yes,13,22,2,37,True,UAM29920,JJW1388,65.4,Anseriformes,Melanitta
+Melanitta_americana_UAM_35578_JJW2276,Melanitta americana,True,mitoz,16618,yes,13,22,2,37,True,UAM35578,JJW2276,119.4,Anseriformes,Melanitta
+Melanitta_americana_UAM_28065_JJW951,Melanitta americana,False,,6690,no,9,6,0,15,False,UAM28065,JJW951,14.5,Anseriformes,Melanitta
+Melanitta_americana_UWBM_43946_CSW4486,Melanitta americana,True,novoplasty,16617,no,13,22,2,37,True,UWBM43946,CSW4486,196.1,Anseriformes,Melanitta
+Mergus_merganser_americanus_UAM_11037_UAMX1058,Mergus merganser americanus,False,,4669,no,8,5,0,13,False,UAM11037,UAMX1058,12,Anseriformes,Mergus
+Mergus_merganser_americanus_UAM_24305_UAMX4957,Mergus merganser americanus,False,,1707;1180,no;no,4,7,1,12,True,UAM24305,UAMX4957,6.4,Anseriformes,Mergus
+Mergus_merganser_americanus_UAM_34366_JJW2298,Mergus merganser americanus,True,mitoz,16627,yes,13,22,2,37,True,UAM34366,JJW2298,30.4,Anseriformes,Mergus
+Mergus_merganser_americanus_UWBM_9348_AEI105,Mergus merganser americanus,False,,0,,0,0,0,0,False,UWBM9348,AEI105,2.8,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_25375_JJW063,Mergus merganser merganser,False,,1749;1324,no;no,2,3,1,6,False,UAM25375,JJW063,3.9,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_25990_JJW335,Mergus merganser merganser,False,,1160,no,1,4,0,5,True,UAM25990,JJW335,4.9,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_25991_JJW334,Mergus merganser merganser,True,mitoz,16629,yes,13,22,2,37,True,UAM25991,JJW334,26,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_27012_JJW762,Mergus merganser merganser,False,,9288,no,11,11,0,22,False,UAM27012,JJW762,16.3,Anseriformes,Mergus
+Mergus_merganser_merganser_UAM_28042_JJW344,Mergus merganser merganser,False,,5075;1009,no;no,10,9,0,19,False,UAM28042,JJW344,15.8,Anseriformes,Mergus
+Mergus_merganser_merganser_UWBM_43819_CSW4346,Mergus merganser merganser,False,,3935;2126,no;no,7,11,1,19,True,UWBM43819,CSW4346,8.7,Anseriformes,Mergus
+Motacilla_tschutschensis_simillima_UAM_14353_ABJ179,Motacilla tschutschensis simillima,False,,2354,no,4,3,0,7,False,UAM14353,ABJ179,11.8,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_19448_MJM122,Motacilla tschutschensis simillima,False,,0,,0,0,0,0,False,UAM19448,MJM122,5.1,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_28715_JJW1179,Motacilla tschutschensis simillima,False,,0,,0,0,0,0,False,UAM28715,JJW1179,2.2,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_28717_JJW1185,Motacilla tschutschensis simillima,False,,3326;1400,no;no,5,5,1,11,False,UAM28717,JJW1185,5.4,Passeriformes,Motacilla
+Motacilla_tschutschensis_simillima_UAM_29362_JJW1317,Motacilla tschutschensis simillima,True,novoplasty,16830,no,13,0,2,15,True,UAM29362,JJW1317,13.3,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_13402_ABJ133,Motacilla tschutschensis tschutschensis,False,,3494;1717;1496,no;no;no,6,7,2,15,True,UAM13402,ABJ133,10.6,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_15178_DDG1935,Motacilla tschutschensis tschutschensis,True,mitoz,16831,yes,13,21,2,36,True,UAM15178,DDG1935,36.3,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_27364_JJW520,Motacilla tschutschensis tschutschensis,False,,2060;1151,no;no,3,6,1,10,False,UAM27364,JJW520,7.7,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_27366_JJW216,Motacilla tschutschensis tschutschensis,False,,22806,no,18,29,2,49,True,UAM27366,JJW216,21.9,Passeriformes,Motacilla
+Motacilla_tschutschensis_tschutschensis_UAM_28177_JJW629,Motacilla tschutschensis tschutschensis,False,,1959;1823;1787,no;no;no,7,6,0,13,True,UAM28177,JJW629,26.3,Passeriformes,Motacilla
+Numenius_phaeopus_hudsonicus_UAM_11507_TB378,Numenius phaeopus hudsonicus,True,novoplasty,17115;273,no;no,13,22,2,37,True,UAM11507,TB378,343.4,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_13349_ABJ142,Numenius phaeopus hudsonicus,False,,27498,no,0,0,0,0,False,UAM13349,ABJ142,114.4,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_13925_KGM036,Numenius phaeopus hudsonicus,False,,23877,no,0,0,0,0,False,UAM13925,KGM036,120.9,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_17980_JMM011,Numenius phaeopus hudsonicus,False,,22903,no,0,0,0,0,False,UAM17980,JMM011,36.4,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_28213_JJW1013,Numenius phaeopus hudsonicus,True,novoplasty,16847,no,13,22,2,37,True,UAM28213,JJW1013,361.5,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_28214_JJW1021,Numenius phaeopus hudsonicus,True,novoplasty,16900;369,no;no,13,22,2,37,True,UAM28214,JJW1021,452.8,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_28602_JJW1154,Numenius phaeopus hudsonicus,False,,7292,no,0,0,0,0,False,UAM28602,JJW1154,24.9,Charadriiformes,Numenius
+Numenius_phaeopus_hudsonicus_UAM_9260_KSW2484,Numenius phaeopus hudsonicus,False,,29708,no,0,0,0,0,False,UAM9260,KSW2484,343.4,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14225_TB1023,Numenius phaeopus variegatus,False,,17237,no,0,0,0,0,False,UAM14225,TB1023,222.9,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14229_TB1116,Numenius phaeopus variegatus,False,,16580,no,0,0,0,0,False,UAM14229,TB1116,193.5,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14230_TB1091,Numenius phaeopus variegatus,True,novoplasty,16802;386,no;no,13,22,2,37,True,UAM14230,TB1091,41.8,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_14625_CLP450,Numenius phaeopus variegatus,False,,16780,no,0,0,0,0,False,UAM14625,CLP450,371.5,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_21379_CLP727,Numenius phaeopus variegatus,False,,275,no,0,0,0,0,False,UAM21379,CLP727,93.7,Charadriiformes,Numenius
+Numenius_phaeopus_variegatus_UAM_8212_DDF1666,Numenius phaeopus variegatus,True,novoplasty,16866;804,no;no,13,22,2,37,True,UAM8212,DDF1666,266.7,Charadriiformes,Numenius
+Phylloscopus_borealis_borealis_UWBM_43818_CSW4345,Phylloscopus borealis borealis,False,,3123;2895;1298,no;no;no,6,11,2,19,True,UWBM43818,CSW4345,19.7,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_44417_SAR6041,Phylloscopus borealis borealis,False,,12997,no,8,17,2,27,True,UWBM44417,SAR6041,14.6,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_44418_SAR6042,Phylloscopus borealis borealis,False,,15598,no,13,21,2,36,True,UWBM44418,SAR6042,11.6,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_82284_SVD2977,Phylloscopus borealis borealis,False,,0,,0,0,0,0,False,UWBM82284,SVD2977,3.9,Passeriformes,Phylloscopus
+Phylloscopus_borealis_borealis_UWBM_82285_SVD2978,Phylloscopus borealis borealis,False,,10630,no,10,11,2,23,False,UWBM82285,SVD2978,21.1,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_20149_JMM337,Phylloscopus borealis kennicotti,False,,2392;1407;1357,no;no;no,4,7,3,14,False,UAM20149,JMM337,47.3,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_20150_JMM338,Phylloscopus borealis kennicotti,False,,13973,yes,12,19,1,32,True,UAM20150,JMM338,15.8,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_34615_JJW2241,Phylloscopus borealis kennicotti,True,mitoz,16886,yes,13,22,2,37,True,UAM34615,JJW2241,47.2,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_36347_JJW2649,Phylloscopus borealis kennicotti,False,,16999,no,13,22,2,37,True,UAM36347,JJW2649,17.3,Passeriformes,Phylloscopus
+Phylloscopus_borealis_kennicotti_UAM_7372_KSW1456,Phylloscopus borealis kennicotti,False,,0,,0,0,0,0,False,UAM7372,KSW1456,3.8,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_17665_DDG1991,Phylloscopus examinandus,False,,1571;1240;1121,no;no;no,3,4,2,9,False,UAM17665,DDG1991,6.2,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_29472_KSW5250,Phylloscopus examinandus,False,,0,,0,0,0,0,False,UAM29472,KSW5250,1.6,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_30461_KSW5373,Phylloscopus examinandus,False,,4741,no,6,5,0,11,False,UAM30461,KSW5373,5.5,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_30462_KSW5354,Phylloscopus examinandus,True,novoplasty,16885,no,13,21,2,36,True,UAM30462,KSW5354,13.1,Passeriformes,Phylloscopus
+Phylloscopus_examinandus_UAM_30464_KSW5336,Phylloscopus examinandus,True,mitoz,16884,yes,13,22,2,37,True,UAM30464,KSW5336,11.3,Passeriformes,Phylloscopus
+Pica_hudsonia_UAM_10105_UAMX953,Pica hudsonia,False,,521,no,0,0,0,0,False,UAM10105,UAMX953,6.8,Passeriformes,Pica
+Pica_hudsonia_UAM_12453_CLP208,Pica hudsonia,True,novoplasty,15942;1046,no;no,13,22,2,37,True,UAM12453,CLP208,96.3,Passeriformes,Pica
+Pica_hudsonia_UAM_13052_CLP219,Pica hudsonia,True,novoplasty,16944,no,13,22,2,37,True,UAM13052,CLP219,71.8,Passeriformes,Pica
+Pica_hudsonia_UAM_13053_CLP218,Pica hudsonia,True,novoplasty,15937;1039,no;no,13,22,2,37,True,UAM13053,CLP218,160,Passeriformes,Pica
+Pica_hudsonia_UAM_17742_CLP245,Pica hudsonia,True,novoplasty,16946,no,13,22,2,37,True,UAM17742,CLP245,31,Passeriformes,Pica
+Pica_hudsonia_UAM_27024_JJW683,Pica hudsonia,True,novoplasty,16944,no,13,22,2,37,True,UAM27024,JJW683,139.3,Passeriformes,Pica
+Pica_hudsonia_UAM_8511_KSW2704,Pica hudsonia,True,novoplasty,15943;1051,no;no,13,22,2,37,True,UAM8511,KSW2704,219.3,Passeriformes,Pica
+Pica_pica_UWBM_44581_UWBM44581,Pica pica,True,novoplasty,5450;3261;7088;1220,no;no;no;no,14,22,2,38,True,UWBM44581,UWBM44581,19.3,Passeriformes,Pica
+Pica_pica_UWBM_44584_UWBM44584,Pica pica,True,novoplasty,16944,no,13,22,2,37,True,UWBM44584,UWBM44584,42.3,Passeriformes,Pica
+Pica_pica_UWBM_44585_UWBM44585,Pica pica,True,novoplasty,16943,no,13,22,2,37,True,UWBM44585,UWBM44585,158.1,Passeriformes,Pica
+Pica_pica_UWBM_47197_UWBM47197,Pica pica,True,novoplasty,16940,no,13,22,2,37,True,UWBM47197,UWBM47197,79.4,Passeriformes,Pica
+Pica_pica_UWBM_72084_UWBM72084,Pica pica,True,novoplasty,16940,no,13,22,2,37,True,UWBM72084,UWBM72084,69.4,Passeriformes,Pica
+Pica_pica_UWBM_72091_UWBM72091,Pica pica,False,,0,,0,0,0,0,False,UWBM72091,UWBM72091,1.7,Passeriformes,Pica
+Pica_pica_UWBM_74569_UWBM74569,Pica pica,True,novoplasty,16939,no,13,22,2,37,True,UWBM74569,UWBM74569,87.8,Passeriformes,Pica
+Pica_pica_UWBM_74697_UWBM74697,Pica pica,True,novoplasty,16940,no,14,22,2,38,True,UWBM74697,UWBM74697,161.3,Passeriformes,Pica
+Picoides_dorsalis_fasciatus_UAM_20114_UAMX3273,Picoides dorsalis fasciatus,False,,16816,no,13,22,2,37,True,UAM20114,UAMX3273,38.7,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_31832_JJW2059,Picoides dorsalis fasciatus,True,novoplasty,16864,no,14,22,2,38,True,UAM31832,JJW2059,26.5,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_36600_JJW2842,Picoides dorsalis fasciatus,True,novoplasty,16859,no,13,22,2,37,True,UAM36600,JJW2842,19.8,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_8580_UAMX503,Picoides dorsalis fasciatus,False,,12029,no,9,17,2,28,True,UAM8580,UAMX503,21.4,Piciformes,Picoides
+Picoides_dorsalis_fasciatus_UAM_38328_JJW3139,Picoides dorsalis fasciatus,True,mitoz,16864,yes,13,22,2,37,True,UAM38328,JJW3139,55.3,Piciformes,Picoides
+Picoides_tridactylus_UAM_17739_TB1448,Picoides tridactylus,False,,2619;2326,no;no,8,6,0,14,False,UAM17739,TB1448,8.7,Piciformes,Picoides
+Picoides_tridactylus_UWBM_44422_SAR6046,Picoides tridactylus,False,,6214,no,8,10,0,18,False,UWBM44422,SAR6046,10.4,Piciformes,Picoides
+Picoides_tridactylus_UWBM_52660_SVD144,Picoides tridactylus,False,,3973;1092,no;no,6,7,0,13,False,UWBM52660,SVD144,5.7,Piciformes,Picoides
+Pinicola_enucleator_flammula_UAM_10158_UAMX1014,Pinicola enucleator flammula,True,novoplasty,16821,no,13,22,2,37,True,UAM10158,UAMX1014,1146.7,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_11285_ABJ011,Pinicola enucleator flammula,True,novoplasty,16819,no,13,22,2,37,True,UAM11285,ABJ011,56.2,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_11286_ABJ012,Pinicola enucleator flammula,True,novoplasty,16819,no,13,22,2,37,True,UAM11286,ABJ012,105.1,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_26361_JJW030,Pinicola enucleator flammula,True,novoplasty,16822,no,13,22,2,37,True,UAM26361,JJW030,245.3,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_28530_JJW1097,Pinicola enucleator flammula,True,novoplasty,15788;1051,no;no,13,22,2,37,True,UAM28530,JJW1097,297.8,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_8794_KSW1695,Pinicola enucleator flammula,True,novoplasty,16824,no,14,22,2,38,True,UAM8794,KSW1695,116.5,Passeriformes,Pinicola
+Pinicola_enucleator_flammula_UAM_8797_KSW1694,Pinicola enucleator flammula,True,novoplasty,16824,no,13,22,2,37,True,UAM8797,KSW1694,432.4,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UAM_24601_DDG2189,Pinicola enucleator kamtschatschensis,True,novoplasty,16819,no,13,22,2,37,True,UAM24601,DDG2189,225.2,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UAM_24602_DDG2190,Pinicola enucleator kamtschatschensis,True,novoplasty,16819,no,13,22,2,37,True,UAM24602,DDG2190,396.8,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_47314_SAR6538,Pinicola enucleator kamtschatschensis,True,novoplasty,16823,no,13,22,2,37,True,UWBM47314,SAR6538,1535.1,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_47315_SAR6539,Pinicola enucleator kamtschatschensis,True,novoplasty,858,no,1,1,0,2,False,UWBM47315,SAR6539,53.1,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_51627_SVD407,Pinicola enucleator kamtschatschensis,True,novoplasty,16819,no,14,22,2,38,True,UWBM51627,SVD407,139.4,Passeriformes,Pinicola
+Pinicola_enucleator_kamtschatschensis_UWBM_51643_SVD423,Pinicola enucleator kamtschatschensis,True,novoplasty,16820,no,13,22,2,37,True,UWBM51643,SVD423,172.5,Passeriformes,Pinicola
+Plectrophenax_hyperboreus_UAM_7066_KSW1610,Plectrophenax hyperboreus,False,,0,,0,0,0,0,False,UAM7066,KSW1610,98.3,Passeriformes,Plectrophenax
+Plectrophenax_hyperboreus_UAM_7407_KSW1588,Plectrophenax hyperboreus,False,,598,no,0,0,0,0,False,UAM7407,KSW1588,8,Passeriformes,Plectrophenax
+Plectrophenax_hyperboreus_UAM_7524_KSW1611,Plectrophenax hyperboreus,True,mitoz,16855,yes,13,22,2,37,True,UAM7524,KSW1611,19.7,Passeriformes,Plectrophenax
+Plectrophenax_hyperboreus_UAM_8200_KSW1617,Plectrophenax hyperboreus,True,mitoz,16830,yes,13,22,2,37,True,UAM8200,KSW1617,113.8,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_11856_CLP163,Plectrophenax nivalis,True,mitoz,16833,yes,13,22,2,37,True,UAM11856,CLP163,240.1,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_8474_KSW2691,Plectrophenax nivalis,True,novoplasty,16824,no,13,22,2,37,True,UAM8474,KSW2691,392.6,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_8476_KSW2690,Plectrophenax nivalis,False,,0,,0,0,0,0,False,UAM8476,KSW2690,169.6,Passeriformes,Plectrophenax
+Plectrophenax_nivalis_UAM_27725_JJW292,Plectrophenax nivalis,True,novoplasty,15803;1048,no;no,13,22,3,38,True,UAM27725,JJW292,261.6,Passeriformes,Plectrophenax
+Pluvialis_dominica_UAM_13181_KSW2402,Pluvialis dominica,True,novoplasty,16803,no,13,22,2,37,True,UAM13181,KSW2402,233.9,Charadriiformes,Pluvialis df
+Pluvialis_dominica_UAM_26935_JJW362,Pluvialis dominica,False,,22026,no,0,0,0,0,False,UAM26935,JJW362,137,Charadriiformes,Pluvialis df
+Pluvialis_dominica_UAM_8938_KSW2468,Pluvialis dominica,True,novoplasty,16796,no,13,22,2,37,True,UAM8938,KSW2468,169,Charadriiformes,Pluvialis df
+Pluvialis_dominica_UAM_9511_TB235,Pluvialis dominica,True,novoplasty,16802,no,13,22,2,37,True,UAM9511,TB235,395.1,Charadriiformes,Pluvialis df
+Pluvialis_fulva_UAM_11307_TB408,Pluvialis fulva,True,novoplasty,16822,no,13,22,2,37,True,UAM11307,TB408,188.3,Charadriiformes,Pluvialis df
+Pluvialis_fulva_UAM_13545_DDG1860,Pluvialis fulva,False,,11676,no,0,0,0,0,False,UAM13545,DDG1860,188.6,Charadriiformes,Pluvialis df
+Pluvialis_fulva_UAM_26906_JJW145,Pluvialis fulva,True,novoplasty,5079;2543;2537;2297,no;no;no;no,10,15,0,25,False,UAM26906,JJW145,228.6,Charadriiformes,Pluvialis df
+Pluvialis_fulva_UAM_8798_KSW2383,Pluvialis fulva,True,novoplasty,18071;16660,no;no,26,44,4,74,True,UAM8798,KSW2383,68.3,Charadriiformes,Pluvialis df
+Somateria_mollissima_UAM_13336_DAR157,Somateria mollissima,True,novoplasty,16618,no,13,22,2,37,True,UAM13336,DAR157,29.5,Anseriformes,Somateria m
+Somateria_mollissima_UAM_13721_UAMX1708,Somateria mollissima,False,,1169;1105,no;no,2,2,0,4,False,UAM13721,UAMX1708,6.1,Anseriformes,Somateria m
+Somateria_mollissima_UAM_20085_DDG1939,Somateria mollissima,False,,9138,no,5,8,2,15,False,UAM20085,DDG1939,22.7,Anseriformes,Somateria m
+Somateria_mollissima_UAM_26746_KGM912,Somateria mollissima,True,novoplasty,16626,no,13,22,2,37,True,UAM26746,KGM912,37.2,Anseriformes,Somateria m
+Somateria_mollissima_UAM_34628_JJW2274,Somateria mollissima,True,mitoz,16628,yes,13,22,2,37,True,UAM34628,JJW2274,43.6,Anseriformes,Somateria m
+Somateria_mollissima_UAM_34700_JJW2273,Somateria mollissima,True,novoplasty,16629,no,13,22,2,37,True,UAM34700,JJW2273,83.3,Anseriformes,Somateria m
+Somateria_mollissima_UAM_35441_JJW2452,Somateria mollissima,False,,4255;1225,no;no,8,8,0,16,False,UAM35441,JJW2452,20.9,Anseriformes,Somateria m
+Somateria_mollissima_UAM_36436_KGM845,Somateria mollissima,True,mitoz,16626,yes,13,22,3,38,True,UAM36436,KGM845,61,Anseriformes,Somateria m
+Somateria_mollissima_UAM_37604_JJW2952,Somateria mollissima,False,,3144;2378;1013,no;no;no,8,14,1,23,True,UAM37604,JJW2952,22.4,Anseriformes,Somateria m
+Somateria_mollissima_UAM_9440_UAMX378,Somateria mollissima,False,,3086;1010,no;no,4,3,0,7,False,UAM9440,UAMX378,31.1,Anseriformes,Somateria m
+Somateria_spectabilis_UAM_13153_ABJ107,Somateria spectabilis,True,novoplasty,4291;12516,no;no,13,22,2,37,True,UAM13153,ABJ107,30,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9396_UAMX892,Somateria spectabilis,False,,4273;1905;1101,no;no;no,9,11,1,21,False,UAM9396,UAMX892,27.1,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9422_UAMX901,Somateria spectabilis,False,,2518;2212;1129,no;no;no,8,9,1,18,True,UAM9422,UAMX901,16.4,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9423_UAMX903,Somateria spectabilis,False,,0,,0,0,0,0,False,UAM9423,UAMX903,3,Anseriformes,Somateria s
+Somateria_spectabilis_UAM_9439_UAMX907,Somateria spectabilis,False,,1521;1160,no;no,3,3,1,7,False,UAM9439,UAMX907,13.9,Anseriformes,Somateria s
+Somateria_spectabilis_UWBM_43965_CSW4509,Somateria spectabilis,True,mitoz,16628,yes,13,22,2,37,True,UWBM43965,CSW4509,211.9,Anseriformes,Somateria s
+Somateria_spectabilis_UWBM_71169_SVD1425,Somateria spectabilis,False,,1644;1204,no;no,5,4,0,9,False,UWBM71169,SVD1425,33.9,Anseriformes,Somateria s
+Spatula_clypeata_UAM_15023_UAMX2539,Spatula clypeata,False,,1307,no,1,1,1,3,False,UAM15023,UAMX2539,7.1,Anseriformes,Spatula
+Spatula_clypeata_UAM_15459_DDG1988,Spatula clypeata,False,,0,,0,0,0,0,False,UAM15459,DDG1988,3.6,Anseriformes,Spatula
+Spatula_clypeata_UAM_20152_DDG2054,Spatula clypeata,False,,1581,no,1,4,1,6,False,UAM20152,DDG2054,13.2,Anseriformes,Spatula
+Spatula_clypeata_UAM_20167_DDG2053,Spatula clypeata,False,,6903,no,4,12,2,18,True,UAM20167,DDG2053,17.2,Anseriformes,Spatula
+Spatula_clypeata_UAM_26717_SVD475,Spatula clypeata,False,,1878,no,2,3,0,5,False,UAM26717,SVD475,3,Anseriformes,Spatula
+Spatula_clypeata_UAM_28973_UAMX5081,Spatula clypeata,False,,1391,no,1,1,1,3,False,UAM28973,UAMX5081,7.8,Anseriformes,Spatula
+Spatula_clypeata_UAM_36727_REW031,Spatula clypeata,False,,1209,no,1,1,1,3,False,UAM36727,REW031,6.7,Anseriformes,Spatula
+Spatula_clypeata_UAM_36938_REW030,Spatula clypeata,False,,11850,no,9,14,2,25,True,UAM36938,REW030,13.2,Anseriformes,Spatula
+Spatula_clypeata_UWBM_59827_CSW5794,Spatula clypeata,False,,1145,no,3,1,0,4,False,UWBM59827,CSW5794,3.6,Anseriformes,Spatula
+Tringa_brevipes_UAM_10112_DDG1736,Tringa brevipes,False,,2810,no,0,0,0,0,False,UAM10112,DDG1736,231.6,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28427_JJW906,Tringa brevipes,True,novoplasty,1631;1064;1469;1053;1469;1067;1469;1065;1469;883,no;no;no;no;no;no;no;no;no;no,10,15,0,25,False,UAM28427,JJW906,227.9,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28428_JJW1030,Tringa brevipes,False,,15860,no,0,0,0,0,False,UAM28428,JJW1030,163,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28429_JJW1062,Tringa brevipes,False,,15751,no,0,0,0,0,False,UAM28429,JJW1062,20.6,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_28430_JJW1061,Tringa brevipes,False,,19097,no,0,0,0,0,False,UAM28430,JJW1061,146.5,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_7534_KSW1780,Tringa brevipes,True,novoplasty,16967;3589;5415,no;no;no,17,33,4,54,True,UAM7534,KSW1780,167.3,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_8521_KSW1781,Tringa brevipes,False,,11680,no,0,0,0,0,False,UAM8521,KSW1781,399.3,Charadriiformes,Tringa bi
+Tringa_brevipes_UAM_8805_KSW1782,Tringa brevipes,False,,24738,no,0,0,0,0,False,UAM8805,KSW1782,897.6,Charadriiformes,Tringa bi
+Tringa_incana_UAM_13434_DAR228,Tringa incana,False,,7385,no,0,0,0,0,False,UAM13434,DAR228,12.8,Charadriiformes,Tringa bi
+Tringa_incana_UAM_13569_UAMX1735,Tringa incana,False,,39263,no,0,0,0,0,False,UAM13569,UAMX1735,184.7,Charadriiformes,Tringa bi
+Tringa_incana_UAM_21813_KSW3378,Tringa incana,True,novoplasty,17397;754,no;no,13,22,2,37,True,UAM21813,KSW3378,119.6,Charadriiformes,Tringa bi
+Tringa_incana_UAM_24859_UAMX1645,Tringa incana,True,novoplasty,15816;1465,no;no,13,22,2,37,True,UAM24859,UAMX1645,126.2,Charadriiformes,Tringa bi
+Tringa_incana_UAM_28422_JJW720,Tringa incana,False,,16024,no,0,0,0,0,False,UAM28422,JJW720,160.4,Charadriiformes,Tringa bi
+Tringa_incana_UAM_28425_JJW724,Tringa incana,False,,22464,no,0,0,0,0,False,UAM28425,JJW724,76.2,Charadriiformes,Tringa bi
+Tringa_incana_UAM_28426_JJW1022,Tringa incana,True,novoplasty,0,,0,0,0,0,False,UAM28426,JJW1022,218.7,Charadriiformes,Tringa bi
+Tringa_incana_UAM_8240_KSW1778,Tringa incana,False,,2022,no,0,0,0,0,False,UAM8240,KSW1778,413.4,Charadriiformes,Tringa bi
+Tringa_melanoleuca_UAM_13578_UAMX1941,Tringa melanoleuca,False,,0,,0,0,0,0,False,UAM13578,UAMX1941,6.8,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_18023_JMM014,Tringa melanoleuca,False,,1416,no,1,1,1,3,False,UAM18023,JMM014,15.3,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_20143_JMM340,Tringa melanoleuca,False,,1702,no,2,3,0,5,False,UAM20143,JMM340,75.3,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_27573_UAMX5119,Tringa melanoleuca,False,,1873,no,2,4,1,7,True,UAM27573,UAMX5119,12.3,Charadriiformes,Tringa nm
+Tringa_melanoleuca_UAM_30489_JJW1663,Tringa melanoleuca,False,,0,,0,0,0,0,False,UAM30489,JJW1663,2,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_14119_DDG1916,Tringa nebularia,False,,0,,0,0,0,0,False,UAM14119,DDG1916,27.1,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_17482_DDG1990,Tringa nebularia,False,,0,,0,0,0,0,False,UAM17482,DDG1990,2,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_22850_KSW4958,Tringa nebularia,False,,0,,0,0,0,0,False,UAM22850,KSW4958,2.8,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_24570_UAMX4620,Tringa nebularia,False,,1387,no,2,3,0,5,False,UAM24570,UAMX4620,28.8,Charadriiformes,Tringa nm
+Tringa_nebularia_UAM_8282_DDG1686,Tringa nebularia,False,,18455,no,14,25,2,41,True,UAM8282,DDG1686,2.1,Charadriiformes,Tringa nm
+Uria_aalge_inornata_UAM_10687_KSW1631,Uria aalge inornata,False,,2886;1075,no;no,3,8,1,12,False,UAM10687,KSW1631,9.9,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_10688_KSW1632,Uria aalge inornata,False,,14593,no,12,19,2,33,True,UAM10688,KSW1632,18.3,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_10689_KSW1633,Uria aalge inornata,False,,0,,0,0,0,0,False,UAM10689,KSW1633,5.5,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_10690_KSW1634,Uria aalge inornata,False,,2415;2194,no;no,4,8,0,12,False,UAM10690,KSW1634,11.3,Charadriiformes,Uria a
+Uria_aalge_inornata_UAM_7729_KSW1629,Uria aalge inornata,True,novoplasty,16730,no,13,22,2,37,True,UAM7729,KSW1629,19.2,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_4408_JMB995,Uria aalge inornata,False,,0,,0,0,0,0,False,UWBM4408,JMB995,9.6,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44407_JMB994,Uria aalge inornata,False,,0,,0,0,0,0,False,UWBM44407,JMB994,6.8,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44409_JMB996,Uria aalge inornata,False,,0,,0,0,0,0,False,UWBM44409,JMB996,10.7,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44410_JMB997,Uria aalge inornata,False,,1163,no,2,2,0,4,False,UWBM44410,JMB997,15,Charadriiformes,Uria a
+Uria_aalge_inornata_UWBM_44411_JMB998,Uria aalge inornata,False,,0,,0,0,0,0,False,UWBM44411,JMB998,16.1,Charadriiformes,Uria a
+Uria_lomvia_arra_UAM_13445_UAMX1553,Uria lomvia arra,False,,3291;1173,no;no,4,11,0,15,True,UAM13445,UAMX1553,8.1,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_20236_UAMX3290,Uria lomvia arra,False,,1328;1273,no;no,6,4,0,10,False,UAM20236,UAMX3290,7,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_30510_JJW1509,Uria lomvia arra,False,,1296,no,1,0,0,1,False,UAM30510,JJW1509,2.6,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_30511_JJW1510,Uria lomvia arra,False,,3585;2263;1972;1634,no;no;no;no,8,11,2,21,False,UAM30511,JJW1510,6.2,Charadriiformes,Uria l
+Uria_lomvia_arra_UAM_9608_UAMX387,Uria lomvia arra,False,,2275,no,2,2,0,4,False,UAM9608,UAMX387,5.8,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_44177_JMB1001,Uria lomvia arra,False,,5291;1355,no;no,8,14,0,22,True,UWBM44177,JMB1001,16.9,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_44178_JMB1002,Uria lomvia arra,False,,1901;1277,no;no,5,4,0,9,False,UWBM44178,JMB1002,17.8,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_55300_BKS351,Uria lomvia arra,False,,0,,0,0,0,0,False,UWBM55300,BKS351,11,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_55725_JMB857,Uria lomvia arra,False,,0,,0,0,0,0,False,UWBM55725,JMB857,11.4,Charadriiformes,Uria l
+Uria_lomvia_arra_UWBM_72702_NCSM17754,Uria lomvia arra,False,,1680,no,2,2,0,4,False,UWBM72702,NCSM17754,7.2,Charadriiformes,Uria l
