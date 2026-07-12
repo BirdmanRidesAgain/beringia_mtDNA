@@ -1,13 +1,13 @@
 # Mitogenome assembly results - key to columns
 
-One row per assembled mitogenome in **Table 1** of `mitogenome_assembly_checklist.md`. Metrics are read from MitoZ `summary.txt` under `mitoz/` when that pipeline produced a circular 15–17 kbp scaffold; otherwise from NOVOPlasty `summary.txt` under `novoplasty_*/annotation/` when present (local `mitogenomes_output/` or SSD `assembled_mitogenomes/mitogenomes_output/<group>/`).
+One row per assembled mitogenome in **Table 1** of `mitogenome_assembly_checklist.md`. When both MitoZ and NOVOPlasty annotation summaries exist: prefer an assembly with exactly 37 genes if available; otherwise if the higher gene count is ≤37 use that higher-gene assembly; otherwise keep the default preference (circular MitoZ 15–17 kbp > NOVOPlasty annotation > incomplete MitoZ). Paths are under local `mitogenomes_output/` or SSD `assembled_mitogenomes/mitogenomes_output/<group>/`.
 
 | Column name | Interpretation |
 | - | - |
 | `directory_name` | Canonical sample folder under `mitogenomes_output/` (species, museum catalog, field #). |
 | `species` | Genus, species, and subspecies if applicable (from the checklist / Table S1). |
-| `assembly_success` | Boolean. `True` when a full circular mitogenome was recovered via MitoZ (circular scaffold 15–17 kbp), or when a NOVOPlasty run has an annotated `summary.txt` under `novoplasty_*/annotation/`. A circularized NOVOPlasty FASTA alone is not sufficient. `False` otherwise. |
-| `assembler` | `mitoz` when `assembly_success` comes from the MitoZ pipeline; `novoplasty` when success comes from a NOVOPlasty annotation `summary.txt`; empty otherwise. |
+| `assembly_success` | `failure` (0 genes), `partial` (1–36 genes), or `complete` (37+ genes), from `num_genes_totally_found`. |
+| `assembler` | `mitoz` or `novoplasty` when at least one gene was found in the active summary; empty when no genes were found. |
 | `length_bp` | Semicolon-separated scaffold lengths (bp) from the MitoZ scaffold table (one value per `NODE_*` or `Contig*`). For NOVOPlasty successes, from the annotation `summary.txt`. Without either, lengths of best-tier NOVOPlasty assembly file(s). |
 | `circularity` | Semicolon-separated `yes`/`no` flags aligned with `length_bp` nodes from the active summary. Empty when no summary. |
 | `num_protein_coding_genes_totally_found` | From the active `summary.txt` (`Protein coding genes totally found`). `0` when no summary. |
@@ -20,3 +20,4 @@ One row per assembled mitogenome in **Table 1** of `mitogenome_assembly_checklis
 | `coverage` | mtDNA coverage from Collier et al. 2025 (`samtools depth` on earlier assemblies), when available. |
 | `order` | Taxonomic order (derived from genus). |
 | `taxon_pair` | Taxon pair label from Collier et al. 2025, when available. |
+| `data_origin` | `mclaughlin_2020` for Luscinia, Clangula, Pinicola, Pica, Mareca, Numenius, *Tringa brevipes*, and *Tringa incana*; `unknown` otherwise. |

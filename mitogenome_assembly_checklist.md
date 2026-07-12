@@ -67,6 +67,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Arenaria interpres* | UAM 20220 | JMM422 | `JMM422_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_interpres_UAM_20220_JMM422/` | True | True |
 | *Arenaria interpres* | UAM 26977 | JJW676 | `JJW676/` | `Arenaria_interpres_UAM_26977_JJW676/` | False | True |
 | *Arenaria interpres* | UAM 30797 | JJW1637 | `JJW1637/` | `Arenaria_interpres_UAM_30797_JJW1637/` | False | True |
+| *Arenaria melanocephala* | UAM 20098 | JMM327 | `JMM327_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_20098_JMM327/` | False | True |
 | *Arenaria melanocephala* | UAM 20142 | JMM326 | `JMM326_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_20142_JMM326/` | True | True |
 | *Arenaria melanocephala* | UAM 28748 | JJW1153 | `JJW1153_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_28748_JJW1153/` | False | True |
 | *Arenaria melanocephala* | UAM 40266 | JJW3588 | `JJW3588_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_40266_JJW3588/` | False | True |
@@ -167,6 +168,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Larus argentatus smithsonianus* | UAM 35751 | JJW2551 | `JJW2551_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35751_JJW2551/` | False | True |
 | *Larus argentatus smithsonianus* | UAM 35753 | JJW2549 | `JJW2549_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35753_JJW2549/` | False | True |
 | *Larus argentatus smithsonianus* | UAM 35754 | JJW2548 | `JJW2548_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35754_JJW2548/` | False | True |
+| *Larus argentatus smithsonianus* | UAM 35755 | JJW2547 | `JJW2547_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35755_JJW2547/` | False | True |
 | *Larus argentatus vegae* | UAM 25983 | JJW343 | `data/final_batch/Larus_argentatus_vegae_UAM_25983_JJW343/` | `Larus_argentatus_vegae_UAM_25983_JJW343/` | False | True |
 | *Larus argentatus vegae* | UAM 25984 | JJW257 | `JJW257_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_25984_JJW257/` | False | True |
 | *Larus argentatus vegae* | UAM 25987 | JJW224 | `JJW224_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_vegae_UAM_25987_JJW224/` | False | True |
@@ -212,6 +214,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Leucosticte tephrocotis tephrocotis* | UAM 35600 | JJW2460 | `JJW2460_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_tephrocotis_UAM_35600_JJW2460/` | False | True |
 | *Leucosticte tephrocotis tephrocotis* | UAM 38654 | JJW3204 | `data/final_batch/Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | `Leucosticte_tephrocotis_tephrocotis_UAM_38654_JJW3204/` | True | True |
 | *Leucosticte tephrocotis umbrina* | FMNH34305 | AF14351 | `AF14351_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_FMNH34305_AF14351/` | False | True |
+| *Leucosticte tephrocotis umbrina* | UAM 17748 | UAMX2921 | `UAMX2921_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921/` | True | True |
 | *Leucosticte tephrocotis umbrina* | UAM 28619 | AF14346 | `AF14346_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28619_AF14346/` | False | True |
 | *Leucosticte tephrocotis umbrina* | UAM 28620 | AF14344 | `AF14344_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_28620_AF14344/` | False | True |
 | *Leucosticte tephrocotis umbrina* | UAM 7351 | KSW1646 | `KSW1646_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_7351_KSW1646/` | True | True |
@@ -427,17 +430,7 @@ All individuals were assembled with "Taeniopygia_guttata_NC_007897.1_mitogenome.
 | *Uria lomvia arra* | UWBM 55725 | JMB857 | `JMB857_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_55725_JMB857/` | True | True |
 | *Uria lomvia arra* | UWBM 72702 | NCSM17754 | `NCSM17754_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Uria_lomvia_arra_UWBM_72702_NCSM17754/` | True | True |
 
-## Table 2. Pending reassembly (zero-length circularized FASTA)
-
-These individuals have a NOVOPlasty circularized FASTA file on disk but `length_bp` is 0; reassembly is planned.
-
-| Species | Catalog num | Field num | Old directory name | New directory name | multiple datasets? | In Table S1? |
-| - | - | - | - | - | - | - |
-| *Arenaria melanocephala* | UAM 20098 | JMM327 | `JMM327_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Arenaria_melanocephala_UAM_20098_JMM327/` | False | True |
-| *Larus argentatus smithsonianus* | UAM 35755 | JJW2547 | `JJW2547_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Larus_argentatus_smithsonianus_UAM_35755_JJW2547/` | False | True |
-| *Leucosticte tephrocotis umbrina* | UAM 17748 | UAMX2921 | `UAMX2921_Taeniopygia_guttata_NC_007897.1_mitogenome.fa/` | `Leucosticte_tephrocotis_umbrina_UAM_17748_UAMX2921/` | True | True |
-
-## Table 3. Individuals in `table_S1.csv` without an assembled mitogenome
+## Table 2. Individuals in `table_S1.csv` without an assembled mitogenome
 
 This **1** individual appears in `table_S1.csv` but does not have a matching row in the main assembled table (catalog + field #).
 
@@ -445,9 +438,9 @@ This **1** individual appears in `table_S1.csv` but does not have a matching row
 | - | - | - | - | - | - |
 | *Numenius phaeopus variegatus* | UAM 14228 | TB1364 | 2001 | Philippines: Cordova; Mactan Island | OR243053 |
 
-## Table 4. Individuals with assembled genomes not present in `table_S1.csv`
+## Table 3. Individuals with assembled genomes not present in `table_S1.csv`
 
-This **23** individuals have assembled mitogenomes but do not appear in `table_S1.csv` (catalog + field #).
+These **23** individuals have assembled mitogenomes but do not appear in `table_S1.csv` (catalog + field #).
 Some of these individuals are present in this table because they were initially not included in the dataset to give us an equal number of American and Eurasian specimens.
 
 | Species | Catalog num | Field num | Old directory name | New directory name | multiple datasets? | In Table S1? |

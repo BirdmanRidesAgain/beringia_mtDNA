@@ -89,7 +89,21 @@ OUT_COLUMNS = [
     "coverage",
     "order",
     "taxon_pair",
+    "data_origin",
 ]
+
+# Samples from McLaughlin et al. 2020 (vs unknown origin elsewhere).
+MCLAUGHLIN_GENERA = {"Luscinia", "Clangula", "Pinicola", "Pica", "Mareca", "Numenius"}
+
+
+def data_origin_for_species(species: str) -> str:
+    species = (species or "").strip()
+    genus = species.split()[0] if species else ""
+    if genus in MCLAUGHLIN_GENERA:
+        return "mclaughlin_2020"
+    if species.startswith("Tringa brevipes") or species.startswith("Tringa incana"):
+        return "mclaughlin_2020"
+    return "unknown"
 
 
 def norm_catalog(value: str) -> str:
@@ -184,13 +198,24 @@ def load_csv_index(path: Path) -> tuple[dict[tuple[str, str], dict], dict[str, d
     return by_key, by_dir
 
 
-def parse_legacy_assembly_success(row: dict) -> bool | None:
-    """Read prior success from old or new CSV column names."""
+def parse_legacy_assembly_success(row: dict) -> str | None:
+    """Normalize prior success labels from old or new CSV column names."""
     if "assembly_success" in row and row["assembly_success"] != "":
-        return str(row["assembly_success"]).strip().lower() in ("true", "1", "yes")
+        text = str(row["assembly_success"]).strip().lower()
+        if text in ("complete", "partial", "failure"):
+            return text
+        if text in ("true", "1", "yes"):
+            return "complete"
+        if text in ("false", "0", "no"):
+            return "failure"
+        return text
     level = (row.get("assembly_level") or "").strip()
-    if level:
-        return level == "success"
+    if level == "success":
+        return "complete"
+    if level == "partial_success":
+        return "partial"
+    if level == "failed":
+        return "failure"
     return None
 
 
@@ -252,6 +277,7 @@ def main() -> None:
                 "coverage": coverage,
                 "order": add_order(chk["species"]),
                 "taxon_pair": taxon_pair,
+                "data_origin": data_origin_for_species(chk["species"]),
             }
         )
 
@@ -260,15 +286,23 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(out_rows)
 
-    n_true = sum(1 for r in out_rows if r["assembly_success"])
+    n_complete = sum(1 for r in out_rows if r["assembly_success"] == "complete")
+    n_partial = sum(1 for r in out_rows if r["assembly_success"] == "partial")
+    n_failure = sum(1 for r in out_rows if r["assembly_success"] == "failure")
     n_mitoz = sum(1 for r in out_rows if r["assembler"] == "mitoz")
     n_novoplasty = sum(1 for r in out_rows if r["assembler"] == "novoplasty")
     n_nd2 = sum(1 for r in out_rows if r["ND2_present"])
     n_with_genes = sum(1 for r in out_rows if r["num_genes_totally_found"] > 0)
     print(f"Wrote {len(out_rows)} rows to {CSV_OUT}")
-    print(f"assembly_success True: {n_true}, False: {len(out_rows) - n_true}")
-    print(f"assembler mitoz: {n_mitoz}, novoplasty: {n_novoplasty}, unset: {len(out_rows) - n_mitoz - n_novoplasty}")
-    print(f"rows with MitoZ gene counts: {n_with_genes}")
+    print(
+        f"assembly_success complete: {n_complete}, partial: {n_partial}, "
+        f"failure: {n_failure}"
+    )
+    print(
+        f"assembler mitoz: {n_mitoz}, novoplasty: {n_novoplasty}, "
+        f"unset: {len(out_rows) - n_mitoz - n_novoplasty}"
+    )
+    print(f"rows with gene counts: {n_with_genes}")
     print(f"ND2_present True: {n_nd2}")
     print(f"assembly_success changes: {len(success_changes)}")
     for d, old, new in success_changes[:30]:

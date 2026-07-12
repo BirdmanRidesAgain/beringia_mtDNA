@@ -2,9 +2,9 @@
 """
 Batch trim + MitoZ assemble/annotate for paired FASTQs on the SSD.
 
-By default, only individuals with ``assembly_success`` of ``False`` in
-``mitogenome_assembly_results.csv`` are processed. Use ``--all-samples`` to run
-every directory on the SSD instead (433 samples).
+By default, only individuals with ``assembly_success`` of ``failure`` or
+``partial`` in ``mitogenome_assembly_results.csv`` are processed. Use
+``--all-samples`` to run every directory on the SSD instead (433 samples).
 
 Discovers one sample per subdirectory under
 ``/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/raw_data/``, then runs
@@ -28,7 +28,7 @@ Examples::
     # Dry run: list samples and planned commands
     python scripts/batch_mitoz_ssd.py --dry-run
 
-    # Reassembly run (default: partial_success + failed from CSV)
+    # Reassembly run (default: failure + partial from CSV)
     nohup python scripts/batch_mitoz_ssd.py --skip-completed --fresh-log \\
         > mitogenomes_output/_batch_logs/batch_mitoz_ssd.nohup.out 2>&1 &
 
@@ -81,7 +81,7 @@ RAW_DATA = Path("/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/raw_data")
 ARCHIVE_ROOT = Path("/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/assembled_mitogenomes")
 CHECKLIST = REPO / "mitogenome_assembly_checklist.md"
 RESULTS_CSV = REPO / "mitogenome_assembly_results.csv"
-DEFAULT_ASSEMBLY_SUCCESS = (False,)
+DEFAULT_ASSEMBLY_SUCCESS = ("failure", "partial")
 PIPELINE = SCRIPTS / "trim_assemble_annotate_mitoz.py"
 BATCH_LOGS = ASM_ROOT / "_batch_logs"
 LOG = BATCH_LOGS / "batch_mitoz_ssd.log"
@@ -105,17 +105,20 @@ class SampleRun:
     r1: Path
     r2: Path
     species_name: str | None = None
-    assembly_success: bool | None = None
+    assembly_success: str | None = None
 
 
-def parse_bool_cell(value: str | None) -> bool | None:
+def parse_assembly_success_cell(value: str | None) -> str | None:
+    """Normalize CSV ``assembly_success`` to failure/partial/complete."""
     if value is None:
         return None
     text = value.strip().lower()
+    if text in ("complete", "partial", "failure"):
+        return text
     if text in ("true", "1", "yes"):
-        return True
+        return "complete"
     if text in ("false", "0", "no"):
-        return False
+        return "failure"
     return None
 
 
@@ -136,12 +139,15 @@ def load_results_index(csv_path: Path) -> dict[str, dict[str, str]]:
     return index
 
 
-def parse_assembly_success_values(spec: str) -> tuple[bool, ...]:
-    values: list[bool] = []
+def parse_assembly_success_values(spec: str) -> tuple[str, ...]:
+    values: list[str] = []
     for part in spec.split(","):
-        parsed = parse_bool_cell(part)
+        parsed = parse_assembly_success_cell(part)
         if parsed is None:
-            raise ValueError(f"Invalid assembly_success value: {part!r} (use true/false)")
+            raise ValueError(
+                f"Invalid assembly_success value: {part!r} "
+                "(use failure/partial/complete, or legacy true/false)"
+            )
         values.append(parsed)
     if not values:
         raise ValueError("At least one assembly_success value is required")
@@ -151,7 +157,7 @@ def parse_assembly_success_values(spec: str) -> tuple[bool, ...]:
 def filter_runs_by_assembly_success(
     runs: list[SampleRun],
     results_index: dict[str, dict[str, str]],
-    allowed: set[bool],
+    allowed: set[str],
 ) -> tuple[list[SampleRun], list[tuple[str, str]]]:
     filtered: list[SampleRun] = []
     excluded: list[tuple[str, str]] = []
@@ -160,7 +166,7 @@ def filter_runs_by_assembly_success(
         if row is None:
             excluded.append((run.sample_name, "not listed in mitogenome_assembly_results.csv"))
             continue
-        success = parse_bool_cell(row.get("assembly_success"))
+        success = parse_assembly_success_cell(row.get("assembly_success"))
         if success is None or success not in allowed:
             excluded.append(
                 (run.sample_name, f"assembly_success={row.get('assembly_success') or '(empty)'}")
@@ -193,7 +199,7 @@ def enrich_runs_from_csv(
         species = run.species_name or row.get("species", "").strip() or None
         success = run.assembly_success
         if success is None:
-            success = parse_bool_cell(row.get("assembly_success"))
+            success = parse_assembly_success_cell(row.get("assembly_success"))
         enriched.append(
             SampleRun(
                 sample_name=run.sample_name,
@@ -433,7 +439,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description=(
             "Batch trim + MitoZ for SSD raw_data samples. "
-            "By default only assembly_success=False individuals from "
+            "By default only assembly_success=failure,partial individuals from "
             "mitogenome_assembly_results.csv are processed."
         )
     )
@@ -445,10 +451,11 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument(
         "--assembly-success",
-        default=",".join("true" if v else "false" for v in DEFAULT_ASSEMBLY_SUCCESS),
+        default=",".join(DEFAULT_ASSEMBLY_SUCCESS),
         help=(
-            "Comma-separated assembly_success booleans to include from the CSV "
-            f"(default: {','.join('true' if v else 'false' for v in DEFAULT_ASSEMBLY_SUCCESS)}). "
+            "Comma-separated assembly_success values to include from the CSV "
+            f"(default: {','.join(DEFAULT_ASSEMBLY_SUCCESS)}). "
+            "Accepted: failure, partial, complete (legacy true/false also ok). "
             "Ignored with --all-samples."
         ),
     )
@@ -613,7 +620,7 @@ def main() -> None:
 
     csv_filtered: list[tuple[str, str]] = []
     pending_mitoz_skipped: list[tuple[str, str]] = []
-    allowed_success: tuple[bool, ...] = ()
+    allowed_success: tuple[str, ...] = ()
     discovered_total = len(runs)
     if args.pending_mitoz:
         if not args.force:
@@ -690,7 +697,7 @@ def main() -> None:
             log.write(f"Results CSV: {args.results_csv.expanduser().resolve()}\n")
             log.write(
                 f"assembly_success filter: "
-                f"{', '.join('true' if v else 'false' for v in allowed_success)} "
+                f"{', '.join(allowed_success)} "
                 f"({len(runs)} matched, {len(csv_filtered)} excluded by CSV filter)\n"
             )
         if discovery_skipped:
@@ -870,7 +877,7 @@ def main() -> None:
         )
     elif not args.all_samples:
         print(
-            f"CSV filter ({', '.join('true' if v else 'false' for v in allowed_success)}): "
+            f"CSV filter ({', '.join(allowed_success)}): "
             f"{len(runs)} matched, {len(csv_filtered)} excluded"
         )
     if skipped_completed:

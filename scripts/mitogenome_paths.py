@@ -417,17 +417,27 @@ def novoplasty_annotation_summary_for_sample_dir(
     return parse_mitoz_summary(summary_path)
 
 
+def success_from_gene_count(num_genes: int) -> str:
+    """Map gene totals to ``failure`` / ``partial`` / ``complete``."""
+    if num_genes <= 0:
+        return "failure"
+    if num_genes <= 36:
+        return "partial"
+    return "complete"
+
+
 def _metrics_from_summary(summary: MitozSummary, assembler: str) -> dict:
+    genes = summary.genes_total
     return {
-        "assembly_success": True,
+        "assembly_success": success_from_gene_count(genes),
         "length_bp": summary.length_bp,
         "circularity": summary.circularity,
         "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
         "num_trna_coding_genes_totally_found": summary.trna_genes,
         "num_rrna_coding_genes_totally_found": summary.rrna_genes,
-        "num_genes_totally_found": summary.genes_total,
+        "num_genes_totally_found": genes,
         "ND2_present": summary.nd2_present,
-        "assembler": assembler,
+        "assembler": assembler if genes > 0 else "",
     }
 
 
@@ -454,13 +464,31 @@ def assembly_level_for_sample_dir(sample_dir: Path) -> str:
     return tier_to_assembly_level(best)
 
 
+def _preferred_metrics(
+    mitoz_summary: MitozSummary | None,
+    novo_summary: MitozSummary | None,
+) -> dict | None:
+    """
+    Default preference when not overriding by gene count.
+
+    Circular MitoZ (15–17 kbp) > NOVOPlasty annotation summary > incomplete MitoZ.
+    """
+    if mitoz_summary is not None and mitoz_summary.assembly_success:
+        return _metrics_from_summary(mitoz_summary, "mitoz")
+    if novo_summary is not None:
+        return _metrics_from_summary(novo_summary, "novoplasty")
+    if mitoz_summary is not None:
+        return _metrics_from_summary(mitoz_summary, "mitoz")
+    return None
+
+
 def assembly_success_and_length_for_sample_dir(
     sample_dir: Path | None,
-) -> tuple[bool, str]:
+) -> tuple[str, str]:
     """
     ``(assembly_success, length_bp)`` preferring MitoZ pipeline output when present.
 
-    MitoZ success: circular scaffold 15–17 kbp. NOVOPlasty success: circularized FASTA.
+    ``assembly_success`` is ``failure`` / ``partial`` / ``complete`` from gene counts.
     """
     metrics = assembly_metrics_for_sample_dir(sample_dir)
     return metrics["assembly_success"], metrics["length_bp"]
@@ -470,12 +498,16 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
     """
     Assembly and annotation metrics for the results CSV.
 
-    MitoZ pipeline success sets ``assembler`` to ``mitoz``. Samples without a
-    successful MitoZ assembly are upgraded when a NOVOPlasty
-    ``novoplasty_*/annotation/`` tree contains a ``summary.txt``.
+    When both MitoZ and NOVOPlasty annotation summaries exist:
+    - if exactly one has 37 genes, use that assembly;
+    - else if the higher gene count is ≤37, use the higher-gene assembly;
+    - else keep the default preference (circular MitoZ > NOVOPlasty > incomplete MitoZ).
+
+    ``assembler`` is set whenever at least one gene is found. ``assembly_success``
+    is ``failure`` (0 genes), ``partial`` (1–36), or ``complete`` (37+).
     """
     empty = {
-        "assembly_success": False,
+        "assembly_success": "failure",
         "length_bp": "0",
         "circularity": "",
         "num_protein_coding_genes_totally_found": 0,
@@ -488,38 +520,35 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
     if sample_dir is None or not sample_dir.is_dir():
         return empty
 
-    summary = mitoz_summary_for_sample_dir(sample_dir)
-    if summary is not None:
-        if summary.assembly_success:
-            return {
-                "assembly_success": True,
-                "length_bp": summary.length_bp,
-                "circularity": summary.circularity,
-                "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
-                "num_trna_coding_genes_totally_found": summary.trna_genes,
-                "num_rrna_coding_genes_totally_found": summary.rrna_genes,
-                "num_genes_totally_found": summary.genes_total,
-                "ND2_present": summary.nd2_present,
-                "assembler": "mitoz",
-            }
-        novo_summary = novoplasty_annotation_summary_for_sample_dir(sample_dir)
-        if novo_summary is not None:
-            return _metrics_from_summary(novo_summary, "novoplasty")
-        return {
-            "assembly_success": False,
-            "length_bp": summary.length_bp,
-            "circularity": summary.circularity,
-            "num_protein_coding_genes_totally_found": summary.protein_coding_genes,
-            "num_trna_coding_genes_totally_found": summary.trna_genes,
-            "num_rrna_coding_genes_totally_found": summary.rrna_genes,
-            "num_genes_totally_found": summary.genes_total,
-            "ND2_present": summary.nd2_present,
-            "assembler": "",
-        }
-
+    mitoz_summary = mitoz_summary_for_sample_dir(sample_dir)
     novo_summary = novoplasty_annotation_summary_for_sample_dir(sample_dir)
-    if novo_summary is not None:
-        return _metrics_from_summary(novo_summary, "novoplasty")
+
+    if mitoz_summary is not None and novo_summary is not None:
+        mitoz_genes = mitoz_summary.genes_total
+        novo_genes = novo_summary.genes_total
+
+        if mitoz_genes == 37 and novo_genes != 37:
+            return _metrics_from_summary(mitoz_summary, "mitoz")
+        if novo_genes == 37 and mitoz_genes != 37:
+            return _metrics_from_summary(novo_summary, "novoplasty")
+
+        if mitoz_genes > novo_genes:
+            better, better_name = mitoz_summary, "mitoz"
+        elif novo_genes > mitoz_genes:
+            better, better_name = novo_summary, "novoplasty"
+        else:
+            preferred = _preferred_metrics(mitoz_summary, novo_summary)
+            return preferred if preferred is not None else empty
+
+        if better.genes_total <= 37:
+            return _metrics_from_summary(better, better_name)
+
+        preferred = _preferred_metrics(mitoz_summary, novo_summary)
+        return preferred if preferred is not None else empty
+
+    preferred = _preferred_metrics(mitoz_summary, novo_summary)
+    if preferred is not None:
+        return preferred
 
     length_bp = assembly_length_bp_for_sample_dir(sample_dir)
     n_lengths = length_bp.count(";") + 1 if length_bp and length_bp != "0" else 0
@@ -528,7 +557,7 @@ def assembly_metrics_for_sample_dir(sample_dir: Path | None) -> dict:
     else:
         circularity = ""
     return {
-        "assembly_success": False,
+        "assembly_success": "failure",
         "length_bp": length_bp,
         "circularity": circularity,
         "num_protein_coding_genes_totally_found": 0,
