@@ -10,7 +10,12 @@ REPO = Path(__file__).resolve().parent.parent
 ASM_ROOT = REPO / "mitogenomes_output"
 ANNOTATION_FOLDER = "annotation"
 BATCH_LOGS_DIR = ASM_ROOT / "_batch_logs"
-ARCHIVE_ROOT = Path("/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/assembled_mitogenomes")
+# Prefer the current SSD layout; fall back to the older keiler_C path if present.
+_SSD_CANDIDATES = (
+    Path("/Volumes/KC_SSD/mtDNA_reassembly/assembled_mitogenomes"),
+    Path("/Volumes/KC_SSD/keiler_C/KAC_mtDNA_reassembly/assembled_mitogenomes"),
+)
+ARCHIVE_ROOT = next((p for p in _SSD_CANDIDATES if p.is_dir()), _SSD_CANDIDATES[0])
 SSD_OUTPUT_ROOT = ARCHIVE_ROOT / "mitogenomes_output"
 
 # NOVOPlasty output tiers (lower = better). Matches batch_annotate_assemblies.py.
@@ -386,6 +391,83 @@ def mitoz_summary_for_sample_dir(sample_dir: Path | None) -> MitozSummary | None
     if summary_path is None:
         return None
     return parse_mitoz_summary(summary_path)
+
+
+GENE_FASTA_METASPADES_SUFFIX = "metaspades.mitogenome.fa_mitoscaf.fa.gbf.gene.fasta"
+
+
+def find_annotation_summary_txt(sample_dir: Path, assembler: str = "") -> Path | None:
+    """Best ``summary.txt`` for the active assembler, or either source when unknown."""
+    if assembler == "mitoz":
+        return find_mitoz_summary_txt(sample_dir)
+    if assembler == "novoplasty":
+        return find_novoplasty_annotation_summary_txt(sample_dir)
+    mitoz = find_mitoz_summary_txt(sample_dir)
+    if mitoz is not None:
+        return mitoz
+    return find_novoplasty_annotation_summary_txt(sample_dir)
+
+
+def find_gene_fasta_for_sample(sample_dir: Path, assembler: str = "") -> Path | None:
+    """
+    Best MitoZ ``*.gbf.gene.fasta`` for a sample.
+
+    Prefer the file co-located with the active ``summary.txt``; otherwise fall back
+    to the best ``*metaspades.mitogenome.fa_mitoscaf.fa.gbf.gene.fasta`` under the
+    sample directory.
+    """
+    summary = find_annotation_summary_txt(sample_dir, assembler)
+    if summary is not None:
+        siblings = [
+            p
+            for p in summary.parent.glob("*.gbf.gene.fasta")
+            if p.is_file() and not p.name.startswith("._")
+        ]
+        if siblings:
+            return max(siblings, key=_mitoz_summary_score)
+
+    candidates = [
+        p
+        for p in sample_dir.rglob("*")
+        if p.is_file()
+        and p.name.endswith(GENE_FASTA_METASPADES_SUFFIX)
+        and not p.name.startswith("._")
+    ]
+    if not candidates:
+        return None
+    return max(candidates, key=_mitoz_summary_score)
+
+
+def parse_fasta_records(path: Path) -> list[tuple[str, str]]:
+    """Return ``(header, sequence)`` pairs from a FASTA file."""
+    records: list[tuple[str, str]] = []
+    header: str | None = None
+    seq_parts: list[str] = []
+    with path.open(encoding="utf-8", errors="replace") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith(">"):
+                if header is not None:
+                    records.append((header, "".join(seq_parts)))
+                header = line[1:]
+                seq_parts = []
+            else:
+                seq_parts.append(line)
+        if header is not None:
+            records.append((header, "".join(seq_parts)))
+    return records
+
+
+def is_nd2_gene_header(header: str) -> bool:
+    """True when a MitoZ gene FASTA header names ND2 (e.g. ``NODE_2;ND2;...``)."""
+    return any(part.upper() == "ND2" for part in header.split(";"))
+
+
+def extract_nd2_records_from_gene_fasta(path: Path) -> list[tuple[str, str]]:
+    """Extract ND2 CDS records from a MitoZ ``*.gbf.gene.fasta`` file."""
+    return [(h, s) for h, s in parse_fasta_records(path) if is_nd2_gene_header(h)]
 
 
 def find_novoplasty_annotation_summary_txt(sample_dir: Path) -> Path | None:
