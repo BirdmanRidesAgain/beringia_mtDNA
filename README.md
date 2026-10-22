@@ -24,6 +24,8 @@ This resulted in genuine variants being lost in favor of calling the reference s
 | Reassembled mitogenome summary statistics and ML analysis | [Assembly stats notebook](notebooks/assembly_stats.ipynb) |
 | Reassembled mitogenome summary statistics (CSV) | [Assembly results CSV](./mitogenome_assembly_results.csv) |
 | Executable scripts | [Scripts directory](./scripts/) |
+| Mitogenome distance summary statistics (excel) | [Distance results Excel](./mitogenome_assembly_divergence.xlsx) |
+| Executable scripts | [Scripts directory](./scripts/) |
 
 Each sample directory under `mitogenomes_output/<sample>/` contains:
 
